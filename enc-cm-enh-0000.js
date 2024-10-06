@@ -406,11 +406,11 @@ async function runCommands() {
 
                     // ファイルに書き込み
                     const logContent = `Progress: ${percent * 100}%\n${log}\n----------\n`;
-                    fs.appendFile(debug_file, logContent, err => {
-                        if (err) {
-                            console.error('Error writing to debug file:', err);
-                        }
-                    });
+                    //fs.appendFile(debug_file, logContent, err => {
+                        //if (err) {
+                            //console.error('Error writing to debug file:', err);
+                     //   }
+                    //});
                 }
             }
             
