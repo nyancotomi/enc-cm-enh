@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # 環境変数 LINE_TOKEN に取得したトークンを指定してください。
-LINE_TOKEN="DxgWRLzvSW4kLfVnuronYWgPLaTcwkIjxjLkR7ZswDj"
+LINE_TOKEN="DxgWRLzvSW4kLfVnuronYWgPLaTcwkIjxjLkR7ZswDj" 
 
 unixtime2datetime() {
     set -- $(( $1%86400 )) $(( $1/86400+719468 )) 146097 36524 1461
