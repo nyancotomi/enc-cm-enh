@@ -1,5 +1,5 @@
 const spawn = require('child_process').spawn;
-const ffmpeg = process.env.FFMPEG;
+const ffmpeg = process.env.FFMPEG; 
 
 const input = process.env.INPUT;
 const output = process.env.OUTPUT;
