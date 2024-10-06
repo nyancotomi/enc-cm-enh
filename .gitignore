@@ -23,3 +23,7 @@ data/key/*
 .vscode/settings.json
 
 run_update.sh
+run_update.sh
+run_prime.sh
+run_encode.sh
+run_encode_error.sh
