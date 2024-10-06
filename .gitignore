@@ -22,4 +22,4 @@ data/key/*
 !.gitkeep
 .vscode/settings.json
 
-run*sh
+run_update.sh
