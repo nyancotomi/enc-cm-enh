@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # 環境変数 LINE_TOKEN に取得したトークンを指定してください。
-LINE_TOKEN=""
+LINE_TOKEN="" 
 
 unixtime2datetime() {
     set -- $(( $1%86400 )) $(( $1/86400+719468 )) 146097 36524 1461
@@ -80,8 +80,6 @@ if [ $# = 2 ]; then
         content="%0D%0A ⏺ 録画開始 %0D%0A ${title}　%0D%0A ${CHANNELNAME}"
     elif [ $ret = "encod_sta" ]; then
         content="%0D%0A 🔛 エンコード開始 %0D%0A ${title} %0D%0A ${CHANNELNAME} %0D%0A ----カット位置---- %0D%0A ${ret_aa}"
-    elif [ $ret = "encod_error" ]; then
-        content="%0D%0A 🔛 エンコード失敗 %0D%0A ${title} %0D%0A ${CHANNELNAME} %0D%0A エンコード失敗----カット位置---- %0D%0A ${ret_aa}"
     elif [ $ret = "encod_end" ]; then
         content="%0D%0A ⏹ エンコード終了 %0D%0A ${title} %0D%0A ${CHANNELNAME}"
     elif [ $ret = "end" ]; then
