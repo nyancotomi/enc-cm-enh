@@ -1,0 +1,11 @@
+AVSスクリプトファイルを生成完了
+
+channelName:--------
+日テレ1
+----------
+
+chapter_exe -v "/home/pi/CmcutScp/result/supaida-mann-no-weihome.ts/join_tsfile.avs" -lwi /home/pi/CmcutScp/result/"supaida-mann-no-weihome.ts"/chapter_inscp.lwi -oa /home/pi/CmcutScp/result/"supaida-mann-no-weihome.ts"/chapter_inscp.txt
+該当する .lgd ファイル (日テレ1.lgd) が見つかりました。
+
+cmd : logoframe "/home/pi/CmcutScp/result/supaida-mann-no-weihome.ts/join_tsfile.avs" -logo "/home/pi/CmcutScp/join_logo_scp_trial/logo/日テレ1.lgd" -oa "/home/pi/CmcutScp/result/supaida-mann-no-weihome.ts/logoframe_inlogo.txt"
+

@@ -1,0 +1,45 @@
+AVSスクリプトファイルを生成完了
+
+channelName:--------
+テレビ朝日
+----------
+
+chapter_exe -v "/home/pi/CmcutScp/result/朝メシまで。　スペシャル[字]-2024年08月07日19時(1)/join_tsfile.avs" -lwi /home/pi/CmcutScp/result/"朝メシまで。　スペシャル[字]-2024年08月07日19時(1)"/chapter_inscp.lwi -oa /home/pi/CmcutScp/result/"朝メシまで。　スペシャル[字]-2024年08月07日19時(1)"/chapter_inscp.txt
+該当する .lgd ファイル (テレビ朝日.lgd) が見つかりました。
+
+cmd : logoframe "/home/pi/CmcutScp/result/朝メシまで。　スペシャル[字]-2024年08月07日19時(1)/join_tsfile.avs" -logo "/home/pi/CmcutScp/join_logo_scp_trial/logo/テレビ朝日.lgd" -oa "/home/pi/CmcutScp/result/朝メシまで。　スペシャル[字]-2024年08月07日19時(1)/logoframe_inlogo.txt"
+
+cmd : join_logo_scp -inlogo "/home/pi/CmcutScp/result/朝メシまで。　スペシャル[字]-2024年08月07日19時(1)/logoframe_inlogo.txt" -inscp "/home/pi/CmcutScp/result/朝メシまで。　スペシャル[字]-2024年08月07日19時(1)/chapter_inscp.txt" -incmd "/home/pi/CmcutScp/join_logo_scp_trial/JL/JL_標準.txt" -o "/home/pi/CmcutScp/result/朝メシまで。　スペシャル[字]-2024年08月07日19時(1)/join_logo_scp.txt"
+
+joinOutputFile()
+: "/home/pi/CmcutScp/result/朝メシまで。　スペシャル[字]-2024年08月07日19時(1)/join_logo_scp.csv"
+
+ フレーム情報ファイルのパス(joinOutputFile) 
+ /home/pi/CmcutScp/result/朝メシまで。　スペシャル[字]-2024年08月07日19時(1)/join_logo_scp.csv 
+
+------------------------
+1列目の1行目の値が0のため、外部コマンドを実行します: /home/pi/EPGStation/config/run_encode_error.sh encod_error "0,3291
+4192,4341
+4940,22172
+25769,48905
+53402,59725
+63322,71952
+76449,86577
+91075,99344
+103841,111243
+116639,130830
+"
+
+ フィルターコンプレックスの初期値を設定(data) 
+ 0,3291
+4192,4341
+4940,22172
+25769,48905
+53402,59725
+63322,71952
+76449,86577
+91075,99344
+103841,111243
+116639,130830
+ 
+

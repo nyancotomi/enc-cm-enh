@@ -1,0 +1,7 @@
+AVSスクリプトファイルを生成完了
+
+channelName:--------
+WOWOWシネマ
+----------
+
+chapter_exe -v "/home/pi/CmcutScp/result/[映]ハリー・ポッターと秘密の部屋（吹替版）[SS][字]-2023年11月27日21時.ts/join_tsfile.avs" -lwi /home/pi/CmcutScp/result/"[映]ハリー・ポッターと秘密の部屋（吹替版）[SS][字]-2023年11月27日21時.ts"/chapter_inscp.lwi -oa /home/pi/CmcutScp/result/"[映]ハリー・ポッターと秘密の部屋（吹替版）[SS][字]-2023年11月27日21時.ts"/chapter_inscp.txt

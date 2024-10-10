@@ -1,0 +1,28 @@
+AVSスクリプトファイルを生成完了
+
+channelName:--------
+WOWOWシネマ
+----------
+
+chapter_exe -v "/home/pi/CmcutScp/result/[映]ヲタクに恋は難しい[SS][字]-2024年10月05日11時(1)/join_tsfile.avs" -lwi /home/pi/CmcutScp/result/"[映]ヲタクに恋は難しい[SS][字]-2024年10月05日11時(1)"/chapter_inscp.lwi -oa /home/pi/CmcutScp/result/"[映]ヲタクに恋は難しい[SS][字]-2024年10月05日11時(1)"/chapter_inscp.txt
+該当する .lgd ファイル (WOWOWシネマ.lgd) が見つかりました。
+
+cmd : logoframe "/home/pi/CmcutScp/result/[映]ヲタクに恋は難しい[SS][字]-2024年10月05日11時(1)/join_tsfile.avs" -logo "/home/pi/CmcutScp/join_logo_scp_trial/logo/WOWOWシネマ.lgd" -oa "/home/pi/CmcutScp/result/[映]ヲタクに恋は難しい[SS][字]-2024年10月05日11時(1)/logoframe_inlogo.txt"
+
+cmd : join_logo_scp -inlogo "/home/pi/CmcutScp/result/[映]ヲタクに恋は難しい[SS][字]-2024年10月05日11時(1)/logoframe_inlogo.txt" -inscp "/home/pi/CmcutScp/result/[映]ヲタクに恋は難しい[SS][字]-2024年10月05日11時(1)/chapter_inscp.txt" -incmd "/home/pi/CmcutScp/join_logo_scp_trial/JL/JL_標準.txt" -o "/home/pi/CmcutScp/result/[映]ヲタクに恋は難しい[SS][字]-2024年10月05日11時(1)/join_logo_scp.txt"
+
+joinOutputFile()
+: "/home/pi/CmcutScp/result/[映]ヲタクに恋は難しい[SS][字]-2024年10月05日11時(1)/join_logo_scp.csv"
+
+ フレーム情報ファイルのパス(joinOutputFile) 
+ /home/pi/CmcutScp/result/[映]ヲタクに恋は難しい[SS][字]-2024年10月05日11時(1)/join_logo_scp.csv 
+
+ フィルターコンプレックスの初期値を設定(data) 
+ 
+ 
+
+generateFilterComplex()
+: "concat=n=0:v=1:a=1"
+
+/usr/bin/ffmpeg:: -y,-analyzeduration,10M,-probesize,32M,-i,/srv/dev-disk-by-uuid-D454C24354C22856/NAS_4_1/Recorded/2024-1cours/[映]ヲタクに恋は難しい[SS][字]-2024年10月05日11時(1).ts,-c:a,aac,-ignore_unknown,-filter_complex,concat=n=0:v=1:a=1,-b:v,10M,-c:v,h264_v4l2m2m,-aspect,16:9,-f,mp4,-r,29.97,-crf,20,/srv/dev-disk-by-uuid-A6DA96A3DA966F75/NAS/Recorded/TV_Program/[映]ヲタクに恋は難しい[SS][字]-2024年10月05日11時(1).mp4
+

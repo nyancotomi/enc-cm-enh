@@ -1,0 +1,9 @@
+{
+  "name": "raspberry-pi-web-controller",
+  "version": "1.0.0",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^4.7.2",
+    "ws": "^8.14.2"
+  }
+}

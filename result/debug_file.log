@@ -1,0 +1,14 @@
+subtitle_file:/srv/dev-disk-by-uuid-A6DA96A3DA966F75/NAS/Recorded/subtitle/.jpn.srt, 
+ ts_file_name:, 
+ ts_file_input:, 
+file_inpu:, 
+output_file:, 
+ input_file:/home/pi/CmcutScp/result//join_logo_scp.csv, 
+/home/pi/CmcutScp/result//cm_subtitle_jls.csv 
+subtitle_file:/srv/dev-disk-by-uuid-A6DA96A3DA966F75/NAS/Recorded/subtitle/.jpn.srt, 
+ ts_file_name:, 
+ ts_file_input:, 
+file_inpu:, 
+output_file:, 
+ input_file:/home/pi/CmcutScp/result//join_logo_scp.csv, 
+/home/pi/CmcutScp/result//cm_subtitle_jls.csv 

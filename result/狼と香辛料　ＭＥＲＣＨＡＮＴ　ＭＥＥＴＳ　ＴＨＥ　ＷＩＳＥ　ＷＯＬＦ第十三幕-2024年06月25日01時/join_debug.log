@@ -1,0 +1,31 @@
+AVSスクリプトファイルを生成完了
+
+channelName:--------
+テレ東
+----------
+
+chapter_exe -v "/home/pi/CmcutScp/result/狼と香辛料　ＭＥＲＣＨＡＮＴ　ＭＥＥＴＳ　ＴＨＥ　ＷＩＳＥ　ＷＯＬＦ第十三幕-2024年06月25日01時/join_tsfile.avs" -lwi /home/pi/CmcutScp/result/"狼と香辛料　ＭＥＲＣＨＡＮＴ　ＭＥＥＴＳ　ＴＨＥ　ＷＩＳＥ　ＷＯＬＦ第十三幕-2024年06月25日01時"/chapter_inscp.lwi -oa /home/pi/CmcutScp/result/"狼と香辛料　ＭＥＲＣＨＡＮＴ　ＭＥＥＴＳ　ＴＨＥ　ＷＩＳＥ　ＷＯＬＦ第十三幕-2024年06月25日01時"/chapter_inscp.txt
+該当する .lgd ファイル (テレ東.lgd) が見つかりました。
+
+cmd : logoframe "/home/pi/CmcutScp/result/狼と香辛料　ＭＥＲＣＨＡＮＴ　ＭＥＥＴＳ　ＴＨＥ　ＷＩＳＥ　ＷＯＬＦ第十三幕-2024年06月25日01時/join_tsfile.avs" -logo "/home/pi/CmcutScp/join_logo_scp_trial/logo/テレ東.lgd" -oa "/home/pi/CmcutScp/result/狼と香辛料　ＭＥＲＣＨＡＮＴ　ＭＥＥＴＳ　ＴＨＥ　ＷＩＳＥ　ＷＯＬＦ第十三幕-2024年06月25日01時/logoframe_inlogo.txt"
+
+cmd : join_logo_scp -inlogo "/home/pi/CmcutScp/result/狼と香辛料　ＭＥＲＣＨＡＮＴ　ＭＥＥＴＳ　ＴＨＥ　ＷＩＳＥ　ＷＯＬＦ第十三幕-2024年06月25日01時/logoframe_inlogo.txt" -inscp "/home/pi/CmcutScp/result/狼と香辛料　ＭＥＲＣＨＡＮＴ　ＭＥＥＴＳ　ＴＨＥ　ＷＩＳＥ　ＷＯＬＦ第十三幕-2024年06月25日01時/chapter_inscp.txt" -incmd "/home/pi/CmcutScp/join_logo_scp_trial/JL/JL_標準.txt" -o "/home/pi/CmcutScp/result/狼と香辛料　ＭＥＲＣＨＡＮＴ　ＭＥＥＴＳ　ＴＨＥ　ＷＩＳＥ　ＷＯＬＦ第十三幕-2024年06月25日01時/join_logo_scp.txt"
+
+joinOutputFile()
+: "/home/pi/CmcutScp/result/狼と香辛料　ＭＥＲＣＨＡＮＴ　ＭＥＥＴＳ　ＴＨＥ　ＷＩＳＥ　ＷＯＬＦ第十三幕-2024年06月25日01時/join_logo_scp.csv"
+
+ フレーム情報ファイルのパス(joinOutputFile) 
+ /home/pi/CmcutScp/result/狼と香辛料　ＭＥＲＣＨＡＮＴ　ＭＥＥＴＳ　ＴＨＥ　ＷＩＳＥ　ＷＯＬＦ第十三幕-2024年06月25日01時/join_logo_scp.csv 
+
+ フィルターコンプレックスの初期値を設定(data) 
+ 1137,4132
+5931,27418
+29218,46779
+48728,49027
+ 
+
+generateFilterComplex()
+: "[0:v]trim=37.938:137.871,setpts=PTS-STARTPTS[v0];[0:a]atrim=37.938:137.871,asetpts=PTS-STARTPTS[a0];[v0]yadif=0[v0_deinterlaced];[0:v]trim=197.898:914.848,setpts=PTS-STARTPTS[v1];[0:a]atrim=197.898:914.848,asetpts=PTS-STARTPTS[a1];[v1]yadif=0[v1_deinterlaced];[0:v]trim=974.908:1560.861,setpts=PTS-STARTPTS[v2];[0:a]atrim=974.908:1560.861,asetpts=PTS-STARTPTS[a2];[v2]yadif=0[v2_deinterlaced];[0:v]trim=1625.893:1635.869,setpts=PTS-STARTPTS[v3];[0:a]atrim=1625.893:1635.869,asetpts=PTS-STARTPTS[a3];[v3]yadif=0[v3_deinterlaced];[v0_deinterlaced][a0][v1_deinterlaced][a1][v2_deinterlaced][a2][v3_deinterlaced][a3]concat=n=4:v=1:a=1"
+
+/usr/bin/ffmpeg:: -y,-analyzeduration,10M,-probesize,32M,-i,/srv/dev-disk-by-uuid-D454C24354C22856/NAS_4_1/Recorded/2024-2cours/狼と香辛料　ＭＥＲＣＨＡＮＴ　ＭＥＥＴＳ　ＴＨＥ　ＷＩＳＥ　ＷＯＬＦ第十三幕-2024年06月25日01時.ts,-c:a,aac,-ignore_unknown,-filter_complex,[0:v]trim=37.938:137.871,setpts=PTS-STARTPTS[v0];[0:a]atrim=37.938:137.871,asetpts=PTS-STARTPTS[a0];[v0]yadif=0[v0_deinterlaced];[0:v]trim=197.898:914.848,setpts=PTS-STARTPTS[v1];[0:a]atrim=197.898:914.848,asetpts=PTS-STARTPTS[a1];[v1]yadif=0[v1_deinterlaced];[0:v]trim=974.908:1560.861,setpts=PTS-STARTPTS[v2];[0:a]atrim=974.908:1560.861,asetpts=PTS-STARTPTS[a2];[v2]yadif=0[v2_deinterlaced];[0:v]trim=1625.893:1635.869,setpts=PTS-STARTPTS[v3];[0:a]atrim=1625.893:1635.869,asetpts=PTS-STARTPTS[a3];[v3]yadif=0[v3_deinterlaced];[v0_deinterlaced][a0][v1_deinterlaced][a1][v2_deinterlaced][a2][v3_deinterlaced][a3]concat=n=4:v=1:a=1,-b:v,10M,-c:v,h264_v4l2m2m,-aspect,16:9,-f,mp4,-r,29.97,-crf,20,/srv/dev-disk-by-uuid-A6DA96A3DA966F75/NAS/Recorded/TV_Program/狼と香辛料/S1/狼と香辛料　ＭＥＲＣＨＡＮＴ　ＭＥＥＴＳ　ＴＨＥ　ＷＩＳＥ　ＷＯＬＦ第十三幕-2024年06月25日01時.mp4
+

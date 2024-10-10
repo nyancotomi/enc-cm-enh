@@ -1,0 +1,7 @@
+subtitle_file:/srv/dev-disk-by-uuid-A6DA96A3DA966F75/NAS/Recorded/subtitle/疑似ハーレム #05 [字]-2024年08月07日05時.jpn.srt, 
+ ts_file_name:疑似ハーレム #05 [字]-2024年08月07日05時.ts, 
+ ts_file_input:/srv/dev-disk-by-uuid-D454C24354C22856/NAS_4_1/Recorded/2024-3cours/疑似ハーレム #05 [字]-2024年08月07日05時.ts, 
+file_inpu:疑似ハーレム #05 [字]-2024年08月07日05時, 
+output_file:/srv/dev-disk-by-uuid-A6DA96A3DA966F75/NAS/Recorded/TV_Program/疑似ハーレム/S1/疑似ハーレム #05 [字]-2024年08月07日05時_cmcut.jpn.srt, 
+ input_file:/home/pi/CmcutScp/result/疑似ハーレム #05 [字]-2024年08月07日05時/join_logo_scp.csv, 
+/home/pi/CmcutScp/result/疑似ハーレム #05 [字]-2024年08月07日05時/cm_subtitle_jls.csv 

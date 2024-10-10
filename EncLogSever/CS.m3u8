@@ -1,0 +1,101 @@
+#EXTM3U
+#EXTINF: 0,東映チャンネル
+http://192.168.1.83:8888/api/streams/live/600218/m2ts?mode=2
+#EXTINF: 0,衛星劇場
+http://192.168.1.83:8888/api/streams/live/600219/m2ts?mode=2
+#EXTINF: 0,映画・ｃｈＮＥＣＯ
+http://192.168.1.83:8888/api/streams/live/700223/m2ts?mode=2
+#EXTINF: 0,ザ・シネマ
+http://192.168.1.83:8888/api/streams/live/700227/m2ts?mode=2
+#EXTINF: 0,ムービープラス
+http://192.168.1.83:8888/api/streams/live/700240/m2ts?mode=2
+#EXTINF: 0,スカイＡ
+http://192.168.1.83:8888/api/streams/live/700250/m2ts?mode=2
+#EXTINF: 0,ＧＡＯＲＡ
+http://192.168.1.83:8888/api/streams/live/700254/m2ts?mode=2
+#EXTINF: 0,日テレジータス
+http://192.168.1.83:8888/api/streams/live/700257/m2ts?mode=2
+#EXTINF: 0,ゴルフネットワーク
+http://192.168.1.83:8888/api/streams/live/700262/m2ts?mode=2
+#EXTINF: 0,ＳＫＹ　ＳＴＡＧＥ
+http://192.168.1.83:8888/api/streams/live/700290/m2ts?mode=2
+#EXTINF: 0,時代劇専門ｃｈ
+http://192.168.1.83:8888/api/streams/live/700292/m2ts?mode=2
+#EXTINF: 0,ファミリー劇場
+http://192.168.1.83:8888/api/streams/live/700293/m2ts?mode=2
+#EXTINF: 0,ホームドラマＣＨ
+http://192.168.1.83:8888/api/streams/live/700294/m2ts?mode=2
+#EXTINF: 0,ＭＯＮＤＯ　ＴＶ
+http://192.168.1.83:8888/api/streams/live/700295/m2ts?mode=2
+#EXTINF: 0,ＴＢＳチャンネル１
+http://192.168.1.83:8888/api/streams/live/600296/m2ts?mode=2
+#EXTINF: 0,ＴＢＳチャンネル２
+http://192.168.1.83:8888/api/streams/live/700297/m2ts?mode=2
+#EXTINF: 0,テレ朝チャンネル１
+http://192.168.1.83:8888/api/streams/live/600298/m2ts?mode=2
+#EXTINF: 0,テレ朝チャンネル２
+http://192.168.1.83:8888/api/streams/live/600299/m2ts?mode=2
+#EXTINF: 0,日テレプラス
+http://192.168.1.83:8888/api/streams/live/700300/m2ts?mode=2
+#EXTINF: 0,エンタメ～テレ
+http://192.168.1.83:8888/api/streams/live/700301/m2ts?mode=2
+#EXTINF: 0,チャンネル銀河
+http://192.168.1.83:8888/api/streams/live/700305/m2ts?mode=2
+#EXTINF: 0,フジテレビＯＮＥ
+http://192.168.1.83:8888/api/streams/live/700307/m2ts?mode=2
+#EXTINF: 0,フジテレビＴＷＯ
+http://192.168.1.83:8888/api/streams/live/700308/m2ts?mode=2
+#EXTINF: 0,フジテレビＮＥＸＴ
+http://192.168.1.83:8888/api/streams/live/700309/m2ts?mode=2
+#EXTINF: 0,スーパー！ドラマＴＶ
+http://192.168.1.83:8888/api/streams/live/700310/m2ts?mode=2
+#EXTINF: 0,アクションチャンネル
+http://192.168.1.83:8888/api/streams/live/700311/m2ts?mode=2
+#EXTINF: 0,Ｄｌｉｆｅ
+http://192.168.1.83:8888/api/streams/live/700312/m2ts?mode=2
+#EXTINF: 0,ＬａＬａＴＶ
+http://192.168.1.83:8888/api/streams/live/700314/m2ts?mode=2
+#EXTINF: 0,ミステリーチャンネル
+http://192.168.1.83:8888/api/streams/live/700316/m2ts?mode=2
+#EXTINF: 0,スペシャプラス
+http://192.168.1.83:8888/api/streams/live/700321/m2ts?mode=2
+#EXTINF: 0,スペースシャワーＴＶ
+http://192.168.1.83:8888/api/streams/live/700322/m2ts?mode=2
+#EXTINF: 0,ＭＴＶ
+http://192.168.1.83:8888/api/streams/live/700323/m2ts?mode=2
+#EXTINF: 0,ミュージック・エア
+http://192.168.1.83:8888/api/streams/live/700324/m2ts?mode=2
+#EXTINF: 0,エムオン！
+http://192.168.1.83:8888/api/streams/live/700325/m2ts?mode=2
+#EXTINF: 0,歌謡ポップス
+http://192.168.1.83:8888/api/streams/live/700329/m2ts?mode=2
+#EXTINF: 0,キッズステーション
+http://192.168.1.83:8888/api/streams/live/700330/m2ts?mode=2
+#EXTINF: 0,カートゥーン
+http://192.168.1.83:8888/api/streams/live/700331/m2ts?mode=2
+#EXTINF: 0,ＡＴ－Ｘ
+http://192.168.1.83:8888/api/streams/live/700333/m2ts?mode=2
+#EXTINF: 0,ディズニージュニア
+http://192.168.1.83:8888/api/streams/live/600339/m2ts?mode=2
+#EXTINF: 0,ディスカバリー
+http://192.168.1.83:8888/api/streams/live/700340/m2ts?mode=2
+#EXTINF: 0,アニマルプラネット
+http://192.168.1.83:8888/api/streams/live/700341/m2ts?mode=2
+#EXTINF: 0,ヒストリーチャンネル
+http://192.168.1.83:8888/api/streams/live/700342/m2ts?mode=2
+#EXTINF: 0,ナショジオ
+http://192.168.1.83:8888/api/streams/live/700343/m2ts?mode=2
+#EXTINF: 0,日テレＮＥＷＳ２４
+http://192.168.1.83:8888/api/streams/live/600349/m2ts?mode=2
+#EXTINF: 0,ＴＢＳ　ＮＥＷＳ
+http://192.168.1.83:8888/api/streams/live/700351/m2ts?mode=2
+#EXTINF: 0,ＢＢＣニュース
+http://192.168.1.83:8888/api/streams/live/700353/m2ts?mode=2
+#EXTINF: 0,ＣＮＮｊ
+http://192.168.1.83:8888/api/streams/live/700354/m2ts?mode=2
+#EXTINF: 0,囲碁・将棋チャンネル
+http://192.168.1.83:8888/api/streams/live/700363/m2ts?mode=2
+#EXTINF: 0,スポーツライブ＋
+http://192.168.1.83:8888/api/streams/live/600800/m2ts?mode=2
+#EXTINF: 0,スカチャン１
+http://192.168.1.83:8888/api/streams/live/600801/m2ts?mode=2

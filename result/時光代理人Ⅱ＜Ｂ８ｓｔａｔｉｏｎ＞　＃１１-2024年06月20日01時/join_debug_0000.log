@@ -1,0 +1,41 @@
+--------
+曜日 月  日  年  時:分:秒 
+Wed Oct 09 2024 06:59:59 GMT+0900 (Japan Standard Time)
+----------
+
+↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+
+/home/pi/EPGStation/config/enc-cm-enh-0000.jsで追記
+AVSスクリプトファイルを生成完了
+
+channelName:
+--------
+フジテレビ
+----------
+
+chapter_exe -v "/home/pi/CmcutScp/result/時光代理人Ⅱ＜Ｂ８ｓｔａｔｉｏｎ＞　＃１１-2024年06月20日01時/join_tsfile.avs" -lwi /home/pi/CmcutScp/result/"時光代理人Ⅱ＜Ｂ８ｓｔａｔｉｏｎ＞　＃１１-2024年06月20日01時"/chapter_inscp.lwi -oa /home/pi/CmcutScp/result/"時光代理人Ⅱ＜Ｂ８ｓｔａｔｉｏｎ＞　＃１１-2024年06月20日01時"/chapter_inscp.txt
+該当する .lgd ファイル (フジテレビ.lgd) が見つかりました。
+
+cmd : logoframe "/home/pi/CmcutScp/result/時光代理人Ⅱ＜Ｂ８ｓｔａｔｉｏｎ＞　＃１１-2024年06月20日01時/join_tsfile.avs" -logo "/home/pi/CmcutScp/join_logo_scp_trial/logo/フジテレビ.lgd" -oa "/home/pi/CmcutScp/result/時光代理人Ⅱ＜Ｂ８ｓｔａｔｉｏｎ＞　＃１１-2024年06月20日01時/logoframe_inlogo.txt"
+
+cmd : join_logo_scp -inlogo "/home/pi/CmcutScp/result/時光代理人Ⅱ＜Ｂ８ｓｔａｔｉｏｎ＞　＃１１-2024年06月20日01時/logoframe_inlogo.txt" -inscp "/home/pi/CmcutScp/result/時光代理人Ⅱ＜Ｂ８ｓｔａｔｉｏｎ＞　＃１１-2024年06月20日01時/chapter_inscp.txt" -incmd "/home/pi/CmcutScp/join_logo_scp_trial/JL/JL_標準.txt" -o "/home/pi/CmcutScp/result/時光代理人Ⅱ＜Ｂ８ｓｔａｔｉｏｎ＞　＃１１-2024年06月20日01時/join_logo_scp.txt"
+
+joinOutputFile()
+: "/home/pi/CmcutScp/result/時光代理人Ⅱ＜Ｂ８ｓｔａｔｉｏｎ＞　＃１１-2024年06月20日01時/join_logo_scp.csv"
+
+ フレーム情報ファイルのパス(joinOutputFile) 
+ /home/pi/CmcutScp/result/時光代理人Ⅱ＜Ｂ８ｓｔａｔｉｏｎ＞　＃１１-2024年06月20日01時/join_logo_scp.csv 
+
+ フィルターコンプレックスの初期値を設定(data) 
+ 576,11156
+14753,29467
+33065,50656
+ 
+
+generateFilterComplex()
+: "[0:v]trim=19.219:372.239,setpts=PTS-STARTPTS[v0];[0:a]atrim=19.219:372.239,asetpts=PTS-STARTPTS[a0];[v0]yadif=0[v0_deinterlaced];[0:v]trim=492.259:983.217,setpts=PTS-STARTPTS[v1];[0:a]atrim=492.259:983.217,asetpts=PTS-STARTPTS[a1];[v1]yadif=0[v1_deinterlaced];[0:v]trim=1103.270:1690.224,setpts=PTS-STARTPTS[v2];[0:a]atrim=1103.270:1690.224,asetpts=PTS-STARTPTS[a2];[v2]yadif=0[v2_deinterlaced];[v0_deinterlaced][a0][v1_deinterlaced][a1][v2_deinterlaced][a2]concat=n=3:v=1:a=1"
+
+/usr/bin/ffmpeg:: -y,-analyzeduration,10M,-probesize,32M,-i,/srv/dev-disk-by-uuid-D454C24354C22856/NAS_4_1/Recorded/2024-4cours/encode_faild/時光代理人Ⅱ＜Ｂ８ｓｔａｔｉｏｎ＞　＃１１-2024年06月20日01時.mp4,-c:a,aac,-ignore_unknown,-filter_complex,[0:v]trim=19.219:372.239,setpts=PTS-STARTPTS[v0];[0:a]atrim=19.219:372.239,asetpts=PTS-STARTPTS[a0];[v0]yadif=0[v0_deinterlaced];[0:v]trim=492.259:983.217,setpts=PTS-STARTPTS[v1];[0:a]atrim=492.259:983.217,asetpts=PTS-STARTPTS[a1];[v1]yadif=0[v1_deinterlaced];[0:v]trim=1103.270:1690.224,setpts=PTS-STARTPTS[v2];[0:a]atrim=1103.270:1690.224,asetpts=PTS-STARTPTS[a2];[v2]yadif=0[v2_deinterlaced];[v0_deinterlaced][a0][v1_deinterlaced][a1][v2_deinterlaced][a2]concat=n=3:v=1:a=1,-b:v,10M,-c:v,h264_v4l2m2m,-aspect,16:9,-f,mp4,-r,29.97,-crf,20,/srv/dev-disk-by-uuid-A6DA96A3DA966F75/NAS/Recorded/TV_Program/時光代理/S2/時光代理人Ⅱ＜Ｂ８ｓｔａｔｉｏｎ＞　＃１１-2024年06月20日01時.mp4
+
+ecm-subtitle-12.s を実行: INPUT="/srv/dev-disk-by-uuid-D454C24354C22856/NAS_4_1/Recorded/2024-2cours/時光代理人Ⅱ＜Ｂ８ｓｔａｔｉｏｎ＞　＃１１-2024年06月20日01時.ts" OUTPUT="/srv/dev-disk-by-uuid-A6DA96A3DA966F75/NAS/Recorded/TV_Program/時光代理/S2/時光代理人Ⅱ＜Ｂ８ｓｔａｔｉｏｎ＞　＃１１-2024年06月20日01時_cmcut.jpn.srt" /bin/bash /home/pi/EPGStation/config/cm-subtitle-12.sh
+

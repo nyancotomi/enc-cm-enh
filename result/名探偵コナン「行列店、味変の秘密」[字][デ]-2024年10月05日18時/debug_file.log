@@ -1,0 +1,7 @@
+subtitle_file:/srv/dev-disk-by-uuid-A6DA96A3DA966F75/NAS/Recorded/subtitle/名探偵コナン「行列店、味変の秘密」[字][デ]-2024年10月05日18時.jpn.srt, 
+ ts_file_name:名探偵コナン「行列店、味変の秘密」[字][デ]-2024年10月05日18時.ts, 
+ ts_file_input:/srv/dev-disk-by-uuid-D454C24354C22856/NAS_4_1/Recorded/2024-2cours/名探偵コナン「行列店、味変の秘密」[字][デ]-2024年10月05日18時.ts, 
+file_inpu:名探偵コナン「行列店、味変の秘密」[字][デ]-2024年10月05日18時, 
+output_file:/srv/dev-disk-by-uuid-A6DA96A3DA966F75/NAS/Recorded/TV_Program/名探偵コナン/名探偵コナン「行列店、味変の秘密」[字][デ]-2024年10月05日18時_cmcut.jpn.srt, 
+ input_file:/home/pi/CmcutScp/result/名探偵コナン「行列店、味変の秘密」[字][デ]-2024年10月05日18時/join_logo_scp.csv, 
+/home/pi/CmcutScp/result/名探偵コナン「行列店、味変の秘密」[字][デ]-2024年10月05日18時/cm_subtitle_jls.csv 

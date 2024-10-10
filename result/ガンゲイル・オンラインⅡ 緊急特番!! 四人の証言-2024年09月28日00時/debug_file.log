@@ -1,0 +1,14 @@
+subtitle_file:/srv/dev-disk-by-uuid-A6DA96A3DA966F75/NAS/Recorded/subtitle/ガンゲイル・オンラインⅡ 緊急特番!! 四人の証言-2024年09月28日00時.jpn.srt, 
+ ts_file_name:ガンゲイル・オンラインⅡ 緊急特番!! 四人の証言-2024年09月28日00時.ts, 
+ ts_file_input:/srv/dev-disk-by-uuid-D454C24354C22856/NAS_4_1/Recorded/2024-3cours/ガンゲイル・オンラインⅡ 緊急特番!! 四人の証言-2024年09月28日00時.ts, 
+file_inpu:ガンゲイル・オンラインⅡ 緊急特番!! 四人の証言-2024年09月28日00時, 
+output_file:/srv/dev-disk-by-uuid-A6DA96A3DA966F75/NAS/Recorded/TV_Program/ガンゲイル・オンライン /S1/ガンゲイル・オンラインⅡ 緊急特番!! 四人の証言-2024年09月28日00時_cmcut.jpn.srt, 
+ input_file:/home/pi/CmcutScp/result/ガンゲイル・オンラインⅡ 緊急特番!! 四人の証言-2024年09月28日00時/join_logo_scp.csv, 
+/home/pi/CmcutScp/result/ガンゲイル・オンラインⅡ 緊急特番!! 四人の証言-2024年09月28日00時/cm_subtitle_jls.csv 
+subtitle_file:/srv/dev-disk-by-uuid-A6DA96A3DA966F75/NAS/Recorded/subtitle/ガンゲイル・オンラインⅡ 緊急特番!! 四人の証言-2024年09月28日00時.jpn.srt, 
+ ts_file_name:ガンゲイル・オンラインⅡ 緊急特番!! 四人の証言-2024年09月28日00時.ts, 
+ ts_file_input:/srv/dev-disk-by-uuid-D454C24354C22856/NAS_4_1/Recorded/2024-3cours/ガンゲイル・オンラインⅡ 緊急特番!! 四人の証言-2024年09月28日00時.ts, 
+file_inpu:ガンゲイル・オンラインⅡ 緊急特番!! 四人の証言-2024年09月28日00時, 
+output_file:/srv/dev-disk-by-uuid-A6DA96A3DA966F75/NAS/Recorded/TV_Program/ガンゲイル・オンライン/S2/ガンゲイル・オンラインⅡ 緊急特番!! 四人の証言-2024年09月28日00時_cmcut.jpn.srt, 
+ input_file:/home/pi/CmcutScp/result/ガンゲイル・オンラインⅡ 緊急特番!! 四人の証言-2024年09月28日00時/join_logo_scp.csv, 
+/home/pi/CmcutScp/result/ガンゲイル・オンラインⅡ 緊急特番!! 四人の証言-2024年09月28日00時/cm_subtitle_jls.csv 

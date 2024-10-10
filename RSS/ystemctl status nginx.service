@@ -1,0 +1,2233 @@
+-- Journal begins at Sat 2023-11-11 08:52:34 JST, ends at Wed 2023-12-13 00:44:37 JST. --
+Dec 12 16:09:58 raspberrypi mariadbd[1086]: 2023-12-12 16:09:58 108 [Warning] Aborted connection 108 to db: 'epgstation' user: 'epgstation' host: 'raspberrypi' (Got an error reading communication packets)
+Dec 12 16:09:58 raspberrypi mariadbd[1086]: 2023-12-12 16:09:58 107 [Warning] Aborted connection 107 to db: 'epgstation' user: 'epgstation' host: 'raspberrypi' (Got an error reading communication packets)
+Dec 12 16:10:01 raspberrypi CRON[366050]: pam_unix(cron:session): session opened for user pi(uid=1000) by (uid=0)
+Dec 12 16:10:01 raspberrypi CRON[366049]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Dec 12 16:10:01 raspberrypi CRON[366051]: (root) CMD (/usr/sbin/omv-ionice >/dev/null 2>&1)
+Dec 12 16:10:01 raspberrypi CRON[366052]: (pi) CMD (~/duckdns/duck.sh >/dev/null 2>&1)
+Dec 12 16:10:01 raspberrypi CRON[366049]: pam_unix(cron:session): session closed for user root
+Dec 12 16:10:03 raspberrypi CRON[366050]: pam_unix(cron:session): session closed for user pi
+Dec 12 16:10:15 raspberrypi monit[828]: [0;1;31m[0;1;39m[0;1;31m'filesystem_srv_dev-disk-by-uuid-A6DA96A3DA966F75' space usage 92.9% matches resource limit [space usage > 85.0%][0m
+Dec 12 16:10:45 raspberrypi monit[828]: [0;1;31m[0;1;39m[0;1;31m'filesystem_srv_dev-disk-by-uuid-A6DA96A3DA966F75' space usage 92.9% matches resource limit [space usage > 85.0%][0m
+Dec 12 16:11:01 raspberrypi CRON[366307]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Dec 12 16:11:01 raspberrypi CRON[366308]: (root) CMD (/usr/sbin/omv-ionice >/dev/null 2>&1)
+Dec 12 16:11:01 raspberrypi CRON[366307]: pam_unix(cron:session): session closed for user root
+Dec 12 16:11:15 raspberrypi monit[828]: [0;1;31m[0;1;39m[0;1;31m'filesystem_srv_dev-disk-by-uuid-A6DA96A3DA966F75' space usage 92.9% matches resource limit [space usage > 85.0%][0m
+Dec 12 16:11:45 raspberrypi monit[828]: [0;1;31m[0;1;39m[0;1;31m'filesystem_srv_dev-disk-by-uuid-A6DA96A3DA966F75' space usage 92.9% matches resource limit [space usage > 85.0%][0m
+Dec 12 16:12:01 raspberrypi CRON[366675]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Dec 12 16:12:01 raspberrypi CRON[366676]: (root) CMD (/usr/sbin/omv-ionice >/dev/null 2>&1)
+Dec 12 16:12:01 raspberrypi CRON[366675]: pam_unix(cron:session): session closed for user root
+Dec 12 16:12:15 raspberrypi monit[828]: [0;1;31m[0;1;39m[0;1;31m'filesystem_srv_dev-disk-by-uuid-A6DA96A3DA966F75' space usage 92.9% matches resource limit [space usage > 85.0%][0m
+Dec 12 16:12:45 raspberrypi monit[828]: [0;1;31m[0;1;39m[0;1;31m'filesystem_srv_dev-disk-by-uuid-A6DA96A3DA966F75' space usage 92.9% matches resource limit [space usage > 85.0%][0m
+Dec 12 16:13:01 raspberrypi CRON[366768]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Dec 12 16:13:01 raspberrypi CRON[366769]: (root) CMD (/usr/sbin/omv-ionice >/dev/null 2>&1)
+Dec 12 16:13:02 raspberrypi CRON[366768]: pam_unix(cron:session): session closed for user root
+Dec 12 16:13:15 raspberrypi monit[828]: [0;1;31m[0;1;39m[0;1;31m'filesystem_srv_dev-disk-by-uuid-A6DA96A3DA966F75' space usage 92.9% matches resource limit [space usage > 85.0%][0m
+Dec 12 16:13:45 raspberrypi monit[828]: [0;1;31m[0;1;39m[0;1;31m'filesystem_srv_dev-disk-by-uuid-A6DA96A3DA966F75' space usage 92.9% matches resource limit [space usage > 85.0%][0m
+Dec 12 16:14:01 raspberrypi CRON[366824]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Dec 12 16:14:01 raspberrypi CRON[366825]: (root) CMD (/usr/sbin/omv-ionice >/dev/null 2>&1)
+Dec 12 16:14:01 raspberrypi CRON[366824]: pam_unix(cron:session): session closed for user root
+Dec 12 16:14:15 raspberrypi monit[828]: [0;1;31m[0;1;39m[0;1;31m'filesystem_srv_dev-disk-by-uuid-A6DA96A3DA966F75' space usage 92.9% matches resource limit [space usage > 85.0%][0m
+Dec 12 16:14:29 raspberrypi mariadbd[1086]: 2023-12-12 16:14:29 111 [Warning] Aborted connection 111 to db: 'epgstation' user: 'epgstation' host: 'raspberrypi' (Got an error reading communication packets)
+Dec 12 16:14:29 raspberrypi mariadbd[1086]: 2023-12-12 16:14:29 112 [Warning] Aborted connection 112 to db: 'epgstation' user: 'epgstation' host: 'raspberrypi' (Got an error reading communication packets)
+Dec 12 16:14:29 raspberrypi mariadbd[1086]: 2023-12-12 16:14:29 113 [Warning] Aborted connection 113 to db: 'epgstation' user: 'epgstation' host: 'raspberrypi' (Got an error reading communication packets)
+Dec 12 16:14:29 raspberrypi mariadbd[1086]: 2023-12-12 16:14:29 110 [Warning] Aborted connection 110 to db: 'epgstation' user: 'epgstation' host: 'raspberrypi' (Got an error reading communication packets)
+Dec 12 16:14:45 raspberrypi monit[828]: [0;1;31m[0;1;39m[0;1;31m'filesystem_srv_dev-disk-by-uuid-A6DA96A3DA966F75' space usage 92.9% matches resource limit [space usage > 85.0%][0m
+Dec 12 16:15:01 raspberrypi CRON[366965]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Dec 12 16:15:01 raspberrypi CRON[366966]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Dec 12 16:15:01 raspberrypi CRON[366967]: pam_unix(cron:session): session opened for user pi(uid=1000) by (uid=0)
+Dec 12 16:15:01 raspberrypi CRON[366969]: (root) CMD (/usr/sbin/omv-mkrrdgraph >/dev/null 2>&1)
+Dec 12 16:15:01 raspberrypi CRON[366968]: (pi) CMD (~/duckdns/duck.sh >/dev/null 2>&1)
+Dec 12 16:15:01 raspberrypi CRON[366970]: (root) CMD (/usr/sbin/omv-ionice >/dev/null 2>&1)
+Dec 12 16:15:01 raspberrypi CRON[366965]: pam_unix(cron:session): session closed for user root
+Dec 12 16:15:03 raspberrypi CRON[366967]: pam_unix(cron:session): session closed for user pi
+Dec 12 16:15:07 raspberrypi CRON[366966]: pam_unix(cron:session): session closed for user root
+Dec 12 16:15:15 raspberrypi monit[828]: [0;1;31m[0;1;39m[0;1;31m'filesystem_srv_dev-disk-by-uuid-A6DA96A3DA966F75' space usage 92.9% matches resource limit [space usage > 85.0%][0m
+Dec 12 16:15:45 raspberrypi monit[828]: [0;1;31m[0;1;39m[0;1;31m'filesystem_srv_dev-disk-by-uuid-A6DA96A3DA966F75' space usage 92.9% matches resource limit [space usage > 85.0%][0m
+Dec 12 16:16:01 raspberrypi CRON[367499]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Dec 12 16:16:01 raspberrypi CRON[367500]: (root) CMD (/usr/sbin/omv-ionice >/dev/null 2>&1)
+Dec 12 16:16:02 raspberrypi CRON[367499]: pam_unix(cron:session): session closed for user root
+Dec 12 16:16:15 raspberrypi monit[828]: [0;1;31m[0;1;39m[0;1;31m'filesystem_srv_dev-disk-by-uuid-A6DA96A3DA966F75' space usage 92.9% matches resource limit [space usage > 85.0%][0m
+Dec 12 16:16:46 raspberrypi monit[828]: [0;1;31m[0;1;39m[0;1;31m'filesystem_srv_dev-disk-by-uuid-A6DA96A3DA966F75' space usage 92.9% matches resource limit [space usage > 85.0%][0m
+Dec 12 16:17:01 raspberrypi CRON[367656]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Dec 12 16:17:01 raspberrypi CRON[367657]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Dec 12 16:17:01 raspberrypi CRON[367659]: (root) CMD (/usr/sbin/omv-ionice >/dev/null 2>&1)
+Dec 12 16:17:01 raspberrypi CRON[367658]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Dec 12 16:17:01 raspberrypi CRON[367657]: pam_unix(cron:session): session closed for user root
+Dec 12 16:17:01 raspberrypi omv-sfsnapadm[367668]: Cleaning up snapshots from shared folders has been disabled.
+[0;1;39m-- Boot 1f2f5351443441af833ed467caf07b8f --[0m
+Dec 12 16:17:01 raspberrypi kernel: Booting Linux on physical CPU 0x0000000000 [0x410fd083]
+Dec 12 16:17:01 raspberrypi kernel: [0;1;39m[0;1;31m[0;1;39mLinux version 6.1.21-v8+ (dom@buildbot) (aarch64-linux-gnu-gcc-8 (Ubuntu/Linaro 8.4.0-3ubuntu1) 8.4.0, GNU ld (GNU Binutils for Ubuntu) 2.34) #1642 SMP PREEMPT Mon Apr  3 17:24:16 BST 2023[0m
+Dec 12 16:17:01 raspberrypi kernel: [0;1;39m[0;1;31m[0;1;39mrandom: crng init done[0m
+Dec 12 16:17:01 raspberrypi kernel: Machine model: Raspberry Pi 4 Model B Rev 1.5
+Dec 12 16:17:01 raspberrypi kernel: efi: UEFI not found.
+Dec 12 16:17:01 raspberrypi kernel: Reserved memory: created CMA memory pool at 0x000000000ec00000, size 512 MiB
+Dec 12 16:17:01 raspberrypi kernel: OF: reserved mem: initialized node linux,cma, compatible id shared-dma-pool
+Dec 12 16:17:01 raspberrypi kernel: Zone ranges:
+Dec 12 16:17:01 raspberrypi kernel:   DMA      [mem 0x0000000000000000-0x000000003fffffff]
+Dec 12 16:17:01 raspberrypi kernel:   DMA32    [mem 0x0000000040000000-0x00000000ffffffff]
+Dec 12 16:17:01 raspberrypi kernel:   Normal   [mem 0x0000000100000000-0x00000001ffffffff]
+Dec 12 16:17:01 raspberrypi kernel: Movable zone start for each node
+Dec 12 16:17:01 raspberrypi kernel: Early memory node ranges
+Dec 12 16:17:01 raspberrypi kernel:   node   0: [mem 0x0000000000000000-0x000000002fffffff]
+Dec 12 16:17:01 raspberrypi kernel:   node   0: [mem 0x0000000040000000-0x00000000fbffffff]
+Dec 12 16:17:01 raspberrypi kernel:   node   0: [mem 0x0000000100000000-0x00000001ffffffff]
+Dec 12 16:17:01 raspberrypi kernel: Initmem setup node 0 [mem 0x0000000000000000-0x00000001ffffffff]
+Dec 12 16:17:01 raspberrypi kernel: On node 0, zone Normal: 16384 pages in unavailable ranges
+Dec 12 16:17:01 raspberrypi kernel: percpu: Embedded 29 pages/cpu s78504 r8192 d32088 u118784
+Dec 12 16:17:01 raspberrypi kernel: [0;38;5;245m[0;1;31m[0;38;5;245mpcpu-alloc: s78504 r8192 d32088 u118784 alloc=29*4096[0m
+Dec 12 16:17:01 raspberrypi kernel: [0;38;5;245m[0;1;31m[0;38;5;245mpcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 [0m
+Dec 12 16:17:01 raspberrypi kernel: Detected PIPT I-cache on CPU0
+Dec 12 16:17:01 raspberrypi kernel: CPU features: detected: Spectre-v2
+Dec 12 16:17:01 raspberrypi kernel: CPU features: detected: Spectre-v3a
+Dec 12 16:17:01 raspberrypi kernel: CPU features: detected: Spectre-v4
+Dec 12 16:17:01 raspberrypi kernel: CPU features: detected: Spectre-BHB
+Dec 12 16:17:01 raspberrypi kernel: CPU features: kernel page table isolation forced ON by KASLR
+Dec 12 16:17:01 raspberrypi kernel: CPU features: detected: Kernel page table isolation (KPTI)
+Dec 12 16:17:01 raspberrypi kernel: CPU features: detected: ARM erratum 1742098
+Dec 12 16:17:01 raspberrypi kernel: CPU features: detected: ARM errata 1165522, 1319367, or 1530923
+Dec 12 16:17:01 raspberrypi kernel: alternatives: applying boot alternatives
+Dec 12 16:17:01 raspberrypi kernel: Built 1 zonelists, mobility grouping on.  Total pages: 1983488
+Dec 12 16:17:01 raspberrypi kernel: [0;1;39m[0;1;31m[0;1;39mKernel command line: coherent_pool=1M 8250.nr_uarts=0 snd_bcm2835.enable_headphones=0 snd_bcm2835.enable_headphones=1 snd_bcm2835.enable_hdmi=1  smsc95xx.macaddr=D8:3A:DD:27:28:EE vc_mem.mem_base=0x3ec00000 vc_mem.mem_size=0x40000000  console=ttyS0,115200 console=tty1 root=PARTUUID=eda4f587-02 rootfstype=ext4 fsck.repair=yes rootwait usb-storage.quirks=0x4971:0x8014: cfg80211.ieee80211_regdom=GB coherent_pool=4M dwc_otg.host_rx_fifo_size=2048 cfg80211.ieee80211_regdom=GB[0m
+Dec 12 16:17:01 raspberrypi kernel: Dentry cache hash table entries: 1048576 (order: 11, 8388608 bytes, linear)
+Dec 12 16:17:01 raspberrypi kernel: Inode-cache hash table entries: 524288 (order: 10, 4194304 bytes, linear)
+Dec 12 16:17:01 raspberrypi kernel: mem auto-init: stack:off, heap alloc:off, heap free:off
+Dec 12 16:17:01 raspberrypi kernel: software IO TLB: area num 4.
+Dec 12 16:17:01 raspberrypi kernel: software IO TLB: mapped [mem 0x000000000ac00000-0x000000000ec00000] (64MB)
+Dec 12 16:17:01 raspberrypi kernel: Memory: 7291500K/8060928K available (11776K kernel code, 2106K rwdata, 3688K rodata, 4160K init, 1077K bss, 245140K reserved, 524288K cma-reserved)
+Dec 12 16:17:01 raspberrypi kernel: SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=4, Nodes=1
+Dec 12 16:17:01 raspberrypi kernel: ftrace: allocating 39744 entries in 156 pages
+Dec 12 16:17:01 raspberrypi kernel: ftrace: allocated 156 pages with 4 groups
+Dec 12 16:17:01 raspberrypi kernel: trace event string verifier disabled
+Dec 12 16:17:01 raspberrypi kernel: rcu: Preemptible hierarchical RCU implementation.
+Dec 12 16:17:01 raspberrypi kernel: rcu:         RCU event tracing is enabled.
+Dec 12 16:17:01 raspberrypi kernel: rcu:         RCU restricting CPUs from NR_CPUS=256 to nr_cpu_ids=4.
+Dec 12 16:17:01 raspberrypi kernel:         Trampoline variant of Tasks RCU enabled.
+Dec 12 16:17:01 raspberrypi kernel:         Rude variant of Tasks RCU enabled.
+Dec 12 16:17:01 raspberrypi kernel:         Tracing variant of Tasks RCU enabled.
+Dec 12 16:17:01 raspberrypi kernel: rcu: RCU calculated value of scheduler-enlistment delay is 25 jiffies.
+Dec 12 16:17:01 raspberrypi kernel: rcu: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=4
+Dec 12 16:17:01 raspberrypi kernel: NR_IRQS: 64, nr_irqs: 64, preallocated irqs: 0
+Dec 12 16:17:01 raspberrypi kernel: Root IRQ handler: gic_handle_irq
+Dec 12 16:17:01 raspberrypi kernel: GIC: Using split EOI/Deactivate mode
+Dec 12 16:17:01 raspberrypi kernel: rcu: srcu_init: Setting srcu_struct sizes based on contention.
+Dec 12 16:17:01 raspberrypi kernel: arch_timer: cp15 timer(s) running at 54.00MHz (phys).
+Dec 12 16:17:01 raspberrypi kernel: clocksource: arch_sys_counter: mask: 0xffffffffffffff max_cycles: 0xc743ce346, max_idle_ns: 440795203123 ns
+Dec 12 16:17:01 raspberrypi kernel: sched_clock: 56 bits at 54MHz, resolution 18ns, wraps every 4398046511102ns
+Dec 12 16:17:01 raspberrypi kernel: Console: colour dummy device 80x25
+Dec 12 16:17:01 raspberrypi kernel: printk: console [tty1] enabled
+Dec 12 16:17:01 raspberrypi kernel: Calibrating delay loop (skipped), value calculated using timer frequency.. 108.00 BogoMIPS (lpj=216000)
+Dec 12 16:17:01 raspberrypi kernel: pid_max: default: 32768 minimum: 301
+Dec 12 16:17:01 raspberrypi kernel: LSM: Security Framework initializing
+Dec 12 16:17:01 raspberrypi kernel: Mount-cache hash table entries: 16384 (order: 5, 131072 bytes, linear)
+Dec 12 16:17:01 raspberrypi kernel: Mountpoint-cache hash table entries: 16384 (order: 5, 131072 bytes, linear)
+Dec 12 16:17:01 raspberrypi kernel: cgroup: Disabling memory control group subsystem
+Dec 12 16:17:01 raspberrypi kernel: cblist_init_generic: Setting adjustable number of callback queues.
+Dec 12 16:17:01 raspberrypi kernel: cblist_init_generic: Setting shift to 2 and lim to 1.
+Dec 12 16:17:01 raspberrypi kernel: cblist_init_generic: Setting shift to 2 and lim to 1.
+Dec 12 16:17:01 raspberrypi kernel: cblist_init_generic: Setting shift to 2 and lim to 1.
+Dec 12 16:17:01 raspberrypi kernel: rcu: Hierarchical SRCU implementation.
+Dec 12 16:17:01 raspberrypi kernel: rcu:         Max phase no-delay instances is 1000.
+Dec 12 16:17:01 raspberrypi kernel: EFI services will not be available.
+Dec 12 16:17:01 raspberrypi kernel: smp: Bringing up secondary CPUs ...
+Dec 12 16:17:01 raspberrypi kernel: Detected PIPT I-cache on CPU1
+Dec 12 16:17:01 raspberrypi kernel: CPU1: Booted secondary processor 0x0000000001 [0x410fd083]
+Dec 12 16:17:01 raspberrypi kernel: Detected PIPT I-cache on CPU2
+Dec 12 16:17:01 raspberrypi kernel: CPU2: Booted secondary processor 0x0000000002 [0x410fd083]
+Dec 12 16:17:01 raspberrypi kernel: Detected PIPT I-cache on CPU3
+Dec 12 16:17:01 raspberrypi kernel: CPU3: Booted secondary processor 0x0000000003 [0x410fd083]
+Dec 12 16:17:01 raspberrypi kernel: smp: Brought up 1 node, 4 CPUs
+Dec 12 16:17:01 raspberrypi kernel: SMP: Total of 4 processors activated.
+Dec 12 16:17:01 raspberrypi kernel: CPU features: detected: 32-bit EL0 Support
+Dec 12 16:17:01 raspberrypi kernel: CPU features: detected: 32-bit EL1 Support
+Dec 12 16:17:01 raspberrypi kernel: CPU features: detected: CRC32 instructions
+Dec 12 16:17:01 raspberrypi kernel: CPU: All CPU(s) started at EL2
+Dec 12 16:17:01 raspberrypi kernel: alternatives: applying system-wide alternatives
+Dec 12 16:17:01 raspberrypi kernel: devtmpfs: initialized
+Dec 12 16:17:01 raspberrypi kernel: [0;1;39m[0;1;31m[0;1;39mEnabled cp15_barrier support[0m
+Dec 12 16:17:01 raspberrypi kernel: [0;1;39m[0;1;31m[0;1;39mEnabled setend support[0m
+Dec 12 16:17:01 raspberrypi kernel: clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645041785100000 ns
+Dec 12 16:17:01 raspberrypi kernel: futex hash table entries: 1024 (order: 4, 65536 bytes, linear)
+Dec 12 16:17:01 raspberrypi kernel: pinctrl core: initialized pinctrl subsystem
+Dec 12 16:17:01 raspberrypi kernel: DMI not present or invalid.
+Dec 12 16:17:01 raspberrypi kernel: NET: Registered PF_NETLINK/PF_ROUTE protocol family
+Dec 12 16:17:01 raspberrypi kernel: DMA: preallocated 4096 KiB GFP_KERNEL pool for atomic allocations
+Dec 12 16:17:01 raspberrypi kernel: DMA: preallocated 4096 KiB GFP_KERNEL|GFP_DMA pool for atomic allocations
+Dec 12 16:17:01 raspberrypi kernel: DMA: preallocated 4096 KiB GFP_KERNEL|GFP_DMA32 pool for atomic allocations
+Dec 12 16:17:01 raspberrypi kernel: audit: initializing netlink subsys (disabled)
+Dec 12 16:17:01 raspberrypi kernel: [0;1;39m[0;1;31m[0;1;39maudit: type=2000 audit(0.044:1): state=initialized audit_enabled=0 res=1[0m
+Dec 12 16:17:01 raspberrypi kernel: thermal_sys: Registered thermal governor 'step_wise'
+Dec 12 16:17:01 raspberrypi kernel: cpuidle: using governor menu
+Dec 12 16:17:01 raspberrypi kernel: hw-breakpoint: found 6 breakpoint and 4 watchpoint registers.
+Dec 12 16:17:01 raspberrypi kernel: ASID allocator initialised with 32768 entries
+Dec 12 16:17:01 raspberrypi kernel: Serial: AMBA PL011 UART driver
+Dec 12 16:17:01 raspberrypi kernel: bcm2835-mbox fe00b880.mailbox: mailbox enabled
+Dec 12 16:17:01 raspberrypi kernel: raspberrypi-firmware soc:firmware: Attached to firmware from 2023-10-17T15:40:00, variant start_x
+Dec 12 16:17:01 raspberrypi kernel: raspberrypi-firmware soc:firmware: Firmware hash is 30f0c5e4d076da3ab4f341d88e7d505760b93ad7
+Dec 12 16:17:01 raspberrypi kernel: KASLR enabled
+Dec 12 16:17:01 raspberrypi kernel: bcm2835-dma fe007000.dma: DMA legacy API manager, dmachans=0x1
+Dec 12 16:17:01 raspberrypi kernel: [0;1;39m[0;1;31m[0;1;39mSCSI subsystem initialized[0m
+Dec 12 16:17:01 raspberrypi kernel: usbcore: registered new interface driver usbfs
+Dec 12 16:17:01 raspberrypi kernel: usbcore: registered new interface driver hub
+Dec 12 16:17:01 raspberrypi kernel: usbcore: registered new device driver usb
+Dec 12 16:17:01 raspberrypi kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185musb_phy_generic phy: supply vcc not found, using dummy regulator[0m
+Dec 12 16:17:01 raspberrypi kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185musb_phy_generic phy: dummy supplies not allowed for exclusive requests[0m
+Dec 12 16:17:01 raspberrypi kernel: pps_core: LinuxPPS API ver. 1 registered
+Dec 12 16:17:01 raspberrypi kernel: pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+Dec 12 16:17:01 raspberrypi kernel: PTP clock support registered
+Dec 12 16:17:01 raspberrypi kernel: vgaarb: loaded
+Dec 12 16:17:01 raspberrypi kernel: clocksource: Switched to clocksource arch_sys_counter
+Dec 12 16:17:01 raspberrypi kernel: [0;1;39m[0;1;31m[0;1;39mVFS: Disk quotas dquot_6.6.0[0m
+Dec 12 16:17:01 raspberrypi kernel: VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+Dec 12 16:17:01 raspberrypi kernel: [0;1;39m[0;1;31m[0;1;39mFS-Cache: Loaded[0m
+Dec 12 16:17:01 raspberrypi kernel: CacheFiles: Loaded
+Dec 12 16:17:01 raspberrypi kernel: NET: Registered PF_INET protocol family
+Dec 12 16:17:01 raspberrypi kernel: IP idents hash table entries: 131072 (order: 8, 1048576 bytes, linear)
+Dec 12 16:17:01 raspberrypi kernel: tcp_listen_portaddr_hash hash table entries: 4096 (order: 4, 65536 bytes, linear)
+[0;1;39m-- Boot 27a3b4c98ee14be0958119b045c4c624 --[0m
+Dec 12 16:17:01 raspberrypi CRON[367656]: pam_unix(cron:session): session closed for user root
+[0;1;39m-- Boot 1f2f5351443441af833ed467caf07b8f --[0m
+Dec 12 16:17:01 raspberrypi kernel: Table-perturb hash table entries: 65536 (order: 6, 262144 bytes, linear)
+Dec 12 16:17:01 raspberrypi kernel: TCP established hash table entries: 65536 (order: 7, 524288 bytes, linear)
+Dec 12 16:17:01 raspberrypi kernel: TCP bind hash table entries: 65536 (order: 9, 2097152 bytes, linear)
+Dec 12 16:17:01 raspberrypi kernel: TCP: Hash tables configured (established 65536 bind 65536)
+Dec 12 16:17:01 raspberrypi kernel: UDP hash table entries: 4096 (order: 5, 131072 bytes, linear)
+Dec 12 16:17:01 raspberrypi kernel: UDP-Lite hash table entries: 4096 (order: 5, 131072 bytes, linear)
+Dec 12 16:17:01 raspberrypi kernel: NET: Registered PF_UNIX/PF_LOCAL protocol family
+Dec 12 16:17:01 raspberrypi kernel: RPC: Registered named UNIX socket transport module.
+Dec 12 16:17:01 raspberrypi kernel: RPC: Registered udp transport module.
+Dec 12 16:17:01 raspberrypi kernel: RPC: Registered tcp transport module.
+Dec 12 16:17:01 raspberrypi kernel: RPC: Registered tcp NFSv4.1 backchannel transport module.
+Dec 12 16:17:01 raspberrypi kernel: PCI: CLS 0 bytes, default 64
+Dec 12 16:17:01 raspberrypi kernel: hw perfevents: enabled with armv8_cortex_a72 PMU driver, 7 counters available
+Dec 12 16:17:01 raspberrypi kernel: kvm [1]: IPA Size Limit: 44 bits
+Dec 12 16:17:01 raspberrypi kernel: kvm [1]: vgic interrupt IRQ9
+Dec 12 16:17:01 raspberrypi kernel: kvm [1]: Hyp mode initialized successfully
+Dec 12 16:17:01 raspberrypi kernel: [0;1;39m[0;1;31m[0;1;39mInitialise system trusted keyrings[0m
+Dec 12 16:17:01 raspberrypi kernel: workingset: timestamp_bits=46 max_order=21 bucket_order=0
+Dec 12 16:17:01 raspberrypi kernel: zbud: loaded
+Dec 12 16:17:01 raspberrypi kernel: [0;1;39m[0;1;31m[0;1;39mNFS: Registering the id_resolver key type[0m
+Dec 12 16:17:01 raspberrypi kernel: [0;1;39m[0;1;31m[0;1;39mKey type id_resolver registered[0m
+Dec 12 16:17:01 raspberrypi kernel: [0;1;39m[0;1;31m[0;1;39mKey type id_legacy registered[0m
+Dec 12 16:17:01 raspberrypi kernel: nfs4filelayout_init: NFSv4 File Layout Driver Registering...
+Dec 12 16:17:01 raspberrypi kernel: nfs4flexfilelayout_init: NFSv4 Flexfile Layout Driver Registering...
+Dec 12 16:17:01 raspberrypi kernel: [0;1;39m[0;1;31m[0;1;39mKey type asymmetric registered[0m
+Dec 12 16:17:01 raspberrypi kernel: [0;1;39m[0;1;31m[0;1;39mAsymmetric key parser 'x509' registered[0m
+Dec 12 16:17:01 raspberrypi kernel: Block layer SCSI generic (bsg) driver version 0.4 loaded (major 247)
+Dec 12 16:17:01 raspberrypi kernel: io scheduler mq-deadline registered
+Dec 12 16:17:01 raspberrypi kernel: io scheduler kyber registered
+Dec 12 16:17:01 raspberrypi kernel: brcm-pcie fd500000.pcie: host bridge /scb/pcie@7d500000 ranges:
+Dec 12 16:17:01 raspberrypi kernel: brcm-pcie fd500000.pcie:   No bus range found for /scb/pcie@7d500000, using [bus 00-ff]
+Dec 12 16:17:01 raspberrypi kernel: brcm-pcie fd500000.pcie:      MEM 0x0600000000..0x063fffffff -> 0x00c0000000
+Dec 12 16:17:01 raspberrypi kernel: brcm-pcie fd500000.pcie:   IB MEM 0x0000000000..0x01ffffffff -> 0x0400000000
+Dec 12 16:17:01 raspberrypi kernel: brcm-pcie fd500000.pcie: PCI host bridge to bus 0000:00
+Dec 12 16:17:01 raspberrypi kernel: pci_bus 0000:00: root bus resource [bus 00-ff]
+Dec 12 16:17:01 raspberrypi kernel: pci_bus 0000:00: root bus resource [mem 0x600000000-0x63fffffff] (bus address [0xc0000000-0xffffffff])
+Dec 12 16:17:01 raspberrypi kernel: pci 0000:00:00.0: [14e4:2711] type 01 class 0x060400
+Dec 12 16:17:01 raspberrypi kernel: pci 0000:00:00.0: PME# supported from D0 D3hot
+Dec 12 16:17:01 raspberrypi kernel: pci 0000:00:00.0: bridge configuration invalid ([bus 00-00]), reconfiguring
+Dec 12 16:17:01 raspberrypi kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mpci_bus 0000:01: supply vpcie3v3 not found, using dummy regulator[0m
+Dec 12 16:17:01 raspberrypi kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mpci_bus 0000:01: supply vpcie3v3aux not found, using dummy regulator[0m
+Dec 12 16:17:01 raspberrypi kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mpci_bus 0000:01: supply vpcie12v not found, using dummy regulator[0m
+Dec 12 16:17:01 raspberrypi kernel: brcm-pcie fd500000.pcie: link up, 5.0 GT/s PCIe x1 (SSC)
+Dec 12 16:17:01 raspberrypi kernel: pci 0000:01:00.0: [1106:3483] type 00 class 0x0c0330
+Dec 12 16:17:01 raspberrypi kernel: pci 0000:01:00.0: reg 0x10: [mem 0x00000000-0x00000fff 64bit]
+Dec 12 16:17:01 raspberrypi kernel: pci 0000:01:00.0: PME# supported from D0 D3hot
+Dec 12 16:17:01 raspberrypi kernel: pci_bus 0000:01: busn_res: [bus 01-ff] end is updated to 01
+Dec 12 16:17:01 raspberrypi kernel: pci 0000:00:00.0: BAR 8: assigned [mem 0x600000000-0x6000fffff]
+Dec 12 16:17:01 raspberrypi kernel: pci 0000:01:00.0: BAR 0: assigned [mem 0x600000000-0x600000fff 64bit]
+Dec 12 16:17:01 raspberrypi kernel: pci 0000:00:00.0: PCI bridge to [bus 01]
+Dec 12 16:17:01 raspberrypi kernel: pci 0000:00:00.0:   bridge window [mem 0x600000000-0x6000fffff]
+Dec 12 16:17:01 raspberrypi kernel: iproc-rng200 fe104000.rng: hwrng registered
+Dec 12 16:17:01 raspberrypi kernel: vc-mem: phys_addr:0x00000000 mem_base=0x3ec00000 mem_size:0x40000000(1024 MiB)
+Dec 12 16:17:01 raspberrypi kernel: gpiomem-bcm2835 fe200000.gpiomem: Initialised: Registers at 0xfe200000
+Dec 12 16:17:01 raspberrypi kernel: brd: module loaded
+Dec 12 16:17:01 raspberrypi kernel: loop: module loaded
+Dec 12 16:17:01 raspberrypi kernel: Loading iSCSI transport class v2.0-870.
+Dec 12 16:17:01 raspberrypi kernel: bcmgenet fd580000.ethernet: GENET 5.0 EPHY: 0x0000
+Dec 12 16:17:01 raspberrypi kernel: unimac-mdio unimac-mdio.-19: Broadcom UniMAC MDIO bus
+Dec 12 16:17:01 raspberrypi kernel: usbcore: registered new interface driver r8152
+Dec 12 16:17:01 raspberrypi kernel: usbcore: registered new interface driver lan78xx
+Dec 12 16:17:01 raspberrypi kernel: usbcore: registered new interface driver smsc95xx
+Dec 12 16:17:01 raspberrypi kernel: pci 0000:00:00.0: enabling device (0000 -> 0002)
+Dec 12 16:17:01 raspberrypi kernel: xhci_hcd 0000:01:00.0: xHCI Host Controller
+Dec 12 16:17:01 raspberrypi kernel: xhci_hcd 0000:01:00.0: new USB bus registered, assigned bus number 1
+Dec 12 16:17:01 raspberrypi kernel: xhci_hcd 0000:01:00.0: hcc params 0x002841eb hci version 0x100 quirks 0x0000e40000000890
+Dec 12 16:17:01 raspberrypi kernel: xhci_hcd 0000:01:00.0: xHCI Host Controller
+Dec 12 16:17:01 raspberrypi kernel: xhci_hcd 0000:01:00.0: new USB bus registered, assigned bus number 2
+Dec 12 16:17:01 raspberrypi kernel: xhci_hcd 0000:01:00.0: Host supports USB 3.0 SuperSpeed
+Dec 12 16:17:01 raspberrypi kernel: usb usb1: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 6.01
+Dec 12 16:17:01 raspberrypi kernel: usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Dec 12 16:17:01 raspberrypi kernel: usb usb1: Product: xHCI Host Controller
+Dec 12 16:17:01 raspberrypi kernel: usb usb1: Manufacturer: Linux 6.1.21-v8+ xhci-hcd
+Dec 12 16:17:01 raspberrypi kernel: usb usb1: SerialNumber: 0000:01:00.0
+Dec 12 16:17:01 raspberrypi kernel: hub 1-0:1.0: USB hub found
+Dec 12 16:17:01 raspberrypi kernel: hub 1-0:1.0: 1 port detected
+Dec 12 16:17:01 raspberrypi kernel: usb usb2: New USB device found, idVendor=1d6b, idProduct=0003, bcdDevice= 6.01
+Dec 12 16:17:01 raspberrypi kernel: usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Dec 12 16:17:01 raspberrypi kernel: usb usb2: Product: xHCI Host Controller
+Dec 12 16:17:01 raspberrypi kernel: usb usb2: Manufacturer: Linux 6.1.21-v8+ xhci-hcd
+Dec 12 16:17:01 raspberrypi kernel: usb usb2: SerialNumber: 0000:01:00.0
+Dec 12 16:17:01 raspberrypi kernel: hub 2-0:1.0: USB hub found
+Dec 12 16:17:01 raspberrypi kernel: hub 2-0:1.0: 4 ports detected
+Dec 12 16:17:01 raspberrypi kernel: dwc_otg: version 3.00a 10-AUG-2012 (platform bus)
+Dec 12 16:17:01 raspberrypi kernel: [0;38;5;245m[0;1;31m[0;38;5;245mdwc_otg: FIQ enabled[0m
+Dec 12 16:17:01 raspberrypi kernel: [0;38;5;245m[0;1;31m[0;38;5;245mdwc_otg: NAK holdoff enabled[0m
+Dec 12 16:17:01 raspberrypi kernel: [0;38;5;245m[0;1;31m[0;38;5;245mdwc_otg: FIQ split-transaction FSM enabled[0m
+Dec 12 16:17:01 raspberrypi kernel: [0;38;5;245m[0;1;31m[0;38;5;245mModule dwc_common_port init[0m
+Dec 12 16:17:01 raspberrypi kernel: usbcore: registered new interface driver uas
+Dec 12 16:17:01 raspberrypi kernel: usbcore: registered new interface driver usb-storage
+Dec 12 16:17:01 raspberrypi kernel: mousedev: PS/2 mouse device common for all mice
+Dec 12 16:17:01 raspberrypi kernel: sdhci: Secure Digital Host Controller Interface driver
+Dec 12 16:17:01 raspberrypi kernel: sdhci: Copyright(c) Pierre Ossman
+Dec 12 16:17:01 raspberrypi kernel: sdhci-pltfm: SDHCI platform and OF driver helper
+Dec 12 16:17:01 raspberrypi kernel: ledtrig-cpu: registered to indicate activity on CPUs
+Dec 12 16:17:01 raspberrypi kernel: hid: raw HID events driver (C) Jiri Kosina
+Dec 12 16:17:01 raspberrypi kernel: usbcore: registered new interface driver usbhid
+Dec 12 16:17:01 raspberrypi kernel: usbhid: USB HID core driver
+Dec 12 16:17:01 raspberrypi kernel: NET: Registered PF_PACKET protocol family
+Dec 12 16:17:01 raspberrypi kernel: [0;1;39m[0;1;31m[0;1;39mKey type dns_resolver registered[0m
+Dec 12 16:17:01 raspberrypi kernel: registered taskstats version 1
+Dec 12 16:17:01 raspberrypi kernel: [0;1;39m[0;1;31m[0;1;39mLoading compiled-in X.509 certificates[0m
+Dec 12 16:17:01 raspberrypi kernel: [0;1;39m[0;1;31m[0;1;39mKey type .fscrypt registered[0m
+Dec 12 16:17:01 raspberrypi kernel: [0;1;39m[0;1;31m[0;1;39mKey type fscrypt-provisioning registered[0m
+Dec 12 16:17:01 raspberrypi kernel: uart-pl011 fe201000.serial: there is not valid maps for state default
+Dec 12 16:17:01 raspberrypi kernel: uart-pl011 fe201000.serial: cts_event_workaround enabled
+Dec 12 16:17:01 raspberrypi kernel: fe201000.serial: ttyAMA0 at MMIO 0xfe201000 (irq = 35, base_baud = 0) is a PL011 rev2
+Dec 12 16:17:01 raspberrypi kernel: bcm2835-wdt bcm2835-wdt: Broadcom BCM2835 watchdog timer
+Dec 12 16:17:01 raspberrypi kernel: bcm2835-power bcm2835-power: Broadcom BCM2835 power domains driver
+Dec 12 16:17:01 raspberrypi kernel: mmc-bcm2835 fe300000.mmcnr: mmc_debug:0 mmc_debug2:0
+Dec 12 16:17:01 raspberrypi kernel: mmc-bcm2835 fe300000.mmcnr: DMA channel allocated
+Dec 12 16:17:01 raspberrypi kernel: of_cfs_init
+Dec 12 16:17:01 raspberrypi kernel: of_cfs_init: OK
+Dec 12 16:17:01 raspberrypi kernel: mmc0: SDHCI controller on fe340000.mmc [fe340000.mmc] using ADMA
+Dec 12 16:17:01 raspberrypi kernel: Waiting for root device PARTUUID=eda4f587-02...
+Dec 12 16:17:01 raspberrypi kernel: mmc1: new high speed SDIO card at address 0001
+Dec 12 16:17:01 raspberrypi kernel: mmc0: new ultra high speed DDR50 SDHC card at address aaaa
+Dec 12 16:17:01 raspberrypi kernel: mmcblk0: mmc0:aaaa SE32G 29.7 GiB 
+Dec 12 16:17:01 raspberrypi kernel:  mmcblk0: p1 p2
+Dec 12 16:17:01 raspberrypi kernel: mmcblk0: mmc0:aaaa SE32G 29.7 GiB (quirks 0x00004000)
+Dec 12 16:17:01 raspberrypi kernel: EXT4-fs (mmcblk0p2): INFO: recovery required on readonly filesystem
+Dec 12 16:17:01 raspberrypi kernel: EXT4-fs (mmcblk0p2): write access will be enabled during recovery
+Dec 12 16:17:01 raspberrypi kernel: usb 1-1: new high-speed USB device number 2 using xhci_hcd
+Dec 12 16:17:01 raspberrypi kernel: usb 1-1: New USB device found, idVendor=2109, idProduct=3431, bcdDevice= 4.21
+Dec 12 16:17:01 raspberrypi kernel: usb 1-1: New USB device strings: Mfr=0, Product=1, SerialNumber=0
+Dec 12 16:17:01 raspberrypi kernel: usb 1-1: Product: USB2.0 Hub
+Dec 12 16:17:01 raspberrypi kernel: hub 1-1:1.0: USB hub found
+Dec 12 16:17:01 raspberrypi kernel: hub 1-1:1.0: 4 ports detected
+Dec 12 16:17:01 raspberrypi kernel: usb 2-1: new SuperSpeed USB device number 2 using xhci_hcd
+Dec 12 16:17:01 raspberrypi kernel: usb 2-1: New USB device found, idVendor=05e3, idProduct=0626, bcdDevice= 6.56
+Dec 12 16:17:01 raspberrypi kernel: usb 2-1: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+Dec 12 16:17:01 raspberrypi kernel: usb 2-1: Product: USB3.1 Hub
+Dec 12 16:17:01 raspberrypi kernel: usb 2-1: Manufacturer: GenesysLogic
+Dec 12 16:17:01 raspberrypi kernel: hub 2-1:1.0: USB hub found
+Dec 12 16:17:01 raspberrypi kernel: hub 2-1:1.0: 4 ports detected
+Dec 12 16:17:01 raspberrypi kernel: EXT4-fs (mmcblk0p2): orphan cleanup on readonly fs
+Dec 12 16:17:01 raspberrypi kernel: EXT4-fs (mmcblk0p2): 2 orphan inodes deleted
+Dec 12 16:17:01 raspberrypi kernel: EXT4-fs (mmcblk0p2): recovery complete
+Dec 12 16:17:01 raspberrypi kernel: EXT4-fs (mmcblk0p2): mounted filesystem with ordered data mode. Quota mode: none.
+Dec 12 16:17:01 raspberrypi kernel: VFS: Mounted root (ext4 filesystem) readonly on device 179:2.
+Dec 12 16:17:01 raspberrypi kernel: devtmpfs: mounted
+Dec 12 16:17:01 raspberrypi kernel: Freeing unused kernel memory: 4160K
+Dec 12 16:17:01 raspberrypi kernel: Run /sbin/init as init process
+Dec 12 16:17:01 raspberrypi kernel: [0;38;5;245m[0;1;31m[0;38;5;245m  with arguments:[0m
+Dec 12 16:17:01 raspberrypi kernel: [0;38;5;245m[0;1;31m[0;38;5;245m    /sbin/init[0m
+Dec 12 16:17:01 raspberrypi kernel: [0;38;5;245m[0;1;31m[0;38;5;245m  with environment:[0m
+Dec 12 16:17:01 raspberrypi kernel: [0;38;5;245m[0;1;31m[0;38;5;245m    HOME=/[0m
+Dec 12 16:17:01 raspberrypi kernel: [0;38;5;245m[0;1;31m[0;38;5;245m    TERM=linux[0m
+Dec 12 16:17:01 raspberrypi kernel: usb 1-1.1: new high-speed USB device number 3 using xhci_hcd
+Dec 12 16:17:01 raspberrypi kernel: usb 1-1.1: New USB device found, idVendor=05e3, idProduct=0610, bcdDevice= 6.56
+Dec 12 16:17:01 raspberrypi kernel: usb 1-1.1: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+Dec 12 16:17:01 raspberrypi kernel: usb 1-1.1: Product: USB2.1 Hub
+Dec 12 16:17:01 raspberrypi kernel: usb 1-1.1: Manufacturer: GenesysLogic
+Dec 12 16:17:01 raspberrypi kernel: hub 1-1.1:1.0: USB hub found
+Dec 12 16:17:01 raspberrypi kernel: hub 1-1.1:1.0: 4 ports detected
+Dec 12 16:17:01 raspberrypi kernel: usb 2-1.2: new SuperSpeed USB device number 3 using xhci_hcd
+Dec 12 16:17:01 raspberrypi kernel: usb 2-1.2: New USB device found, idVendor=174c, idProduct=55aa, bcdDevice= 1.00
+Dec 12 16:17:01 raspberrypi kernel: usb 2-1.2: New USB device strings: Mfr=2, Product=3, SerialNumber=1
+Dec 12 16:17:01 raspberrypi kernel: usb 2-1.2: Product: ASMT1051
+Dec 12 16:17:01 raspberrypi kernel: usb 2-1.2: Manufacturer: asmedia
+Dec 12 16:17:01 raspberrypi kernel: usb 2-1.2: SerialNumber: 1234567891E6
+Dec 12 16:17:01 raspberrypi kernel: scsi host0: uas
+Dec 12 16:17:01 raspberrypi kernel: [0;1;39m[0;1;31m[0;1;39mscsi 0:0:0:0: Direct-Access     ASMT     2115             0    PQ: 0 ANSI: 6[0m
+Dec 12 16:17:01 raspberrypi kernel: [0;1;39m[0;1;31m[0;1;39msd 0:0:0:0: [sda] 3907029168 512-byte logical blocks: (2.00 TB/1.82 TiB)[0m
+Dec 12 16:17:01 raspberrypi kernel: [0;1;39m[0;1;31m[0;1;39msd 0:0:0:0: [sda] 4096-byte physical blocks[0m
+Dec 12 16:17:01 raspberrypi kernel: [0;1;39m[0;1;31m[0;1;39msd 0:0:0:0: [sda] Write Protect is off[0m
+Dec 12 16:17:01 raspberrypi kernel: [0;38;5;245m[0;1;31m[0;38;5;245msd 0:0:0:0: [sda] Mode Sense: 43 00 00 00[0m
+Dec 12 16:17:01 raspberrypi kernel: [0;1;39m[0;1;31m[0;1;39msd 0:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA[0m
+Dec 12 16:17:01 raspberrypi kernel: sd 0:0:0:0: [sda] Preferred minimum I/O size 4096 bytes
+Dec 12 16:17:01 raspberrypi kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185msd 0:0:0:0: [sda] Optimal transfer size 33553920 bytes not a multiple of preferred minimum block size (4096 bytes)[0m
+Dec 12 16:17:01 raspberrypi kernel: usb 1-1.2: new high-speed USB device number 4 using xhci_hcd
+Dec 12 16:17:01 raspberrypi systemd[1]: System time before build time, advancing clock.
+Dec 12 16:17:01 raspberrypi kernel: usb 1-1.2: New USB device found, idVendor=1a40, idProduct=0101, bcdDevice= 1.00
+Dec 12 16:17:01 raspberrypi kernel: usb 1-1.2: New USB device strings: Mfr=0, Product=1, SerialNumber=0
+Dec 12 16:17:01 raspberrypi kernel: usb 1-1.2: Product: USB2.0 HUB
+Dec 12 16:17:01 raspberrypi kernel: hub 1-1.2:1.0: USB hub found
+Dec 12 16:17:01 raspberrypi kernel: hub 1-1.2:1.0: 4 ports detected
+Dec 12 16:17:01 raspberrypi kernel: usb 1-1.1.1: new high-speed USB device number 5 using xhci_hcd
+Dec 12 16:17:01 raspberrypi kernel: NET: Registered PF_INET6 protocol family
+Dec 12 16:17:01 raspberrypi kernel: Segment Routing with IPv6
+Dec 12 16:17:01 raspberrypi kernel: In-situ OAM (IOAM) with IPv6
+Dec 12 16:17:01 raspberrypi kernel:  sda: sda1
+Dec 12 16:17:01 raspberrypi kernel: [0;1;39m[0;1;31m[0;1;39msd 0:0:0:0: [sda] Attached SCSI disk[0m
+Dec 12 16:17:01 raspberrypi kernel: usb 1-1.1.1: New USB device found, idVendor=0511, idProduct=004b, bcdDevice= 1.00
+Dec 12 16:17:01 raspberrypi kernel: usb 1-1.1.1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+Dec 12 16:17:01 raspberrypi kernel: usb 1-1.1.1: Product: ISDBT2056
+Dec 12 16:17:01 raspberrypi kernel: usb 1-1.1.1: Manufacturer: DigiBest
+Dec 12 16:17:01 raspberrypi kernel: usb 1-1.1.1: SerialNumber: 000000000000001
+Dec 12 16:17:01 raspberrypi systemd[1]: systemd 247.3-7+deb11u4 running in system mode. (+PAM +AUDIT +SELINUX +IMA +APPARMOR +SMACK +SYSVINIT +UTMP +LIBCRYPTSETUP +GCRYPT +GNUTLS +ACL +XZ +LZ4 +ZSTD +SECCOMP +BLKID +ELFUTILS +KMOD +IDN2 -IDN +PCRE2 default-hierarchy=unified)
+Dec 12 16:17:01 raspberrypi systemd[1]: Detected architecture arm64.
+Dec 12 16:17:01 raspberrypi systemd[1]: Set hostname to <raspberrypi>.
+Dec 12 16:17:01 raspberrypi kernel: usb 1-1.4: new high-speed USB device number 6 using xhci_hcd
+Dec 12 16:17:01 raspberrypi systemd[1]: Using hardware watchdog 'Broadcom BCM2835 Watchdog timer', version 0, device /dev/watchdog
+Dec 12 16:17:01 raspberrypi systemd[1]: Set hardware watchdog to 14s.
+Dec 12 16:17:01 raspberrypi kernel: usb 1-1.4: New USB device found, idVendor=3275, idProduct=0080, bcdDevice= 0.01
+Dec 12 16:17:01 raspberrypi kernel: usb 1-1.4: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+Dec 12 16:17:01 raspberrypi kernel: usb 1-1.4: Product: PX-S1UD Digital TV Tuner
+Dec 12 16:17:01 raspberrypi kernel: usb 1-1.4: Manufacturer: PLEX Digital TV Tuner
+Dec 12 16:17:01 raspberrypi kernel: usb 1-1.1.3: new high-speed USB device number 7 using xhci_hcd
+Dec 12 16:17:01 raspberrypi kernel: usb 1-1.1.3: New USB device found, idVendor=0bda, idProduct=0165, bcdDevice=61.23
+Dec 12 16:17:01 raspberrypi kernel: usb 1-1.1.3: New USB device strings: Mfr=1, Product=6, SerialNumber=3
+Dec 12 16:17:01 raspberrypi kernel: usb 1-1.1.3: Product: Smart Card Reader Interface
+Dec 12 16:17:01 raspberrypi kernel: usb 1-1.1.3: Manufacturer: Generic
+Dec 12 16:17:01 raspberrypi kernel: usb 1-1.1.3: SerialNumber: 20070818000000000
+Dec 12 16:17:01 raspberrypi systemd[1]: Queued start job for default target Multi-User System.
+Dec 12 16:17:01 raspberrypi systemd[1]: Created slice system-getty.slice.
+Dec 12 16:17:01 raspberrypi systemd[1]: Created slice system-modprobe.slice.
+Dec 12 16:17:01 raspberrypi systemd[1]: Created slice system-postfix.slice.
+Dec 12 16:17:01 raspberrypi systemd[1]: Created slice system-systemd\x2dfsck.slice.
+Dec 12 16:17:01 raspberrypi systemd[1]: Created slice system-wg\x2dquick.slice.
+Dec 12 16:17:01 raspberrypi systemd[1]: Created slice User and Session Slice.
+Dec 12 16:17:01 raspberrypi systemd[1]: Started Dispatch Password Requests to Console Directory Watch.
+Dec 12 16:17:01 raspberrypi systemd[1]: Started Forward Password Requests to Wall Directory Watch.
+Dec 12 16:17:01 raspberrypi systemd[1]: Set up automount Arbitrary Executable File Formats File System Automount Point.
+Dec 12 16:17:01 raspberrypi systemd[1]: Reached target Local Encrypted Volumes.
+Dec 12 16:17:01 raspberrypi systemd[1]: Reached target Paths.
+Dec 12 16:17:01 raspberrypi systemd[1]: Reached target Slices.
+Dec 12 16:17:01 raspberrypi systemd[1]: Reached target Swap.
+Dec 12 16:17:01 raspberrypi systemd[1]: Reached target System Time Set.
+Dec 12 16:17:01 raspberrypi systemd[1]: Listening on Device-mapper event daemon FIFOs.
+Dec 12 16:17:01 raspberrypi systemd[1]: Listening on LVM2 poll daemon socket.
+Dec 12 16:17:01 raspberrypi systemd[1]: Listening on Syslog Socket.
+Dec 12 16:17:01 raspberrypi systemd[1]: Listening on fsck to fsckd communication Socket.
+Dec 12 16:17:01 raspberrypi systemd[1]: Listening on initctl Compatibility Named Pipe.
+Dec 12 16:17:01 raspberrypi systemd[1]: Listening on Journal Audit Socket.
+Dec 12 16:17:01 raspberrypi systemd[1]: Listening on Journal Socket (/dev/log).
+Dec 12 16:17:01 raspberrypi systemd[1]: Listening on Journal Socket.
+Dec 12 16:17:01 raspberrypi systemd[1]: Listening on Network Service Netlink Socket.
+Dec 12 16:17:01 raspberrypi systemd[1]: Listening on udev Control Socket.
+Dec 12 16:17:01 raspberrypi systemd[1]: Listening on udev Kernel Socket.
+Dec 12 16:17:01 raspberrypi systemd[1]: Condition check resulted in Huge Pages File System being skipped.
+Dec 12 16:17:01 raspberrypi systemd[1]: Mounting POSIX Message Queue File System...
+Dec 12 16:17:01 raspberrypi systemd[1]: Mounting RPC Pipe File System...
+Dec 12 16:17:01 raspberrypi systemd[1]: Mounting Kernel Debug File System...
+Dec 12 16:17:01 raspberrypi systemd[1]: Mounting Kernel Trace File System...
+Dec 12 16:17:01 raspberrypi systemd[1]: Condition check resulted in Kernel Module supporting RPCSEC_GSS being skipped.
+Dec 12 16:17:01 raspberrypi systemd[1]: Finished Availability of block devices.
+Dec 12 16:17:01 raspberrypi systemd[1]: Starting Restore / save the current clock...
+Dec 12 16:17:01 raspberrypi systemd[1]: Starting Set the console keyboard layout...
+Dec 12 16:17:01 raspberrypi systemd[1]: Starting Create list of static device nodes for the current kernel...
+Dec 12 16:17:01 raspberrypi systemd[1]: Starting Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling...
+Dec 12 16:17:01 raspberrypi systemd[1]: Starting Load Kernel Module configfs...
+Dec 12 16:17:01 raspberrypi systemd[1]: Starting Load Kernel Module drm...
+Dec 12 16:17:01 raspberrypi systemd[1]: Starting Load Kernel Module fuse...
+Dec 12 16:17:01 raspberrypi systemd[1]: Condition check resulted in OpenVSwitch configuration for cleanup being skipped.
+Dec 12 16:17:01 raspberrypi systemd[1]: Condition check resulted in Set Up Additional Binary Formats being skipped.
+Dec 12 16:17:01 raspberrypi systemd[1]: Starting File System Check on Root Device...
+Dec 12 16:17:01 raspberrypi systemd[1]: Starting Journal Service...
+Dec 12 16:17:01 raspberrypi systemd[1]: Starting Load Kernel Modules...
+Dec 12 16:17:01 raspberrypi systemd[1]: Starting Coldplug All udev Devices...
+Dec 12 16:17:01 raspberrypi systemd[1]: Starting Uncomplicated firewall...
+Dec 12 16:17:01 raspberrypi systemd[1]: Mounted POSIX Message Queue File System.
+Dec 12 16:17:01 raspberrypi systemd[1]: Mounted RPC Pipe File System.
+Dec 12 16:17:01 raspberrypi systemd[1]: Mounted Kernel Debug File System.
+Dec 12 16:17:01 raspberrypi systemd[1]: Mounted Kernel Trace File System.
+Dec 12 16:17:01 raspberrypi systemd[1]: Finished Restore / save the current clock.
+Dec 12 16:17:01 raspberrypi systemd[1]: Finished Create list of static device nodes for the current kernel.
+Dec 12 16:17:01 raspberrypi systemd[1]: modprobe@configfs.service: Succeeded.
+Dec 12 16:17:01 raspberrypi systemd[1]: Finished Load Kernel Module configfs.
+Dec 12 16:17:01 raspberrypi kernel: fuse: init (API version 7.37)
+Dec 12 16:17:01 raspberrypi systemd[1]: Finished Uncomplicated firewall.
+Dec 12 16:17:01 raspberrypi systemd[1]: Mounting Kernel Configuration File System...
+Dec 12 16:17:01 raspberrypi systemd[1]: Starting pNFS block layout mapping daemon...
+Dec 12 16:17:01 raspberrypi systemd[1]: Started File System Check Daemon to report status.
+Dec 12 16:17:01 raspberrypi systemd[1]: modprobe@fuse.service: Succeeded.
+Dec 12 16:17:01 raspberrypi systemd[1]: Finished Load Kernel Module fuse.
+Dec 12 16:17:01 raspberrypi systemd[1]: Mounted Kernel Configuration File System.
+Dec 12 16:17:01 raspberrypi systemd[1]: Started pNFS block layout mapping daemon.
+Dec 12 16:17:01 raspberrypi systemd[1]: Mounting FUSE Control File System...
+Dec 12 16:17:01 raspberrypi kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mpx4_drv: loading out-of-tree module taints kernel.[0m
+Dec 12 16:17:01 raspberrypi systemd[1]: Mounted FUSE Control File System.
+Dec 12 16:17:01 raspberrypi kernel: px4_drv: px4_drv version 0.4.0, rev: 384, commit: 7fa9f05d2cbdf1d821f479248d561f9868051b8b @ develop
+Dec 12 16:17:01 raspberrypi kernel: px4_usb 1-1.1.1:1.0: Firmware is already loaded. version: 1.12.0.0
+Dec 12 16:17:01 raspberrypi systemd[1]: Finished File System Check on Root Device.
+Dec 12 16:17:01 raspberrypi systemd[1]: Starting Remount Root and Kernel File Systems...
+Dec 12 16:17:01 raspberrypi systemd[1]: modprobe@drm.service: Succeeded.
+Dec 12 16:17:01 raspberrypi systemd[1]: Finished Load Kernel Module drm.
+Dec 12 16:17:01 raspberrypi kernel: px4_usb 1-1.1.1:1.0: /dev/isdb2056video0
+Dec 12 16:17:01 raspberrypi kernel: usbcore: registered new interface driver px4_usb
+Dec 12 16:17:01 raspberrypi systemd[1]: Finished Load Kernel Modules.
+Dec 12 16:17:01 raspberrypi systemd[1]: Starting Apply Kernel Variables...
+Dec 12 16:17:01 raspberrypi systemd[1]: Finished Apply Kernel Variables.
+Dec 12 16:17:01 raspberrypi systemd-journald[160]: Journal started
+[0;38;5;245m░░[0m [0;32mSubject: The journal has been started[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe system journal process has started up, opened the journal[0m
+[0;38;5;245m░░[0m [0;32mfiles for writing and is now ready to process requests.[0m
+Dec 12 16:17:01 raspberrypi systemd-journald[160]: Runtime Journal (/run/log/journal/1dd006d972f64e36b8ec713a2638e4d8) is 8.0M, max 152.7M, 144.7M free.
+[0;38;5;245m░░[0m [0;32mSubject: Disk space used by the journal[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mRuntime Journal (/run/log/journal/1dd006d972f64e36b8ec713a2638e4d8) is currently using 8.0M.[0m
+[0;38;5;245m░░[0m [0;32mMaximum allowed usage is set to 152.7M.[0m
+[0;38;5;245m░░[0m [0;32mLeaving at least 76.3M free (of currently available 1.4G of disk space).[0m
+[0;38;5;245m░░[0m [0;32mEnforced usage limit is thus 152.7M, of which 144.7M are still available.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe limits controlling how much disk space is used by the journal may[0m
+[0;38;5;245m░░[0m [0;32mbe configured with SystemMaxUse=, SystemKeepFree=, SystemMaxFileSize=,[0m
+[0;38;5;245m░░[0m [0;32mRuntimeMaxUse=, RuntimeKeepFree=, RuntimeMaxFileSize= settings in[0m
+[0;38;5;245m░░[0m [0;32m/etc/systemd/journald.conf. See journald.conf(5) for details.[0m
+Dec 12 16:17:01 raspberrypi blkmapd[174]: [0;1;31m[0;1;39m[0;1;31mopen pipe file /run/rpc_pipefs/nfs/blocklayout failed: No such file or directory[0m
+Dec 12 16:17:01 raspberrypi systemd-modules-load[162]: Inserted module 'px4_drv'
+Dec 12 16:17:01 raspberrypi systemd[1]: Started Journal Service.
+Dec 12 16:17:01 raspberrypi systemd-modules-load[162]: [0;1;31m[0;1;39m[0;1;31mFailed to find module 'softdog'[0m
+Dec 12 16:17:01 raspberrypi systemd-sysctl[181]: Couldn't write '10000' to 'dev/raid/speed_limit_min', ignoring: No such file or directory
+Dec 12 16:17:01 raspberrypi fake-hwclock[158]: Tue Dec 12 07:17:01 UTC 2023
+Dec 12 16:17:01 raspberrypi systemd-fsck[175]: e2fsck 1.46.2 (28-Feb-2021)
+Dec 12 16:17:01 raspberrypi systemd-fsck[175]: rootfs: clean, 439271/1925760 files, 4453053/7725184 blocks
+Dec 12 16:17:01 raspberrypi kernel: EXT4-fs (mmcblk0p2): re-mounted. Quota mode: none.
+Dec 12 16:17:01 raspberrypi systemd[1]: Finished Set the console keyboard layout.
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit keyboard-setup.service has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit keyboard-setup.service has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 37.[0m
+Dec 12 16:17:01 raspberrypi systemd[1]: Finished Remount Root and Kernel File Systems.
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit systemd-remount-fs.service has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit systemd-remount-fs.service has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 50.[0m
+Dec 12 16:17:01 raspberrypi systemd[1]: Condition check resulted in Rebuild Hardware Database being skipped.
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit systemd-hwdb-update.service has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit systemd-hwdb-update.service has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 60.[0m
+Dec 12 16:17:01 raspberrypi systemd[1]: Starting Flush Journal to Persistent Storage...
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit systemd-journal-flush.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit systemd-journal-flush.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 57.[0m
+Dec 12 16:17:01 raspberrypi systemd[1]: Condition check resulted in Platform Persistent Storage Archival being skipped.
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit systemd-pstore.service has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit systemd-pstore.service has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 36.[0m
+Dec 12 16:17:01 raspberrypi systemd[1]: Starting Load/Save Random Seed...
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit systemd-random-seed.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit systemd-random-seed.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 30.[0m
+Dec 12 16:17:01 raspberrypi systemd[1]: Starting Create System Users...
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit systemd-sysusers.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit systemd-sysusers.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 29.[0m
+Dec 12 16:17:01 raspberrypi systemd[1]: Finished Coldplug All udev Devices.
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit systemd-udev-trigger.service has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit systemd-udev-trigger.service has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 9.[0m
+Dec 12 16:17:01 raspberrypi systemd-journald[160]: Time spent on flushing to /var/log/journal/1dd006d972f64e36b8ec713a2638e4d8 is 28.620ms for 429 entries.
+Dec 12 16:17:01 raspberrypi systemd-journald[160]: System Journal (/var/log/journal/1dd006d972f64e36b8ec713a2638e4d8) is 832.1M, max 2.8G, 2.0G free.
+[0;38;5;245m░░[0m [0;32mSubject: Disk space used by the journal[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mSystem Journal (/var/log/journal/1dd006d972f64e36b8ec713a2638e4d8) is currently using 832.1M.[0m
+[0;38;5;245m░░[0m [0;32mMaximum allowed usage is set to 2.8G.[0m
+[0;38;5;245m░░[0m [0;32mLeaving at least 1.4G free (of currently available 11.5G of disk space).[0m
+[0;38;5;245m░░[0m [0;32mEnforced usage limit is thus 2.8G, of which 2.0G are still available.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe limits controlling how much disk space is used by the journal may[0m
+[0;38;5;245m░░[0m [0;32mbe configured with SystemMaxUse=, SystemKeepFree=, SystemMaxFileSize=,[0m
+[0;38;5;245m░░[0m [0;32mRuntimeMaxUse=, RuntimeKeepFree=, RuntimeMaxFileSize= settings in[0m
+[0;38;5;245m░░[0m [0;32m/etc/systemd/journald.conf. See journald.conf(5) for details.[0m
+Dec 12 16:17:01 raspberrypi systemd[1]: Starting Helper to synchronize boot up for ifupdown...
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit ifupdown-pre.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit ifupdown-pre.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 106.[0m
+Dec 12 16:17:01 raspberrypi systemd[1]: Finished Helper to synchronize boot up for ifupdown.
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit ifupdown-pre.service has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit ifupdown-pre.service has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 106.[0m
+Dec 12 16:17:01 raspberrypi systemd[1]: Finished Load/Save Random Seed.
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit systemd-random-seed.service has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit systemd-random-seed.service has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 30.[0m
+Dec 12 16:17:01 raspberrypi systemd[1]: Condition check resulted in First Boot Complete being skipped.
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit first-boot-complete.target has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit first-boot-complete.target has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 31.[0m
+Dec 12 16:17:01 raspberrypi systemd[1]: Finished Create System Users.
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit systemd-sysusers.service has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit systemd-sysusers.service has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 29.[0m
+Dec 12 16:17:01 raspberrypi systemd[1]: Starting Create Static Device Nodes in /dev...
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit systemd-tmpfiles-setup-dev.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit systemd-tmpfiles-setup-dev.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 8.[0m
+Dec 12 16:17:02 raspberrypi systemd[1]: Finished Create Static Device Nodes in /dev.
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit systemd-tmpfiles-setup-dev.service has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit systemd-tmpfiles-setup-dev.service has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 8.[0m
+Dec 12 16:17:02 raspberrypi systemd[1]: Starting Rule-based Manager for Device Events and Files...
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit systemd-udevd.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit systemd-udevd.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 10.[0m
+Dec 12 16:17:02 raspberrypi systemd[1]: Finished Flush Journal to Persistent Storage.
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit systemd-journal-flush.service has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit systemd-journal-flush.service has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 57.[0m
+Dec 12 16:17:02 raspberrypi systemd[1]: Started Rule-based Manager for Device Events and Files.
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit systemd-udevd.service has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit systemd-udevd.service has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 10.[0m
+Dec 12 16:17:02 raspberrypi kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mvc_sm_cma: module is from the staging directory, the quality is unknown, you have been warned.[0m
+Dec 12 16:17:02 raspberrypi kernel: mc: Linux media interface: v0.10
+Dec 12 16:17:02 raspberrypi systemd-udevd[206]: Using default interface naming scheme 'v247'.
+Dec 12 16:17:02 raspberrypi kernel: bcm2835_vc_sm_cma_probe: Videocore shared memory driver
+Dec 12 16:17:02 raspberrypi kernel: [vc_sm_connected_init]: start
+Dec 12 16:17:02 raspberrypi kernel: [vc_sm_connected_init]: installed successfully
+Dec 12 16:17:02 raspberrypi kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185msnd_bcm2835: module is from the staging directory, the quality is unknown, you have been warned.[0m
+Dec 12 16:17:03 raspberrypi kernel: videodev: Linux video capture interface: v2.00
+Dec 12 16:17:03 raspberrypi kernel: bcm2835_audio bcm2835_audio: card created with 8 channels
+Dec 12 16:17:03 raspberrypi systemd[1]: Condition check resulted in Huge Pages File System being skipped.
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit dev-hugepages.mount has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit dev-hugepages.mount has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 242.[0m
+Dec 12 16:17:03 raspberrypi systemd[1]: Condition check resulted in Set Up Additional Binary Formats being skipped.
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit systemd-binfmt.service has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit systemd-binfmt.service has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 227.[0m
+Dec 12 16:17:03 raspberrypi systemd[1]: Condition check resulted in Rebuild Hardware Database being skipped.
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit systemd-hwdb-update.service has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit systemd-hwdb-update.service has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 248.[0m
+Dec 12 16:17:03 raspberrypi kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mbcm2835_mmal_vchiq: module is from the staging directory, the quality is unknown, you have been warned.[0m
+Dec 12 16:17:03 raspberrypi systemd[1]: Condition check resulted in Platform Persistent Storage Archival being skipped.
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit systemd-pstore.service has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit systemd-pstore.service has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 224.[0m
+Dec 12 16:17:03 raspberrypi kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mbcm2835_mmal_vchiq: module is from the staging directory, the quality is unknown, you have been warned.[0m
+Dec 12 16:17:03 raspberrypi kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mbcm2835_mmal_vchiq: module is from the staging directory, the quality is unknown, you have been warned.[0m
+Dec 12 16:17:03 raspberrypi kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mrpivid_hevc: module is from the staging directory, the quality is unknown, you have been warned.[0m
+Dec 12 16:17:03 raspberrypi kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mbcm2835_v4l2: module is from the staging directory, the quality is unknown, you have been warned.[0m
+Dec 12 16:17:03 raspberrypi kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mbcm2835_codec: module is from the staging directory, the quality is unknown, you have been warned.[0m
+Dec 12 16:17:03 raspberrypi kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mbcm2835_isp: module is from the staging directory, the quality is unknown, you have been warned.[0m
+Dec 12 16:17:03 raspberrypi systemd[1]: Found device /dev/disk/by-partuuid/eda4f587-01.
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit dev-disk-by\x2dpartuuid-eda4f587\x2d01.device has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit dev-disk-by\x2dpartuuid-eda4f587\x2d01.device has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 46.[0m
+Dec 12 16:17:03 raspberrypi kernel: rpivid feb10000.codec: Device registered as /dev/video19
+Dec 12 16:17:03 raspberrypi kernel: [drm] Initialized v3d 1.0.0 20180419 for fec00000.v3d on minor 0
+Dec 12 16:17:03 raspberrypi kernel: bcm2835-codec bcm2835-codec: Device registered as /dev/video10
+Dec 12 16:17:03 raspberrypi kernel: bcm2835-codec bcm2835-codec: Loaded V4L2 decode
+Dec 12 16:17:03 raspberrypi kernel: bcm2835-isp bcm2835-isp: Device node output[0] registered as /dev/video13
+Dec 12 16:17:03 raspberrypi kernel: bcm2835-isp bcm2835-isp: Device node capture[0] registered as /dev/video14
+Dec 12 16:17:03 raspberrypi kernel: bcm2835-isp bcm2835-isp: Device node capture[1] registered as /dev/video15
+Dec 12 16:17:03 raspberrypi mtp-probe[263]: checking bus 2, device 3: "/sys/devices/platform/scb/fd500000.pcie/pci0000:00/0000:00:00.0/0000:01:00.0/usb2/2-1/2-1.2"
+Dec 12 16:17:03 raspberrypi kernel: bcm2835-codec bcm2835-codec: Device registered as /dev/video11
+Dec 12 16:17:03 raspberrypi kernel: bcm2835-codec bcm2835-codec: Loaded V4L2 encode
+Dec 12 16:17:03 raspberrypi kernel: bcm2835-isp bcm2835-isp: Device node stats[2] registered as /dev/video16
+Dec 12 16:17:03 raspberrypi kernel: bcm2835-isp bcm2835-isp: Register output node 0 with media controller
+Dec 12 16:17:03 raspberrypi kernel: bcm2835-isp bcm2835-isp: Register capture node 1 with media controller
+Dec 12 16:17:03 raspberrypi kernel: bcm2835-isp bcm2835-isp: Register capture node 2 with media controller
+Dec 12 16:17:03 raspberrypi kernel: bcm2835-isp bcm2835-isp: Register capture node 3 with media controller
+Dec 12 16:17:03 raspberrypi kernel: bcm2835-codec bcm2835-codec: Device registered as /dev/video12
+Dec 12 16:17:03 raspberrypi kernel: bcm2835-codec bcm2835-codec: Loaded V4L2 isp
+Dec 12 16:17:03 raspberrypi kernel: bcm2835-codec bcm2835-codec: Device registered as /dev/video18
+Dec 12 16:17:03 raspberrypi kernel: bcm2835-codec bcm2835-codec: Loaded V4L2 image_fx
+Dec 12 16:17:03 raspberrypi mtp-probe[263]: bus: 2, device: 3 was not an MTP device
+Dec 12 16:17:03 raspberrypi kernel: bcm2835-isp bcm2835-isp: Device node output[0] registered as /dev/video20
+Dec 12 16:17:03 raspberrypi kernel: bcm2835-codec bcm2835-codec: Device registered as /dev/video31
+Dec 12 16:17:03 raspberrypi kernel: bcm2835-codec bcm2835-codec: Loaded V4L2 encode_image
+Dec 12 16:17:03 raspberrypi kernel: bcm2835-isp bcm2835-isp: Device node capture[0] registered as /dev/video21
+Dec 12 16:17:03 raspberrypi kernel: bcm2835-isp bcm2835-isp: Device node capture[1] registered as /dev/video22
+Dec 12 16:17:03 raspberrypi kernel: bcm2835-isp bcm2835-isp: Device node stats[2] registered as /dev/video23
+Dec 12 16:17:03 raspberrypi kernel: bcm2835-isp bcm2835-isp: Register output node 0 with media controller
+Dec 12 16:17:03 raspberrypi kernel: bcm2835-isp bcm2835-isp: Register capture node 1 with media controller
+Dec 12 16:17:03 raspberrypi kernel: bcm2835-isp bcm2835-isp: Register capture node 2 with media controller
+Dec 12 16:17:03 raspberrypi kernel: bcm2835-isp bcm2835-isp: Register capture node 3 with media controller
+Dec 12 16:17:03 raspberrypi kernel: bcm2835-isp bcm2835-isp: Loaded V4L2 bcm2835-isp
+Dec 12 16:17:03 raspberrypi mtp-probe[275]: checking bus 1, device 6: "/sys/devices/platform/scb/fd500000.pcie/pci0000:00/0000:00:00.0/0000:01:00.0/usb1/1-1/1-1.4"
+Dec 12 16:17:03 raspberrypi kernel: [0;1;38;5;185m[0;1;39m[0;1;38;5;185m[drm] No displays found. Consider forcing hotplug if HDMI is attached[0m
+Dec 12 16:17:03 raspberrypi kernel: vc4-drm gpu: bound fe600000.firmwarekms (ops vc4_fkms_ops [vc4])
+Dec 12 16:17:03 raspberrypi kernel: [drm] Initialized vc4 0.0.0 20140616 for gpu on minor 1
+Dec 12 16:17:03 raspberrypi mtp-probe[275]: bus: 1, device: 6 was not an MTP device
+Dec 12 16:17:03 raspberrypi kernel: [0;1;39m[0;1;31m[0;1;39mcfg80211: Loading compiled-in X.509 certificates for regulatory database[0m
+Dec 12 16:17:03 raspberrypi kernel: [0;1;39m[0;1;31m[0;1;39mcfg80211: Loaded X.509 cert 'sforshee: 00b28ddf47aef9cea7'[0m
+Dec 12 16:17:03 raspberrypi mtp-probe[283]: checking bus 1, device 5: "/sys/devices/platform/scb/fd500000.pcie/pci0000:00/0000:00:00.0/0000:01:00.0/usb1/1-1/1-1.1/1-1.1.1"
+Dec 12 16:17:03 raspberrypi kernel: cfg80211: loaded regulatory.db is malformed or signature is missing/invalid
+Dec 12 16:17:03 raspberrypi mtp-probe[281]: checking bus 1, device 7: "/sys/devices/platform/scb/fd500000.pcie/pci0000:00/0000:00:00.0/0000:01:00.0/usb1/1-1/1-1.1/1-1.1.3"
+Dec 12 16:17:04 raspberrypi mtp-probe[283]: bus: 1, device: 5 was not an MTP device
+Dec 12 16:17:04 raspberrypi systemd[1]: Listening on Load/Save RF Kill Switch Status /dev/rfkill Watch.
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit systemd-rfkill.socket has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit systemd-rfkill.socket has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 252.[0m
+Dec 12 16:17:04 raspberrypi systemd[1]: Condition check resulted in Huge Pages File System being skipped.
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit dev-hugepages.mount has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit dev-hugepages.mount has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 318.[0m
+Dec 12 16:17:04 raspberrypi systemd[1]: Condition check resulted in Set Up Additional Binary Formats being skipped.
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit systemd-binfmt.service has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit systemd-binfmt.service has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 297.[0m
+Dec 12 16:17:04 raspberrypi systemd[1]: Condition check resulted in Rebuild Hardware Database being skipped.
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit systemd-hwdb-update.service has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit systemd-hwdb-update.service has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 324.[0m
+Dec 12 16:17:04 raspberrypi systemd[1]: Condition check resulted in Platform Persistent Storage Archival being skipped.
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit systemd-pstore.service has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit systemd-pstore.service has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 294.[0m
+Dec 12 16:17:04 raspberrypi kernel: [0;38;5;245m[0;1;31m[0;38;5;245mbrcmfmac: F1 signature read @0x18000000=0x15264345[0m
+Dec 12 16:17:04 raspberrypi kernel: brcmfmac: brcmf_fw_alloc_request: using brcm/brcmfmac43455-sdio for chip BCM4345/6
+Dec 12 16:17:04 raspberrypi kernel: smsusb:smsusb_probe: board id=18, interface number 0
+Dec 12 16:17:04 raspberrypi kernel: usbcore: registered new interface driver brcmfmac
+Dec 12 16:17:04 raspberrypi kernel: smsusb:siano_media_device_register: media controller created
+Dec 12 16:17:04 raspberrypi kernel: [0;1;39m[0;1;31m[0;1;39msd 0:0:0:0: Attached scsi generic sg0 type 0[0m
+Dec 12 16:17:04 raspberrypi mtp-probe[281]: bus: 1, device: 7 was not an MTP device
+Dec 12 16:17:04 raspberrypi systemd[1]: Reached target Smart Card.
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit smartcard.target has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit smartcard.target has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 329.[0m
+Dec 12 16:17:04 raspberrypi kernel: brcmfmac: brcmf_c_preinit_dcmds: Firmware: BCM4345/6 wl0: Nov  1 2021 00:37:25 version 7.45.241 (1a2f2fa CY) FWID 01-703fd60
+Dec 12 16:17:04 raspberrypi systemd-udevd[205]: Using default interface naming scheme 'v247'.
+Dec 12 16:17:04 raspberrypi systemd[1]: Starting Load/Save RF Kill Switch Status...
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit systemd-rfkill.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit systemd-rfkill.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 331.[0m
+Dec 12 16:17:04 raspberrypi systemd[1]: Started Load/Save RF Kill Switch Status.
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit systemd-rfkill.service has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit systemd-rfkill.service has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 331.[0m
+Dec 12 16:17:04 raspberrypi systemd[1]: Found device /sys/subsystem/net/devices/wlan0.
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit sys-subsystem-net-devices-wlan0.device has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit sys-subsystem-net-devices-wlan0.device has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 104.[0m
+Dec 12 16:17:04 raspberrypi systemd[1]: Started WPA supplicant for netplan wlan0.
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit netplan-wpa-wlan0.service has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit netplan-wpa-wlan0.service has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 103.[0m
+Dec 12 16:17:04 raspberrypi kernel: smsmdtv:smscore_init_ir: IR port has not been detected
+Dec 12 16:17:04 raspberrypi kernel: smsusb:smsusb_probe: Device initialized with return code 0
+Dec 12 16:17:04 raspberrypi kernel: dvbdev: DVB: registering new adapter (Siano Rio Digital Receiver)
+Dec 12 16:17:04 raspberrypi kernel: dvbdev: dvb_create_media_entity: media entity 'dvb-demux' registered.
+Dec 12 16:17:04 raspberrypi kernel: usb 1-1.4: DVB: registering adapter 0 frontend 0 (Siano Mobile Digital MDTV Receiver)...
+Dec 12 16:17:04 raspberrypi kernel: dvbdev: dvb_create_media_entity: media entity 'Siano Mobile Digital MDTV Receiver' registered.
+Dec 12 16:17:04 raspberrypi kernel: smsdvb:smsdvb_hotplug: DVB interface registered.
+Dec 12 16:17:04 raspberrypi kernel: usbcore: registered new interface driver smsusb
+Dec 12 16:17:04 raspberrypi wpa_supplicant[339]: Successfully initialized wpa_supplicant
+Dec 12 16:17:04 raspberrypi kernel: brcmfmac: brcmf_cfg80211_set_power_mgmt: power save enabled
+Dec 12 16:17:05 raspberrypi systemd-udevd[204]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185msda: Process '/lib/udev/hdparm' failed with exit code 5.[0m
+Dec 12 16:17:05 raspberrypi systemd[1]: Found device WDC_WD20NPVZ-59WFZT0 NAS.
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit dev-disk-by\x2duuid-A6DA96A3DA966F75.device has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit dev-disk-by\x2duuid-A6DA96A3DA966F75.device has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 52.[0m
+Dec 12 16:17:05 raspberrypi systemd[1]: Finished Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling.
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit lvm2-monitor.service has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit lvm2-monitor.service has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 58.[0m
+Dec 12 16:17:05 raspberrypi systemd[1]: Reached target Local File Systems (Pre).
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit local-fs-pre.target has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit local-fs-pre.target has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 38.[0m
+Dec 12 16:17:05 raspberrypi systemd[1]: Mounting /srv/dev-disk-by-uuid-A6DA96A3DA966F75...
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit srv-dev\x2ddisk\x2dby\x2duuid\x2dA6DA96A3DA966F75.mount has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit srv-dev\x2ddisk\x2dby\x2duuid\x2dA6DA96A3DA966F75.mount has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 51.[0m
+Dec 12 16:17:05 raspberrypi systemd[1]: Mounting Mount /tmp as tmpfs to reduce write access to the root device...
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit tmp.mount has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit tmp.mount has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 74.[0m
+Dec 12 16:17:05 raspberrypi systemd[1]: Starting File System Check on /dev/disk/by-partuuid/eda4f587-01...
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit systemd-fsck@dev-disk-by\x2dpartuuid-eda4f587\x2d01.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit systemd-fsck@dev-disk-by\x2dpartuuid-eda4f587\x2d01.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 44.[0m
+Dec 12 16:17:05 raspberrypi systemd[1]: Mounted Mount /tmp as tmpfs to reduce write access to the root device.
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit tmp.mount has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit tmp.mount has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 74.[0m
+Dec 12 16:17:05 raspberrypi systemd-fsck[386]: fsck.fat 4.2 (2021-01-31)
+Dec 12 16:17:05 raspberrypi systemd-fsck[386]: There are differences between boot sector and its backup.
+Dec 12 16:17:05 raspberrypi systemd-fsck[386]: This is mostly harmless. Differences: (offset:original/backup)
+Dec 12 16:17:05 raspberrypi systemd-fsck[386]:   65:01/00
+Dec 12 16:17:05 raspberrypi systemd-fsck[386]:   Not automatically fixing this.
+Dec 12 16:17:05 raspberrypi systemd-fsck[386]: Dirty bit is set. Fs was not properly unmounted and some data may be corrupt.
+Dec 12 16:17:05 raspberrypi systemd-fsck[386]:  Automatically removing dirty bit.
+Dec 12 16:17:05 raspberrypi systemd-fsck[386]: *** Filesystem was changed ***
+Dec 12 16:17:05 raspberrypi systemd-fsck[386]: Writing changes.
+Dec 12 16:17:05 raspberrypi systemd-fsck[386]: /dev/mmcblk0p1: 364 files, 30518/130554 clusters
+Dec 12 16:17:05 raspberrypi systemd[1]: Finished File System Check on /dev/disk/by-partuuid/eda4f587-01.
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit systemd-fsck@dev-disk-by\x2dpartuuid-eda4f587\x2d01.service has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit systemd-fsck@dev-disk-by\x2dpartuuid-eda4f587\x2d01.service has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 44.[0m
+Dec 12 16:17:05 raspberrypi systemd[1]: Mounting /boot...
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit boot.mount has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit boot.mount has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 43.[0m
+Dec 12 16:17:05 raspberrypi systemd[1]: Mounted /boot.
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit boot.mount has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit boot.mount has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 43.[0m
+Dec 12 16:17:05 raspberrypi systemd[1]: Reached target Local File Systems.
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit local-fs.target has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit local-fs.target has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 42.[0m
+Dec 12 16:17:05 raspberrypi systemd[1]: Starting Set console font and keymap...
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit console-setup.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit console-setup.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 112.[0m
+Dec 12 16:17:05 raspberrypi systemd[1]: Starting folder2ram systemd service...
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit folder2ram_startup.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit folder2ram_startup.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 65.[0m
+Dec 12 16:17:05 raspberrypi systemd[1]: Starting netfilter persistent configuration...
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit netfilter-persistent.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit netfilter-persistent.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 136.[0m
+Dec 12 16:17:05 raspberrypi systemd[1]: Starting Preprocess NFS configuration...
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit nfs-config.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit nfs-config.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 149.[0m
+Dec 12 16:17:05 raspberrypi systemd[1]: Starting Cleanup monit state file...
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit openmediavault-cleanup-monit.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit openmediavault-cleanup-monit.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 173.[0m
+Dec 12 16:17:05 raspberrypi systemd[1]: Starting Cleanup PHP session files...
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit openmediavault-cleanup-php.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit openmediavault-cleanup-php.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 184.[0m
+Dec 12 16:17:05 raspberrypi systemd[1]: Condition check resulted in Store a System Token in an EFI Variable being skipped.
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit systemd-boot-system-token.service has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit systemd-boot-system-token.service has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 55.[0m
+Dec 12 16:17:05 raspberrypi systemd[1]: Condition check resulted in Commit a transient machine-id on disk being skipped.
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit systemd-machine-id-commit.service has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit systemd-machine-id-commit.service has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 4.[0m
+Dec 12 16:17:05 raspberrypi systemd[1]: Starting Create Volatile Files and Directories...
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit systemd-tmpfiles-setup.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit systemd-tmpfiles-setup.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 28.[0m
+Dec 12 16:17:05 raspberrypi systemd[1]: openmediavault-cleanup-monit.service: Succeeded.
+[0;38;5;245m░░[0m [0;32mSubject: Unit succeeded[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit openmediavault-cleanup-monit.service has successfully entered the 'dead' state.[0m
+Dec 12 16:17:05 raspberrypi folder2ram[389]: will now start all mountpoints
+Dec 12 16:17:05 raspberrypi systemd[1]: Finished Cleanup monit state file.
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit openmediavault-cleanup-monit.service has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit openmediavault-cleanup-monit.service has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 173.[0m
+Dec 12 16:17:05 raspberrypi systemd[1]: Finished Set console font and keymap.
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit console-setup.service has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit console-setup.service has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 112.[0m
+Dec 12 16:17:05 raspberrypi systemd[1]: nfs-config.service: Succeeded.
+[0;38;5;245m░░[0m [0;32mSubject: Unit succeeded[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit nfs-config.service has successfully entered the 'dead' state.[0m
+Dec 12 16:17:05 raspberrypi systemd[1]: Finished Preprocess NFS configuration.
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit nfs-config.service has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit nfs-config.service has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 149.[0m
+Dec 12 16:17:05 raspberrypi systemd[1]: Condition check resulted in RPC security service for NFS client and server being skipped.
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit rpc-gssd.service has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit rpc-gssd.service has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 150.[0m
+Dec 12 16:17:05 raspberrypi systemd[1]: Condition check resulted in RPC security service for NFS server being skipped.
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit rpc-svcgssd.service has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit rpc-svcgssd.service has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 148.[0m
+Dec 12 16:17:05 raspberrypi systemd[1]: Reached target NFS client services.
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit nfs-client.target has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit nfs-client.target has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 143.[0m
+Dec 12 16:17:05 raspberrypi systemd[1]: Reached target Remote File Systems (Pre).
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit remote-fs-pre.target has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit remote-fs-pre.target has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 144.[0m
+Dec 12 16:17:05 raspberrypi systemd[1]: Reached target Remote File Systems.
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit remote-fs.target has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit remote-fs.target has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 180.[0m
+Dec 12 16:17:05 raspberrypi netfilter-persistent[407]: run-parts: executing /usr/share/netfilter-persistent/plugins.d/15-ip4tables start
+Dec 12 16:17:05 raspberrypi systemd[1]: openmediavault-cleanup-php.service: Succeeded.
+[0;38;5;245m░░[0m [0;32mSubject: Unit succeeded[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit openmediavault-cleanup-php.service has successfully entered the 'dead' state.[0m
+Dec 12 16:17:05 raspberrypi systemd[1]: Finished Cleanup PHP session files.
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit openmediavault-cleanup-php.service has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit openmediavault-cleanup-php.service has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 184.[0m
+Dec 12 16:17:05 raspberrypi systemd[1]: Finished Create Volatile Files and Directories.
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit systemd-tmpfiles-setup.service has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit systemd-tmpfiles-setup.service has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 28.[0m
+Dec 12 16:17:06 raspberrypi systemd[1]: Starting Update UTMP about System Boot/Shutdown...
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit systemd-update-utmp.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit systemd-update-utmp.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 164.[0m
+Dec 12 16:17:06 raspberrypi folder2ram[389]: start /var/log
+Dec 12 16:17:06 raspberrypi systemd[1]: Finished Update UTMP about System Boot/Shutdown.
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit systemd-update-utmp.service has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit systemd-update-utmp.service has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 164.[0m
+Dec 12 16:17:06 raspberrypi systemd[1]: Reached target System Initialization.
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit sysinit.target has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit sysinit.target has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 3.[0m
+Dec 12 16:17:06 raspberrypi systemd[1]: Started Daily Cleanup of Temporary Directories.
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit systemd-tmpfiles-clean.timer has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit systemd-tmpfiles-clean.timer has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 77.[0m
+Dec 12 16:17:06 raspberrypi systemd[1]: Listening on Avahi mDNS/DNS-SD Stack Activation Socket.
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit avahi-daemon.socket has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit avahi-daemon.socket has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 73.[0m
+Dec 12 16:17:06 raspberrypi systemd[1]: Listening on D-Bus System Message Bus Socket.
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit dbus.socket has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit dbus.socket has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 70.[0m
+Dec 12 16:17:06 raspberrypi systemd[1]: Starting Docker Socket for the API.
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit docker.socket has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit docker.socket has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 67.[0m
+Dec 12 16:17:06 raspberrypi systemd[1]: Listening on PC/SC Smart Card Daemon Activation Socket.
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit pcscd.socket has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit pcscd.socket has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 71.[0m
+Dec 12 16:17:06 raspberrypi systemd[1]: Listening on triggerhappy.socket.
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit triggerhappy.socket has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit triggerhappy.socket has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 68.[0m
+Dec 12 16:17:06 raspberrypi ntfs-3g[444]: [0;1;39m[0;1;31m[0;1;39mVersion 2017.3.23AR.3 integrated FUSE 28[0m
+Dec 12 16:17:06 raspberrypi ntfs-3g[444]: [0;1;39m[0;1;31m[0;1;39mMounted /dev/sda1 (Read-Write, label "NAS", NTFS 3.1)[0m
+Dec 12 16:17:06 raspberrypi ntfs-3g[444]: [0;1;39m[0;1;31m[0;1;39mCmdline options: rw,big_writes[0m
+Dec 12 16:17:06 raspberrypi ntfs-3g[444]: [0;1;39m[0;1;31m[0;1;39mMount options: allow_other,nonempty,relatime,rw,fsname=/dev/sda1,blkdev,blksize=4096[0m
+Dec 12 16:17:06 raspberrypi ntfs-3g[444]: [0;1;39m[0;1;31m[0;1;39mOwnership and permissions disabled, configuration type 7[0m
+Dec 12 16:17:06 raspberrypi systemd[1]: Mounted /srv/dev-disk-by-uuid-A6DA96A3DA966F75.
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit srv-dev\x2ddisk\x2dby\x2duuid\x2dA6DA96A3DA966F75.mount has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit srv-dev\x2ddisk\x2dby\x2duuid\x2dA6DA96A3DA966F75.mount has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 51.[0m
+Dec 12 16:17:06 raspberrypi systemd[1]: Listening on Docker Socket for the API.
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit docker.socket has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit docker.socket has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 67.[0m
+Dec 12 16:17:06 raspberrypi systemd[1]: Reached target Sockets.
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit sockets.target has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit sockets.target has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 66.[0m
+Dec 12 16:17:06 raspberrypi netfilter-persistent[407]: run-parts: executing /usr/share/netfilter-persistent/plugins.d/25-ip6tables start
+Dec 12 16:17:06 raspberrypi systemd[1]: Finished netfilter persistent configuration.
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit netfilter-persistent.service has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit netfilter-persistent.service has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 136.[0m
+Dec 12 16:17:06 raspberrypi systemd[1]: Reached target Network (Pre).
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit network-pre.target has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit network-pre.target has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 137.[0m
+Dec 12 16:17:06 raspberrypi systemd[1]: Starting Raise network interfaces...
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit networking.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit networking.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 105.[0m
+Dec 12 16:17:06 raspberrypi systemd[1]: Starting Network Service...
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit systemd-networkd.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit systemd-networkd.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 100.[0m
+Dec 12 16:17:06 raspberrypi systemd-networkd[455]: Enumeration completed
+Dec 12 16:17:06 raspberrypi systemd-networkd[455]: wlan0: Link DOWN
+Dec 12 16:17:06 raspberrypi systemd[1]: Started Network Service.
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit systemd-networkd.service has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit systemd-networkd.service has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 100.[0m
+Dec 12 16:17:06 raspberrypi systemd-networkd[455]: wlan0: Link UP
+Dec 12 16:17:06 raspberrypi kernel: bcmgenet fd580000.ethernet: configuring instance for external RGMII (RX delay)
+Dec 12 16:17:06 raspberrypi kernel: bcmgenet fd580000.ethernet eth0: Link is Down
+Dec 12 16:17:06 raspberrypi systemd-networkd[455]: eth0: Link UP
+Dec 12 16:17:06 raspberrypi systemd[1]: Starting Wait for Network to be Configured...
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit systemd-networkd-wait-online.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit systemd-networkd-wait-online.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 99.[0m
+Dec 12 16:17:07 raspberrypi systemd[1]: Starting Network Name Resolution...
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit systemd-resolved.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit systemd-resolved.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 133.[0m
+Dec 12 16:17:07 raspberrypi systemd[1]: Finished Raise network interfaces.
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit networking.service has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit networking.service has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 105.[0m
+Dec 12 16:17:07 raspberrypi wpa_supplicant[339]: wlan0: Trying to associate with SSID 'THR-32nx'
+Dec 12 16:17:07 raspberrypi systemd-resolved[507]: Positive Trust Anchors:
+Dec 12 16:17:07 raspberrypi systemd-resolved[507]: . IN DS 20326 8 2 e06d44b80b8f1d39a95c0b0d7c65d08458e880409bbc683457104237c7f8ec8d
+Dec 12 16:17:07 raspberrypi systemd-resolved[507]: Negative trust anchors: 10.in-addr.arpa 16.172.in-addr.arpa 17.172.in-addr.arpa 18.172.in-addr.arpa 19.172.in-addr.arpa 20.172.in-addr.arpa 21.172.in-addr.arpa 22.172.in-addr.arpa 23.172.in-addr.arpa 24.172.in-addr.arpa 25.172.in-addr.arpa 26.172.in-addr.arpa 27.172.in-addr.arpa 28.172.in-addr.arpa 29.172.in-addr.arpa 30.172.in-addr.arpa 31.172.in-addr.arpa 168.192.in-addr.arpa d.f.ip6.arpa corp home internal intranet lan local private test
+Dec 12 16:17:07 raspberrypi systemd-resolved[507]: Using system hostname 'raspberrypi'.
+Dec 12 16:17:07 raspberrypi systemd[1]: Started Network Name Resolution.
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit systemd-resolved.service has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit systemd-resolved.service has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 133.[0m
+Dec 12 16:17:09 raspberrypi systemd[1]: systemd-rfkill.service: Succeeded.
+[0;38;5;245m░░[0m [0;32mSubject: Unit succeeded[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit systemd-rfkill.service has successfully entered the 'dead' state.[0m
+Dec 12 16:17:10 raspberrypi wpa_supplicant[339]: wlan0: Associated with 64:2c:ac:b4:a1:3c
+Dec 12 16:17:10 raspberrypi kernel: IPv6: ADDRCONF(NETDEV_CHANGE): wlan0: link becomes ready
+Dec 12 16:17:10 raspberrypi wpa_supplicant[339]: wlan0: CTRL-EVENT-CONNECTED - Connection to 64:2c:ac:b4:a1:3c completed [id=0 id_str=]
+Dec 12 16:17:10 raspberrypi wpa_supplicant[339]: wlan0: CTRL-EVENT-SUBNET-STATUS-UPDATE status=0
+Dec 12 16:17:10 raspberrypi systemd-networkd[455]: wlan0: Gained carrier
+Dec 12 16:17:10 raspberrypi systemd-networkd[455]: wlan0: Connected WiFi access point: THR-32nx (64:2c:ac:b4:a1:3c)
+Dec 12 16:17:10 raspberrypi wpa_supplicant[339]: wlan0: CTRL-EVENT-REGDOM-CHANGE init=COUNTRY_IE type=COUNTRY alpha2=JP
+Dec 12 16:17:11 raspberrypi systemd-networkd[455]: eth0: Gained carrier
+Dec 12 16:17:11 raspberrypi kernel: bcmgenet fd580000.ethernet eth0: Link is Up - 1Gbps/Full - flow control rx/tx
+Dec 12 16:17:11 raspberrypi kernel: IPv6: ADDRCONF(NETDEV_CHANGE): eth0: link becomes ready
+Dec 12 16:17:11 raspberrypi systemd-networkd[455]: wlan0: Gained IPv6LL
+Dec 12 16:17:12 raspberrypi systemd-networkd[455]: eth0: Gained IPv6LL
+Dec 12 16:17:13 raspberrypi systemd-networkd[455]: wlan0: DHCPv4 address 192.168.1.33/24 via 192.168.1.1
+Dec 12 16:17:14 raspberrypi systemd[1]: Finished Wait for Network to be Configured.
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit systemd-networkd-wait-online.service has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit systemd-networkd-wait-online.service has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 99.[0m
+[0;1;39m-- Boot 27a3b4c98ee14be0958119b045c4c624 --[0m
+Dec 12 16:17:16 raspberrypi monit[828]: [0;1;31m[0;1;39m[0;1;31m'filesystem_srv_dev-disk-by-uuid-A6DA96A3DA966F75' space usage 92.9% matches resource limit [space usage > 85.0%][0m
+Dec 12 16:17:46 raspberrypi monit[828]: [0;1;31m[0;1;39m[0;1;31m'filesystem_srv_dev-disk-by-uuid-A6DA96A3DA966F75' space usage 92.9% matches resource limit [space usage > 85.0%][0m
+Dec 12 16:18:01 raspberrypi CRON[367724]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Dec 12 16:18:01 raspberrypi CRON[367725]: (root) CMD (/usr/sbin/omv-ionice >/dev/null 2>&1)
+Dec 12 16:18:01 raspberrypi CRON[367724]: pam_unix(cron:session): session closed for user root
+Dec 12 16:18:16 raspberrypi monit[828]: [0;1;31m[0;1;39m[0;1;31m'filesystem_srv_dev-disk-by-uuid-A6DA96A3DA966F75' space usage 92.9% matches resource limit [space usage > 85.0%][0m
+Dec 12 16:18:46 raspberrypi monit[828]: [0;1;31m[0;1;39m[0;1;31m'raspberrypi' mem usage of 92.4% matches resource limit [mem usage > 90.0%][0m
+Dec 12 16:18:46 raspberrypi postfix/smtpd[367746]: connect from localhost.localdomain[127.0.0.1]
+Dec 12 16:18:46 raspberrypi postfix/smtpd[367746]: 88146299: client=localhost.localdomain[127.0.0.1]
+Dec 12 16:18:46 raspberrypi postfix/cleanup[367749]: 88146299: message-id=<1702365526.6788a6f4d83537a@raspberrypi>
+Dec 12 16:18:46 raspberrypi postfix/qmgr[1586]: 88146299: from=<nyancotomi@gmail.com>, size=1066, nrcpt=2 (queue active)
+Dec 12 16:18:46 raspberrypi postfix/smtpd[367746]: disconnect from localhost.localdomain[127.0.0.1] ehlo=1 mail=1 rcpt=1 data=1 quit=1 commands=5
+Dec 12 16:18:46 raspberrypi monit[828]: [0;1;31m[0;1;39m[0;1;31m'filesystem_srv_dev-disk-by-uuid-A6DA96A3DA966F75' space usage 92.9% matches resource limit [space usage > 85.0%][0m
+Dec 12 16:18:46 raspberrypi postfix/pipe[367750]: 88146299: to=<openmediavault-notification@localhost.localdomain>, relay=omvnotificationfilter, delay=0.25, delays=0.07/0.05/0/0.13, dsn=2.0.0, status=sent (delivered via omvnotificationfilter service)
+Dec 12 16:18:48 raspberrypi postfix/smtp[367751]: 88146299: replace: header Subject: Monitoring alert -- Resource limit matched raspberr: Subject: [raspberrypi] Monitoring alert -- Resource limit matched raspberrypi
+Dec 12 16:18:48 raspberrypi postfix/smtp[367751]: 88146299: to=<nyancotomi@gmail.com>, relay=smtp.gmail.com[2404:6800:4008:c06::6c]:587, delay=2, delays=0.07/0.13/1.1/0.72, dsn=2.0.0, status=sent (250 2.0.0 OK  1702365528 jm2-20020a17090304c200b001d2ed17751asm7546694plb.261 - gsmtp)
+Dec 12 16:18:48 raspberrypi postfix/qmgr[1586]: 88146299: removed
+Dec 12 16:19:01 raspberrypi CRON[367768]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Dec 12 16:19:01 raspberrypi CRON[367769]: (root) CMD (/usr/sbin/omv-ionice >/dev/null 2>&1)
+Dec 12 16:19:01 raspberrypi CRON[367768]: pam_unix(cron:session): session closed for user root
+Dec 12 16:19:16 raspberrypi monit[828]: [0;1;31m[0;1;39m[0;1;31m'raspberrypi' mem usage of 94.2% matches resource limit [mem usage > 90.0%][0m
+Dec 12 16:19:16 raspberrypi monit[828]: [0;1;31m[0;1;39m[0;1;31m'filesystem_srv_dev-disk-by-uuid-A6DA96A3DA966F75' space usage 92.9% matches resource limit [space usage > 85.0%][0m
+Dec 12 16:19:46 raspberrypi monit[828]: [0;1;31m[0;1;39m[0;1;31m'raspberrypi' mem usage of 94.3% matches resource limit [mem usage > 90.0%][0m
+Dec 12 16:19:46 raspberrypi monit[828]: [0;1;31m[0;1;39m[0;1;31m'filesystem_srv_dev-disk-by-uuid-A6DA96A3DA966F75' space usage 92.9% matches resource limit [space usage > 85.0%][0m
+Dec 12 16:20:01 raspberrypi CRON[367845]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Dec 12 16:20:01 raspberrypi CRON[367846]: pam_unix(cron:session): session opened for user pi(uid=1000) by (uid=0)
+Dec 12 16:20:01 raspberrypi CRON[367847]: (pi) CMD (~/duckdns/duck.sh >/dev/null 2>&1)
+Dec 12 16:20:01 raspberrypi CRON[367848]: (root) CMD (/usr/sbin/omv-ionice >/dev/null 2>&1)
+Dec 12 16:20:01 raspberrypi CRON[367845]: pam_unix(cron:session): session closed for user root
+Dec 12 16:20:10 raspberrypi CRON[367846]: pam_unix(cron:session): session closed for user pi
+Dec 12 16:20:16 raspberrypi monit[828]: [0;1;31m[0;1;39m[0;1;31m'raspberrypi' mem usage of 94.2% matches resource limit [mem usage > 90.0%][0m
+Dec 12 16:20:16 raspberrypi monit[828]: [0;1;31m[0;1;39m[0;1;31m'filesystem_srv_dev-disk-by-uuid-A6DA96A3DA966F75' space usage 92.9% matches resource limit [space usage > 85.0%][0m
+Dec 12 16:20:46 raspberrypi monit[828]: [0;1;31m[0;1;39m[0;1;31m'raspberrypi' mem usage of 94.1% matches resource limit [mem usage > 90.0%][0m
+Dec 12 16:20:46 raspberrypi monit[828]: [0;1;31m[0;1;39m[0;1;31m'filesystem_srv_dev-disk-by-uuid-A6DA96A3DA966F75' space usage 92.9% matches resource limit [space usage > 85.0%][0m
+Dec 12 16:21:01 raspberrypi CRON[367886]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Dec 12 16:21:01 raspberrypi CRON[367887]: (root) CMD (/usr/sbin/omv-ionice >/dev/null 2>&1)
+Dec 12 16:21:01 raspberrypi CRON[367886]: pam_unix(cron:session): session closed for user root
+Dec 12 16:21:16 raspberrypi monit[828]: [0;1;31m[0;1;39m[0;1;31m'raspberrypi' mem usage of 94.1% matches resource limit [mem usage > 90.0%][0m
+Dec 12 16:21:16 raspberrypi monit[828]: [0;1;31m[0;1;39m[0;1;31m'filesystem_srv_dev-disk-by-uuid-A6DA96A3DA966F75' space usage 92.9% matches resource limit [space usage > 85.0%][0m
+Dec 12 16:21:46 raspberrypi monit[828]: [0;1;31m[0;1;39m[0;1;31m'raspberrypi' mem usage of 94.1% matches resource limit [mem usage > 90.0%][0m
+Dec 12 16:21:46 raspberrypi monit[828]: [0;1;31m[0;1;39m[0;1;31m'filesystem_srv_dev-disk-by-uuid-A6DA96A3DA966F75' space usage 92.9% matches resource limit [space usage > 85.0%][0m
+Dec 12 16:22:01 raspberrypi CRON[367908]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Dec 12 16:22:01 raspberrypi CRON[367909]: (root) CMD (/usr/sbin/omv-ionice >/dev/null 2>&1)
+Dec 12 16:22:02 raspberrypi CRON[367908]: pam_unix(cron:session): session closed for user root
+Dec 12 16:22:17 raspberrypi monit[828]: [0;1;31m[0;1;39m[0;1;31m'raspberrypi' mem usage of 94.1% matches resource limit [mem usage > 90.0%][0m
+Dec 12 16:22:17 raspberrypi monit[828]: [0;1;31m[0;1;39m[0;1;31m'filesystem_srv_dev-disk-by-uuid-A6DA96A3DA966F75' space usage 92.9% matches resource limit [space usage > 85.0%][0m
+Dec 12 16:22:47 raspberrypi monit[828]: [0;1;31m[0;1;39m[0;1;31m'raspberrypi' mem usage of 94.1% matches resource limit [mem usage > 90.0%][0m
+Dec 12 16:22:47 raspberrypi monit[828]: [0;1;31m[0;1;39m[0;1;31m'filesystem_srv_dev-disk-by-uuid-A6DA96A3DA966F75' space usage 92.9% matches resource limit [space usage > 85.0%][0m
+Dec 12 16:23:01 raspberrypi CRON[367975]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Dec 12 16:23:01 raspberrypi CRON[367976]: (root) CMD (/usr/sbin/omv-ionice >/dev/null 2>&1)
+Dec 12 16:23:01 raspberrypi CRON[367975]: pam_unix(cron:session): session closed for user root
+Dec 12 16:23:17 raspberrypi monit[828]: [0;1;31m[0;1;39m[0;1;31m'raspberrypi' mem usage of 94.1% matches resource limit [mem usage > 90.0%][0m
+Dec 12 16:23:17 raspberrypi monit[828]: [0;1;31m[0;1;39m[0;1;31m'filesystem_srv_dev-disk-by-uuid-A6DA96A3DA966F75' space usage 92.9% matches resource limit [space usage > 85.0%][0m
+Dec 12 16:23:19 raspberrypi mariadbd[1086]: 2023-12-12 16:23:19 116 [Warning] Aborted connection 116 to db: 'epgstation' user: 'epgstation' host: 'raspberrypi' (Got an error reading communication packets)
+Dec 12 16:23:19 raspberrypi mariadbd[1086]: 2023-12-12 16:23:19 117 [Warning] Aborted connection 117 to db: 'epgstation' user: 'epgstation' host: 'raspberrypi' (Got an error reading communication packets)
+Dec 12 16:23:19 raspberrypi mariadbd[1086]: 2023-12-12 16:23:19 115 [Warning] Aborted connection 115 to db: 'epgstation' user: 'epgstation' host: 'raspberrypi' (Got an error reading communication packets)
+Dec 12 16:23:19 raspberrypi mariadbd[1086]: 2023-12-12 16:23:19 114 [Warning] Aborted connection 114 to db: 'epgstation' user: 'epgstation' host: 'raspberrypi' (Got an error reading communication packets)
+Dec 12 16:23:47 raspberrypi monit[828]: [0;1;31m[0;1;39m[0;1;31m'raspberrypi' mem usage of 96.7% matches resource limit [mem usage > 90.0%][0m
+Dec 12 16:23:52 raspberrypi monit[828]: [0;1;31m[0;1;39m[0;1;31m'filesystem_srv_dev-disk-by-uuid-A6DA96A3DA966F75' space usage 92.9% matches resource limit [space usage > 85.0%][0m
+Dec 12 16:24:01 raspberrypi CRON[368113]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Dec 12 16:24:01 raspberrypi CRON[368114]: (root) CMD (/usr/sbin/omv-ionice >/dev/null 2>&1)
+Dec 12 16:24:02 raspberrypi CRON[368113]: pam_unix(cron:session): session closed for user root
+[0;1;39m-- Boot 1f2f5351443441af833ed467caf07b8f --[0m
+Dec 12 16:25:36 raspberrypi pm2[839]: [PM2] Spawning PM2 daemon with pm2_home=/home/pi/.pm2
+Dec 12 16:25:39 raspberrypi pm2[839]: [PM2] PM2 Successfully daemonized
+Dec 12 16:25:39 raspberrypi pm2[839]: [PM2] Resurrecting
+Dec 12 16:25:39 raspberrypi pm2[839]: [PM2] Restoring processes located in /home/pi/.pm2/dump.pm2
+Dec 12 16:25:39 raspberrypi pm2[839]: [PM2] Process /home/pi/EPGStation/dist/index.js restored
+Dec 12 16:25:40 raspberrypi pm2[839]: ┌────┬───────────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+Dec 12 16:25:40 raspberrypi pm2[839]: │ id │ name          │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+Dec 12 16:25:40 raspberrypi pm2[839]: ├────┼───────────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+Dec 12 16:25:40 raspberrypi pm2[839]: │ 0  │ epgstation    │ default     │ 2.7.3   │ fork    │ 1782     │ 1s     │ 0    │ online    │ 0%       │ 37.6mb   │ pi       │ disabled │
+Dec 12 16:25:40 raspberrypi pm2[839]: └────┴───────────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+Dec 12 16:25:41 raspberrypi python3[834]:  * Serving Flask app 'app'
+Dec 12 16:25:41 raspberrypi python3[834]:  * Debug mode: on
+Dec 12 16:25:42 raspberrypi python3[834]: WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+Dec 12 16:25:42 raspberrypi python3[834]:  * Running on http://192.168.1.83:3700
+Dec 12 16:25:42 raspberrypi python3[834]: Press CTRL+C to quit
+Dec 12 16:25:42 raspberrypi python3[834]:  * Restarting with stat
+Dec 12 16:25:45 raspberrypi python3[2067]:  * Debugger is active!
+Dec 12 16:25:45 raspberrypi python3[2067]:  * Debugger PIN: 181-259-566
+Dec 12 16:25:54 raspberrypi systemd[2703]: Queued start job for default target Main User Target.
+Dec 12 16:25:54 raspberrypi systemd[2703]: Created slice User Application Slice.
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit UNIT has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit UNIT has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 11.[0m
+Dec 12 16:25:54 raspberrypi systemd[2703]: Reached target Paths.
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit UNIT has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit UNIT has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 19.[0m
+Dec 12 16:25:54 raspberrypi systemd[2703]: Reached target Timers.
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit UNIT has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit UNIT has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 20.[0m
+Dec 12 16:25:54 raspberrypi systemd[2703]: Starting D-Bus User Message Bus Socket.
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit UNIT has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit UNIT has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 14.[0m
+Dec 12 16:25:54 raspberrypi systemd[2703]: Listening on GnuPG network certificate management daemon.
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit UNIT has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit UNIT has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 17.[0m
+Dec 12 16:25:54 raspberrypi systemd[2703]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit UNIT has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit UNIT has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 18.[0m
+Dec 12 16:25:54 raspberrypi systemd[2703]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit UNIT has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit UNIT has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 16.[0m
+Dec 12 16:25:54 raspberrypi systemd[2703]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit UNIT has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit UNIT has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 10.[0m
+Dec 12 16:25:54 raspberrypi systemd[2703]: Listening on GnuPG cryptographic agent and passphrase cache.
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit UNIT has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit UNIT has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 15.[0m
+Dec 12 16:25:54 raspberrypi systemd[2703]: Listening on D-Bus User Message Bus Socket.
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit UNIT has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit UNIT has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 14.[0m
+Dec 12 16:25:54 raspberrypi systemd[2703]: Reached target Sockets.
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit UNIT has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit UNIT has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 9.[0m
+Dec 12 16:25:54 raspberrypi systemd[2703]: Reached target Basic System.
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit UNIT has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit UNIT has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 8.[0m
+Dec 12 16:25:54 raspberrypi systemd[2703]: Reached target Main User Target.
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit UNIT has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit UNIT has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 7.[0m
+Dec 12 16:25:54 raspberrypi systemd[2703]: Startup finished in 503ms.
+[0;38;5;245m░░[0m [0;32mSubject: User manager start-up is now complete[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe user manager instance for user 1000 has been started. All services queued[0m
+[0;38;5;245m░░[0m [0;32mfor starting have been started. Note that other services might still be starting[0m
+[0;38;5;245m░░[0m [0;32mup or be started at any later time.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mStartup of the manager took 503857 microseconds.[0m
+Dec 12 16:25:54 raspberrypi sshd[2733]: [0;1;31m[0;1;39m[0;1;31mfatal: ssh_packet_send_debug: Broken pipe[0m
+Dec 12 17:26:28 raspberrypi sshd[3315]: Received disconnect from 172.17.0.3 port 61734:11: disconnected by user
+Dec 12 17:26:28 raspberrypi sshd[3315]: Disconnected from user pi 172.17.0.3 port 61734
+Dec 12 17:26:28 raspberrypi sshd[2773]: Received disconnect from 172.17.0.3 port 62012:11: disconnected by user
+Dec 12 17:26:28 raspberrypi sshd[2773]: Disconnected from user pi 172.17.0.3 port 62012
+Dec 12 17:31:38 raspberrypi systemd[2703]: Stopped target Main User Target.
+[0;38;5;245m░░[0m [0;32mSubject: A stop job for unit UNIT has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit UNIT has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 31 and the job result is done.[0m
+Dec 12 17:31:38 raspberrypi systemd[2703]: Stopped target Basic System.
+[0;38;5;245m░░[0m [0;32mSubject: A stop job for unit UNIT has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit UNIT has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 33 and the job result is done.[0m
+Dec 12 17:31:38 raspberrypi systemd[2703]: Stopped target Paths.
+[0;38;5;245m░░[0m [0;32mSubject: A stop job for unit UNIT has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit UNIT has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 45 and the job result is done.[0m
+Dec 12 17:31:38 raspberrypi systemd[2703]: Stopped target Sockets.
+[0;38;5;245m░░[0m [0;32mSubject: A stop job for unit UNIT has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit UNIT has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 43 and the job result is done.[0m
+Dec 12 17:31:38 raspberrypi systemd[2703]: Stopped target Timers.
+[0;38;5;245m░░[0m [0;32mSubject: A stop job for unit UNIT has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit UNIT has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 35 and the job result is done.[0m
+Dec 12 17:31:38 raspberrypi systemd[2703]: dbus.socket: Succeeded.
+[0;38;5;245m░░[0m [0;32mSubject: Unit succeeded[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit UNIT has successfully entered the 'dead' state.[0m
+Dec 12 17:31:38 raspberrypi systemd[2703]: Closed D-Bus User Message Bus Socket.
+[0;38;5;245m░░[0m [0;32mSubject: A stop job for unit UNIT has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit UNIT has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 42 and the job result is done.[0m
+Dec 12 17:31:38 raspberrypi systemd[2703]: dirmngr.socket: Succeeded.
+[0;38;5;245m░░[0m [0;32mSubject: Unit succeeded[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit UNIT has successfully entered the 'dead' state.[0m
+Dec 12 17:31:38 raspberrypi systemd[2703]: Closed GnuPG network certificate management daemon.
+[0;38;5;245m░░[0m [0;32mSubject: A stop job for unit UNIT has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit UNIT has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 28 and the job result is done.[0m
+Dec 12 17:31:38 raspberrypi systemd[2703]: gpg-agent-browser.socket: Succeeded.
+[0;38;5;245m░░[0m [0;32mSubject: Unit succeeded[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit UNIT has successfully entered the 'dead' state.[0m
+Dec 12 17:31:38 raspberrypi systemd[2703]: Closed GnuPG cryptographic agent and passphrase cache (access for web browsers).
+[0;38;5;245m░░[0m [0;32mSubject: A stop job for unit UNIT has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit UNIT has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 39 and the job result is done.[0m
+Dec 12 17:31:38 raspberrypi systemd[2703]: gpg-agent-extra.socket: Succeeded.
+[0;38;5;245m░░[0m [0;32mSubject: Unit succeeded[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit UNIT has successfully entered the 'dead' state.[0m
+Dec 12 17:31:38 raspberrypi systemd[2703]: Closed GnuPG cryptographic agent and passphrase cache (restricted).
+[0;38;5;245m░░[0m [0;32mSubject: A stop job for unit UNIT has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit UNIT has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 41 and the job result is done.[0m
+Dec 12 17:31:38 raspberrypi systemd[2703]: gpg-agent-ssh.socket: Succeeded.
+[0;38;5;245m░░[0m [0;32mSubject: Unit succeeded[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit UNIT has successfully entered the 'dead' state.[0m
+Dec 12 17:31:38 raspberrypi systemd[2703]: Closed GnuPG cryptographic agent (ssh-agent emulation).
+[0;38;5;245m░░[0m [0;32mSubject: A stop job for unit UNIT has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit UNIT has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 38 and the job result is done.[0m
+Dec 12 17:31:38 raspberrypi systemd[2703]: gpg-agent.socket: Succeeded.
+[0;38;5;245m░░[0m [0;32mSubject: Unit succeeded[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit UNIT has successfully entered the 'dead' state.[0m
+Dec 12 17:31:38 raspberrypi systemd[2703]: Closed GnuPG cryptographic agent and passphrase cache.
+[0;38;5;245m░░[0m [0;32mSubject: A stop job for unit UNIT has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit UNIT has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 40 and the job result is done.[0m
+Dec 12 17:31:38 raspberrypi systemd[2703]: Removed slice User Application Slice.
+[0;38;5;245m░░[0m [0;32mSubject: A stop job for unit UNIT has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit UNIT has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 37 and the job result is done.[0m
+Dec 12 17:31:38 raspberrypi systemd[2703]: Reached target Shutdown.
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit UNIT has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit UNIT has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 27.[0m
+Dec 12 17:31:38 raspberrypi systemd[2703]: systemd-exit.service: Succeeded.
+[0;38;5;245m░░[0m [0;32mSubject: Unit succeeded[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit UNIT has successfully entered the 'dead' state.[0m
+Dec 12 17:31:38 raspberrypi systemd[2703]: Finished Exit the Session.
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit UNIT has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit UNIT has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 25.[0m
+Dec 12 17:31:38 raspberrypi systemd[2703]: Reached target Exit the Session.
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit UNIT has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit UNIT has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 24.[0m
+Dec 12 20:27:30 raspberrypi systemd[225049]: Queued start job for default target Main User Target.
+Dec 12 20:27:30 raspberrypi systemd[225049]: Created slice User Application Slice.
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit UNIT has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit UNIT has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 11.[0m
+Dec 12 20:27:30 raspberrypi systemd[225049]: Reached target Paths.
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit UNIT has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit UNIT has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 19.[0m
+Dec 12 20:27:30 raspberrypi systemd[225049]: Reached target Timers.
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit UNIT has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit UNIT has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 20.[0m
+Dec 12 20:27:30 raspberrypi systemd[225049]: Starting D-Bus User Message Bus Socket.
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit UNIT has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit UNIT has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 10.[0m
+Dec 12 20:27:30 raspberrypi systemd[225049]: Listening on GnuPG network certificate management daemon.
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit UNIT has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit UNIT has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 18.[0m
+Dec 12 20:27:30 raspberrypi systemd[225049]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit UNIT has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit UNIT has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 15.[0m
+Dec 12 20:27:30 raspberrypi systemd[225049]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit UNIT has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit UNIT has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 16.[0m
+Dec 12 20:27:30 raspberrypi systemd[225049]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit UNIT has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit UNIT has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 17.[0m
+Dec 12 20:27:30 raspberrypi systemd[225049]: Listening on GnuPG cryptographic agent and passphrase cache.
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit UNIT has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit UNIT has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 14.[0m
+Dec 12 20:27:30 raspberrypi systemd[225049]: Listening on D-Bus User Message Bus Socket.
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit UNIT has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit UNIT has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 10.[0m
+Dec 12 20:27:30 raspberrypi systemd[225049]: Reached target Sockets.
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit UNIT has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit UNIT has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 9.[0m
+Dec 12 20:27:30 raspberrypi systemd[225049]: Reached target Basic System.
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit UNIT has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit UNIT has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 8.[0m
+Dec 12 20:27:30 raspberrypi systemd[225049]: Reached target Main User Target.
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit UNIT has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit UNIT has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 7.[0m
+Dec 12 20:27:30 raspberrypi systemd[225049]: Startup finished in 394ms.
+[0;38;5;245m░░[0m [0;32mSubject: User manager start-up is now complete[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe user manager instance for user 1000 has been started. All services queued[0m
+[0;38;5;245m░░[0m [0;32mfor starting have been started. Note that other services might still be starting[0m
+[0;38;5;245m░░[0m [0;32mup or be started at any later time.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mStartup of the manager took 394526 microseconds.[0m
+Dec 12 21:35:57 raspberrypi sshd[225273]: Received disconnect from 172.17.0.3 port 64043:11: disconnected by user
+Dec 12 21:35:57 raspberrypi sshd[225273]: Disconnected from user pi 172.17.0.3 port 64043
+Dec 12 21:35:57 raspberrypi sshd[225071]: Received disconnect from 172.17.0.3 port 61635:11: disconnected by user
+Dec 12 21:35:57 raspberrypi sshd[225071]: Disconnected from user pi 172.17.0.3 port 61635
+Dec 12 21:41:07 raspberrypi systemd[225049]: Stopped target Main User Target.
+[0;38;5;245m░░[0m [0;32mSubject: A stop job for unit UNIT has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit UNIT has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 39 and the job result is done.[0m
+Dec 12 21:41:07 raspberrypi systemd[225049]: Stopped target Basic System.
+[0;38;5;245m░░[0m [0;32mSubject: A stop job for unit UNIT has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit UNIT has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 38 and the job result is done.[0m
+Dec 12 21:41:07 raspberrypi systemd[225049]: Stopped target Paths.
+[0;38;5;245m░░[0m [0;32mSubject: A stop job for unit UNIT has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit UNIT has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 43 and the job result is done.[0m
+Dec 12 21:41:07 raspberrypi systemd[225049]: Stopped target Sockets.
+[0;38;5;245m░░[0m [0;32mSubject: A stop job for unit UNIT has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit UNIT has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 42 and the job result is done.[0m
+Dec 12 21:41:07 raspberrypi systemd[225049]: Stopped target Timers.
+[0;38;5;245m░░[0m [0;32mSubject: A stop job for unit UNIT has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit UNIT has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 40 and the job result is done.[0m
+Dec 12 21:41:07 raspberrypi systemd[225049]: dbus.socket: Succeeded.
+[0;38;5;245m░░[0m [0;32mSubject: Unit succeeded[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit UNIT has successfully entered the 'dead' state.[0m
+Dec 12 21:41:07 raspberrypi systemd[225049]: Closed D-Bus User Message Bus Socket.
+[0;38;5;245m░░[0m [0;32mSubject: A stop job for unit UNIT has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit UNIT has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 30 and the job result is done.[0m
+Dec 12 21:41:07 raspberrypi systemd[225049]: dirmngr.socket: Succeeded.
+[0;38;5;245m░░[0m [0;32mSubject: Unit succeeded[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit UNIT has successfully entered the 'dead' state.[0m
+Dec 12 21:41:07 raspberrypi systemd[225049]: Closed GnuPG network certificate management daemon.
+[0;38;5;245m░░[0m [0;32mSubject: A stop job for unit UNIT has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit UNIT has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 36 and the job result is done.[0m
+Dec 12 21:41:07 raspberrypi systemd[225049]: gpg-agent-browser.socket: Succeeded.
+[0;38;5;245m░░[0m [0;32mSubject: Unit succeeded[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit UNIT has successfully entered the 'dead' state.[0m
+Dec 12 21:41:07 raspberrypi systemd[225049]: Closed GnuPG cryptographic agent and passphrase cache (access for web browsers).
+[0;38;5;245m░░[0m [0;32mSubject: A stop job for unit UNIT has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit UNIT has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 31 and the job result is done.[0m
+Dec 12 21:41:07 raspberrypi systemd[225049]: gpg-agent-extra.socket: Succeeded.
+[0;38;5;245m░░[0m [0;32mSubject: Unit succeeded[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit UNIT has successfully entered the 'dead' state.[0m
+Dec 12 21:41:07 raspberrypi systemd[225049]: Closed GnuPG cryptographic agent and passphrase cache (restricted).
+[0;38;5;245m░░[0m [0;32mSubject: A stop job for unit UNIT has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit UNIT has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 33 and the job result is done.[0m
+Dec 12 21:41:07 raspberrypi systemd[225049]: gpg-agent-ssh.socket: Succeeded.
+[0;38;5;245m░░[0m [0;32mSubject: Unit succeeded[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit UNIT has successfully entered the 'dead' state.[0m
+Dec 12 21:41:07 raspberrypi systemd[225049]: Closed GnuPG cryptographic agent (ssh-agent emulation).
+[0;38;5;245m░░[0m [0;32mSubject: A stop job for unit UNIT has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit UNIT has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 34 and the job result is done.[0m
+Dec 12 21:41:07 raspberrypi systemd[225049]: gpg-agent.socket: Succeeded.
+[0;38;5;245m░░[0m [0;32mSubject: Unit succeeded[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit UNIT has successfully entered the 'dead' state.[0m
+Dec 12 21:41:07 raspberrypi systemd[225049]: Closed GnuPG cryptographic agent and passphrase cache.
+[0;38;5;245m░░[0m [0;32mSubject: A stop job for unit UNIT has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit UNIT has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 35 and the job result is done.[0m
+Dec 12 21:41:07 raspberrypi systemd[225049]: Removed slice User Application Slice.
+[0;38;5;245m░░[0m [0;32mSubject: A stop job for unit UNIT has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit UNIT has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 28 and the job result is done.[0m
+Dec 12 21:41:07 raspberrypi systemd[225049]: Reached target Shutdown.
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit UNIT has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit UNIT has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 27.[0m
+Dec 12 21:41:07 raspberrypi systemd[225049]: systemd-exit.service: Succeeded.
+[0;38;5;245m░░[0m [0;32mSubject: Unit succeeded[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit UNIT has successfully entered the 'dead' state.[0m
+Dec 12 21:41:07 raspberrypi systemd[225049]: Finished Exit the Session.
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit UNIT has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit UNIT has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 25.[0m
+Dec 12 21:41:07 raspberrypi systemd[225049]: Reached target Exit the Session.
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit UNIT has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit UNIT has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 24.[0m
+Dec 12 22:45:04 raspberrypi systemd[233049]: Queued start job for default target Main User Target.
+Dec 12 22:45:04 raspberrypi systemd[233049]: Created slice User Application Slice.
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit UNIT has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit UNIT has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 14.[0m
+Dec 12 22:45:04 raspberrypi systemd[233049]: Reached target Paths.
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit UNIT has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit UNIT has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 9.[0m
+Dec 12 22:45:04 raspberrypi systemd[233049]: Reached target Timers.
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit UNIT has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit UNIT has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 11.[0m
+Dec 12 22:45:04 raspberrypi systemd[233049]: Starting D-Bus User Message Bus Socket.
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit UNIT has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit UNIT has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 18.[0m
+Dec 12 22:45:04 raspberrypi systemd[233049]: Listening on GnuPG network certificate management daemon.
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit UNIT has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit UNIT has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 17.[0m
+Dec 12 22:45:04 raspberrypi systemd[233049]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit UNIT has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit UNIT has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 16.[0m
+Dec 12 22:45:04 raspberrypi systemd[233049]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit UNIT has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit UNIT has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 19.[0m
+Dec 12 22:45:04 raspberrypi systemd[233049]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit UNIT has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit UNIT has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 20.[0m
+Dec 12 22:45:04 raspberrypi systemd[233049]: Listening on GnuPG cryptographic agent and passphrase cache.
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit UNIT has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit UNIT has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 13.[0m
+Dec 12 22:45:04 raspberrypi systemd[233049]: Listening on D-Bus User Message Bus Socket.
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit UNIT has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit UNIT has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 18.[0m
+Dec 12 22:45:04 raspberrypi systemd[233049]: Reached target Sockets.
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit UNIT has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit UNIT has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 12.[0m
+Dec 12 22:45:04 raspberrypi systemd[233049]: Reached target Basic System.
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit UNIT has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit UNIT has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 8.[0m
+Dec 12 22:45:04 raspberrypi systemd[233049]: Reached target Main User Target.
+[0;38;5;245m░░[0m [0;32mSubject: A start job for unit UNIT has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit UNIT has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 7.[0m
+Dec 12 22:45:04 raspberrypi systemd[233049]: Startup finished in 467ms.
+[0;38;5;245m░░[0m [0;32mSubject: User manager start-up is now complete[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: https://www.debian.org/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe user manager instance for user 1000 has been started. All services queued[0m
+[0;38;5;245m░░[0m [0;32mfor starting have been started. Note that other services might still be starting[0m
+[0;38;5;245m░░[0m [0;32mup or be started at any later time.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mStartup of the manager took 467045 microseconds.[0m
+Dec 12 22:46:17 raspberrypi sudo[233600]: [0;1;39m[0;1;31m[0;1;39m      pi : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/usr/bin/apt install nginx[0m
+Dec 12 22:46:17 raspberrypi sudo[233600]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Dec 12 22:46:21 raspberrypi sudo[233600]: pam_unix(sudo:session): session closed for user root
+Dec 12 22:47:14 raspberrypi sudo[233657]: [0;1;39m[0;1;31m[0;1;39m      pi : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/usr/sbin/service apache2 stop[0m
+Dec 12 22:47:14 raspberrypi sudo[233657]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Dec 12 22:47:18 raspberrypi sudo[233657]: pam_unix(sudo:session): session closed for user root
+Dec 12 22:47:40 raspberrypi sudo[233713]: [0;1;39m[0;1;31m[0;1;39m      pi : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/usr/bin/systemctl stop apache2[0m
+Dec 12 22:47:40 raspberrypi sudo[233713]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Dec 12 22:47:40 raspberrypi sudo[233713]: pam_unix(sudo:session): session closed for user root
+Dec 12 22:48:15 raspberrypi python3[2067]: 192.168.1.88 - - [12/Dec/2023 22:48:15] "GET / HTTP/1.1" 200 -
+Dec 12 22:48:15 raspberrypi python3[2067]: 192.168.1.88 - - [12/Dec/2023 22:48:15] "GET /static/js/style.css HTTP/1.1" 200 -
+Dec 12 22:48:15 raspberrypi python3[2067]: 192.168.1.88 - - [12/Dec/2023 22:48:15] "GET /static/js/script.js HTTP/1.1" 200 -
+Dec 12 22:48:15 raspberrypi python3[2067]: 192.168.1.88 - - [12/Dec/2023 22:48:15] "GET /favicon.ico HTTP/1.1" 404 -
+Dec 12 22:48:27 raspberrypi sudo[233758]: [0;1;39m[0;1;31m[0;1;39m      pi : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/usr/bin/systemctl disable apache2[0m
+Dec 12 22:48:27 raspberrypi sudo[233758]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Dec 12 22:48:30 raspberrypi sudo[233758]: pam_unix(sudo:session): session closed for user root
+Dec 12 22:48:39 raspberrypi sudo[233865]: [0;1;39m[0;1;31m[0;1;39m      pi : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/usr/bin/nano /etc/nginx/nginx.conf[0m
+Dec 12 22:48:39 raspberrypi sudo[233865]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Dec 12 23:19:13 raspberrypi sudo[235970]: [0;1;39m[0;1;31m[0;1;39m      pi : TTY=pts/4 ; PWD=/home/pi ; USER=root ; COMMAND=/usr/bin/nano /etc/nginx/sites-available/default[0m
+Dec 12 23:19:13 raspberrypi sudo[235970]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Dec 12 23:23:16 raspberrypi sudo[235970]: pam_unix(sudo:session): session closed for user root
+Dec 12 23:23:17 raspberrypi sudo[236477]: [0;1;39m[0;1;31m[0;1;39m      pi : TTY=pts/4 ; PWD=/home/pi ; USER=root ; COMMAND=/usr/sbin/service nginx restart[0m
+Dec 12 23:23:17 raspberrypi sudo[236477]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Dec 12 23:23:17 raspberrypi sudo[236477]: pam_unix(sudo:session): session closed for user root
+Dec 12 23:27:31 raspberrypi sudo[236677]: [0;1;39m[0;1;31m[0;1;39m      pi : TTY=pts/4 ; PWD=/home/pi ; USER=root ; COMMAND=/usr/bin/apt-get update[0m
+Dec 12 23:27:31 raspberrypi sudo[236677]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Dec 12 23:27:56 raspberrypi sudo[236677]: pam_unix(sudo:session): session closed for user root
+Dec 12 23:29:29 raspberrypi sudo[237525]: [0;1;39m[0;1;31m[0;1;39m      pi : TTY=pts/4 ; PWD=/home/pi ; USER=root ; COMMAND=/usr/bin/apt-get install ruby-full[0m
+Dec 12 23:29:29 raspberrypi sudo[237525]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Dec 12 23:30:12 raspberrypi sudo[237525]: pam_unix(sudo:session): session closed for user root
+Dec 12 23:39:10 raspberrypi sudo[243689]: [0;1;39m[0;1;31m[0;1;39m      pi : TTY=pts/4 ; PWD=/home/pi ; USER=root ; COMMAND=/usr/bin/gem install time[0m
+Dec 12 23:39:10 raspberrypi sudo[243689]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Dec 12 23:39:12 raspberrypi sudo[243689]: pam_unix(sudo:session): session closed for user root
+Dec 12 23:39:21 raspberrypi sudo[243823]: [0;1;39m[0;1;31m[0;1;39m      pi : TTY=pts/4 ; PWD=/home/pi ; USER=root ; COMMAND=/usr/bin/gem install nkf[0m
+Dec 12 23:39:21 raspberrypi sudo[243823]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Dec 12 23:39:35 raspberrypi sudo[243823]: pam_unix(sudo:session): session closed for user root
+Dec 12 23:42:40 raspberrypi sudo[245650]: [0;1;39m[0;1;31m[0;1;39m      pi : TTY=pts/4 ; PWD=/home/pi/CmcutScp/RSS ; USER=root ; COMMAND=/usr/bin/nano /etc/nginx/sites-available/default[0m
+Dec 12 23:42:40 raspberrypi sudo[245650]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Dec 12 23:45:55 raspberrypi sudo[245650]: pam_unix(sudo:session): session closed for user root
+Dec 12 23:45:56 raspberrypi sudo[247788]: [0;1;39m[0;1;31m[0;1;39m      pi : TTY=pts/4 ; PWD=/home/pi/CmcutScp/RSS ; USER=root ; COMMAND=/usr/sbin/service nginx restart[0m
+Dec 12 23:45:56 raspberrypi sudo[247788]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Dec 12 23:45:58 raspberrypi sudo[247788]: pam_unix(sudo:session): session closed for user root
+Dec 12 23:58:13 raspberrypi sudo[253772]: [0;1;39m[0;1;31m[0;1;39m      pi : TTY=pts/4 ; PWD=/home/pi/CmcutScp/RSS ; USER=root ; COMMAND=/usr/sbin/service nginx restart[0m
+Dec 12 23:58:13 raspberrypi sudo[253772]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Dec 12 23:58:13 raspberrypi sudo[253772]: pam_unix(sudo:session): session closed for user root
+Dec 13 00:11:28 raspberrypi sudo[260584]: [0;1;39m[0;1;31m[0;1;39m      pi : TTY=pts/4 ; PWD=/home/pi/CmcutScp/RSS ; USER=root ; COMMAND=/usr/bin/nano /etc/nginx/sites-available/default[0m
+Dec 13 00:11:28 raspberrypi sudo[260584]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Dec 13 00:11:46 raspberrypi sudo[260584]: pam_unix(sudo:session): session closed for user root
+Dec 13 00:11:50 raspberrypi sudo[260773]: [0;1;39m[0;1;31m[0;1;39m      pi : TTY=pts/4 ; PWD=/home/pi/CmcutScp/RSS ; USER=root ; COMMAND=/usr/sbin/service nginx restart[0m
+Dec 13 00:11:50 raspberrypi sudo[260773]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Dec 13 00:11:51 raspberrypi sudo[260773]: pam_unix(sudo:session): session closed for user root
+Dec 13 00:12:24 raspberrypi sudo[261085]: [0;1;39m[0;1;31m[0;1;39m      pi : TTY=pts/4 ; PWD=/home/pi/CmcutScp/RSS ; USER=root ; COMMAND=/usr/bin/nano /etc/nginx/sites-available/default[0m
+Dec 13 00:12:24 raspberrypi sudo[261085]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Dec 13 00:12:49 raspberrypi sudo[261085]: pam_unix(sudo:session): session closed for user root
+Dec 13 00:12:51 raspberrypi sudo[261320]: [0;1;39m[0;1;31m[0;1;39m      pi : TTY=pts/4 ; PWD=/home/pi/CmcutScp/RSS ; USER=root ; COMMAND=/usr/sbin/service nginx restart[0m
+Dec 13 00:12:51 raspberrypi sudo[261320]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Dec 13 00:12:51 raspberrypi sudo[261320]: pam_unix(sudo:session): session closed for user root
+Dec 13 00:14:33 raspberrypi sudo[262166]: [0;1;39m[0;1;31m[0;1;39m      pi : TTY=pts/4 ; PWD=/home/pi/CmcutScp/RSS ; USER=root ; COMMAND=/usr/bin/nano /etc/nginx/sites-available/default[0m
+Dec 13 00:14:33 raspberrypi sudo[262166]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Dec 13 00:15:14 raspberrypi sudo[262166]: pam_unix(sudo:session): session closed for user root
+Dec 13 00:15:15 raspberrypi sudo[262707]: [0;1;39m[0;1;31m[0;1;39m      pi : TTY=pts/4 ; PWD=/home/pi/CmcutScp/RSS ; USER=root ; COMMAND=/usr/bin/nano /etc/nginx/nginx.conf[0m
+Dec 13 00:15:15 raspberrypi sudo[262707]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Dec 13 00:16:03 raspberrypi sudo[262707]: pam_unix(sudo:session): session closed for user root
+Dec 13 00:27:33 raspberrypi sudo[269119]: [0;1;39m[0;1;31m[0;1;39m      pi : TTY=pts/4 ; PWD=/home/pi/CmcutScp/RSS ; USER=root ; COMMAND=/usr/bin/nano /etc/nginx/sites-available/default[0m
+Dec 13 00:27:33 raspberrypi sudo[269119]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Dec 13 00:28:22 raspberrypi sudo[269119]: pam_unix(sudo:session): session closed for user root
+Dec 13 00:28:29 raspberrypi sudo[269615]: [0;1;39m[0;1;31m[0;1;39m      pi : TTY=pts/4 ; PWD=/home/pi/CmcutScp/RSS ; USER=root ; COMMAND=/usr/bin/nano /etc/nginx/sites-available/default[0m
+Dec 13 00:28:29 raspberrypi sudo[269615]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Dec 13 00:29:42 raspberrypi sudo[269615]: pam_unix(sudo:session): session closed for user root
+Dec 13 00:29:49 raspberrypi sudo[270389]: [0;1;39m[0;1;31m[0;1;39m      pi : TTY=pts/4 ; PWD=/home/pi/CmcutScp/RSS ; USER=root ; COMMAND=/usr/sbin/service nginx restart[0m
+Dec 13 00:29:49 raspberrypi sudo[270389]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Dec 13 00:29:50 raspberrypi sudo[270389]: pam_unix(sudo:session): session closed for user root
+Dec 13 00:31:33 raspberrypi sudo[271537]: [0;1;39m[0;1;31m[0;1;39m      pi : TTY=pts/4 ; PWD=/home/pi/CmcutScp/RSS ; USER=root ; COMMAND=/usr/sbin/service nginx status[0m
+Dec 13 00:31:33 raspberrypi sudo[271537]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Dec 13 00:31:33 raspberrypi sudo[271537]: pam_unix(sudo:session): session closed for user root
+Dec 13 00:31:42 raspberrypi sudo[271629]: [0;1;39m[0;1;31m[0;1;39m      pi : TTY=pts/4 ; PWD=/home/pi/CmcutScp/RSS ; USER=root ; COMMAND=/usr/sbin/ufw status[0m
+Dec 13 00:31:42 raspberrypi sudo[271629]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Dec 13 00:31:42 raspberrypi sudo[271629]: pam_unix(sudo:session): session closed for user root
+Dec 13 00:33:14 raspberrypi sudo[272438]: [0;1;39m[0;1;31m[0;1;39m      pi : TTY=pts/4 ; PWD=/home/pi/CmcutScp/RSS ; USER=root ; COMMAND=/usr/bin/cat /var/log/nginx/error.log[0m
+Dec 13 00:33:14 raspberrypi sudo[272438]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Dec 13 00:33:14 raspberrypi sudo[272438]: pam_unix(sudo:session): session closed for user root
+Dec 13 00:33:33 raspberrypi sudo[272568]: [0;1;39m[0;1;31m[0;1;39m      pi : TTY=pts/4 ; PWD=/home/pi/CmcutScp/RSS ; USER=root ; COMMAND=/usr/sbin/service nginx restart[0m
+Dec 13 00:33:33 raspberrypi sudo[272568]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Dec 13 00:33:34 raspberrypi sudo[272568]: pam_unix(sudo:session): session closed for user root
+Dec 13 00:33:41 raspberrypi sudo[272675]: [0;1;39m[0;1;31m[0;1;39m      pi : TTY=pts/4 ; PWD=/home/pi/CmcutScp/RSS ; USER=root ; COMMAND=/usr/sbin/service nginx status[0m
+Dec 13 00:33:41 raspberrypi sudo[272675]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Dec 13 00:33:41 raspberrypi sudo[272675]: pam_unix(sudo:session): session closed for user root
+Dec 13 00:33:46 raspberrypi sudo[272716]: [0;1;39m[0;1;31m[0;1;39m      pi : TTY=pts/4 ; PWD=/home/pi/CmcutScp/RSS ; USER=root ; COMMAND=/usr/sbin/nginx -t[0m
+Dec 13 00:33:46 raspberrypi sudo[272716]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Dec 13 00:33:46 raspberrypi sudo[272716]: pam_unix(sudo:session): session closed for user root
+Dec 13 00:34:54 raspberrypi sudo[273346]: [0;1;39m[0;1;31m[0;1;39m      pi : TTY=pts/4 ; PWD=/home/pi/CmcutScp/RSS ; USER=root ; COMMAND=/usr/bin/cat /var/log/nginx/access.log[0m
+Dec 13 00:34:54 raspberrypi sudo[273346]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Dec 13 00:34:54 raspberrypi sudo[273346]: pam_unix(sudo:session): session closed for user root
+Dec 13 00:36:07 raspberrypi sudo[273944]: [0;1;39m[0;1;31m[0;1;39m      pi : TTY=pts/4 ; PWD=/home/pi/CmcutScp/RSS ; USER=root ; COMMAND=/usr/bin/nano /etc/nginx/conf.d/default.conf[0m
+Dec 13 00:36:07 raspberrypi sudo[273944]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Dec 13 00:38:30 raspberrypi sudo[273944]: pam_unix(sudo:session): session closed for user root
+Dec 13 00:38:41 raspberrypi sudo[275311]: [0;1;39m[0;1;31m[0;1;39m      pi : TTY=pts/4 ; PWD=/home/pi/CmcutScp/RSS ; USER=root ; COMMAND=/usr/sbin/service nginx restart[0m
+Dec 13 00:38:41 raspberrypi sudo[275311]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Dec 13 00:38:41 raspberrypi sudo[275311]: pam_unix(sudo:session): session closed for user root
+Dec 13 00:38:50 raspberrypi sudo[275344]: [0;1;39m[0;1;31m[0;1;39m      pi : TTY=pts/4 ; PWD=/home/pi/CmcutScp/RSS ; USER=root ; COMMAND=/usr/sbin/service nginx restart[0m
+Dec 13 00:38:50 raspberrypi sudo[275344]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Dec 13 00:38:50 raspberrypi sudo[275344]: pam_unix(sudo:session): session closed for user root
+Dec 13 00:38:57 raspberrypi sudo[275362]: [0;1;39m[0;1;31m[0;1;39m      pi : TTY=pts/4 ; PWD=/home/pi/CmcutScp/RSS ; USER=root ; COMMAND=/usr/sbin/service nginx start[0m
+Dec 13 00:38:57 raspberrypi sudo[275362]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Dec 13 00:39:01 raspberrypi sudo[275362]: pam_unix(sudo:session): session closed for user root
+Dec 13 00:39:06 raspberrypi sudo[275489]: [0;1;39m[0;1;31m[0;1;39m      pi : TTY=pts/4 ; PWD=/home/pi/CmcutScp/RSS ; USER=root ; COMMAND=/usr/sbin/service nginx stop[0m
+Dec 13 00:39:06 raspberrypi sudo[275489]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Dec 13 00:39:09 raspberrypi sudo[275489]: pam_unix(sudo:session): session closed for user root
+Dec 13 00:39:12 raspberrypi sudo[275542]: [0;1;39m[0;1;31m[0;1;39m      pi : TTY=pts/4 ; PWD=/home/pi/CmcutScp/RSS ; USER=root ; COMMAND=/usr/sbin/service nginx start[0m
+Dec 13 00:39:12 raspberrypi sudo[275542]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Dec 13 00:39:15 raspberrypi sudo[275542]: pam_unix(sudo:session): session closed for user root
+Dec 13 00:40:17 raspberrypi sudo[275660]: [0;1;39m[0;1;31m[0;1;39m      pi : TTY=pts/4 ; PWD=/home/pi/CmcutScp/RSS ; USER=root ; COMMAND=/usr/sbin/nginx -t[0m
+Dec 13 00:40:17 raspberrypi sudo[275660]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Dec 13 00:40:17 raspberrypi sudo[275660]: pam_unix(sudo:session): session closed for user root
+Dec 13 00:40:39 raspberrypi sudo[275700]: [0;1;39m[0;1;31m[0;1;39m      pi : TTY=pts/4 ; PWD=/home/pi/CmcutScp/RSS ; USER=root ; COMMAND=/usr/bin/nano /etc/nginx/conf.d/default.conf[0m
+Dec 13 00:40:39 raspberrypi sudo[275700]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Dec 13 00:42:22 raspberrypi sudo[275700]: pam_unix(sudo:session): session closed for user root
+Dec 13 00:42:46 raspberrypi sudo[275910]: [0;1;39m[0;1;31m[0;1;39m      pi : TTY=pts/4 ; PWD=/home/pi/CmcutScp/RSS ; USER=root ; COMMAND=/usr/bin/nano /etc/nginx/nginx.conf[0m
+Dec 13 00:42:46 raspberrypi sudo[275910]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Dec 13 00:43:16 raspberrypi sudo[275910]: pam_unix(sudo:session): session closed for user root
+Dec 13 00:43:21 raspberrypi sudo[276038]: [0;1;39m[0;1;31m[0;1;39m      pi : TTY=pts/4 ; PWD=/home/pi/CmcutScp/RSS ; USER=root ; COMMAND=/usr/bin/nano /etc/nginx/sites-available/default[0m
+Dec 13 00:43:21 raspberrypi sudo[276038]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Dec 13 00:44:03 raspberrypi sudo[276038]: pam_unix(sudo:session): session closed for user root
+Dec 13 00:44:06 raspberrypi sudo[276152]: [0;1;39m[0;1;31m[0;1;39m      pi : TTY=pts/4 ; PWD=/home/pi/CmcutScp/RSS ; USER=root ; COMMAND=/usr/bin/nano /etc/nginx/conf.d/default.conf[0m
+Dec 13 00:44:06 raspberrypi sudo[276152]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Dec 13 00:44:09 raspberrypi sudo[276152]: pam_unix(sudo:session): session closed for user root
+Dec 13 00:44:16 raspberrypi sudo[276189]: [0;1;39m[0;1;31m[0;1;39m      pi : TTY=pts/4 ; PWD=/home/pi/CmcutScp/RSS ; USER=root ; COMMAND=/usr/sbin/service nginx start[0m
+Dec 13 00:44:16 raspberrypi sudo[276189]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Dec 13 00:44:20 raspberrypi sudo[276189]: pam_unix(sudo:session): session closed for user root
+Dec 13 00:44:37 raspberrypi sudo[276267]: [0;1;39m[0;1;31m[0;1;39m      pi : TTY=pts/4 ; PWD=/home/pi/CmcutScp/RSS ; USER=root ; COMMAND=/usr/sbin/service nginx restart[0m
+Dec 13 00:44:37 raspberrypi sudo[276267]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Dec 13 00:44:37 raspberrypi sudo[276267]: pam_unix(sudo:session): session closed for user root

@@ -1,0 +1,7 @@
+AVSスクリプトファイルを生成完了
+
+channelName:--------
+日テレ1
+----------
+
+chapter_exe -v "/home/pi/CmcutScp/result/金曜ロードショー「スパイダーマン：ノー・ウェイ・ホーム」★地上波初放送🈔🈑🈓-2023 年11月10日21時.ts/join_tsfile.avs" -lwi /home/pi/CmcutScp/result/"金曜ロードショー「スパイダーマン：ノー・ウェイ・ホーム」★地上波初放送🈔🈑🈓-2023 年11月10日21時.ts"/chapter_inscp.lwi -oa /home/pi/CmcutScp/result/"金曜ロードショー「スパイダーマン：ノー・ウェイ・ホーム」★地上波初放送🈔🈑🈓-2023 年11月10日21時.ts"/chapter_inscp.txt

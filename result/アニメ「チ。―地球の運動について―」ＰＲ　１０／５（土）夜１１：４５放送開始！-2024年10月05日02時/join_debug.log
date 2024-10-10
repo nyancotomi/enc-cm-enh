@@ -1,0 +1,34 @@
+--------
+曜日 月  日  年  時:分:秒 
+Wed Oct 09 2024 20:31:13 GMT+0900 (Japan Standard Time)
+----------
+
+AVSスクリプトファイルを生成完了
+
+channelName:
+--------
+NHK総合1・前橋
+----------
+
+chapter_exe -v "/home/pi/CmcutScp/result/アニメ「チ。―地球の運動について―」ＰＲ　１０／５（土）夜１１：４５放送開始！-2024年10月05日02時/join_tsfile.avs" -lwi /home/pi/CmcutScp/result/"アニメ「チ。―地球の運動について―」ＰＲ　１０／５（土）夜１１：４５放送開始！-2024年10月05日02時"/chapter_inscp.lwi -oa /home/pi/CmcutScp/result/"アニメ「チ。―地球の運動について―」ＰＲ　１０／５（土）夜１１：４５放送開始！-2024年10月05日02時"/chapter_inscp.txt
+該当する .lgd ファイル (NHK総合1・前橋.lgd) が見つかりました。
+
+cmd : logoframe "/home/pi/CmcutScp/result/アニメ「チ。―地球の運動について―」ＰＲ　１０／５（土）夜１１：４５放送開始！-2024年10月05日02時/join_tsfile.avs" -logo "/home/pi/CmcutScp/join_logo_scp_trial/logo/NHK総合1・前橋.lgd" -oa "/home/pi/CmcutScp/result/アニメ「チ。―地球の運動について―」ＰＲ　１０／５（土）夜１１：４５放送開始！-2024年10月05日02時/logoframe_inlogo.txt"
+
+cmd : join_logo_scp -inlogo "/home/pi/CmcutScp/result/アニメ「チ。―地球の運動について―」ＰＲ　１０／５（土）夜１１：４５放送開始！-2024年10月05日02時/logoframe_inlogo.txt" -inscp "/home/pi/CmcutScp/result/アニメ「チ。―地球の運動について―」ＰＲ　１０／５（土）夜１１：４５放送開始！-2024年10月05日02時/chapter_inscp.txt" -incmd "/home/pi/CmcutScp/join_logo_scp_trial/JL/JL_標準.txt" -o "/home/pi/CmcutScp/result/アニメ「チ。―地球の運動について―」ＰＲ　１０／５（土）夜１１：４５放送開始！-2024年10月05日02時/join_logo_scp.txt"
+
+ フレーム情報ファイルのパス(joinOutputFile) 
+ /home/pi/CmcutScp/result/アニメ「チ。―地球の運動について―」ＰＲ　１０／５（土）夜１１：４５放送開始！-2024年10月05日02時/join_logo_scp.csv 
+
+ フィルターコンプレックスの初期値を設定(data) 
+ 107,1904
+ 
+
+joinOutputFile()
+: "/home/pi/CmcutScp/result/アニメ「チ。―地球の運動について―」ＰＲ　１０／５（土）夜１１：４５放送開始！-2024年10月05日02時/join_logo_scp.csv"
+
+generateFilterComplex()
+: "[0:v]trim=3.570:63.530,setpts=PTS-STARTPTS[v0];[0:a]atrim=3.570:63.530,asetpts=PTS-STARTPTS[a0];[v0]yadif=0[v0_deinterlaced];[v0_deinterlaced][a0]concat=n=1:v=1:a=1"
+
+/usr/bin/ffmpeg:: -y,-analyzeduration,10M,-probesize,32M,-i,/srv/dev-disk-by-uuid-D454C24354C22856/NAS_4_1/Recorded/2024-3cours/アニメ「チ。―地球の運動について―」ＰＲ　１０／５（土）夜１１：４５放送開始！-2024年10月05日02時.ts,-c:a,aac,-ignore_unknown,-filter_complex,[0:v]trim=3.570:63.530,setpts=PTS-STARTPTS[v0];[0:a]atrim=3.570:63.530,asetpts=PTS-STARTPTS[a0];[v0]yadif=0[v0_deinterlaced];[v0_deinterlaced][a0]concat=n=1:v=1:a=1,-b:v,10M,-c:v,h264_v4l2m2m,-aspect,16:9,-f,mp4,-r,29.97,-crf,20,/srv/dev-disk-by-uuid-D454C24354C22856/NAS_4_1/Recorded/2024-4cours/アニメ「チ。―地球の運動について―」ＰＲ　１０／５（土）夜１１：４５放送開始！-2024年10月05日02時.mp4
+

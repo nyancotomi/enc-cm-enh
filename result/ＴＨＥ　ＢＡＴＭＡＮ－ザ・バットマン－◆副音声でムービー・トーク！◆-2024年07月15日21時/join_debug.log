@@ -1,0 +1,7 @@
+AVSスクリプトファイルを生成完了
+
+channelName:--------
+ムービープラス
+----------
+
+chapter_exe -v "/home/pi/CmcutScp/result/ＴＨＥ　ＢＡＴＭＡＮ－ザ・バットマン－◆副音声でムービー・トーク！◆-2024年07月15日21時/join_tsfile.avs" -lwi /home/pi/CmcutScp/result/"ＴＨＥ　ＢＡＴＭＡＮ－ザ・バットマン－◆副音声でムービー・トーク！◆-2024年07月15日21時"/chapter_inscp.lwi -oa /home/pi/CmcutScp/result/"ＴＨＥ　ＢＡＴＭＡＮ－ザ・バットマン－◆副音声でムービー・トーク！◆-2024年07月15日21時"/chapter_inscp.txt

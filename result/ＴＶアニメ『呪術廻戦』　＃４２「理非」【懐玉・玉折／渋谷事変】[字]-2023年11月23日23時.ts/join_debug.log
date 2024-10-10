@@ -1,0 +1,31 @@
+AVSスクリプトファイルを生成完了
+
+channelName:--------
+TBS1
+----------
+
+chapter_exe -v "/home/pi/CmcutScp/result/ＴＶアニメ『呪術廻戦』　＃４２「理非」【懐玉・玉折／渋谷事変】[字]-2023年11月23日23時.ts/join_tsfile.avs" -lwi /home/pi/CmcutScp/result/"ＴＶアニメ『呪術廻戦』　＃４２「理非」【懐玉・玉折／渋谷事変】[字]-2023年11月23日23時.ts"/chapter_inscp.lwi -oa /home/pi/CmcutScp/result/"ＴＶアニメ『呪術廻戦』　＃４２「理非」【懐玉・玉折／渋谷事変】[字]-2023年11月23日23時.ts"/chapter_inscp.txt
+該当する .lgd ファイル (TBS1.lgd) が見つかりました。
+
+cmd : logoframe "/home/pi/CmcutScp/result/ＴＶアニメ『呪術廻戦』　＃４２「理非」【懐玉・玉折／渋谷事変】[字]-2023年11月23日23時.ts/join_tsfile.avs" -logo "/home/pi/CmcutScp/join_logo_scp_trial/logo/TBS1.lgd" -oa "/home/pi/CmcutScp/result/ＴＶアニメ『呪術廻戦』　＃４２「理非」【懐玉・玉折／渋谷事変】[字]-2023年11月23日23時.ts/logoframe_inlogo.txt"
+
+cmd : join_logo_scp -inlogo "/home/pi/CmcutScp/result/ＴＶアニメ『呪術廻戦』　＃４２「理非」【懐玉・玉折／渋谷事変】[字]-2023年11月23日23時.ts/logoframe_inlogo.txt.txt" -inscp "/home/pi/CmcutScp/result/ＴＶアニメ『呪術廻戦』　＃４２「理非」【懐玉・玉折／渋谷事変】[字]-2023年11月23日23時.ts/chapter_inscp.txt" -incmd "/home/pi/CmcutScp/join_logo_scp_trial/JL/JL_標準.txt" -o "/home/pi/CmcutScp/result/ＴＶアニメ『呪術廻戦』　＃４２「理非」【懐玉・玉折／渋谷事変】[字]-2023年11月23日23時.ts/join_logo_scp.txt"
+
+joinOutputFile()
+: "/home/pi/CmcutScp/result/ＴＶアニメ『呪術廻戦』　＃４２「理非」【懐玉・玉折／渋谷事変】[字]-2023年11月23日23時.ts/join_logo_scp.csv"
+
+ フレーム情報ファイルのパス(joinOutputFile) 
+ /home/pi/CmcutScp/result/ＴＶアニメ『呪術廻戦』　＃４２「理非」【懐玉・玉折／渋谷事変】[字]-2023年11月23日23時.ts/join_logo_scp.csv 
+
+ フィルターコンプレックスの初期値を設定(data) 
+ 116,28791
+32394,45813
+48518,48998
+49413,50458
+ 
+
+generateFilterComplex()
+: "[0:v]trim=3.871:960.661,setpts=PTS-STARTPTS[v0];[0:a]atrim=3.871:960.661,asetpts=PTS-STARTPTS[a0];[v0]yadif=0[v0_deinterlaced];[0:v]trim=1080.881:1528.629,setpts=PTS-STARTPTS[v1];[0:a]atrim=1080.881:1528.629,asetpts=PTS-STARTPTS[a1];[v1]yadif=0[v1_deinterlaced];[0:v]trim=1618.886:1634.902,setpts=PTS-STARTPTS[v2];[0:a]atrim=1618.886:1634.902,asetpts=PTS-STARTPTS[a2];[v2]yadif=0[v2_deinterlaced];[0:v]trim=1648.749:1683.617,setpts=PTS-STARTPTS[v3];[0:a]atrim=1648.749:1683.617,asetpts=PTS-STARTPTS[a3];[v3]yadif=0[v3_deinterlaced];[v0_deinterlaced][a0][v1_deinterlaced][a1][v2_deinterlaced][a2][v3_deinterlaced][a3]concat=n=4:v=1:a=1"
+
+/usr/bin/ffmpeg:: -y,-analyzeduration,10M,-probesize,32M,-i,/srv/dev-disk-by-uuid-A6DA96A3DA966F75/NAS/Recorded/ＴＶアニメ『呪術廻戦』　＃４２「理非」【懐玉・玉折／渋谷事変】[字]-2023年11月23日23時.ts,-c:a,aac,-ignore_unknown,-filter_complex,[0:v]trim=3.871:960.661,setpts=PTS-STARTPTS[v0];[0:a]atrim=3.871:960.661,asetpts=PTS-STARTPTS[a0];[v0]yadif=0[v0_deinterlaced];[0:v]trim=1080.881:1528.629,setpts=PTS-STARTPTS[v1];[0:a]atrim=1080.881:1528.629,asetpts=PTS-STARTPTS[a1];[v1]yadif=0[v1_deinterlaced];[0:v]trim=1618.886:1634.902,setpts=PTS-STARTPTS[v2];[0:a]atrim=1618.886:1634.902,asetpts=PTS-STARTPTS[a2];[v2]yadif=0[v2_deinterlaced];[0:v]trim=1648.749:1683.617,setpts=PTS-STARTPTS[v3];[0:a]atrim=1648.749:1683.617,asetpts=PTS-STARTPTS[a3];[v3]yadif=0[v3_deinterlaced];[v0_deinterlaced][a0][v1_deinterlaced][a1][v2_deinterlaced][a2][v3_deinterlaced][a3]concat=n=4:v=1:a=1,-b:v,10M,-c:v,h264_v4l2m2m,-aspect,16:9,-f,mp4,-r,29.97,-crf,20,/srv/dev-disk-by-uuid-A6DA96A3DA966F75/NAS/Recorded/TV_Program/呪術廻戦/懐玉・玉折／渋谷事変/ＴＶアニメ『呪術廻戦』　＃４２「理非」【懐玉・玉折／渋谷事変】[字]-2023年11月23日23時.mp4
+

@@ -1,0 +1,7 @@
+subtitle_file:/srv/dev-disk-by-uuid-A6DA96A3DA966F75/NAS/Recorded/subtitle/[映]ＭＥＧ　ザ・モンスター（吹替版）[SS][字]-2024年06月08日17時.jpn.srt, 
+ ts_file_name:[映]ＭＥＧ　ザ・モンスター（吹替版）[SS][字]-2024年06月08日17時.ts, 
+ ts_file_input:/srv/dev-disk-by-uuid-D454C24354C22856/NAS_4_1/Recorded/2024-1cours/[映]ＭＥＧ　ザ・モンスター（吹替版）[SS][字]-2024年06月08日17時.ts, 
+file_inpu:[映]ＭＥＧ　ザ・モンスター（吹替版）[SS][字]-2024年06月08日17時, 
+output_file:/srv/dev-disk-by-uuid-A6DA96A3DA966F75/NAS/Recorded/Movie/[映]ＭＥＧ　ザ・モンスター（吹替版）[SS][字]-2024年06月08日17時_cmcut.jpn.srt, 
+ input_file:/home/pi/CmcutScp/result/[映]ＭＥＧ　ザ・モンスター（吹替版）[SS][字]-2024年06月08日17時/join_logo_scp.csv, 
+/home/pi/CmcutScp/result/[映]ＭＥＧ　ザ・モンスター（吹替版）[SS][字]-2024年06月08日17時/cm_subtitle_jls.csv 

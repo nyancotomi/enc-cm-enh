@@ -1,0 +1,32 @@
+AVSスクリプトファイルを生成完了
+
+channelName:--------
+日テレ1
+----------
+
+chapter_exe -v "/home/pi/CmcutScp/result/金曜ロードショー「名探偵コナン　ハロウィンの花嫁」★初放送★[解][字][デ]2023年04月07日21時.ts/join_tsfile.avs" -lwi /home/pi/CmcutScp/result/"金曜ロードショー「名探偵コナン　ハロウィンの花嫁」★初放送★[解][字][デ]2023年04月07日21時.ts"/chapter_inscp.lwi -oa /home/pi/CmcutScp/result/"金曜ロードショー「名探偵コナン　ハロウィンの花嫁」★初放送★[解][字][デ]2023年04月07日21時.ts"/chapter_inscp.txt
+該当する .lgd ファイル (日テレ1.lgd) が見つかりました。
+
+cmd : logoframe "/home/pi/CmcutScp/result/金曜ロードショー「名探偵コナン　ハロウィンの花嫁」★初放送★[解][字][デ]2023年04月07日21時.ts/join_tsfile.avs" -logo "/home/pi/CmcutScp/join_logo_scp_trial/logo/日テレ1.lgd" -oa "/home/pi/CmcutScp/result/金曜ロードショー「名探偵コナン　ハロウィンの花嫁」★初放送★[解][字][デ]2023年04月07日21時.ts/logoframe_inlogo.txt"
+
+cmd : join_logo_scp -inlogo "/home/pi/CmcutScp/result/金曜ロードショー「名探偵コナン　ハロウィンの花嫁」★初放送★[解][字][デ]2023年04月07日21時.ts/logoframe_inlogo.txt.txt" -inscp "/home/pi/CmcutScp/result/金曜ロードショー「名探偵コナン　ハロウィンの花嫁」★初放送★[解][字][デ]2023年04月07日21時.ts/chapter_inscp.txt" -incmd "/home/pi/CmcutScp/join_logo_scp_trial/JL/JL_標準.txt" -o "/home/pi/CmcutScp/result/金曜ロードショー「名探偵コナン　ハロウィンの花嫁」★初放送★[解][字][デ]2023年04月07日21時.ts/join_logo_scp.txt"
+
+joinOutputFile()
+: "/home/pi/CmcutScp/result/金曜ロードショー「名探偵コナン　ハロウィンの花嫁」★初放送★[解][字][デ]2023年04月07日21時.ts/join_logo_scp.csv"
+
+ フレーム情報ファイルのパス(joinOutputFile) 
+ /home/pi/CmcutScp/result/金曜ロードショー「名探偵コナン　ハロウィンの花嫁」★初放送★[解][字][デ]2023年04月07日21時.ts/join_logo_scp.csv 
+
+ フィルターコンプレックスの初期値を設定(data) 
+ 160,21617
+26114,39839
+43437,43885
+46134,55873
+62168,125561
+ 
+
+generateFilterComplex()
+: "[0:v]trim=5.339:721.288,setpts=PTS-STARTPTS[v0];[0:a]atrim=5.339:721.288,asetpts=PTS-STARTPTS[a0];[v0]yadif=0[v0_deinterlaced];[0:v]trim=871.338:1329.296,setpts=PTS-STARTPTS[v1];[0:a]atrim=871.338:1329.296,asetpts=PTS-STARTPTS[a1];[v1]yadif=0[v1_deinterlaced];[0:v]trim=1449.349:1464.298,setpts=PTS-STARTPTS[v2];[0:a]atrim=1449.349:1464.298,asetpts=PTS-STARTPTS[a2];[v2]yadif=0[v2_deinterlaced];[0:v]trim=1539.339:1864.298,setpts=PTS-STARTPTS[v3];[0:a]atrim=1539.339:1864.298,asetpts=PTS-STARTPTS[a3];[v3]yadif=0[v3_deinterlaced];[0:v]trim=2074.341:4189.556,setpts=PTS-STARTPTS[v4];[0:a]atrim=2074.341:4189.556,asetpts=PTS-STARTPTS[a4];[v4]yadif=0[v4_deinterlaced];[v0_deinterlaced][a0][v1_deinterlaced][a1][v2_deinterlaced][a2][v3_deinterlaced][a3][v4_deinterlaced][a4]concat=n=5:v=1:a=1"
+
+/usr/bin/ffmpeg:: -y,-analyzeduration,10M,-probesize,32M,-i,/srv/dev-disk-by-uuid-A6DA96A3DA966F75/NAS/Recorded/2023年春番組M2TS/移行済/金曜ロードショー「名探偵コナン　ハロウィンの花嫁」★初放送★[解][字][デ]2023年04月07日21時.ts,-c:a,aac,-filter_complex,[0:v]trim=5.339:721.288,setpts=PTS-STARTPTS[v0];[0:a]atrim=5.339:721.288,asetpts=PTS-STARTPTS[a0];[v0]yadif=0[v0_deinterlaced];[0:v]trim=871.338:1329.296,setpts=PTS-STARTPTS[v1];[0:a]atrim=871.338:1329.296,asetpts=PTS-STARTPTS[a1];[v1]yadif=0[v1_deinterlaced];[0:v]trim=1449.349:1464.298,setpts=PTS-STARTPTS[v2];[0:a]atrim=1449.349:1464.298,asetpts=PTS-STARTPTS[a2];[v2]yadif=0[v2_deinterlaced];[0:v]trim=1539.339:1864.298,setpts=PTS-STARTPTS[v3];[0:a]atrim=1539.339:1864.298,asetpts=PTS-STARTPTS[a3];[v3]yadif=0[v3_deinterlaced];[0:v]trim=2074.341:4189.556,setpts=PTS-STARTPTS[v4];[0:a]atrim=2074.341:4189.556,asetpts=PTS-STARTPTS[a4];[v4]yadif=0[v4_deinterlaced];[v0_deinterlaced][a0][v1_deinterlaced][a1][v2_deinterlaced][a2][v3_deinterlaced][a3][v4_deinterlaced][a4]concat=n=5:v=1:a=1,-b:v,10M,-c:v,h264_v4l2m2m,-aspect,16:9,-f,mp4,-r,29.97,-crf,20,/srv/dev-disk-by-uuid-A6DA96A3DA966F75/NAS/Recorded/Movie/金曜ロードショー「名探偵コナン　ハロウィンの花嫁」★初放送★[解][字][デ]2023年04月07日21時.mp4
+

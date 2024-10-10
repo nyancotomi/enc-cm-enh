@@ -1,0 +1,7 @@
+AVSスクリプトファイルを生成完了
+
+channelName:--------
+BS日テレ
+----------
+
+chapter_exe -v "/home/pi/CmcutScp/result/アニメ　ようこそ実力至上主義の教室へ　　３ｒｄ　Ｓｅａｓｏｎ[終]　第１３話-2024年03月28日00時.ts/join_tsfile.avs" -lwi /home/pi/CmcutScp/result/"アニメ　ようこそ実力至上主義の教室へ　　３ｒｄ　Ｓｅａｓｏｎ[終]　第１３話-2024年03月28日00時.ts"/chapter_inscp.lwi -oa /home/pi/CmcutScp/result/"アニメ　ようこそ実力至上主義の教室へ　　３ｒｄ　Ｓｅａｓｏｎ[終]　第１３話-2024年03月28日00時.ts"/chapter_inscp.txt

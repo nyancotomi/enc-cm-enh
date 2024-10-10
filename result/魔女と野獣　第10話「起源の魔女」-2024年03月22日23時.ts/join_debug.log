@@ -1,0 +1,16 @@
+AVSスクリプトファイルを生成完了
+
+channelName:--------
+BS11イレブン
+----------
+
+chapter_exe -v "/home/pi/CmcutScp/result/魔女と野獣　第10話「起源の魔女」-2024年03月22日23時.ts/join_tsfile.avs" -lwi /home/pi/CmcutScp/result/"魔女と野獣　第10話「起源の魔女」-2024年03月22日23時.ts"/chapter_inscp.lwi -oa /home/pi/CmcutScp/result/"魔女と野獣　第10話「起源の魔女」-2024年03月22日23時.ts"/chapter_inscp.txt
+該当する .lgd ファイルが見つかりません
+
+joinOutputFile()
+: "/home/pi/CmcutScp/result/魔女と野獣　第10話「起源の魔女」-2024年03月22日23時.ts/join_logo_scp.csv"
+
+ フレーム情報ファイルのパス(joinOutputFile) 
+ /home/pi/CmcutScp/result/魔女と野獣　第10話「起源の魔女」-2024年03月22日23時.ts/join_logo_scp.csv 
+
+Error: ENOENT: no such file or directory, open '/home/pi/CmcutScp/result/魔女と野獣　第10話「起源の魔女」-2024年03月22日23時.ts/join_logo_scp.csv'

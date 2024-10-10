@@ -1,0 +1,185 @@
+/*/home/pi/CmcutScp/mysql_web/static/js/style.css*/
+/* Reset CSS for default styles */
+body,
+div,
+h1,
+h2,
+h3,
+h4,
+p,
+form,
+label,
+input,
+select,
+textarea,
+button {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* ダークテーマのスタイルを追加 */
+body {
+    background-color: #363636;
+    color: #ffffff;
+}
+
+header {
+    background-color: #612f2f;
+}
+
+.main-content {
+    background-color: #444;
+}
+
+.button {
+    background-color: #4CAF50; /* ボタンの緑色 */
+    color: white;
+    font-size: 18px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #45a049; /* ホバー時の濃い緑色 */
+}
+
+/* 選択ボックスのスタイルを追加 */
+select {
+    background-color: #212121;
+    color: #fff; /* 選択された項目のテキストカラー */
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #313030;
+    border-radius: 10px;
+}
+
+/* ダークテーマの場合の選択ボックススタイル */
+select option {
+    background-color: #333;
+    color: #1c1616;
+}
+
+/* 入力ボックスのスタイルを調整 */
+input[type="text"],
+input[type="number"] {
+    box-sizing: border-box; /* 幅や高さにボーダーやパディングも含むようにボックスモデルを設定 */
+    width: calc(100% - 20px); /* ページの幅に合わせて調整 */
+    padding: 15px;
+    margin: 10px 0;
+    border: 2px solid #3f3636;
+    border-radius: 10px;
+    background-color: #090909;
+    color: #fff; /* 入力されたテキストのカラー */
+}
+
+/* ダークテーマの場合の入力ボックススタイル */
+input[type="text"]:focus,
+input[type="number"]:focus {
+    outline: none; /* フォーカス時の枠線を削除 */
+    border-color: #4CAF50; /* フォーカス時のボーダーカラー */
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.8); /* フォーカス時の影 */
+}
+
+/* Date and Time ラベルと input 要素のスタイルを調整 */
+label[for="date"] {
+    display: block; /* ラベルをブロック要素に変更して、次の要素（input）と独立させる */
+    margin-bottom: 5px; /* マージンを追加して適切な間隔を保つ */
+}
+
+input[type="datetime-local"] {
+    width: calc(20% - 20px); /* ページの幅に合わせて調整 */
+    padding: 15px;
+    margin: 10px 0;
+    border: 2px solid #3f3636;
+    border-radius: 10px;
+    background-color: #090909;
+    color: #fff; /* 入力されたテキストのカラー */
+}
+
+/* ダークテーマの場合の input 要素スタイル */
+input[type="datetime-local"]:focus {
+    outline: none; /* フォーカス時の枠線を削除 */
+    border-color: #4CAF50; /* フォーカス時のボーダーカラー */
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.8); /* フォーカス時の影 */
+}
+
+/* Details のスタイル */
+label[for="details"] {
+    display: block;
+    margin-bottom: 5px;
+}
+
+textarea#details {
+    width: calc(100% - 20px);
+    padding: 15px;
+    margin: 10px 0;
+    border: 2px solid #3f3636;
+    border-radius: 10px;
+    background-color: #090909;
+    color: #fff; /* 入力されたテキストのカラー */
+}
+
+/* ページ全体の余白を追加 */
+body {
+    margin: 20px;
+}
+
+/* Add Data ボタンのスタイル */
+.button {
+    padding: 15px 30px;
+    background-color: #007bff;
+    color: #fffdfd;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 20px;
+}
+
+/* Date and Time ラベルと input 要素のスタイルを調整 */
+label[for="date"] {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* 入力ボックスのスタイルを調整 */
+input[type="text"],
+input[type="number"] {
+    box-sizing: border-box;
+    width: calc(100% - 20px);
+    padding: 15px;
+    margin: 10px 0;
+    border: 2px solid #3f3636;
+    border-radius: 10px;
+    background-color: #090909;
+    color: #fff; /* 入力されたテキストのカラー */
+}
+
+/* ダークテーマの場合の入力ボックススタイル */
+input[type="text"]:focus,
+input[type="number"]:focus {
+    outline: none;
+    border-color: #4CAF50;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.8);
+}
+
+/* 選択ボックスのスタイルを追加 */
+select {
+    background-color: #212121;
+    color: #fff; /* 選択された項目のテキストカラー */
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #313030;
+    border-radius: 10px;
+}
+
+/* ダークテーマの場合の選択ボックススタイル */
+select option {
+    background-color: #333;
+    color: #fff; /* 修正: 選択肢のテキストカラーを白に変更 */
+}
+
+

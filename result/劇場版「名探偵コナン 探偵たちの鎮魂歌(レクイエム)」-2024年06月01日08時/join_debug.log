@@ -1,0 +1,16 @@
+AVSスクリプトファイルを生成完了
+
+channelName:--------
+日テレプラス
+----------
+
+chapter_exe -v "/home/pi/CmcutScp/result/劇場版「名探偵コナン 探偵たちの鎮魂歌(レクイエム)」-2024年06月01日08時/join_tsfile.avs" -lwi /home/pi/CmcutScp/result/"劇場版「名探偵コナン 探偵たちの鎮魂歌(レクイエム)」-2024年06月01日08時"/chapter_inscp.lwi -oa /home/pi/CmcutScp/result/"劇場版「名探偵コナン 探偵たちの鎮魂歌(レクイエム)」-2024年06月01日08時"/chapter_inscp.txt
+該当する .lgd ファイルが見つかりません
+
+joinOutputFile()
+: "/home/pi/CmcutScp/result/劇場版「名探偵コナン 探偵たちの鎮魂歌(レクイエム)」-2024年06月01日08時/join_logo_scp.csv"
+
+ フレーム情報ファイルのパス(joinOutputFile) 
+ /home/pi/CmcutScp/result/劇場版「名探偵コナン 探偵たちの鎮魂歌(レクイエム)」-2024年06月01日08時/join_logo_scp.csv 
+
+Error: ENOENT: no such file or directory, open '/home/pi/CmcutScp/result/劇場版「名探偵コナン 探偵たちの鎮魂歌(レクイエム)」-2024年06月01日08時/join_logo_scp.csv'

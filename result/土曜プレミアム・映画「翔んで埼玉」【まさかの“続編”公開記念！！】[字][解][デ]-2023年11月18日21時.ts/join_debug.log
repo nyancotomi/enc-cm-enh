@@ -1,0 +1,40 @@
+AVSスクリプトファイルを生成完了
+
+channelName:--------
+フジテレビ
+----------
+
+chapter_exe -v "/home/pi/CmcutScp/result/土曜プレミアム・映画「翔んで埼玉」【まさかの“続編”公開記念！！】[字][解][デ]-2023年11月18日21時.ts/join_tsfile.avs" -lwi /home/pi/CmcutScp/result/"土曜プレミアム・映画「翔んで埼玉」【まさかの“続編”公開記念！！】[字][解][デ]-2023年11月18日21時.ts"/chapter_inscp.lwi -oa /home/pi/CmcutScp/result/"土曜プレミアム・映画「翔んで埼玉」【まさかの“続編”公開記念！！】[字][解][デ]-2023年11月18日21時.ts"/chapter_inscp.txt
+該当する .lgd ファイル (フジテレビ.lgd) が見つかりました。
+
+cmd : logoframe "/home/pi/CmcutScp/result/土曜プレミアム・映画「翔んで埼玉」【まさかの“続編”公開記念！！】[字][解][デ]-2023年11月18日21時.ts/join_tsfile.avs" -logo "/home/pi/CmcutScp/join_logo_scp_trial/logo/フジテレビ.lgd" -oa "/home/pi/CmcutScp/result/土曜プレミアム・映画「翔んで埼玉」【まさかの“続編”公開記念！！】[字][解][デ]-2023年11月18日21時.ts/logoframe_inlogo.txt"
+
+cmd : join_logo_scp -inlogo "/home/pi/CmcutScp/result/土曜プレミアム・映画「翔んで埼玉」【まさかの“続編”公開記念！！】[字][解][デ]-2023年11月18日21時.ts/logoframe_inlogo.txt.txt" -inscp "/home/pi/CmcutScp/result/土曜プレミアム・映画「翔んで埼玉」【まさかの“続編”公開記念！！】[字][解][デ]-2023年11月18日21時.ts/chapter_inscp.txt" -incmd "/home/pi/CmcutScp/join_logo_scp_trial/JL/JL_標準.txt" -o "/home/pi/CmcutScp/result/土曜プレミアム・映画「翔んで埼玉」【まさかの“続編”公開記念！！】[字][解][デ]-2023年11月18日21時.ts/join_logo_scp.txt"
+
+joinOutputFile()
+: "/home/pi/CmcutScp/result/土曜プレミアム・映画「翔んで埼玉」【まさかの“続編”公開記念！！】[字][解][デ]-2023年11月18日21時.ts/join_logo_scp.csv"
+
+ フレーム情報ファイルのパス(joinOutputFile) 
+ /home/pi/CmcutScp/result/土曜プレミアム・映画「翔んで埼玉」【まさかの“続編”公開記念！！】[字][解][デ]-2023年11月18日21時.ts/join_logo_scp.csv 
+
+ フィルターコンプレックスの初期値を設定(data) 
+ 117,29606
+33204,48936
+51635,69286
+72884,85979
+87779,88228
+91825,120115
+125511,138367
+144213,157458
+161056,169296
+171995,182453
+186051,218897
+220696,221145
+225192,241074
+ 
+
+generateFilterComplex()
+: "[0:v]trim=3.904:987.855,setpts=PTS-STARTPTS[v0];[0:a]atrim=3.904:987.855,asetpts=PTS-STARTPTS[a0];[v0]yadif=0[v0_deinterlaced];[0:v]trim=1107.908:1632.833,setpts=PTS-STARTPTS[v1];[0:a]atrim=1107.908:1632.833,asetpts=PTS-STARTPTS[a1];[v1]yadif=0[v1_deinterlaced];[0:v]trim=1722.890:2311.845,setpts=PTS-STARTPTS[v2];[0:a]atrim=1722.890:2311.845,asetpts=PTS-STARTPTS[a2];[v2]yadif=0[v2_deinterlaced];[0:v]trim=2431.899:2868.836,setpts=PTS-STARTPTS[v3];[0:a]atrim=2431.899:2868.836,asetpts=PTS-STARTPTS[a3];[v3]yadif=0[v3_deinterlaced];[0:v]trim=2928.896:2943.877,setpts=PTS-STARTPTS[v4];[0:a]atrim=2928.896:2943.877,asetpts=PTS-STARTPTS[a4];[v4]yadif=0[v4_deinterlaced];[0:v]trim=3063.897:4007.841,setpts=PTS-STARTPTS[v5];[0:a]atrim=3063.897:4007.841,asetpts=PTS-STARTPTS[a5];[v5]yadif=0[v5_deinterlaced];[0:v]trim=4187.888:4616.850,setpts=PTS-STARTPTS[v6];[0:a]atrim=4187.888:4616.850,asetpts=PTS-STARTPTS[a6];[v6]yadif=0[v6_deinterlaced];[0:v]trim=4811.912:5253.854,setpts=PTS-STARTPTS[v7];[0:a]atrim=4811.912:5253.854,asetpts=PTS-STARTPTS[a7];[v7]yadif=0[v7_deinterlaced];[0:v]trim=5373.907:5648.849,setpts=PTS-STARTPTS[v8];[0:a]atrim=5373.907:5648.849,asetpts=PTS-STARTPTS[a8];[v8]yadif=0[v8_deinterlaced];[0:v]trim=5738.906:6087.855,setpts=PTS-STARTPTS[v9];[0:a]atrim=5738.906:6087.855,asetpts=PTS-STARTPTS[a9];[v9]yadif=0[v9_deinterlaced];[0:v]trim=6207.908:7303.871,setpts=PTS-STARTPTS[v10];[0:a]atrim=6207.908:7303.871,asetpts=PTS-STARTPTS[a10];[v10]yadif=0[v10_deinterlaced];[0:v]trim=7363.897:7378.879,setpts=PTS-STARTPTS[v11];[0:a]atrim=7363.897:7378.879,asetpts=PTS-STARTPTS[a11];[v11]yadif=0[v11_deinterlaced];[0:v]trim=7513.914:8043.844,setpts=PTS-STARTPTS[v12];[0:a]atrim=7513.914:8043.844,asetpts=PTS-STARTPTS[a12];[v12]yadif=0[v12_deinterlaced];[v0_deinterlaced][a0][v1_deinterlaced][a1][v2_deinterlaced][a2][v3_deinterlaced][a3][v4_deinterlaced][a4][v5_deinterlaced][a5][v6_deinterlaced][a6][v7_deinterlaced][a7][v8_deinterlaced][a8][v9_deinterlaced][a9][v10_deinterlaced][a10][v11_deinterlaced][a11][v12_deinterlaced][a12]concat=n=13:v=1:a=1"
+
+/usr/bin/ffmpeg:: -y,-analyzeduration,10M,-probesize,32M,-i,/srv/dev-disk-by-uuid-A6DA96A3DA966F75/NAS/Recorded/土曜プレミアム・映画「翔んで埼玉」【まさかの“続編”公開記念！！】[字][解][デ]-2023年11月18日21時.ts,-c:a,aac,-ignore_unknown,-filter_complex,[0:v]trim=3.904:987.855,setpts=PTS-STARTPTS[v0];[0:a]atrim=3.904:987.855,asetpts=PTS-STARTPTS[a0];[v0]yadif=0[v0_deinterlaced];[0:v]trim=1107.908:1632.833,setpts=PTS-STARTPTS[v1];[0:a]atrim=1107.908:1632.833,asetpts=PTS-STARTPTS[a1];[v1]yadif=0[v1_deinterlaced];[0:v]trim=1722.890:2311.845,setpts=PTS-STARTPTS[v2];[0:a]atrim=1722.890:2311.845,asetpts=PTS-STARTPTS[a2];[v2]yadif=0[v2_deinterlaced];[0:v]trim=2431.899:2868.836,setpts=PTS-STARTPTS[v3];[0:a]atrim=2431.899:2868.836,asetpts=PTS-STARTPTS[a3];[v3]yadif=0[v3_deinterlaced];[0:v]trim=2928.896:2943.877,setpts=PTS-STARTPTS[v4];[0:a]atrim=2928.896:2943.877,asetpts=PTS-STARTPTS[a4];[v4]yadif=0[v4_deinterlaced];[0:v]trim=3063.897:4007.841,setpts=PTS-STARTPTS[v5];[0:a]atrim=3063.897:4007.841,asetpts=PTS-STARTPTS[a5];[v5]yadif=0[v5_deinterlaced];[0:v]trim=4187.888:4616.850,setpts=PTS-STARTPTS[v6];[0:a]atrim=4187.888:4616.850,asetpts=PTS-STARTPTS[a6];[v6]yadif=0[v6_deinterlaced];[0:v]trim=4811.912:5253.854,setpts=PTS-STARTPTS[v7];[0:a]atrim=4811.912:5253.854,asetpts=PTS-STARTPTS[a7];[v7]yadif=0[v7_deinterlaced];[0:v]trim=5373.907:5648.849,setpts=PTS-STARTPTS[v8];[0:a]atrim=5373.907:5648.849,asetpts=PTS-STARTPTS[a8];[v8]yadif=0[v8_deinterlaced];[0:v]trim=5738.906:6087.855,setpts=PTS-STARTPTS[v9];[0:a]atrim=5738.906:6087.855,asetpts=PTS-STARTPTS[a9];[v9]yadif=0[v9_deinterlaced];[0:v]trim=6207.908:7303.871,setpts=PTS-STARTPTS[v10];[0:a]atrim=6207.908:7303.871,asetpts=PTS-STARTPTS[a10];[v10]yadif=0[v10_deinterlaced];[0:v]trim=7363.897:7378.879,setpts=PTS-STARTPTS[v11];[0:a]atrim=7363.897:7378.879,asetpts=PTS-STARTPTS[a11];[v11]yadif=0[v11_deinterlaced];[0:v]trim=7513.914:8043.844,setpts=PTS-STARTPTS[v12];[0:a]atrim=7513.914:8043.844,asetpts=PTS-STARTPTS[a12];[v12]yadif=0[v12_deinterlaced];[v0_deinterlaced][a0][v1_deinterlaced][a1][v2_deinterlaced][a2][v3_deinterlaced][a3][v4_deinterlaced][a4][v5_deinterlaced][a5][v6_deinterlaced][a6][v7_deinterlaced][a7][v8_deinterlaced][a8][v9_deinterlaced][a9][v10_deinterlaced][a10][v11_deinterlaced][a11][v12_deinterlaced][a12]concat=n=13:v=1:a=1,-b:v,10M,-c:v,h264_v4l2m2m,-aspect,16:9,-f,mp4,-r,29.97,-crf,20,/srv/dev-disk-by-uuid-A6DA96A3DA966F75/NAS/Recorded/Movie/土曜プレミアム・映画「翔んで埼玉」【まさかの“続編”公開記念！！】[字][解][デ]-2023年11月18日21時.mp4
+

@@ -1,0 +1,7 @@
+AVSスクリプトファイルを生成完了
+
+channelName:--------
+WOWOWプライム
+----------
+
+chapter_exe -v "/home/pi/CmcutScp/result/[映]劇場版「名探偵コナン　迷宮の十字路（クロスロード）」[SS][字]-2024年05月16日16時/join_tsfile.avs" -lwi /home/pi/CmcutScp/result/"[映]劇場版「名探偵コナン　迷宮の十字路（クロスロード）」[SS][字]-2024年05月16日16時"/chapter_inscp.lwi -oa /home/pi/CmcutScp/result/"[映]劇場版「名探偵コナン　迷宮の十字路（クロスロード）」[SS][字]-2024年05月16日16時"/chapter_inscp.txt

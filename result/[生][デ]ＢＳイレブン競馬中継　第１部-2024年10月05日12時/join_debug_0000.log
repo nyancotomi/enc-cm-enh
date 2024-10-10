@@ -1,0 +1,413 @@
+AVSスクリプトファイルを生成完了
+
+channelName:--------
+BS11イレブン
+----------
+
+chapter_exe -v "/home/pi/CmcutScp/result/[生][デ]ＢＳイレブン競馬中継　第１部-2024年10月05日12時/join_tsfile.avs" -lwi /home/pi/CmcutScp/result/"[生][デ]ＢＳイレブン競馬中継　第１部-2024年10月05日12時"/chapter_inscp.lwi -oa /home/pi/CmcutScp/result/"[生][デ]ＢＳイレブン競馬中継　第１部-2024年10月05日12時"/chapter_inscp.txt
+該当する .lgd ファイル (BS11イレブン.lgd) が見つかりました。
+
+cmd : logoframe "/home/pi/CmcutScp/result/[生][デ]ＢＳイレブン競馬中継　第１部-2024年10月05日12時/join_tsfile.avs" -logo "/home/pi/CmcutScp/join_logo_scp_trial/logo/BS11イレブン.lgd" -oa "/home/pi/CmcutScp/result/[生][デ]ＢＳイレブン競馬中継　第１部-2024年10月05日12時/logoframe_inlogo.txt"
+
+cmd : join_logo_scp -inlogo "/home/pi/CmcutScp/result/[生][デ]ＢＳイレブン競馬中継　第１部-2024年10月05日12時/logoframe_inlogo.txt" -inscp "/home/pi/CmcutScp/result/[生][デ]ＢＳイレブン競馬中継　第１部-2024年10月05日12時/chapter_inscp.txt" -incmd "/home/pi/CmcutScp/join_logo_scp_trial/JL/JL_標準.txt" -o "/home/pi/CmcutScp/result/[生][デ]ＢＳイレブン競馬中継　第１部-2024年10月05日12時/join_logo_scp.txt"
+
+joinOutputFile()
+: "/home/pi/CmcutScp/result/[生][デ]ＢＳイレブン競馬中継　第１部-2024年10月05日12時/join_logo_scp.csv"
+
+ フレーム情報ファイルのパス(joinOutputFile) 
+ /home/pi/CmcutScp/result/[生][デ]ＢＳイレブン競馬中継　第１部-2024年10月05日12時/join_logo_scp.csv 
+
+1列目の1行目の値が0のため、外部コマンドを実行します: /home/pi/EPGStation/config/run_encode_error.sh encod_error "0,1453
+_再エンコード失敗"
+
+ フィルターコンプレックスの初期値を設定(data) 
+ 0,1453
+ 
+
+generateFilterComplex()
+: "[0:v]trim=0.000:48.482,setpts=PTS-STARTPTS[v0];[0:a]atrim=0.000:48.482,asetpts=PTS-STARTPTS[a0];[v0]yadif=0[v0_deinterlaced];[v0_deinterlaced][a0]concat=n=1:v=1:a=1"
+
+/usr/bin/ffmpeg:: -y,-analyzeduration,10M,-probesize,32M,-i,/srv/dev-disk-by-uuid-D454C24354C22856/NAS_4_1/Recorded/2024-4cours/encode_faild/[生][デ]ＢＳイレブン競馬中継　第１部-2024年10月05日12時.mp4,-c:a,aac,-ignore_unknown,-filter_complex,[0:v]trim=0.000:48.482,setpts=PTS-STARTPTS[v0];[0:a]atrim=0.000:48.482,asetpts=PTS-STARTPTS[a0];[v0]yadif=0[v0_deinterlaced];[v0_deinterlaced][a0]concat=n=1:v=1:a=1,-b:v,10M,-c:v,h264_v4l2m2m,-aspect,16:9,-f,mp4,-r,29.97,-crf,20,/srv/dev-disk-by-uuid-D454C24354C22856/NAS_4_1/Recorded/2024-4cours/[生][デ]ＢＳイレブン競馬中継　第１部-2024年10月05日12時(1).mp4
+
+1列目の1行目の値が0のため、外部コマンドを実行します: INPUT=/srv/dev-disk-by-uuid-D454C24354C22856/NAS_4_1/Recorded/2024-4cours/encode_faild/[生][デ]ＢＳイレブン競馬中継　第１部-2024年10月05日12時.mp4 OUTPUT=/srv/dev-disk-by-uuid-D454C24354C22856/NAS_4_1/Recorded/2024-4cours/[生][デ]ＢＳイレブン競馬中継　第１部-2024年10月05日12時(1).mp4 /bin/bash /home/pi/EPGStation/config/cm-subtitle-12.sh
+
+ecm-subtitle-12.s を実行
+
+Progress: 0.3916233819770797%
+frame= 6 fps=0 size=0 time=00:00:00.19 bitrate=2 drop=0 speed=0.38
+----------
+Progress: 1.1336466320389151%
+frame= 17 fps=17 size=256 time=00:00:00.55 bitrate=3781.6 drop=0 speed=0.546
+----------
+Progress: 1.9168933959930745%
+frame= 28 fps=18 size=512 time=00:00:00.93 bitrate=4468.8 drop=0 speed=0.611
+----------
+Progress: 2.679528403001072%
+frame= 39 fps=19 size=1024 time=00:00:01.30 bitrate=6446.5 drop=0 speed=0.628
+----------
+Progress: 3.339104625278259%
+frame= 49 fps=19 size=1536 time=00:00:01.62 bitrate=7761.1 drop=0 speed=0.627
+----------
+Progress: 3.8131750350399876%
+frame= 56 fps=18 size=1792 time=00:00:01.85 bitrate=7909.7 drop=0 speed=0.598
+----------
+Progress: 4.390304229532525%
+frame= 65 fps=18 size=2304 time=00:00:02.13 bitrate=8847.5 drop=0 speed=0.592
+----------
+Progress: 5.049880451809713%
+frame= 74 fps=18 size=2816 time=00:00:02.45 bitrate=9403.1 drop=0 speed=0.593
+----------
+Progress: 5.750680187979223%
+frame= 84 fps=18 size=3328 time=00:00:02.79 bitrate=9755.5 drop=0 speed=0.601
+----------
+Progress: 6.451479924148734%
+frame= 94 fps=18 size=3840 time=00:00:03.13 bitrate=10031.1 drop=0 speed=0.604
+----------
+Progress: 7.069832632533597%
+frame= 103 fps=18 size=4096 time=00:00:03.43 bitrate=9769.5 drop=0 speed=0.6
+----------
+Progress: 7.605738313133811%
+frame= 111 fps=18 size=4352 time=00:00:03.69 bitrate=9660 drop=0 speed=0.591
+----------
+Progress: 8.121032236787865%
+frame= 118 fps=17 size=4608 time=00:00:03.94 bitrate=9564.8 drop=0 speed=0.585
+----------
+Progress: 8.698161431280402%
+frame= 127 fps=17 size=5120 time=00:00:04.22 bitrate=9929.8 drop=0 speed=0.582
+----------
+Progress: 9.625690493857697%
+frame= 140 fps=18 size=5632 time=00:00:04.67 bitrate=9875.4 drop=0 speed=0.602
+----------
+Progress: 10.594443070327314%
+frame= 154 fps=19 size=6144 time=00:00:05.14 bitrate=9789.7 drop=0 speed=0.62
+----------
+Progress: 11.563195646796935%
+frame= 168 fps=19 size=6656 time=00:00:05.61 bitrate=9718.3 drop=0 speed=0.637
+----------
+Progress: 12.346442410751093%
+frame= 180 fps=19 size=7168 time=00:00:05.99 bitrate=9795.5 drop=0 speed=0.641
+----------
+Progress: 12.964795119135955%
+frame= 189 fps=19 size=7680 time=00:00:06.29 bitrate=9997.1 drop=0 speed=0.639
+----------
+Progress: 13.583147827520817%
+frame= 198 fps=19 size=7936 time=00:00:06.59 bitrate=9862.3 drop=0 speed=0.636
+----------
+Progress: 14.28394756369033%
+frame= 208 fps=19 size=8448 time=00:00:06.93 bitrate=9981.7 drop=0 speed=0.635
+----------
+Progress: 14.861076758182868%
+frame= 216 fps=19 size=8704 time=00:00:07.21 bitrate=9888.6 drop=0 speed=0.632
+----------
+Progress: 15.603100008244706%
+frame= 227 fps=19 size=9216 time=00:00:07.57 bitrate=9968.9 drop=0 speed=0.635
+----------
+Progress: 16.221452716629567%
+frame= 236 fps=19 size=9472 time=00:00:07.87 bitrate=9857.1 drop=0 speed=0.631
+----------
+Progress: 16.777970154175943%
+frame= 245 fps=19 size=9984 time=00:00:08.14 bitrate=10036.3 drop=0 speed=0.628
+----------
+Progress: 17.43754637645313%
+frame= 254 fps=19 size=10496 time=00:00:08.46 bitrate=10152.3 drop=0 speed=0.628
+----------
+Progress: 18.20018138346113%
+frame= 265 fps=19 size=10752 time=00:00:08.83 bitrate=9972.9 drop=0 speed=0.63
+----------
+Progress: 19.02465166130761%
+frame= 277 fps=19 size=11264 time=00:00:09.23 bitrate=9989.4 drop=0 speed=0.636
+----------
+Progress: 19.993404237777227%
+frame= 291 fps=19 size=11776 time=00:00:09.70 bitrate=9938.5 drop=0 speed=0.644
+----------
+Progress: 20.735427487839065%
+frame= 302 fps=19 size=12288 time=00:00:10.06 bitrate=9997.1 drop=0 speed=0.645
+----------
+Progress: 21.58050952263171%
+frame= 314 fps=19 size=12800 time=00:00:10.47 bitrate=10010.6 drop=0 speed=0.649
+----------
+Progress: 22.281309258801222%
+frame= 324 fps=19 size=13312 time=00:00:10.81 bitrate=10082.5 drop=0 speed=0.649
+----------
+Progress: 23.023332508863056%
+frame= 335 fps=20 size=13568 time=00:00:11.17 bitrate=9943 drop=0 speed=0.651
+----------
+Progress: 23.64168521724792%
+frame= 344 fps=19 size=14080 time=00:00:11.47 bitrate=10049.7 drop=0 speed=0.647
+----------
+Progress: 24.48676725204057%
+frame= 356 fps=19 size=14592 time=00:00:11.88 bitrate=10059.9 drop=0 speed=0.65
+----------
+Progress: 25.35246104377937%
+frame= 369 fps=20 size=15104 time=00:00:12.30 bitrate=10051.9 drop=0 speed=0.655
+----------
+Progress: 26.32121362024899%
+frame= 383 fps=20 size=15616 time=00:00:12.77 bitrate=10011 drop=0 speed=0.662
+----------
+Progress: 27.166295655041633%
+frame= 395 fps=20 size=16128 time=00:00:13.18 bitrate=10021.3 drop=0 speed=0.666
+----------
+Progress: 28.093824717618933%
+frame= 409 fps=20 size=16640 time=00:00:13.63 bitrate=9999.7 drop=0 speed=0.671
+----------
+Progress: 29.021353780196225%
+frame= 422 fps=20 size=17408 time=00:00:14.08 bitrate=10128.3 drop=0 speed=0.676
+----------
+Progress: 29.96949459971968%
+frame= 436 fps=20 size=17920 time=00:00:14.54 bitrate=10089.9 drop=0 speed=0.682
+----------
+Progress: 30.77335312062%
+frame= 448 fps=20 size=18432 time=00:00:14.93 bitrate=10111.3 drop=0 speed=0.683
+----------
+Progress: 31.350482315112544%
+frame= 456 fps=20 size=18688 time=00:00:15.21 bitrate=10064.8 drop=0 speed=0.679
+----------
+Progress: 31.865776238766596%
+frame= 464 fps=20 size=18944 time=00:00:15.46 bitrate=10033.8 drop=0 speed=0.675
+----------
+Progress: 32.752081787451566%
+frame= 476 fps=20 size=19456 time=00:00:15.89 bitrate=10028.4 drop=0 speed=0.679
+----------
+Progress: 33.411658009728754%
+frame= 486 fps=20 size=19968 time=00:00:16.21 bitrate=10089.1 drop=0 speed=0.677
+----------
+Progress: 34.15368125979059%
+frame= 497 fps=20 size=20224 time=00:00:16.57 bitrate=9994.9 drop=0 speed=0.678
+----------
+Progress: 34.998763294583235%
+frame= 509 fps=20 size=20736 time=00:00:16.98 bitrate=10003.3 drop=0 speed=0.68
+----------
+Progress: 35.69956303075274%
+frame= 519 fps=20 size=21248 time=00:00:17.32 bitrate=10048.3 drop=0 speed=0.68
+----------
+Progress: 36.317915739137604%
+frame= 528 fps=20 size=21504 time=00:00:17.62 bitrate=9997 drop=0 speed=0.678
+----------
+Progress: 37.059938989199445%
+frame= 539 fps=20 size=22016 time=00:00:17.98 bitrate=10028.7 drop=0 speed=0.678
+----------
+Progress: 37.719515211476626%
+frame= 549 fps=20 size=22528 time=00:00:18.30 bitrate=10082.5 drop=0 speed=0.677
+----------
+Progress: 38.543985489323106%
+frame= 561 fps=20 size=23040 time=00:00:18.70 bitrate=10088.2 drop=0 speed=0.679
+----------
+Progress: 39.471514551900405%
+frame= 574 fps=20 size=23552 time=00:00:19.15 bitrate=10071.3 drop=0 speed=0.682
+----------
+Progress: 40.2341495589084%
+frame= 585 fps=20 size=24064 time=00:00:19.52 bitrate=10099 drop=0 speed=0.682
+----------
+Progress: 40.8318905103471%
+frame= 594 fps=20 size=24320 time=00:00:19.81 bitrate=10052.6 drop=0 speed=0.68
+----------
+Progress: 41.5945255173551%
+frame= 605 fps=20 size=24832 time=00:00:20.18 bitrate=10079.8 drop=0 speed=0.68
+----------
+Progress: 42.33654876741693%
+frame= 616 fps=20 size=25344 time=00:00:20.54 bitrate=10106 drop=0 speed=0.68
+----------
+Progress: 43.07857201747877%
+frame= 627 fps=20 size=25856 time=00:00:20.90 bitrate=10131.3 drop=0 speed=0.681
+----------
+Progress: 44.00610108005607%
+frame= 640 fps=20 size=26368 time=00:00:21.35 bitrate=10115.2 drop=0 speed=0.684
+----------
+Progress: 44.7481243301179%
+frame= 651 fps=20 size=26624 time=00:00:21.71 bitrate=10042.9 drop=0 speed=0.684
+----------
+Progress: 45.59320636491055%
+frame= 663 fps=21 size=27136 time=00:00:22.12 bitrate=10048.4 drop=0 speed=0.685
+----------
+Progress: 46.45890015664935%
+frame= 676 fps=21 size=27648 time=00:00:22.54 bitrate=10044.3 drop=0 speed=0.688
+----------
+Progress: 47.303982191442%
+frame= 688 fps=21 size=28160 time=00:00:22.95 bitrate=10049.7 drop=0 speed=0.688
+----------
+Progress: 48.14906422623464%
+frame= 700 fps=21 size=28672 time=00:00:23.36 bitrate=10054.9 drop=0 speed=0.69
+----------
+Progress: 49.014758017973456%
+frame= 713 fps=21 size=29184 time=00:00:23.78 bitrate=10050.8 drop=0 speed=0.692
+----------
+Progress: 49.75678126803529%
+frame= 724 fps=21 size=29696 time=00:00:24.14 bitrate=10073.6 drop=0 speed=0.692
+----------
+Progress: 50.37513397642015%
+frame= 733 fps=21 size=29952 time=00:00:24.44 bitrate=10036.3 drop=0 speed=0.691
+----------
+Progress: 51.302663038997444%
+frame= 746 fps=21 size=30720 time=00:00:24.89 bitrate=10108.4 drop=0 speed=0.693
+----------
+Progress: 52.044686289059285%
+frame= 757 fps=21 size=30976 time=00:00:25.25 bitrate=10046.3 drop=0 speed=0.694
+----------
+Progress: 52.704262511336466%
+frame= 767 fps=21 size=31488 time=00:00:25.57 bitrate=10084.6 drop=0 speed=0.692
+----------
+Progress: 53.63179157391376%
+frame= 780 fps=21 size=32000 time=00:00:26.02 bitrate=10072.1 drop=0 speed=0.695
+----------
+Progress: 54.43565009481408%
+frame= 792 fps=21 size=32512 time=00:00:26.41 bitrate=10084.5 drop=0 speed=0.696
+----------
+Progress: 55.21889685876824%
+frame= 803 fps=21 size=33024 time=00:00:26.79 bitrate=10096.5 drop=0 speed=0.696
+----------
+Progress: 55.878473081045435%
+frame= 813 fps=21 size=33280 time=00:00:27.11 bitrate=10054.7 drop=0 speed=0.695
+----------
+Progress: 56.723555115838074%
+frame= 825 fps=21 size=33792 time=00:00:27.52 bitrate=10059 drop=0 speed=0.696
+----------
+Progress: 57.54802539368457%
+frame= 837 fps=21 size=34304 time=00:00:27.92 bitrate=10063.2 drop=0 speed=0.697
+----------
+Progress: 58.43433094236953%
+frame= 850 fps=21 size=34816 time=00:00:28.35 bitrate=10059.7 drop=0 speed=0.698
+----------
+Progress: 59.300024734108334%
+frame= 863 fps=21 size=35328 time=00:00:28.77 bitrate=10056.3 drop=0 speed=0.7
+----------
+Progress: 60.021436227224015%
+frame= 873 fps=21 size=35840 time=00:00:29.12 bitrate=10082.5 drop=0 speed=0.7
+----------
+Progress: 60.72223596339352%
+frame= 883 fps=21 size=36352 time=00:00:29.46 bitrate=10108 drop=0 speed=0.699
+----------
+Progress: 61.38181218567071%
+frame= 893 fps=21 size=36608 time=00:00:29.78 bitrate=10069.8 drop=0 speed=0.698
+----------
+Progress: 62.16505894962487%
+frame= 904 fps=21 size=37120 time=00:00:30.16 bitrate=10080.7 drop=0 speed=0.699
+----------
+Progress: 63.05136449830984%
+frame= 917 fps=21 size=37632 time=00:00:30.59 bitrate=10077.2 drop=0 speed=0.7
+----------
+Progress: 63.79338774837168%
+frame= 928 fps=21 size=38144 time=00:00:30.95 bitrate=10094.6 drop=0 speed=0.7
+----------
+Progress: 64.72091681094896%
+frame= 941 fps=21 size=38656 time=00:00:31.40 bitrate=10084.2 drop=0 speed=0.702
+----------
+Progress: 65.58661060268778%
+frame= 955 fps=21 size=39168 time=00:00:31.82 bitrate=10080.8 drop=0 speed=0.704
+----------
+Progress: 66.47291615137274%
+frame= 967 fps=21 size=39680 time=00:00:32.25 bitrate=10077.5 drop=0 speed=0.706
+----------
+Progress: 67.44166872784237%
+frame= 981 fps=21 size=40192 time=00:00:32.72 bitrate=10061.1 drop=0 speed=0.708
+----------
+Progress: 68.32797427652733%
+frame= 994 fps=21 size=40704 time=00:00:33.15 bitrate=10058.1 drop=0 speed=0.709
+----------
+Progress: 69.15244455437382%
+frame= 1006 fps=21 size=41216 time=00:00:33.55 bitrate=10061.6 drop=0 speed=0.71
+----------
+Progress: 70.07997361695111%
+frame= 1019 fps=21 size=41728 time=00:00:34.00 bitrate=10052.4 drop=0 speed=0.711
+----------
+Progress: 71.00750267952841%
+frame= 1033 fps=21 size=42496 time=00:00:34.45 bitrate=10104.3 drop=0 speed=0.713
+----------
+Progress: 71.93503174210569%
+frame= 1046 fps=21 size=43008 time=00:00:34.90 bitrate=10094.8 drop=0 speed=0.715
+----------
+Progress: 72.80072553384451%
+frame= 1059 fps=21 size=43520 time=00:00:35.32 bitrate=10091.6 drop=0 speed=0.716
+----------
+Progress: 73.68703108252947%
+frame= 1072 fps=21 size=44032 time=00:00:35.75 bitrate=10088.5 drop=0 speed=0.717
+----------
+Progress: 74.61456014510678%
+frame= 1085 fps=22 size=44544 time=00:00:36.20 bitrate=10079.5 drop=0 speed=0.718
+----------
+Progress: 75.48025393684557%
+frame= 1098 fps=22 size=45056 time=00:00:36.62 bitrate=10076.6 drop=0 speed=0.719
+----------
+Progress: 76.32533597163822%
+frame= 1110 fps=22 size=45568 time=00:00:37.03 bitrate=10079.6 drop=0 speed=0.72
+----------
+Progress: 77.29408854810784%
+frame= 1124 fps=22 size=46080 time=00:00:37.50 bitrate=10065.3 drop=0 speed=0.722
+----------
+Progress: 78.18039409679281%
+frame= 1137 fps=22 size=46848 time=00:00:37.93 bitrate=10117.9 drop=0 speed=0.722
+----------
+Progress: 79.14914667326242%
+frame= 1151 fps=22 size=47360 time=00:00:38.40 bitrate=10103.5 drop=0 speed=0.724
+----------
+Progress: 80.01484046500124%
+frame= 1164 fps=22 size=47872 time=00:00:38.82 bitrate=10100.5 drop=0 speed=0.725
+----------
+Progress: 80.85992249979388%
+frame= 1176 fps=22 size=48384 time=00:00:39.23 bitrate=10103 drop=0 speed=0.726
+----------
+Progress: 81.72561629153269%
+frame= 1189 fps=22 size=48896 time=00:00:39.65 bitrate=10100.1 drop=0 speed=0.727
+----------
+Progress: 82.65314535411%
+frame= 1202 fps=22 size=49408 time=00:00:40.10 bitrate=10091.9 drop=0 speed=0.728
+----------
+Progress: 83.53945090279497%
+frame= 1215 fps=22 size=49920 time=00:00:40.53 bitrate=10089.1 drop=0 speed=0.729
+----------
+Progress: 84.50820347926458%
+frame= 1229 fps=22 size=50432 time=00:00:41.00 bitrate=10075.9 drop=0 speed=0.731
+----------
+Progress: 85.37389727100339%
+frame= 1242 fps=22 size=51200 time=00:00:41.42 bitrate=10124 drop=0 speed=0.732
+----------
+Progress: 86.34264984747301%
+frame= 1256 fps=22 size=51712 time=00:00:41.89 bitrate=10110.7 drop=0 speed=0.733
+----------
+Progress: 87.14650836837332%
+frame= 1267 fps=22 size=52224 time=00:00:42.28 bitrate=10118.1 drop=0 speed=0.733
+----------
+Progress: 87.92975513232749%
+frame= 1279 fps=22 size=52480 time=00:00:42.66 bitrate=10076.2 drop=0 speed=0.734
+----------
+Progress: 88.8985077087971%
+frame= 1293 fps=22 size=53248 time=00:00:43.13 bitrate=10112.4 drop=0 speed=0.735
+----------
+Progress: 89.78481325748207%
+frame= 1306 fps=22 size=53760 time=00:00:43.56 bitrate=10109.6 drop=0 speed=0.735
+----------
+Progress: 90.75356583395168%
+frame= 1320 fps=22 size=54272 time=00:00:44.03 bitrate=10097.1 drop=0 speed=0.737
+----------
+Progress: 91.68109489652898%
+frame= 1333 fps=22 size=54784 time=00:00:44.48 bitrate=10089.7 drop=0 speed=0.738
+----------
+Progress: 92.5467886882678%
+frame= 1346 fps=22 size=55296 time=00:00:44.90 bitrate=10087.3 drop=0 speed=0.739
+----------
+Progress: 93.43309423695277%
+frame= 1359 fps=22 size=55808 time=00:00:45.33 bitrate=10084.8 drop=0 speed=0.74
+----------
+Progress: 94.36062329953006%
+frame= 1372 fps=22 size=56320 time=00:00:45.78 bitrate=10077.8 drop=0 speed=0.741
+----------
+Progress: 95.22631709126887%
+frame= 1385 fps=22 size=56832 time=00:00:46.20 bitrate=10075.5 drop=0 speed=0.742
+----------
+Progress: 96.07139912606151%
+frame= 1397 fps=22 size=57344 time=00:00:46.61 bitrate=10077.9 drop=0 speed=0.742
+----------
+Progress: 96.95770467474648%
+frame= 1410 fps=22 size=58112 time=00:00:47.04 bitrate=10120.2 drop=0 speed=0.743
+----------
+Progress: 97.82339846648529%
+frame= 1423 fps=22 size=58624 time=00:00:47.46 bitrate=10117.6 drop=0 speed=0.743
+----------
+Progress: 98.75092752906257%
+frame= 1437 fps=22 size=59136 time=00:00:47.91 bitrate=10110.5 drop=0 speed=0.745
+----------
+Progress: 99.63723307774755%
+frame= 1451 fps=22 size=59392 time=00:00:48.34 bitrate=10063.2 drop=0 speed=0.745
+----------
+Progress: 99.92579767499382%
+frame= 1454 fps=22 size=60029 time=00:00:48.48 bitrate=10143.1 drop=0 speed=0.746
+----------

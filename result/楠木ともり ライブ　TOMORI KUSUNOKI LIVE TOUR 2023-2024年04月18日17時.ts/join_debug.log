@@ -1,0 +1,16 @@
+AVSスクリプトファイルを生成完了
+
+channelName:--------
+フジテレビTWO
+----------
+
+chapter_exe -v "/home/pi/CmcutScp/result/楠木ともり ライブ　TOMORI KUSUNOKI LIVE TOUR 2023-2024年04月18日17時.ts/join_tsfile.avs" -lwi /home/pi/CmcutScp/result/"楠木ともり ライブ　TOMORI KUSUNOKI LIVE TOUR 2023-2024年04月18日17時.ts"/chapter_inscp.lwi -oa /home/pi/CmcutScp/result/"楠木ともり ライブ　TOMORI KUSUNOKI LIVE TOUR 2023-2024年04月18日17時.ts"/chapter_inscp.txt
+該当する .lgd ファイルが見つかりません
+
+joinOutputFile()
+: "/home/pi/CmcutScp/result/楠木ともり ライブ　TOMORI KUSUNOKI LIVE TOUR 2023-2024年04月18日17時.ts/join_logo_scp.csv"
+
+ フレーム情報ファイルのパス(joinOutputFile) 
+ /home/pi/CmcutScp/result/楠木ともり ライブ　TOMORI KUSUNOKI LIVE TOUR 2023-2024年04月18日17時.ts/join_logo_scp.csv 
+
+Error: ENOENT: no such file or directory, open '/home/pi/CmcutScp/result/楠木ともり ライブ　TOMORI KUSUNOKI LIVE TOUR 2023-2024年04月18日17時.ts/join_logo_scp.csv'

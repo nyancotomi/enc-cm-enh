@@ -1,0 +1,35 @@
+--------
+曜日 月  日  年  時:分:秒 
+Thu Oct 10 2024 19:51:12 GMT+0900 (Japan Standard Time)
+----------
+
+AVSスクリプトファイルを生成完了
+
+channelName:
+--------
+日テレ1
+----------
+
+chapter_exe -v "/home/pi/CmcutScp/result/金曜ロードショー「となりのトトロ」原作・脚本・監督：宮﨑駿★ノーカット[解][字][デ]-2024年08月23日21時/join_tsfile.avs" -lwi /home/pi/CmcutScp/result/"金曜ロードショー「となりのトトロ」原作・脚本・監督：宮﨑駿★ノーカット[解][字][デ]-2024年08月23日21時"/chapter_inscp.lwi -oa /home/pi/CmcutScp/result/"金曜ロードショー「となりのトトロ」原作・脚本・監督：宮﨑駿★ノーカット[解][字][デ]-2024年08月23日21時"/chapter_inscp.txt
+該当する .lgd ファイル (日テレ1.lgd) が見つかりました。
+
+cmd : logoframe "/home/pi/CmcutScp/result/金曜ロードショー「となりのトトロ」原作・脚本・監督：宮﨑駿★ノーカット[解][字][デ]-2024年08月23日21時/join_tsfile.avs" -logo "/home/pi/CmcutScp/join_logo_scp_trial/logo/日テレ1.lgd" -oa "/home/pi/CmcutScp/result/金曜ロードショー「となりのトトロ」原作・脚本・監督：宮﨑駿★ノーカット[解][字][デ]-2024年08月23日21時/logoframe_inlogo.txt"
+
+cmd : join_logo_scp -inlogo "/home/pi/CmcutScp/result/金曜ロードショー「となりのトトロ」原作・脚本・監督：宮﨑駿★ノーカット[解][字][デ]-2024年08月23日21時/logoframe_inlogo.txt" -inscp "/home/pi/CmcutScp/result/金曜ロードショー「となりのトトロ」原作・脚本・監督：宮﨑駿★ノーカット[解][字][デ]-2024年08月23日21時/chapter_inscp.txt" -incmd "/home/pi/CmcutScp/join_logo_scp_trial/JL/JL_標準.txt" -o "/home/pi/CmcutScp/result/金曜ロードショー「となりのトトロ」原作・脚本・監督：宮﨑駿★ノーカット[解][字][デ]-2024年08月23日21時/join_logo_scp.txt"
+
+ フレーム情報ファイルのパス(joinOutputFile) 
+ /home/pi/CmcutScp/result/金曜ロードショー「となりのトトロ」原作・脚本・監督：宮﨑駿★ノーカット[解][字][デ]-2024年08月23日21時/join_logo_scp.csv 
+
+ フィルターコンプレックスの初期値を設定(data) 
+ 0,205190
+ 
+
+1列目の1行目の値が0のため、外部コマンドを実行します: /home/pi/EPGStation/config/run_encode_error.sh encod_error "ノーカットエンコード開始
+0,205190
+
+
+ 再エンコードの詳細ログ:
+ http://192.168.1.83:3030"
+
+/usr/bin/ffmpeg:: -y,-analyzeduration,10M,-probesize,32M,-i,/srv/dev-disk-by-uuid-D454C24354C22856/NAS_4_1/Recorded/2024-3cours/金曜ロードショー「となりのトトロ」原作・脚本・監督：宮﨑駿★ノーカット[解][字][デ]-2024年08月23日21時.ts,-c:a,aac,-ignore_unknown,-vf,yadif,-b:v,10M,-c:v,h264_v4l2m2m,-aspect,16:9,-f,mp4,-r,29.97,-crf,20,/srv/dev-disk-by-uuid-D454C24354C22856/NAS_4_1/Recorded/2024-4cours/encode_faild/金曜ロードショー「となりのトトロ」原作・脚本・監督：宮﨑駿★ノーカット[解][字][デ]-2024年08月23日21時.mp4
+

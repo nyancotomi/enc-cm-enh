@@ -1,0 +1,187 @@
+<!-- public/index.html -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>エンコードコマンド生成</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        font-size: 15px; /* フォントサイズを大きく */
+        line-height: 1.5;
+        margin: 0;
+        padding: 0;
+        background-color: #f2f2f2;
+      }
+  
+      header {
+        background-color: #333;
+        color: #fff;
+        padding: 2px; /* パディングを大きく */
+        text-align: center;
+      }
+  
+      .main-content {
+        padding: 15px;
+      }
+  
+      .button {
+        display: inline-block;
+        padding: 15px 15px; /* パディングを大きく */
+        background-color: rgb(44, 68, 156);
+        color: #fff;
+        text-decoration: none;
+        border: none;
+        border-radius: 10px; /* ボーダーラジウスを大きく */
+        cursor: pointer;
+      }
+  
+      form {
+        margin: 0;
+        padding: 0;
+      }
+  
+      input[type="text"] {
+        width: 100%;
+        padding: 15px; /* パディングを大きく */
+        margin: 10px 0;
+        border: 2px solid #650e0e;
+        border-radius: 10px; /* ボーダーラジウスを大きく */
+      }
+
+      /* カスタムセレクトボックスのスタイル */
+      .custom-select {
+        display: block;
+        width: 100%;
+        padding: 15px;
+        margin: 10px 0;
+        border: 2px solid #ccc;
+        border-radius: 10px;
+        font-size: 15px; /* 選択項目のフォントサイズを大きく */
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>ラズパイ用エンコーダーGUIツール</h1>
+    </header>
+  
+    <div class="main-content">
+      <form id="encode-form">
+        <label for="inputFile">入力ファイル:</label>
+        <select name="inputFile" id="inputFile" class="custom-select" required>
+          <!-- ファイル一覧はここに追加 -->
+        </select><br>
+        
+        <label for="outputFolder">出力フォルダ:</label>
+        <select name="outputFolder" id="outputFolder" class="custom-select" required>
+          <!-- 出力フォルダ一覧はここに追加 -->
+        </select><br>
+        
+        <label for="channel">放送局:</label>
+        <select name="channel" id="channel" class="custom-select" required>
+          <!-- チャンネル名はここに追加 -->
+        </select><br>
+        
+        <!--button class="button" type="submit">生成</button>-->
+        <button class="button" type="submit" id="copyButton">エンコード実行</button>
+      </form><br>
+      <div id="status"></div>
+      <script>
+        const encodeForm = document.getElementById('encode-form');
+        const inputFileSelect = document.getElementById('inputFile');
+        const outputFolderSelect = document.getElementById('outputFolder');
+        const channelSelect = document.getElementById('channel');
+        const statusDiv = document.getElementById('status');
+        const copyButton = document.getElementById('copyButton'); // コピー用ボタン
+  
+        // ページが読み込まれたときにファイル一覧を取得
+        fetch('/filelist')
+          .then(response => response.json())
+          .then(data => {
+            data.files.forEach(file => {
+              const option = document.createElement('option');
+              option.value = file;
+              // 短縮表示を生成
+              const shortenedName = file.replace('/srv/dev-disk-by-uuid-A6DA96A3DA966F75/NAS/Recorded', '');
+              option.textContent = shortenedName;
+              inputFileSelect.appendChild(option);
+            });
+          });
+  
+        // 出力フォルダ一覧を取得（サーバーサイドで実装が必要）
+        fetch('/outputfolders')
+          .then(response => response.json())
+          .then(data => {
+            data.folders.forEach(folder => {
+              const option = document.createElement('option');
+              option.value = folder;
+              option.textContent = folder;
+              outputFolderSelect.appendChild(option);
+            });
+          });
+
+        // チャンネル名一覧を取得（サーバーサイドで実装が必要）
+        fetch('/channelnames')
+          .then(response => response.json())
+          .then(data => {
+            data.channelNames.forEach(channelName => {
+              const option = document.createElement('option');
+              option.value = channelName;
+              option.textContent = channelName;
+              channelSelect.appendChild(option);
+            });
+          });
+  
+  
+        // エンコード実行ボタンがクリックされたときの処理
+        encodeForm.addEventListener('submit', async (event) => {
+          event.preventDefault();
+          
+          // 確認ダイアログを表示し、"はい" を選択した場合にのみエンコードを実行
+          const confirmResult = window.confirm('エンコードを実行しますか？');
+          if (confirmResult) {
+            const inputPath = inputFileSelect.value;
+            const outputFolder = outputFolderSelect.value;
+            const channel = channelSelect.value;
+
+            // エンコードリクエストをサーバーに送信
+            const response = await fetch('/encode', {
+              method: 'POST',
+              headers: {
+                'Content-Type': 'application/json',
+              },
+              body: JSON.stringify({ inputPath, outputFolder, channel }),
+            });
+
+            const result = await response.text();
+            statusDiv.textContent = result;
+
+            // コピー用ボタンをクリックしたときにコマンドをクリップボードにコピー
+            copyButton.addEventListener('click', () => {
+              const textToCopy = result;
+              const textArea = document.createElement('textarea');
+              textArea.value = textToCopy;
+              document.body.appendChild(textArea);
+              textArea.select();
+              document.execCommand('copy');
+              document.body.removeChild(textArea);
+              //alert('エンコードコマンドをクリップボードにコピーしました');
+
+              // エンコードステータスをポーリング
+              pollStatus();
+            });
+          }
+        });
+        async function pollStatus() {
+          const response = await fetch('/status');
+          const status = await response.json();
+          statusDiv.textContent = `エンコードステータス: ${status.status}`;
+  
+          if (status.status !== '完了') {
+            // 一定間隔でポーリングを継続
+            setTimeout(pollStatus, 5000);
+          }
+        }
+      </script>
+    </body>
+  </html>

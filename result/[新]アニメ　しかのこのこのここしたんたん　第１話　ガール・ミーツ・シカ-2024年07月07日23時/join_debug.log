@@ -1,0 +1,16 @@
+AVSスクリプトファイルを生成完了
+
+channelName:--------
+BS日テレ
+----------
+
+chapter_exe -v "/home/pi/CmcutScp/result/[新]アニメ　しかのこのこのここしたんたん　第１話　ガール・ミーツ・シカ-2024年07月07日23時/join_tsfile.avs" -lwi /home/pi/CmcutScp/result/"[新]アニメ　しかのこのこのここしたんたん　第１話　ガール・ミーツ・シカ-2024年07月07日23時"/chapter_inscp.lwi -oa /home/pi/CmcutScp/result/"[新]アニメ　しかのこのこのここしたんたん　第１話　ガール・ミーツ・シカ-2024年07月07日23時"/chapter_inscp.txt
+該当する .lgd ファイルが見つかりません
+
+joinOutputFile()
+: "/home/pi/CmcutScp/result/[新]アニメ　しかのこのこのここしたんたん　第１話　ガール・ミーツ・シカ-2024年07月07日23時/join_logo_scp.csv"
+
+ フレーム情報ファイルのパス(joinOutputFile) 
+ /home/pi/CmcutScp/result/[新]アニメ　しかのこのこのここしたんたん　第１話　ガール・ミーツ・シカ-2024年07月07日23時/join_logo_scp.csv 
+
+Error: ENOENT: no such file or directory, open '/home/pi/CmcutScp/result/[新]アニメ　しかのこのこのここしたんたん　第１話　ガール・ミーツ・シカ-2024年07月07日23時/join_logo_scp.csv'

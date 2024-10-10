@@ -1,0 +1,16 @@
+AVSスクリプトファイルを生成完了
+
+channelName:--------
+映画・chNECO
+----------
+
+chapter_exe -v "/home/pi/CmcutScp/result/[字]宇宙兄弟【小栗旬　岡田将生出演】◆NECO初◆-2024年08月24日21時/join_tsfile.avs" -lwi /home/pi/CmcutScp/result/"[字]宇宙兄弟【小栗旬　岡田将生出演】◆NECO初◆-2024年08月24日21時"/chapter_inscp.lwi -oa /home/pi/CmcutScp/result/"[字]宇宙兄弟【小栗旬　岡田将生出演】◆NECO初◆-2024年08月24日21時"/chapter_inscp.txt
+該当する .lgd ファイルが見つかりません
+
+joinOutputFile()
+: "/home/pi/CmcutScp/result/[字]宇宙兄弟【小栗旬　岡田将生出演】◆NECO初◆-2024年08月24日21時/join_logo_scp.csv"
+
+ フレーム情報ファイルのパス(joinOutputFile) 
+ /home/pi/CmcutScp/result/[字]宇宙兄弟【小栗旬　岡田将生出演】◆NECO初◆-2024年08月24日21時/join_logo_scp.csv 
+
+Error: ENOENT: no such file or directory, open '/home/pi/CmcutScp/result/[字]宇宙兄弟【小栗旬　岡田将生出演】◆NECO初◆-2024年08月24日21時/join_logo_scp.csv'

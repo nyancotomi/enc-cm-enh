@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>My Podcast</title>
+    <item>
+      <title>MTV厳選！アニメ主題歌PLAYLIST ＃2▼キタニタツヤ『呪術廻戦』 ほか-2023年12月12日18時</title>
+      <enclosure url="http://192.168.1.83:7478/podcast/MTV厳選！アニメ主題歌PLAYLIST ＃2▼キタニタツヤ『呪術廻戦』 ほか-2023年12月12日18時.aac"
+                 length="169106426"
+                 type="audio/mp4" />
+      <guid isPermaLink="true">http://192.168.1.83:7478/podcast/MTV厳選！アニメ主題歌PLAYLIST ＃2▼キタニタツヤ『呪術廻戦』 ほか-2023年12月12日18時.aac</guid>
+      <pubDate>Tue, 12 Dec 2023 21:18:15 +0900</pubDate>
+    </item>
+  </channel>
+</rss>

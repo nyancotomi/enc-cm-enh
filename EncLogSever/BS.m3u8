@@ -1,0 +1,55 @@
+#EXTM3U
+#EXTINF: 0,ＮＨＫ　ＢＳ
+http://192.168.1.83:8888/api/streams/live/400101/m2ts?mode=2
+#EXTINF: 0,－
+http://192.168.1.83:8888/api/streams/live/400103/m2ts?mode=2
+#EXTINF: 0,ＢＳ日テレ
+http://192.168.1.83:8888/api/streams/live/400141/m2ts?mode=2
+#EXTINF: 0,ＢＳ朝日１
+http://192.168.1.83:8888/api/streams/live/400151/m2ts?mode=2
+#EXTINF: 0,ＢＳ－ＴＢＳ
+http://192.168.1.83:8888/api/streams/live/400161/m2ts?mode=2
+#EXTINF: 0,ＢＳテレ東
+http://192.168.1.83:8888/api/streams/live/400171/m2ts?mode=2
+#EXTINF: 0,ＢＳフジ・１８１
+http://192.168.1.83:8888/api/streams/live/400181/m2ts?mode=2
+#EXTINF: 0,ＷＯＷＯＷプライム
+http://192.168.1.83:8888/api/streams/live/400191/m2ts?mode=2
+#EXTINF: 0,ＷＯＷＯＷライブ
+http://192.168.1.83:8888/api/streams/live/400192/m2ts?mode=2
+#EXTINF: 0,ＷＯＷＯＷシネマ
+http://192.168.1.83:8888/api/streams/live/400193/m2ts?mode=2
+#EXTINF: 0,スターチャンネル
+http://192.168.1.83:8888/api/streams/live/400200/m2ts?mode=2
+#EXTINF: 0,ＢＳ１１イレブン
+http://192.168.1.83:8888/api/streams/live/400211/m2ts?mode=2
+#EXTINF: 0,ＢＳ１２トゥエルビ
+http://192.168.1.83:8888/api/streams/live/400222/m2ts?mode=2
+#EXTINF: 0,放送大学テレビ
+http://192.168.1.83:8888/api/streams/live/400231/m2ts?mode=2
+#EXTINF: 0,放送大学テレビ
+http://192.168.1.83:8888/api/streams/live/400232/m2ts?mode=2
+#EXTINF: 0,グリーンチャンネル
+http://192.168.1.83:8888/api/streams/live/400234/m2ts?mode=2
+#EXTINF: 0,ＢＳアニマックス
+http://192.168.1.83:8888/api/streams/live/400236/m2ts?mode=2
+#EXTINF: 0,Ｊ　ＳＰＯＲＴＳ　１
+http://192.168.1.83:8888/api/streams/live/400242/m2ts?mode=2
+#EXTINF: 0,Ｊ　ＳＰＯＲＴＳ　２
+http://192.168.1.83:8888/api/streams/live/400243/m2ts?mode=2
+#EXTINF: 0,Ｊ　ＳＰＯＲＴＳ　３
+http://192.168.1.83:8888/api/streams/live/400244/m2ts?mode=2
+#EXTINF: 0,Ｊ　ＳＰＯＲＴＳ　４
+http://192.168.1.83:8888/api/streams/live/400245/m2ts?mode=2
+#EXTINF: 0,ＷＯＷＯＷプラス
+http://192.168.1.83:8888/api/streams/live/400252/m2ts?mode=2
+#EXTINF: 0,日本映画専門ｃｈ
+http://192.168.1.83:8888/api/streams/live/400255/m2ts?mode=2
+#EXTINF: 0,ディズニーｃｈ
+http://192.168.1.83:8888/api/streams/live/400256/m2ts?mode=2
+#EXTINF: 0,ＢＳ松竹東急
+http://192.168.1.83:8888/api/streams/live/400260/m2ts?mode=2
+#EXTINF: 0,ＢＳＪａｐａｎｅｘｔ
+http://192.168.1.83:8888/api/streams/live/400263/m2ts?mode=2
+#EXTINF: 0,ＢＳよしもと
+http://192.168.1.83:8888/api/streams/live/400265/m2ts?mode=2

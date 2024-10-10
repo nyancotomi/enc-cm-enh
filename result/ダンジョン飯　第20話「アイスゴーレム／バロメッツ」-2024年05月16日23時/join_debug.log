@@ -1,0 +1,30 @@
+AVSスクリプトファイルを生成完了
+
+channelName:--------
+BS11イレブン
+----------
+
+chapter_exe -v "/home/pi/CmcutScp/result/ダンジョン飯　第20話「アイスゴーレム／バロメッツ」-2024年05月16日23時/join_tsfile.avs" -lwi /home/pi/CmcutScp/result/"ダンジョン飯　第20話「アイスゴーレム／バロメッツ」-2024年05月16日23時"/chapter_inscp.lwi -oa /home/pi/CmcutScp/result/"ダンジョン飯　第20話「アイスゴーレム／バロメッツ」-2024年05月16日23時"/chapter_inscp.txt
+該当する .lgd ファイル (BS11イレブン.lgd) が見つかりました。
+
+cmd : logoframe "/home/pi/CmcutScp/result/ダンジョン飯　第20話「アイスゴーレム／バロメッツ」-2024年05月16日23時/join_tsfile.avs" -logo "/home/pi/CmcutScp/join_logo_scp_trial/logo/BS11イレブン.lgd" -oa "/home/pi/CmcutScp/result/ダンジョン飯　第20話「アイスゴーレム／バロメッツ」-2024年05月16日23時/logoframe_inlogo.txt"
+
+cmd : join_logo_scp -inlogo "/home/pi/CmcutScp/result/ダンジョン飯　第20話「アイスゴーレム／バロメッツ」-2024年05月16日23時/logoframe_inlogo.txt" -inscp "/home/pi/CmcutScp/result/ダンジョン飯　第20話「アイスゴーレム／バロメッツ」-2024年05月16日23時/chapter_inscp.txt" -incmd "/home/pi/CmcutScp/join_logo_scp_trial/JL/JL_標準.txt" -o "/home/pi/CmcutScp/result/ダンジョン飯　第20話「アイスゴーレム／バロメッツ」-2024年05月16日23時/join_logo_scp.txt"
+
+joinOutputFile()
+: "/home/pi/CmcutScp/result/ダンジョン飯　第20話「アイスゴーレム／バロメッツ」-2024年05月16日23時/join_logo_scp.csv"
+
+ フレーム情報ファイルのパス(joinOutputFile) 
+ /home/pi/CmcutScp/result/ダンジョン飯　第20話「アイスゴーレム／バロメッツ」-2024年05月16日23時/join_logo_scp.csv 
+
+ フィルターコンプレックスの初期値を設定(data) 
+ 79,2776
+4425,21537
+22437,47281
+ 
+
+generateFilterComplex()
+: "[0:v]trim=2.636:92.626,setpts=PTS-STARTPTS[v0];[0:a]atrim=2.636:92.626,asetpts=PTS-STARTPTS[a0];[v0]yadif=0[v0_deinterlaced];[0:v]trim=147.648:718.619,setpts=PTS-STARTPTS[v1];[0:a]atrim=147.648:718.619,asetpts=PTS-STARTPTS[a1];[v1]yadif=0[v1_deinterlaced];[0:v]trim=748.649:1577.611,setpts=PTS-STARTPTS[v2];[0:a]atrim=748.649:1577.611,asetpts=PTS-STARTPTS[a2];[v2]yadif=0[v2_deinterlaced];[v0_deinterlaced][a0][v1_deinterlaced][a1][v2_deinterlaced][a2]concat=n=3:v=1:a=1"
+
+/usr/bin/ffmpeg:: -y,-analyzeduration,10M,-probesize,32M,-i,/srv/dev-disk-by-uuid-D454C24354C22856/NAS_4_1/Recorded/2024-1cours/ダンジョン飯　第20話「アイスゴーレム／バロメッツ」-2024年05月16日23時.ts,-c:a,aac,-ignore_unknown,-filter_complex,[0:v]trim=2.636:92.626,setpts=PTS-STARTPTS[v0];[0:a]atrim=2.636:92.626,asetpts=PTS-STARTPTS[a0];[v0]yadif=0[v0_deinterlaced];[0:v]trim=147.648:718.619,setpts=PTS-STARTPTS[v1];[0:a]atrim=147.648:718.619,asetpts=PTS-STARTPTS[a1];[v1]yadif=0[v1_deinterlaced];[0:v]trim=748.649:1577.611,setpts=PTS-STARTPTS[v2];[0:a]atrim=748.649:1577.611,asetpts=PTS-STARTPTS[a2];[v2]yadif=0[v2_deinterlaced];[v0_deinterlaced][a0][v1_deinterlaced][a1][v2_deinterlaced][a2]concat=n=3:v=1:a=1,-b:v,10M,-c:v,h264_v4l2m2m,-aspect,16:9,-f,mp4,-r,29.97,-crf,20,/srv/dev-disk-by-uuid-A6DA96A3DA966F75/NAS/Recorded/TV_Program/ダンジョン飯/S1/ダンジョン飯　第20話「アイスゴーレム／バロメッツ」-2024年05月16日23時.mp4
+

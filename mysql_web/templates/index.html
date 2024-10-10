@@ -1,0 +1,240 @@
+<!--/home/pi/CmcutScp/mysql_web/templates/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web App</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='js/style.css') }}">
+    <style>
+        /* スタイルを追加 */
+        #confirmationPopup {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: rgb(0, 0, 0);
+            padding: 20px;
+            border: 1px solid #ccc;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            z-index: 9999;
+        }
+
+        #confirmationPopup p {
+            margin-bottom: 20px;
+        }
+
+        #confirmationPopup button {
+            margin-right: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Add Video Data</h1>
+    <form action="/sampleform-post" method="POST">
+     
+        <label for="channel">Channel:</label>
+        <select id="channel" name="channel" required>
+            <option value="" disabled selected>Select a channel</option>
+            {% for lgd_file in lgd_files %}
+            <option value="{{ lgd_file }}">{{ lgd_file }}</option>
+            {% endfor %}
+        </select>
+        <br>
+
+        <label for="date">Date and Time:</label>
+        <input type="datetime-local" id="date" name="date" required>
+        <br>
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br>
+
+        <label for="description">Description:</label>
+        <input type="text" id="description" name="description">
+        <br>
+
+        <label for="details">Details:</label>
+        <textarea id="details" name="details"></textarea>
+        <br>
+
+        <fieldset>
+            <legend>ビデオファイル１</legend>
+        
+            <label for="fileType">File Type Name:</label>
+            <select id="fileType" name="fileType" required>
+                <option value="TS">TS</option>
+                <option value="CMCUT_ENH">CMCUT-ENH</option>
+            </select>
+            <br>
+        
+            <label for="directory">Directory:</label>
+            <select id="directory" name="directory" required onchange="updateFileOptions()">
+                <option value="none">select</option>
+                <option value="recorded">recorded</option>
+                <option value="TV_Program">TV Program</option>
+                <option value="movie">Movie</option>
+                <option value="2023年春番組M2TS">2023年春番組M2TS</option>
+                <option value="2023年夏番組M2TS">2023年夏番組M2TS</option>
+                <option value="Blu-ray">Blu-ray</option>
+            </select>
+            <br>
+        
+            <label for="selectedFile">Select Video File:</label>
+            <select id="selectedFile" name="selectedFile" required>
+                <option value="" disabled selected>ビデオファイルを選択してください</option>
+                <!-- JavaScriptを使用してここに動的にオプションが追加されます -->
+            </select>
+            <br>
+        </fieldset>
+        
+        <fieldset>
+            <legend>ビデオファイル2</legend>
+        
+            <label for="fileType_2">File Type Name:</label>
+            <select id="fileType_2" name="fileType_2" required>
+                <option value="TS_2">TS</option>
+                <option value="CMCUT_ENH_2">CMCUT-ENH</option>
+            </select>
+            <br>
+        
+            <label for="directory_2">Directory:</label>
+            <select id="directory_2" name="directory_2" required onchange="updateFileOptions_2()">
+                <option value="none">select</option>
+                <option value="recorded">recorded</option>
+                <option value="TV_Program">TV Program</option>
+                <option value="movie">movie</option>
+            </select>
+            <br>
+        
+            <label for="selectedFile_2">Select Video File:</label>
+            <select id="selectedFile_2" name="selectedFile_2" required>
+                <option value="" disabled selected>ビデオファイルを選択してください</option>
+                <!-- JavaScriptを使用してここに動的にオプションが追加されます -->
+            </select>
+            <br>
+        </fieldset>
+        <button type="button" class="button" onclick="showConfirmation()">Add Data</button>
+        <!-- ポップアップのコンテンツ -->
+        <div id="confirmationPopup">
+            <p>Are you sure you want to add this data?</p>
+            <button type="button" onclick="executeAdd()">Yes</button>
+            <button type="button" onclick="hideConfirmation()">No</button>
+        </div>
+        
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+    <script>
+        function updateFileOptions() {
+            var directorySelect = document.getElementById("directory");
+            var fileSelect = document.getElementById("selectedFile");
+    
+            // 既存のオプションをクリア
+            fileSelect.innerHTML = '<option value="" disabled selected>ビデオファイルを選択してください</option>';
+    
+            // 選択されたディレクトリを取得
+            var selectedDirectory = directorySelect.value;
+    
+            // 選択されたディレクトリに基づいてサーバーサイドからファイルリストを取得
+            if (selectedDirectory !== "") {
+                fetch(`/get_directory_files?selected_directory=${selectedDirectory}`)
+                    .then(response => response.json())
+                    .then(files => {
+                        // ファイル選択のドロップダウンにオプションを追加
+                        files.forEach(function (file) {
+                            var option = document.createElement("option");
+                            option.value = file;
+                            option.text = file;
+                            fileSelect.add(option);
+                        });
+                    })
+                    .catch(error => console.error('Error fetching files:', error));
+            }
+        }
+
+        function updateFileOptions_2() {
+            var directorySelect_2 = document.getElementById("directory_2");
+            var fileSelect_2 = document.getElementById("selectedFile_2");
+
+            // 既存のオプションをクリア
+            fileSelect_2.innerHTML = '<option value_2="" disabled selected>ビデオファイルを選択してください</option>';
+
+            // 選択されたディレクトリを取得
+            var selectedDirectory_2 = directorySelect_2.value;
+
+            // 選択されたディレクトリに基づいてサーバーサイドからファイルリストを取得
+            if (selectedDirectory_2 !== "none") {
+                fetch(`/get_directory_files_2?selected_directory_2=${selectedDirectory_2}`)
+                    .then(response => response.json())
+                    .then(files_2 => {
+                        // ファイル選択のドロップダウンにオプションを追加
+                        files_2.forEach(function (file) {
+                            var option = document.createElement("option");
+                            option.value = file;
+                            option.text = file;
+                            fileSelect_2.add(option);
+                        });
+                    })
+                    .catch(error => console.error('Error fetching files:', error));
+            }
+        }
+
+        function updateThumbnailOptions() {
+            var thumbnailSelect = document.getElementById("thumbnailFile");
+
+            // 既存のオプションをクリア
+            thumbnailSelect.innerHTML = '<option value="" disabled selected>Select a thumbnail</option>';
+
+            // サーバーサイドからサムネイルファイルのリストを取得
+            fetch('/get_thumbnail_files')
+                .then(response => response.json())
+                .then(thumbnails => {
+                    // サムネイル選択のドロップダウンにオプションを追加
+                    thumbnails.forEach(function (thumbnail) {
+                        var option = document.createElement("option");
+                        option.value = thumbnail;
+                        option.text = thumbnail;
+                        thumbnailSelect.add(option);
+                    });
+                })
+                .catch(error => console.error('Error fetching thumbnails:', error));
+        }
+                // ドキュメントが読み込まれたらサムネイルのオプションを更新
+                document.addEventListener("DOMContentLoaded", function () {
+            updateThumbnailOptions();
+    });
+
+            // ユーザーがサムネイルを選択したときに呼び出される関数
+        function updateThumbnailPreview() {
+            var thumbnailSelect = document.getElementById('thumbnailFile');
+            var thumbnailPreview = document.getElementById('thumbnailPreview');
+
+            // 選択されたオプションの値を取得
+            var selectedThumbnail = thumbnailSelect.value;
+
+            // 画像タグのsrc属性を更新
+            thumbnailPreview.src = '/srv/dev-disk-by-uuid-A6DA96A3DA966F75/NAS/Recorded/thumbnail/' + selectedThumbnail;
+        }
+
+    // 関数をselect要素のchangeイベントにアタッチ
+    document.getElementById('thumbnailFile').addEventListener('change', updateThumbnailPreview);
+    
+    function showConfirmation() {
+            // ポップアップを表示
+            document.getElementById("confirmationPopup").style.display = "block";
+        }
+
+        function hideConfirmation() {
+            // ポップアップを非表示
+            document.getElementById("confirmationPopup").style.display = "none";
+        }
+
+        function executeAdd() {
+            // フォームを送信
+            document.forms[0].submit();
+        }
+
+    </script>
+</body>
+</html>

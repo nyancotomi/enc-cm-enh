@@ -1,0 +1,7 @@
+AVSスクリプトファイルを生成完了
+
+channelName:--------
+日テレ1
+----------
+
+chapter_exe -v "/home/pi/CmcutScp/result/名探偵コナン「キッドＶＳ安室　王妃の前髪（前編）」[字][デ]-2023年12月02日18時(1).ts/join_tsfile.avs" -lwi /home/pi/CmcutScp/result/"名探偵コナン「キッドＶＳ安室　王妃の前髪（前編）」[字][デ]-2023年12月02日18時(1).ts"/chapter_inscp.lwi -oa /home/pi/CmcutScp/result/"名探偵コナン「キッドＶＳ安室　王妃の前髪（前編）」[字][デ]-2023年12月02日18時(1).ts"/chapter_inscp.txt

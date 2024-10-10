@@ -1,0 +1,16 @@
+AVSスクリプトファイルを生成完了
+
+channelName:--------
+MTV
+----------
+
+chapter_exe -v "/home/pi/CmcutScp/result/MTV厳選！アニメ主題歌PLAYLIST ＃2▼キタニタツヤ『呪術廻戦』 ほか-2023年12月20日06時.ts/join_tsfile.avs" -lwi /home/pi/CmcutScp/result/"MTV厳選！アニメ主題歌PLAYLIST ＃2▼キタニタツヤ『呪術廻戦』 ほか-2023年12月20日06時.ts"/chapter_inscp.lwi -oa /home/pi/CmcutScp/result/"MTV厳選！アニメ主題歌PLAYLIST ＃2▼キタニタツヤ『呪術廻戦』 ほか-2023年12月20日06時.ts"/chapter_inscp.txt
+該当する .lgd ファイルが見つかりません
+
+joinOutputFile()
+: "/home/pi/CmcutScp/result/MTV厳選！アニメ主題歌PLAYLIST ＃2▼キタニタツヤ『呪術廻戦』 ほか-2023年12月20日06時.ts/join_logo_scp.csv"
+
+ フレーム情報ファイルのパス(joinOutputFile) 
+ /home/pi/CmcutScp/result/MTV厳選！アニメ主題歌PLAYLIST ＃2▼キタニタツヤ『呪術廻戦』 ほか-2023年12月20日06時.ts/join_logo_scp.csv 
+
+Error: ENOENT: no such file or directory, open '/home/pi/CmcutScp/result/MTV厳選！アニメ主題歌PLAYLIST ＃2▼キタニタツヤ『呪術廻戦』 ほか-2023年12月20日06時.ts/join_logo_scp.csv'

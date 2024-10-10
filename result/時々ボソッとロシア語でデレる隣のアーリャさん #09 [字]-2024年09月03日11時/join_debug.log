@@ -1,0 +1,18 @@
+AVSスクリプトファイルを生成完了
+
+channelName:--------
+AT-X
+----------
+
+chapter_exe -v "/home/pi/CmcutScp/result/時々ボソッとロシア語でデレる隣のアーリャさん #09 [字]-2024年09月03日11時/join_tsfile.avs" -lwi /home/pi/CmcutScp/result/"時々ボソッとロシア語でデレる隣のアーリャさん #09 [字]-2024年09月03日11時"/chapter_inscp.lwi -oa /home/pi/CmcutScp/result/"時々ボソッとロシア語でデレる隣のアーリャさん #09 [字]-2024年09月03日11時"/chapter_inscp.txt
+該当する .lgd ファイル (AT-X.lgd) を使用せずにカットします。
+
+cmd : join_logo_scp -inscp "/home/pi/CmcutScp/result/時々ボソッとロシア語でデレる隣のアーリャさん #09 [字]-2024年09月03日11時/chapter_inscp.txt" -incmd "/home/pi/CmcutScp/join_logo_scp_trial/JL/JL_ATX.txt" -o "/home/pi/CmcutScp/result/時々ボソッとロシア語でデレる隣のアーリャさん #09 [字]-2024年09月03日11時/join_logo_scp.txt"
+
+joinOutputFile()
+: "/home/pi/CmcutScp/result/時々ボソッとロシア語でデレる隣のアーリャさん #09 [字]-2024年09月03日11時/join_logo_scp.csv"
+
+ フレーム情報ファイルのパス(joinOutputFile) 
+ /home/pi/CmcutScp/result/時々ボソッとロシア語でデレる隣のアーリャさん #09 [字]-2024年09月03日11時/join_logo_scp.csv 
+
+Error: ENOENT: no such file or directory, open '/home/pi/CmcutScp/result/時々ボソッとロシア語でデレる隣のアーリャさん #09 [字]-2024年09月03日11時/join_logo_scp.csv'

@@ -1,0 +1,1139 @@
+{"status":200,"message":"ok"}
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: GetAsURLEncoded
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0100   437    0    29  100   408      5     79  0:00:05  0:00:05 --:--:--    89
+
+[0:v]trim=0.000:26.426,setpts=PTS-STARTPTS[v0];[0:a]atrim=0.000:26.426,asetpts=PTS-STARTPTS[a0];[v0]yadif=0[v0_deinterlaced];[v0_deinterlaced][a0]concat=n=1:v=1:a=1
+
+
+{"type":"progress","percent":0.015117157974300832,"log":"frame= 13 fps=0 size=0 time=00:00:00.40 bitrate=0.9 drop=0 speed=0.809"}
+{"type":"progress","percent":0.03136810279667422,"log":"frame= 25 fps=25 size=256 time=00:00:00.83 bitrate=2521.1 drop=0 speed=0.818"}
+{"type":"progress","percent":0.047241118669690094,"log":"frame= 38 fps=25 size=512 time=00:00:01.25 bitrate=3332.6 drop=0 speed=0.814"}
+{"type":"progress","percent":0.06689342403628118,"log":"frame= 53 fps=26 size=1280 time=00:00:01.77 bitrate=5922.1 drop=0 speed=0.858"}
+{"type":"progress","percent":0.08465608465608467,"log":"frame= 67 fps=26 size=1792 time=00:00:02.24 bitrate=6553.8 drop=0 speed=0.866"}
+{"type":"progress","percent":0.10052910052910054,"log":"frame= 80 fps=26 size=2304 time=00:00:02.66 bitrate=7078 drop=0 speed=0.858"}
+{"type":"progress","percent":0.118291761148904,"log":"frame= 94 fps=26 size=2816 time=00:00:03.13 bitrate=7356.2 drop=0 speed=0.866"}
+{"type":"progress","percent":0.1345427059712774,"log":"frame= 107 fps=26 size=3072 time=00:00:03.56 bitrate=7063.9 drop=0 speed=0.86"}
+{"type":"progress","percent":0.15230536659108088,"log":"frame= 121 fps=26 size=3840 time=00:00:04.03 bitrate=7802 drop=0 speed=0.865"}
+{"type":"progress","percent":0.16931216931216933,"log":"frame= 135 fps=26 size=4352 time=00:00:04.48 bitrate=7958 drop=0 speed=0.868"}
+{"type":"progress","percent":0.18783068783068782,"log":"frame= 149 fps=26 size=4864 time=00:00:04.97 bitrate=8016.3 drop=0 speed=0.875"}
+{"type":"progress","percent":0.20559334845049132,"log":"frame= 163 fps=26 size=5120 time=00:00:05.44 bitrate=7710.2 drop=0 speed=0.879"}
+{"type":"progress","percent":0.2199546485260771,"log":"frame= 175 fps=26 size=5632 time=00:00:05.82 bitrate=7922 drop=0 speed=0.869"}
+{"type":"progress","percent":0.23771730914588057,"log":"frame= 189 fps=26 size=5888 time=00:00:06.29 bitrate=7664.4 drop=0 speed=0.872"}
+{"type":"progress","percent":0.25699168556311414,"log":"frame= 204 fps=26 size=6400 time=00:00:06.80 bitrate=7704.1 drop=0 speed=0.879"}
+{"type":"progress","percent":0.2732426303854875,"log":"frame= 217 fps=26 size=6656 time=00:00:07.23 bitrate=7539.6 drop=0 speed=0.873"}
+{"type":"progress","percent":0.2868480725623583,"log":"frame= 228 fps=26 size=7168 time=00:00:07.59 bitrate=7731.8 drop=0 speed=0.864"}
+{"type":"progress","percent":0.3061224489795918,"log":"frame= 243 fps=26 size=7680 time=00:00:08.10 bitrate=7760.9 drop=0 speed=0.871"}
+{"type":"progress","percent":0.3197278911564626,"log":"frame= 254 fps=26 size=8192 time=00:00:08.46 bitrate=7923.8 drop=0 speed=0.861"}
+{"type":"progress","percent":0.337490551776266,"log":"frame= 268 fps=26 size=8704 time=00:00:08.93 bitrate=7977 drop=0 speed=0.863"}
+{"type":"progress","percent":0.35449735449735453,"log":"frame= 281 fps=26 size=9216 time=00:00:09.38 bitrate=8043.1 drop=0 speed=0.865"}
+{"type":"progress","percent":0.37150415721844293,"log":"frame= 295 fps=26 size=9472 time=00:00:09.83 bitrate=7889.9 drop=0 speed=0.865"}
+{"type":"progress","percent":0.3877551020408163,"log":"frame= 308 fps=26 size=9984 time=00:00:10.26 bitrate=7970.6 drop=0 speed=0.865"}
+{"type":"progress","percent":0.40287226001511717,"log":"frame= 320 fps=26 size=10240 time=00:00:10.66 bitrate=7864.4 drop=0 speed=0.862"}
+{"type":"progress","percent":0.42063492063492064,"log":"frame= 334 fps=26 size=10496 time=00:00:11.13 bitrate=7721.2 drop=0 speed=0.864"}
+{"type":"progress","percent":0.4383975812547241,"log":"frame= 348 fps=26 size=11008 time=00:00:11.60 bitrate=7770.4 drop=0 speed=0.867"}
+{"type":"progress","percent":0.4546485260770975,"log":"frame= 361 fps=26 size=11264 time=00:00:12.03 bitrate=7669.1 drop=0 speed=0.865"}
+{"type":"progress","percent":0.47241118669690096,"log":"frame= 375 fps=26 size=11776 time=00:00:12.50 bitrate=7716.7 drop=0 speed=0.868"}
+{"type":"progress","percent":0.4875283446712018,"log":"frame= 387 fps=26 size=12032 time=00:00:12.90 bitrate=7636.9 drop=0 speed=0.865"}
+{"type":"progress","percent":0.5068027210884354,"log":"frame= 402 fps=26 size=12288 time=00:00:13.41 bitrate=7501.8 drop=0 speed=0.87"}
+{"type":"progress","percent":0.5253212396069539,"log":"frame= 417 fps=26 size=12800 time=00:00:13.90 bitrate=7538.7 drop=0 speed=0.873"}
+{"type":"progress","percent":0.5430839002267573,"log":"frame= 431 fps=26 size=13312 time=00:00:14.37 bitrate=7584.3 drop=0 speed=0.875"}
+{"type":"progress","percent":0.5608465608465608,"log":"frame= 445 fps=26 size=14080 time=00:00:14.84 bitrate=7768.3 drop=0 speed=0.875"}
+{"type":"progress","percent":0.5763416477702192,"log":"frame= 457 fps=26 size=14592 time=00:00:15.25 bitrate=7836.8 drop=0 speed=0.872"}
+{"type":"progress","percent":0.5925925925925926,"log":"frame= 470 fps=26 size=15360 time=00:00:15.68 bitrate=8024.8 drop=0 speed=0.871"}
+{"type":"progress","percent":0.6099773242630385,"log":"frame= 484 fps=26 size=15872 time=00:00:16.14 bitrate=8051.3 drop=0 speed=0.873"}
+{"type":"progress","percent":0.627739984882842,"log":"frame= 498 fps=26 size=16128 time=00:00:16.61 bitrate=7950.2 drop=0 speed=0.873"}
+{"type":"progress","percent":0.6455026455026455,"log":"frame= 512 fps=26 size=16384 time=00:00:17.08 bitrate=7854.5 drop=0 speed=0.875"}
+{"type":"progress","percent":0.664021164021164,"log":"frame= 527 fps=26 size=17152 time=00:00:17.57 bitrate=7993.2 drop=0 speed=0.877"}
+{"type":"progress","percent":0.6825396825396824,"log":"frame= 542 fps=26 size=17920 time=00:00:18.06 bitrate=8124.3 drop=0 speed=0.879"}
+{"type":"progress","percent":0.699546485260771,"log":"frame= 556 fps=26 size=18432 time=00:00:18.51 bitrate=8154.3 drop=0 speed=0.879"}
+{"type":"progress","percent":0.7150415721844293,"log":"frame= 567 fps=26 size=18944 time=00:00:18.92 bitrate=8201.3 drop=0 speed=0.876"}
+{"type":"progress","percent":0.7256235827664399,"log":"frame= 575 fps=26 size=19456 time=00:00:19.20 bitrate=8301.2 drop=0 speed=0.868"}
+{"type":"progress","percent":0.7377173091458805,"log":"frame= 585 fps=26 size=19712 time=00:00:19.52 bitrate=8272.6 drop=0 speed=0.863"}
+{"type":"progress","percent":0.7498110355253212,"log":"frame= 595 fps=26 size=19968 time=00:00:19.84 bitrate=8244.9 drop=0 speed=0.858"}
+{"type":"progress","percent":0.7649281934996219,"log":"frame= 607 fps=26 size=20480 time=00:00:20.24 bitrate=8287 drop=0 speed=0.855"}
+{"type":"progress","percent":0.7785336356764928,"log":"frame= 618 fps=26 size=20736 time=00:00:20.60 bitrate=8242.9 drop=0 speed=0.852"}
+{"type":"progress","percent":0.7932728647014361,"log":"frame= 629 fps=25 size=21248 time=00:00:20.99 bitrate=8291.9 drop=0 speed=0.85"}
+{"type":"progress","percent":0.8068783068783069,"log":"frame= 640 fps=25 size=21504 time=00:00:21.35 bitrate=8249.3 drop=0 speed=0.847"}
+{"type":"progress","percent":0.8231292517006803,"log":"frame= 653 fps=25 size=22016 time=00:00:21.78 bitrate=8280.3 drop=0 speed=0.846"}
+{"type":"progress","percent":0.8382464096749811,"log":"frame= 665 fps=25 size=22528 time=00:00:22.18 bitrate=8318 drop=0 speed=0.845"}
+{"type":"progress","percent":0.8544973544973544,"log":"frame= 678 fps=25 size=22784 time=00:00:22.61 bitrate=8253.8 drop=0 speed=0.845"}
+{"type":"progress","percent":0.8722600151171579,"log":"frame= 692 fps=25 size=23296 time=00:00:23.08 bitrate=8267.7 drop=0 speed=0.846"}
+{"type":"progress","percent":0.8873771730914588,"log":"frame= 704 fps=25 size=23808 time=00:00:23.48 bitrate=8303.6 drop=0 speed=0.845"}
+{"type":"progress","percent":0.9013605442176871,"log":"frame= 715 fps=25 size=24576 time=00:00:23.85 bitrate=8441.1 drop=0 speed=0.842"}
+{"type":"progress","percent":0.9149659863945578,"log":"frame= 726 fps=25 size=25088 time=00:00:24.21 bitrate=8487.9 drop=0 speed=0.839"}
+{"type":"progress","percent":0.9300831443688586,"log":"frame= 738 fps=25 size=25600 time=00:00:24.61 bitrate=8518.6 drop=0 speed=0.838"}
+{"type":"progress","percent":0.9433106575963719,"log":"frame= 749 fps=25 size=26112 time=00:00:24.96 bitrate=8570.1 drop=0 speed=0.836"}
+{"type":"progress","percent":0.9576719576719577,"log":"frame= 760 fps=25 size=26624 time=00:00:25.34 bitrate=8605.8 drop=0 speed=0.834"}
+{"type":"progress","percent":0.9720332577475433,"log":"frame= 771 fps=25 size=27136 time=00:00:25.72 bitrate=8640.3 drop=0 speed=0.832"}
+{"type":"progress","percent":0.9860166288737717,"log":"frame= 784 fps=25 size=27392 time=00:00:26.09 bitrate=8599.9 drop=0 speed=0.83"}
+{"type":"progress","percent":0.9973544973544973,"log":"frame= 792 fps=25 size=28010 time=00:00:26.39 bitrate=8694 drop=0 speed=0.831"}
+{"status":200,"message":"ok"}
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (6) Could not resolve host: GetAsURLEncoded
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0100   437    0    29  100   408      5     79  0:00:05  0:00:05 --:--:--    92
+
+[0:v]trim=0.000:26.426,setpts=PTS-STARTPTS[v0];[0:a]atrim=0.000:26.426,asetpts=PTS-STARTPTS[a0];[v0]yadif=0[v0_deinterlaced];[v0_deinterlaced][a0]concat=n=1:v=1:a=1
+
+
+{"type":"progress","percent":0.015117157974300832,"log":"frame= 12 fps=0 size=0 time=00:00:00.40 bitrate=0.9 drop=0 speed=0.79"}
+{"type":"progress","percent":0.03212396069538927,"log":"frame= 26 fps=25 size=256 time=00:00:00.85 bitrate=2458.1 drop=0 speed=0.836"}
+{"type":"progress","percent":0.05139833711262283,"log":"frame= 41 fps=27 size=768 time=00:00:01.36 bitrate=4608.3 drop=0 speed=0.889"}
+{"type":"progress","percent":0.06840513983371126,"log":"frame= 55 fps=27 size=1280 time=00:00:01.81 bitrate=5782.8 drop=0 speed=0.891"}
+{"type":"progress","percent":0.08692365835222977,"log":"frame= 69 fps=27 size=1792 time=00:00:02.30 bitrate=6371.7 drop=0 speed=0.897"}
+{"type":"progress","percent":0.10468631897203326,"log":"frame= 83 fps=27 size=2304 time=00:00:02.77 bitrate=6805.8 drop=0 speed=0.898"}
+{"type":"progress","percent":0.1216931216931217,"log":"frame= 97 fps=27 size=2816 time=00:00:03.22 bitrate=7161.3 drop=0 speed=0.895"}
+{"type":"progress","percent":0.14096749811035525,"log":"frame= 112 fps=27 size=3328 time=00:00:03.73 bitrate=7302.7 drop=0 speed=0.905"}
+{"type":"progress","percent":0.15721844293272866,"log":"frame= 125 fps=27 size=3840 time=00:00:04.16 bitrate=7561.9 drop=0 speed=0.899"}
+{"type":"progress","percent":0.17384731670445955,"log":"frame= 139 fps=27 size=4608 time=00:00:04.60 bitrate=8192.1 drop=0 speed=0.898"}
+{"type":"progress","percent":0.19085411942554797,"log":"frame= 152 fps=27 size=4864 time=00:00:05.05 bitrate=7881 drop=0 speed=0.898"}
+{"type":"progress","percent":0.20861678004535145,"log":"frame= 166 fps=27 size=5120 time=00:00:05.52 bitrate=7591.1 drop=0 speed=0.901"}
+{"type":"progress","percent":0.22637944066515495,"log":"frame= 180 fps=27 size=5632 time=00:00:05.99 bitrate=7696.5 drop=0 speed=0.903"}
+{"type":"progress","percent":0.2456538170823885,"log":"frame= 195 fps=27 size=6144 time=00:00:06.50 bitrate=7735.5 drop=0 speed=0.908"}
+{"type":"progress","percent":0.264172335600907,"log":"frame= 210 fps=27 size=6400 time=00:00:06.99 bitrate=7492.7 drop=0 speed=0.909"}
+{"type":"progress","percent":0.2834467120181406,"log":"frame= 225 fps=27 size=6912 time=00:00:07.50 bitrate=7540.4 drop=0 speed=0.914"}
+{"type":"progress","percent":0.29969765684051397,"log":"frame= 238 fps=27 size=7424 time=00:00:07.93 bitrate=7663.5 drop=0 speed=0.91"}
+{"type":"progress","percent":0.31746031746031744,"log":"frame= 252 fps=27 size=8192 time=00:00:08.40 bitrate=7984.1 drop=0 speed=0.911"}
+{"type":"progress","percent":0.3352229780801209,"log":"frame= 266 fps=27 size=8704 time=00:00:08.87 bitrate=8034.5 drop=0 speed=0.911"}
+{"type":"progress","percent":0.3537414965986394,"log":"frame= 281 fps=27 size=9216 time=00:00:09.36 bitrate=8061.4 drop=0 speed=0.912"}
+{"type":"progress","percent":0.3707482993197279,"log":"frame= 294 fps=27 size=9472 time=00:00:09.81 bitrate=7907.1 drop=0 speed=0.911"}
+{"type":"progress","percent":0.3877551020408163,"log":"frame= 308 fps=27 size=9984 time=00:00:10.26 bitrate=7970.6 drop=0 speed=0.91"}
+{"type":"progress","percent":0.4055177626606198,"log":"frame= 322 fps=27 size=10240 time=00:00:10.73 bitrate=7817.5 drop=0 speed=0.91"}
+{"type":"progress","percent":0.42479213907785335,"log":"frame= 337 fps=27 size=10752 time=00:00:11.24 bitrate=7834.5 drop=0 speed=0.914"}
+{"type":"progress","percent":0.4425547996976569,"log":"frame= 351 fps=27 size=11008 time=00:00:11.71 bitrate=7699.6 drop=0 speed=0.914"}
+{"type":"progress","percent":0.4610733182161753,"log":"frame= 366 fps=27 size=11520 time=00:00:12.20 bitrate=7733.7 drop=0 speed=0.914"}
+{"type":"progress","percent":0.48034769463340893,"log":"frame= 381 fps=27 size=12032 time=00:00:12.71 bitrate=7752.2 drop=0 speed=0.916"}
+{"type":"progress","percent":0.49811035525321234,"log":"frame= 395 fps=27 size=12288 time=00:00:13.18 bitrate=7635.3 drop=0 speed=0.916"}
+{"type":"progress","percent":0.5124716553287982,"log":"frame= 407 fps=27 size=12544 time=00:00:13.56 bitrate=7573.8 drop=0 speed=0.91"}
+{"type":"progress","percent":0.5279667422524565,"log":"frame= 419 fps=27 size=12800 time=00:00:13.97 bitrate=7504.1 drop=0 speed=0.907"}
+{"type":"progress","percent":0.54572940287226,"log":"frame= 433 fps=27 size=13568 time=00:00:14.44 bitrate=7695.9 drop=0 speed=0.906"}
+{"type":"progress","percent":0.5634920634920635,"log":"frame= 447 fps=27 size=14336 time=00:00:14.91 bitrate=7875.6 drop=0 speed=0.905"}
+{"type":"progress","percent":0.582010582010582,"log":"frame= 462 fps=27 size=15104 time=00:00:15.40 bitrate=8033.2 drop=0 speed=0.906"}
+{"type":"progress","percent":0.5997732426303855,"log":"frame= 476 fps=27 size=15360 time=00:00:15.87 bitrate=7927.8 drop=0 speed=0.906"}
+{"type":"progress","percent":0.619047619047619,"log":"frame= 491 fps=27 size=15872 time=00:00:16.38 bitrate=7936 drop=0 speed=0.909"}
+{"type":"progress","percent":0.6368102796674225,"log":"frame= 505 fps=27 size=16384 time=00:00:16.85 bitrate=7963.9 drop=0 speed=0.908"}
+{"type":"progress","percent":0.654572940287226,"log":"frame= 520 fps=27 size=16896 time=00:00:17.32 bitrate=7990.2 drop=0 speed=0.909"}
+{"type":"progress","percent":0.6715797430083144,"log":"frame= 533 fps=27 size=17408 time=00:00:17.77 bitrate=8024.8 drop=0 speed=0.907"}
+{"type":"progress","percent":0.6893424036281178,"log":"frame= 547 fps=27 size=17920 time=00:00:18.24 bitrate=8048.3 drop=0 speed=0.908"}
+{"type":"progress","percent":0.7067271352985638,"log":"frame= 561 fps=27 size=18688 time=00:00:18.70 bitrate=8182.7 drop=0 speed=0.907"}
+{"type":"progress","percent":0.7244897959183674,"log":"frame= 575 fps=27 size=19456 time=00:00:19.17 bitrate=8310.5 drop=0 speed=0.906"}
+{"type":"progress","percent":0.7422524565381708,"log":"frame= 589 fps=27 size=19712 time=00:00:19.64 bitrate=8218.7 drop=0 speed=0.906"}
+{"type":"progress","percent":0.7626606198034769,"log":"frame= 605 fps=27 size=20224 time=00:00:20.18 bitrate=8209.3 drop=0 speed=0.909"}
+{"type":"progress","percent":0.7804232804232804,"log":"frame= 620 fps=27 size=20736 time=00:00:20.65 bitrate=8225.9 drop=0 speed=0.909"}
+{"type":"progress","percent":0.7981859410430839,"log":"frame= 633 fps=27 size=21248 time=00:00:21.12 bitrate=8241.7 drop=0 speed=0.91"}
+{"type":"progress","percent":0.8155706727135298,"log":"frame= 647 fps=27 size=21760 time=00:00:21.58 bitrate=8256.8 drop=0 speed=0.91"}
+{"type":"progress","percent":0.8333333333333334,"log":"frame= 661 fps=27 size=22272 time=00:00:22.05 bitrate=8271.2 drop=0 speed=0.91"}
+{"type":"progress","percent":0.8544973544973544,"log":"frame= 678 fps=27 size=22784 time=00:00:22.61 bitrate=8253.8 drop=0 speed=0.913"}
+{"type":"progress","percent":0.873771730914588,"log":"frame= 693 fps=27 size=23296 time=00:00:23.12 bitrate=8252.5 drop=0 speed=0.914"}
+{"type":"progress","percent":0.8922902494331065,"log":"frame= 708 fps=27 size=24064 time=00:00:23.61 bitrate=8347.4 drop=0 speed=0.915"}
+{"type":"progress","percent":0.91005291005291,"log":"frame= 722 fps=27 size=24832 time=00:00:24.08 bitrate=8446 drop=0 speed=0.915"}
+{"type":"progress","percent":0.9278155706727135,"log":"frame= 736 fps=27 size=25600 time=00:00:24.55 bitrate=8540.8 drop=0 speed=0.915"}
+{"type":"progress","percent":0.945578231292517,"log":"frame= 750 fps=27 size=26368 time=00:00:25.02 bitrate=8632 drop=0 speed=0.915"}
+{"type":"progress","percent":0.9656084656084656,"log":"frame= 766 fps=27 size=26880 time=00:00:25.55 bitrate=8616 drop=0 speed=0.917"}
+{"type":"progress","percent":0.983371126228269,"log":"frame= 782 fps=28 size=27392 time=00:00:26.02 bitrate=8621.9 drop=0 speed=0.916"}
+{"type":"progress","percent":0.9973544973544973,"log":"frame= 792 fps=28 size=28010 time=00:00:26.39 bitrate=8694 drop=0 speed=0.917"}
+{"status":200,"message":"ok"}
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (6) Could not resolve host: GetAsURLEncoded
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   426    0    29  100   397    278   3817 --:--:-- --:--:-- --:--:--  4096
+
+[0:v]trim=0.000:26.426,setpts=PTS-STARTPTS[v0];[0:a]atrim=0.000:26.426,asetpts=PTS-STARTPTS[a0];[v0]yadif=0[v0_deinterlaced];[v0_deinterlaced][a0]concat=n=1:v=1:a=1
+
+
+{"type":"progress","percent":0.015117157974300832,"log":"frame= 12 fps=0 size=0 time=00:00:00.40 bitrate=0.9 drop=0 speed=0.809"}
+{"type":"progress","percent":0.03212396069538927,"log":"frame= 26 fps=26 size=256 time=00:00:00.85 bitrate=2458.1 drop=0 speed=0.844"}
+{"type":"progress","percent":0.05139833711262283,"log":"frame= 41 fps=27 size=768 time=00:00:01.36 bitrate=4608.3 drop=0 speed=0.89"}
+{"type":"progress","percent":0.06764928193499622,"log":"frame= 54 fps=26 size=1280 time=00:00:01.79 bitrate=5851.6 drop=0 speed=0.877"}
+{"type":"progress","percent":0.08692365835222977,"log":"frame= 69 fps=27 size=1792 time=00:00:02.30 bitrate=6371.7 drop=0 speed=0.906"}
+{"type":"progress","percent":0.10317460317460317,"log":"frame= 82 fps=27 size=2304 time=00:00:02.73 bitrate=6912.1 drop=0 speed=0.892"}
+{"type":"progress","percent":0.1216931216931217,"log":"frame= 97 fps=27 size=2816 time=00:00:03.22 bitrate=7161.3 drop=0 speed=0.898"}
+{"type":"progress","percent":0.1383219954648526,"log":"frame= 111 fps=27 size=3328 time=00:00:03.66 bitrate=7430.1 drop=0 speed=0.898"}
+{"type":"progress","percent":0.15608465608465608,"log":"frame= 124 fps=27 size=3840 time=00:00:04.13 bitrate=7600.9 drop=0 speed=0.897"}
+{"type":"progress","percent":0.17384731670445955,"log":"frame= 138 fps=27 size=4608 time=00:00:04.60 bitrate=8192.1 drop=0 speed=0.901"}
+{"type":"progress","percent":0.19236583522297807,"log":"frame= 153 fps=27 size=4864 time=00:00:05.09 bitrate=7815 drop=0 speed=0.907"}
+{"type":"progress","percent":0.21201814058956917,"log":"frame= 168 fps=27 size=5376 time=00:00:05.61 bitrate=7849.4 drop=0 speed=0.917"}
+{"type":"progress","percent":0.22864701436130005,"log":"frame= 182 fps=27 size=5888 time=00:00:06.05 bitrate=7961.3 drop=0 speed=0.911"}
+{"type":"progress","percent":0.24640967498110353,"log":"frame= 196 fps=27 size=6144 time=00:00:06.52 bitrate=7710.2 drop=0 speed=0.91"}
+{"type":"progress","percent":0.2660619803476946,"log":"frame= 211 fps=27 size=6400 time=00:00:07.04 bitrate=7447.3 drop=0 speed=0.913"}
+{"type":"progress","percent":0.28458049886621317,"log":"frame= 226 fps=27 size=7168 time=00:00:07.53 bitrate=7797.5 drop=0 speed=0.916"}
+{"type":"progress","percent":0.30234315948601664,"log":"frame= 240 fps=27 size=7680 time=00:00:08.00 bitrate=7864.4 drop=0 speed=0.914"}
+{"type":"progress","percent":0.3197278911564626,"log":"frame= 254 fps=27 size=8192 time=00:00:08.46 bitrate=7923.8 drop=0 speed=0.914"}
+{"type":"progress","percent":0.335978835978836,"log":"frame= 267 fps=27 size=8704 time=00:00:08.89 bitrate=8015.2 drop=0 speed=0.91"}
+{"type":"progress","percent":0.35449735449735453,"log":"frame= 282 fps=27 size=9216 time=00:00:09.38 bitrate=8043.1 drop=0 speed=0.914"}
+{"type":"progress","percent":0.37301587301587297,"log":"frame= 296 fps=27 size=9472 time=00:00:09.87 bitrate=7855.9 drop=0 speed=0.914"}
+{"type":"progress","percent":0.3915343915343915,"log":"frame= 311 fps=27 size=9984 time=00:00:10.36 bitrate=7888.6 drop=0 speed=0.915"}
+{"type":"progress","percent":0.409297052154195,"log":"frame= 325 fps=27 size=10496 time=00:00:10.83 bitrate=7934 drop=0 speed=0.915"}
+{"type":"progress","percent":0.42857142857142855,"log":"frame= 340 fps=28 size=10752 time=00:00:11.34 bitrate=7760.9 drop=0 speed=0.919"}
+{"type":"progress","percent":0.44557823129251695,"log":"frame= 354 fps=28 size=11264 time=00:00:11.79 bitrate=7821.7 drop=0 speed=0.917"}
+{"type":"progress","percent":0.46485260770975056,"log":"frame= 369 fps=28 size=11520 time=00:00:12.30 bitrate=7666.7 drop=0 speed=0.919"}
+{"type":"progress","percent":0.48261526832955404,"log":"frame= 383 fps=28 size=12032 time=00:00:12.77 bitrate=7713.4 drop=0 speed=0.918"}
+{"type":"progress","percent":0.5011337868480725,"log":"frame= 398 fps=28 size=12288 time=00:00:13.26 bitrate=7586.2 drop=0 speed=0.918"}
+{"type":"progress","percent":0.518896447467876,"log":"frame= 412 fps=28 size=12544 time=00:00:13.73 bitrate=7479.7 drop=0 speed=0.918"}
+{"type":"progress","percent":0.5366591080876795,"log":"frame= 426 fps=28 size=13312 time=00:00:14.20 bitrate=7675.4 drop=0 speed=0.917"}
+{"type":"progress","percent":0.5544217687074829,"log":"frame= 440 fps=27 size=13824 time=00:00:14.67 bitrate=7715.7 drop=0 speed=0.916"}
+{"type":"progress","percent":0.5721844293272865,"log":"frame= 454 fps=27 size=14592 time=00:00:15.14 bitrate=7892 drop=0 speed=0.916"}
+{"type":"progress","percent":0.5899470899470899,"log":"frame= 468 fps=27 size=15104 time=00:00:15.61 bitrate=7923.4 drop=0 speed=0.915"}
+{"type":"progress","percent":0.6077097505668934,"log":"frame= 482 fps=27 size=15616 time=00:00:16.08 bitrate=7953 drop=0 speed=0.914"}
+{"type":"progress","percent":0.6254724111866969,"log":"frame= 496 fps=27 size=16128 time=00:00:16.55 bitrate=7980.9 drop=0 speed=0.915"}
+{"type":"progress","percent":0.6424792139077853,"log":"frame= 510 fps=27 size=16384 time=00:00:17.00 bitrate=7893.9 drop=0 speed=0.914"}
+{"type":"progress","percent":0.6602418745275888,"log":"frame= 524 fps=27 size=16896 time=00:00:17.47 bitrate=7922 drop=0 speed=0.914"}
+{"type":"progress","percent":0.6772486772486773,"log":"frame= 537 fps=27 size=17664 time=00:00:17.92 bitrate=8075 drop=0 speed=0.913"}
+{"type":"progress","percent":0.6957671957671957,"log":"frame= 552 fps=27 size=18176 time=00:00:18.41 bitrate=8087.6 drop=0 speed=0.914"}
+{"type":"progress","percent":0.7116402116402115,"log":"frame= 565 fps=27 size=18944 time=00:00:18.83 bitrate=8238.4 drop=0 speed=0.912"}
+{"type":"progress","percent":0.7309145880574451,"log":"frame= 580 fps=27 size=19456 time=00:00:19.34 bitrate=8237.2 drop=0 speed=0.913"}
+{"type":"progress","percent":0.7498110355253212,"log":"frame= 595 fps=27 size=19968 time=00:00:19.84 bitrate=8244.9 drop=0 speed=0.914"}
+{"type":"progress","percent":0.7690854119425549,"log":"frame= 610 fps=27 size=20480 time=00:00:20.35 bitrate=8243.5 drop=0 speed=0.916"}
+{"type":"progress","percent":0.7876039304610732,"log":"frame= 625 fps=28 size=20992 time=00:00:20.84 bitrate=8250.7 drop=0 speed=0.918"}
+{"type":"progress","percent":0.8068783068783069,"log":"frame= 640 fps=28 size=21504 time=00:00:21.35 bitrate=8249.3 drop=0 speed=0.919"}
+{"type":"progress","percent":0.8253968253968254,"log":"frame= 655 fps=28 size=22016 time=00:00:21.84 bitrate=8256 drop=0 speed=0.919"}
+{"type":"progress","percent":0.8431594860166288,"log":"frame= 669 fps=28 size=22528 time=00:00:22.31 bitrate=8270.3 drop=0 speed=0.919"}
+{"type":"progress","percent":0.8624338624338624,"log":"frame= 684 fps=28 size=23040 time=00:00:22.82 bitrate=8268.6 drop=0 speed=0.92"}
+{"type":"progress","percent":0.8786848072562358,"log":"frame= 697 fps=28 size=23552 time=00:00:23.25 bitrate=8297.2 drop=0 speed=0.919"}
+{"type":"progress","percent":0.8964474678760392,"log":"frame= 711 fps=28 size=24320 time=00:00:23.72 bitrate=8398.3 drop=0 speed=0.919"}
+{"type":"progress","percent":0.9142101284958428,"log":"frame= 725 fps=28 size=24832 time=00:00:24.19 bitrate=8408.7 drop=0 speed=0.919"}
+{"type":"progress","percent":0.9319727891156462,"log":"frame= 739 fps=28 size=25600 time=00:00:24.66 bitrate=8503.8 drop=0 speed=0.919"}
+{"type":"progress","percent":0.9486016628873772,"log":"frame= 753 fps=28 size=26368 time=00:00:25.10 bitrate=8602.7 drop=0 speed=0.918"}
+{"type":"progress","percent":0.9663643235071806,"log":"frame= 767 fps=28 size=26880 time=00:00:25.57 bitrate=8608.8 drop=0 speed=0.918"}
+{"type":"progress","percent":0.981103552532124,"log":"frame= 780 fps=27 size=27392 time=00:00:25.96 bitrate=8643 drop=0 speed=0.915"}
+{"type":"progress","percent":0.9973544973544973,"log":"frame= 792 fps=27 size=28010 time=00:00:26.39 bitrate=8694 drop=0 speed=0.916"}
+外部コマンドの実行エラー: Error: Command failed: /home/pi/EPGStation/config/run_encode_error.sh encod_error "0,792
+ 
+//////////////
+再エンコード失敗
+//////////////
+
+ 再エンコードの詳細ログ:
+ http://192.168.1.83:3030" 
+
+ CMカット失敗一覧:http://192.168.1.83:3040
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (6) Could not resolve host: GetAsURLEncoded
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   426    0    29  100   397    266   3642 --:--:-- --:--:-- --:--:--  3908
+/bin/sh: line 10: CMカット失敗一覧:http://192.168.1.83:3040: No such file or directory
+
+[0:v]trim=0.000:26.426,setpts=PTS-STARTPTS[v0];[0:a]atrim=0.000:26.426,asetpts=PTS-STARTPTS[a0];[v0]yadif=0[v0_deinterlaced];[v0_deinterlaced][a0]concat=n=1:v=1:a=1
+
+
+{"type":"progress","percent":0.015117157974300832,"log":"frame= 12 fps=0 size=0 time=00:00:00.40 bitrate=0.9 drop=0 speed=0.778"}
+{"type":"progress","percent":0.02872260015117158,"log":"frame= 23 fps=21 size=256 time=00:00:00.76 bitrate=2731.2 drop=0 speed=0.713"}
+{"type":"progress","percent":0.04081632653061225,"log":"frame= 33 fps=21 size=512 time=00:00:01.08 bitrate=3855.4 drop=0 speed=0.688"}
+{"type":"progress","percent":0.05857898715041572,"log":"frame= 47 fps=22 size=1024 time=00:00:01.55 bitrate=5386.8 drop=0 speed=0.742"}
+{"type":"progress","percent":0.07634164777021919,"log":"frame= 61 fps=23 size=1536 time=00:00:02.02 bitrate=6208.9 drop=0 speed=0.776"}
+{"type":"progress","percent":0.0925925925925926,"log":"frame= 74 fps=24 size=2048 time=00:00:02.45 bitrate=6838.7 drop=0 speed=0.783"}
+{"type":"progress","percent":0.11035525321239606,"log":"frame= 88 fps=24 size=2560 time=00:00:02.92 bitrate=7175.6 drop=0 speed=0.798"}
+{"type":"progress","percent":0.12811791383219956,"log":"frame= 102 fps=24 size=3072 time=00:00:03.39 bitrate=7419.3 drop=0 speed=0.809"}
+{"type":"progress","percent":0.145880574452003,"log":"frame= 116 fps=25 size=3584 time=00:00:03.86 bitrate=7603.7 drop=0 speed=0.819"}
+{"type":"progress","percent":0.1636432350718065,"log":"frame= 130 fps=25 size=4096 time=00:00:04.33 bitrate=7748.2 drop=0 speed=0.826"}
+{"type":"progress","percent":0.17951625094482238,"log":"frame= 143 fps=25 size=4608 time=00:00:04.75 bitrate=7934.9 drop=0 speed=0.824"}
+{"type":"progress","percent":0.19727891156462585,"log":"frame= 157 fps=25 size=5120 time=00:00:05.22 bitrate=8024.9 drop=0 speed=0.828"}
+{"type":"progress","percent":0.21504157218442935,"log":"frame= 171 fps=25 size=5376 time=00:00:05.69 bitrate=7731.8 drop=0 speed=0.833"}
+{"type":"progress","percent":0.23356009070294784,"log":"frame= 185 fps=25 size=5888 time=00:00:06.18 bitrate=7796.6 drop=0 speed=0.843"}
+{"type":"progress","percent":0.24905517762660617,"log":"frame= 198 fps=25 size=6144 time=00:00:06.59 bitrate=7635.3 drop=0 speed=0.84"}
+{"type":"progress","percent":0.26341647770219195,"log":"frame= 209 fps=25 size=6400 time=00:00:06.97 bitrate=7515.7 drop=0 speed=0.833"}
+{"type":"progress","percent":0.2796674225245654,"log":"frame= 222 fps=25 size=6912 time=00:00:07.40 bitrate=7649.1 drop=0 speed=0.831"}
+{"type":"progress","percent":0.29743008314436886,"log":"frame= 236 fps=25 size=7424 time=00:00:07.87 bitrate=7725.8 drop=0 speed=0.835"}
+{"type":"progress","percent":0.3110355253212396,"log":"frame= 247 fps=25 size=7936 time=00:00:08.23 bitrate=7894.9 drop=0 speed=0.829"}
+{"type":"progress","percent":0.32879818594104304,"log":"frame= 261 fps=25 size=8448 time=00:00:08.70 bitrate=7951.1 drop=0 speed=0.832"}
+{"type":"progress","percent":0.34656084656084657,"log":"frame= 275 fps=25 size=8960 time=00:00:09.17 bitrate=8001.5 drop=0 speed=0.834"}
+{"type":"progress","percent":0.36432350718065004,"log":"frame= 289 fps=25 size=9216 time=00:00:09.64 bitrate=7829.6 drop=0 speed=0.837"}
+{"type":"progress","percent":0.3801965230536659,"log":"frame= 302 fps=25 size=9728 time=00:00:10.06 bitrate=7914.3 drop=0 speed=0.838"}
+{"type":"progress","percent":0.3956916099773243,"log":"frame= 314 fps=25 size=9984 time=00:00:10.47 bitrate=7808.3 drop=0 speed=0.836"}
+{"type":"progress","percent":0.4134542705971277,"log":"frame= 328 fps=25 size=10496 time=00:00:10.94 bitrate=7856.7 drop=0 speed=0.838"}
+{"type":"progress","percent":0.4312169312169312,"log":"frame= 342 fps=25 size=10752 time=00:00:11.41 bitrate=7717.4 drop=0 speed=0.841"}
+{"type":"progress","percent":0.4489795918367347,"log":"frame= 356 fps=25 size=11264 time=00:00:11.88 bitrate=7765.5 drop=0 speed=0.844"}
+{"type":"progress","percent":0.4659863945578231,"log":"frame= 370 fps=25 size=11776 time=00:00:12.33 bitrate=7823.5 drop=0 speed=0.845"}
+{"type":"progress","percent":0.48526077097505665,"log":"frame= 385 fps=25 size=12032 time=00:00:12.84 bitrate=7674.9 drop=0 speed=0.85"}
+{"type":"progress","percent":0.5037792894935752,"log":"frame= 400 fps=26 size=12288 time=00:00:13.33 bitrate=7549.8 drop=0 speed=0.854"}
+{"type":"progress","percent":0.5230536659108087,"log":"frame= 415 fps=26 size=12544 time=00:00:13.84 bitrate=7422.1 drop=0 speed=0.859"}
+{"type":"progress","percent":0.5415721844293273,"log":"frame= 430 fps=26 size=13312 time=00:00:14.33 bitrate=7606.9 drop=0 speed=0.862"}
+{"type":"progress","percent":0.5593348450491308,"log":"frame= 444 fps=26 size=14080 time=00:00:14.80 bitrate=7790.7 drop=0 speed=0.863"}
+{"type":"progress","percent":0.5763416477702192,"log":"frame= 457 fps=26 size=14592 time=00:00:15.25 bitrate=7836.8 drop=0 speed=0.864"}
+{"type":"progress","percent":0.5925925925925926,"log":"frame= 470 fps=26 size=15360 time=00:00:15.68 bitrate=8024.8 drop=0 speed=0.862"}
+{"type":"progress","percent":0.6099773242630385,"log":"frame= 484 fps=26 size=15872 time=00:00:16.14 bitrate=8051.3 drop=0 speed=0.863"}
+{"type":"progress","percent":0.6288737717309146,"log":"frame= 499 fps=26 size=16128 time=00:00:16.64 bitrate=7940 drop=0 speed=0.865"}
+{"type":"progress","percent":0.6462585034013606,"log":"frame= 513 fps=26 size=16640 time=00:00:17.10 bitrate=7967.3 drop=0 speed=0.867"}
+{"type":"progress","percent":0.664021164021164,"log":"frame= 527 fps=26 size=17152 time=00:00:17.57 bitrate=7993.2 drop=0 speed=0.868"}
+{"type":"progress","percent":0.6817838246409674,"log":"frame= 541 fps=26 size=17664 time=00:00:18.04 bitrate=8017.7 drop=0 speed=0.869"}
+{"type":"progress","percent":0.6980347694633409,"log":"frame= 554 fps=26 size=18432 time=00:00:18.47 bitrate=8173.1 drop=0 speed=0.868"}
+{"type":"progress","percent":0.7157974300831444,"log":"frame= 568 fps=26 size=19200 time=00:00:18.94 bitrate=8302.7 drop=0 speed=0.868"}
+{"type":"progress","percent":0.7320483749055178,"log":"frame= 581 fps=26 size=19456 time=00:00:19.37 bitrate=8228.1 drop=0 speed=0.867"}
+{"type":"progress","percent":0.7505668934240363,"log":"frame= 595 fps=26 size=19968 time=00:00:19.86 bitrate=8236 drop=0 speed=0.87"}
+{"type":"progress","percent":0.7664399092970522,"log":"frame= 608 fps=26 size=20480 time=00:00:20.28 bitrate=8269.5 drop=0 speed=0.869"}
+{"type":"progress","percent":0.7842025699168556,"log":"frame= 623 fps=26 size=20992 time=00:00:20.75 bitrate=8284.6 drop=0 speed=0.871"}
+{"type":"progress","percent":0.801965230536659,"log":"frame= 636 fps=26 size=21504 time=00:00:21.22 bitrate=8299 drop=0 speed=0.871"}
+{"type":"progress","percent":0.8223733938019653,"log":"frame= 652 fps=26 size=22016 time=00:00:21.76 bitrate=8288.4 drop=0 speed=0.874"}
+{"type":"progress","percent":0.8390022675736961,"log":"frame= 666 fps=26 size=22528 time=00:00:22.20 bitrate=8310.1 drop=0 speed=0.874"}
+{"type":"progress","percent":0.8575207860922147,"log":"frame= 680 fps=26 size=22784 time=00:00:22.69 bitrate=8222.8 drop=0 speed=0.876"}
+{"type":"progress","percent":0.8722600151171579,"log":"frame= 692 fps=26 size=23296 time=00:00:23.08 bitrate=8267.7 drop=0 speed=0.874"}
+{"type":"progress","percent":0.8900226757369615,"log":"frame= 706 fps=26 size=24064 time=00:00:23.55 bitrate=8370.1 drop=0 speed=0.874"}
+{"type":"progress","percent":0.9036281179138321,"log":"frame= 717 fps=26 size=24576 time=00:00:23.91 bitrate=8418.6 drop=0 speed=0.87"}
+{"type":"progress","percent":0.9213907785336356,"log":"frame= 731 fps=26 size=25344 time=00:00:24.38 bitrate=8514.5 drop=0 speed=0.87"}
+{"type":"progress","percent":0.9406651549508692,"log":"frame= 746 fps=26 size=26112 time=00:00:24.89 bitrate=8592.1 drop=0 speed=0.871"}
+{"type":"progress","percent":0.9576719576719577,"log":"frame= 760 fps=26 size=26624 time=00:00:25.34 bitrate=8605.8 drop=0 speed=0.871"}
+{"type":"progress","percent":0.975434618291761,"log":"frame= 774 fps=26 size=27136 time=00:00:25.81 bitrate=8611.8 drop=0 speed=0.871"}
+{"type":"progress","percent":0.9935752078609221,"log":"frame= 790 fps=26 size=27392 time=00:00:26.29 bitrate=8534.4 drop=0 speed=0.872"}
+{"type":"progress","percent":0.9973544973544973,"log":"frame= 792 fps=26 size=28010 time=00:00:26.39 bitrate=8694 drop=0 speed=0.87"}
+外部コマンドの実行エラー: Error: Command failed: /home/pi/EPGStation/config/run_encode_error.sh encod_error "0,792
+ 
+//////////////
+再エンコード失敗
+//////////////
+
+ 再エンコードの詳細ログ:
+ http://192.168.1.83:3030" 
+
+ CMカット失敗一覧:http://192.168.1.83:3040
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (6) Could not resolve host: GetAsURLEncoded
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   426    0    29  100   397    254   3482 --:--:-- --:--:-- --:--:--  3736
+/bin/sh: line 10: CMカット失敗一覧:http://192.168.1.83:3040: No such file or directory
+
+[0:v]trim=0.000:26.426,setpts=PTS-STARTPTS[v0];[0:a]atrim=0.000:26.426,asetpts=PTS-STARTPTS[a0];[v0]yadif=0[v0_deinterlaced];[v0_deinterlaced][a0]concat=n=1:v=1:a=1
+
+
+{"type":"progress","percent":0.015117157974300832,"log":"frame= 12 fps=0 size=0 time=00:00:00.40 bitrate=0.9 drop=0 speed=0.79"}
+{"type":"progress","percent":0.027210884353741496,"log":"frame= 22 fps=21 size=0 time=00:00:00.72 bitrate=0.5 drop=0 speed=0.704"}
+{"type":"progress","percent":0.0400604686318972,"log":"frame= 32 fps=21 size=512 time=00:00:01.06 bitrate=3932.5 drop=0 speed=0.69"}
+{"type":"progress","percent":0.053665910808767946,"log":"frame= 43 fps=21 size=768 time=00:00:01.42 bitrate=4401.9 drop=0 speed=0.698"}
+{"type":"progress","percent":0.0691609977324263,"log":"frame= 55 fps=21 size=1280 time=00:00:01.83 bitrate=5715.6 drop=0 speed=0.711"}
+{"type":"progress","percent":0.08125472411186696,"log":"frame= 65 fps=21 size=1792 time=00:00:02.15 bitrate=6813.3 drop=0 speed=0.687"}
+{"type":"progress","percent":0.09561602418745274,"log":"frame= 76 fps=21 size=2304 time=00:00:02.53 bitrate=7434.9 drop=0 speed=0.692"}
+{"type":"progress","percent":0.10959939531368103,"log":"frame= 87 fps=21 size=2560 time=00:00:02.90 bitrate=7228.4 drop=0 speed=0.686"}
+{"type":"progress","percent":0.12471655328798185,"log":"frame= 99 fps=21 size=2816 time=00:00:03.30 bitrate=6976.5 drop=0 speed=0.698"}
+{"type":"progress","percent":0.14096749811035525,"log":"frame= 113 fps=22 size=3328 time=00:00:03.73 bitrate=7302.7 drop=0 speed=0.713"}
+{"type":"progress","percent":0.15721844293272866,"log":"frame= 125 fps=22 size=3840 time=00:00:04.16 bitrate=7561.9 drop=0 speed=0.723"}
+{"type":"progress","percent":0.1764928193499622,"log":"frame= 140 fps=22 size=4608 time=00:00:04.67 bitrate=8079.9 drop=0 speed=0.743"}
+{"type":"progress","percent":0.19425547996976567,"log":"frame= 154 fps=23 size=4864 time=00:00:05.14 bitrate=7750.2 drop=0 speed=0.754"}
+{"type":"progress","percent":0.21201814058956917,"log":"frame= 168 fps=23 size=5376 time=00:00:05.61 bitrate=7849.4 drop=0 speed=0.765"}
+{"type":"progress","percent":0.22637944066515495,"log":"frame= 180 fps=23 size=5632 time=00:00:05.99 bitrate=7696.5 drop=0 speed=0.764"}
+{"type":"progress","percent":0.24414210128495842,"log":"frame= 194 fps=23 size=6144 time=00:00:06.46 bitrate=7786.5 drop=0 speed=0.773"}
+{"type":"progress","percent":0.25925925925925924,"log":"frame= 206 fps=23 size=6400 time=00:00:06.86 bitrate=7632.4 drop=0 speed=0.774"}
+{"type":"progress","percent":0.2770219198790627,"log":"frame= 220 fps=23 size=6656 time=00:00:07.33 bitrate=7430 drop=0 speed=0.78"}
+{"type":"progress","percent":0.2932728647014361,"log":"frame= 233 fps=23 size=7424 time=00:00:07.76 bitrate=7832 drop=0 speed=0.782"}
+{"type":"progress","percent":0.3110355253212396,"log":"frame= 247 fps=24 size=7936 time=00:00:08.23 bitrate=7894.9 drop=0 speed=0.789"}
+{"type":"progress","percent":0.32879818594104304,"log":"frame= 261 fps=24 size=8448 time=00:00:08.70 bitrate=7951.1 drop=0 speed=0.794"}
+{"type":"progress","percent":0.34656084656084657,"log":"frame= 275 fps=24 size=8960 time=00:00:09.17 bitrate=8001.5 drop=0 speed=0.8"}
+{"type":"progress","percent":0.36507936507936506,"log":"frame= 290 fps=24 size=9216 time=00:00:09.66 bitrate=7812.3 drop=0 speed=0.807"}
+{"type":"progress","percent":0.3843537414965986,"log":"frame= 305 fps=24 size=9728 time=00:00:10.17 bitrate=7831.4 drop=0 speed=0.814"}
+{"type":"progress","percent":0.40287226001511717,"log":"frame= 320 fps=25 size=10240 time=00:00:10.66 bitrate=7864.4 drop=0 speed=0.818"}
+{"type":"progress","percent":0.4164777021919879,"log":"frame= 331 fps=24 size=10496 time=00:00:11.02 bitrate=7795.9 drop=0 speed=0.814"}
+{"type":"progress","percent":0.4342403628117914,"log":"frame= 345 fps=25 size=11008 time=00:00:11.49 bitrate=7842.5 drop=0 speed=0.817"}
+{"type":"progress","percent":0.4520030234315949,"log":"frame= 359 fps=25 size=11264 time=00:00:11.96 bitrate=7710.1 drop=0 speed=0.82"}
+{"type":"progress","percent":0.47165532879818595,"log":"frame= 374 fps=25 size=11776 time=00:00:12.48 bitrate=7729.9 drop=0 speed=0.826"}
+{"type":"progress","percent":0.4901738473167045,"log":"frame= 389 fps=25 size=12032 time=00:00:12.97 bitrate=7599.2 drop=0 speed=0.829"}
+{"type":"progress","percent":0.5102040816326531,"log":"frame= 405 fps=25 size=12544 time=00:00:13.50 bitrate=7609.7 drop=0 speed=0.835"}
+{"type":"progress","percent":0.5279667422524565,"log":"frame= 419 fps=25 size=12800 time=00:00:13.97 bitrate=7504.1 drop=0 speed=0.838"}
+{"type":"progress","percent":0.546485260770975,"log":"frame= 434 fps=25 size=13568 time=00:00:14.46 bitrate=7684.6 drop=0 speed=0.842"}
+{"type":"progress","percent":0.5634920634920635,"log":"frame= 447 fps=25 size=14336 time=00:00:14.91 bitrate=7875.6 drop=0 speed=0.842"}
+{"type":"progress","percent":0.5793650793650793,"log":"frame= 460 fps=25 size=14848 time=00:00:15.33 bitrate=7930 drop=0 speed=0.841"}
+{"type":"progress","percent":0.5971277399848829,"log":"frame= 474 fps=25 size=15360 time=00:00:15.80 bitrate=7959.9 drop=0 speed=0.843"}
+{"type":"progress","percent":0.6167800453514739,"log":"frame= 489 fps=25 size=15872 time=00:00:16.32 bitrate=7967.1 drop=0 speed=0.847"}
+{"type":"progress","percent":0.6352985638699924,"log":"frame= 504 fps=25 size=16128 time=00:00:16.81 bitrate=7859.4 drop=0 speed=0.848"}
+{"type":"progress","percent":0.653061224489796,"log":"frame= 518 fps=26 size=16640 time=00:00:17.28 bitrate=7888.6 drop=0 speed=0.851"}
+{"type":"progress","percent":0.6715797430083144,"log":"frame= 533 fps=26 size=17408 time=00:00:17.77 bitrate=8024.8 drop=0 speed=0.853"}
+{"type":"progress","percent":0.6866969009826153,"log":"frame= 545 fps=25 size=17920 time=00:00:18.17 bitrate=8076.6 drop=0 speed=0.85"}
+{"type":"progress","percent":0.7044595616024187,"log":"frame= 559 fps=26 size=18688 time=00:00:18.64 bitrate=8210.8 drop=0 speed=0.851"}
+{"type":"progress","percent":0.7199546485260772,"log":"frame= 571 fps=25 size=19200 time=00:00:19.05 bitrate=8256.2 drop=0 speed=0.849"}
+{"type":"progress","percent":0.7335600907029478,"log":"frame= 582 fps=25 size=19456 time=00:00:19.41 bitrate=8210 drop=0 speed=0.845"}
+{"type":"progress","percent":0.7441421012849585,"log":"frame= 590 fps=25 size=19712 time=00:00:19.69 bitrate=8200.9 drop=0 speed=0.838"}
+{"type":"progress","percent":0.7535903250188964,"log":"frame= 598 fps=25 size=19968 time=00:00:19.94 bitrate=8200.8 drop=0 speed=0.831"}
+{"type":"progress","percent":0.7671957671957672,"log":"frame= 609 fps=25 size=20480 time=00:00:20.30 bitrate=8260.9 drop=0 speed=0.829"}
+{"type":"progress","percent":0.7849584278155707,"log":"frame= 623 fps=25 size=20992 time=00:00:20.77 bitrate=8276.1 drop=0 speed=0.831"}
+{"type":"progress","percent":0.800453514739229,"log":"frame= 635 fps=25 size=21504 time=00:00:21.18 bitrate=8315.8 drop=0 speed=0.83"}
+{"type":"progress","percent":0.8182161753590325,"log":"frame= 649 fps=25 size=22016 time=00:00:21.65 bitrate=8329.2 drop=0 speed=0.832"}
+{"type":"progress","percent":0.835978835978836,"log":"frame= 663 fps=25 size=22528 time=00:00:22.12 bitrate=8342.1 drop=0 speed=0.833"}
+{"type":"progress","percent":0.8537414965986394,"log":"frame= 677 fps=25 size=22784 time=00:00:22.59 bitrate=8261.6 drop=0 speed=0.835"}
+{"type":"progress","percent":0.8715041572184429,"log":"frame= 691 fps=25 size=23296 time=00:00:23.06 bitrate=8275.4 drop=0 speed=0.836"}
+{"type":"progress","percent":0.8881330309901738,"log":"frame= 705 fps=25 size=24064 time=00:00:23.50 bitrate=8385.3 drop=0 speed=0.836"}
+{"type":"progress","percent":0.9058956916099773,"log":"frame= 719 fps=25 size=24576 time=00:00:23.97 bitrate=8396.1 drop=0 speed=0.837"}
+{"type":"progress","percent":0.9236583522297808,"log":"frame= 733 fps=25 size=25344 time=00:00:24.44 bitrate=8492.2 drop=0 speed=0.838"}
+{"type":"progress","percent":0.937641723356009,"log":"frame= 744 fps=25 size=25856 time=00:00:24.81 bitrate=8537.2 drop=0 speed=0.836"}
+{"type":"progress","percent":0.95427059712774,"log":"frame= 757 fps=25 size=26624 time=00:00:25.25 bitrate=8634.8 drop=0 speed=0.836"}
+{"type":"progress","percent":0.9720332577475433,"log":"frame= 771 fps=25 size=27136 time=00:00:25.72 bitrate=8640.3 drop=0 speed=0.838"}
+{"type":"progress","percent":0.9882842025699168,"log":"frame= 786 fps=25 size=27392 time=00:00:26.15 bitrate=8578 drop=0 speed=0.838"}
+{"type":"progress","percent":0.9973544973544973,"log":"frame= 792 fps=25 size=28010 time=00:00:26.39 bitrate=8694 drop=0 speed=0.838"}
+外部コマンドの実行エラー: Error: Command failed: /home/pi/EPGStation/config/run_encode_error.sh encod_error "0,792
+ 
+//////////////
+再エンコード失敗
+//////////////
+
+ 再エンコードの詳細ログ:
+ http://192.168.1.83:30" 
+
+ CMカット失敗一覧:http://192.168.1.83:3040
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (6) Could not resolve host: GetAsURLEncoded
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   424    0    29  100   395    226   3085 --:--:-- --:--:-- --:--:--  3338
+/bin/sh: line 10: CMカット失敗一覧:http://192.168.1.83:3040: No such file or directory
+
+[0:v]trim=0.000:26.426,setpts=PTS-STARTPTS[v0];[0:a]atrim=0.000:26.426,asetpts=PTS-STARTPTS[a0];[v0]yadif=0[v0_deinterlaced];[v0_deinterlaced][a0]concat=n=1:v=1:a=1
+
+
+{"type":"progress","percent":0.015117157974300832,"log":"frame= 12 fps=0 size=0 time=00:00:00.40 bitrate=0.9 drop=0 speed=0.791"}
+{"type":"progress","percent":0.03212396069538927,"log":"frame= 26 fps=25 size=256 time=00:00:00.85 bitrate=2458.1 drop=0 speed=0.823"}
+{"type":"progress","percent":0.049886621315192746,"log":"frame= 40 fps=26 size=768 time=00:00:01.32 bitrate=4756.9 drop=0 speed=0.857"}
+{"type":"progress","percent":0.06764928193499622,"log":"frame= 54 fps=26 size=1280 time=00:00:01.79 bitrate=5851.6 drop=0 speed=0.86"}
+{"type":"progress","percent":0.08541194255479968,"log":"frame= 68 fps=26 size=1792 time=00:00:02.26 bitrate=6491.9 drop=0 speed=0.867"}
+{"type":"progress","percent":0.10317460317460317,"log":"frame= 82 fps=26 size=2304 time=00:00:02.73 bitrate=6912.1 drop=0 speed=0.869"}
+{"type":"progress","percent":0.12093726379440665,"log":"frame= 96 fps=26 size=2816 time=00:00:03.20 bitrate=7209.1 drop=0 speed=0.874"}
+{"type":"progress","percent":0.1383219954648526,"log":"frame= 110 fps=26 size=3328 time=00:00:03.66 bitrate=7430.1 drop=0 speed=0.876"}
+{"type":"progress","percent":0.15608465608465608,"log":"frame= 124 fps=26 size=3840 time=00:00:04.13 bitrate=7600.9 drop=0 speed=0.88"}
+{"type":"progress","percent":0.17082388510959937,"log":"frame= 136 fps=26 size=4352 time=00:00:04.52 bitrate=7883 drop=0 speed=0.868"}
+{"type":"progress","percent":0.18858654572940287,"log":"frame= 150 fps=26 size=4864 time=00:00:04.99 bitrate=7982 drop=0 speed=0.869"}
+{"type":"progress","percent":0.20634920634920634,"log":"frame= 164 fps=26 size=5120 time=00:00:05.46 bitrate=7680.1 drop=0 speed=0.872"}
+{"type":"progress","percent":0.22297808012093728,"log":"frame= 177 fps=26 size=5632 time=00:00:05.90 bitrate=7807.6 drop=0 speed=0.873"}
+{"type":"progress","percent":0.2418745275888133,"log":"frame= 192 fps=26 size=6144 time=00:00:06.40 bitrate=7864.4 drop=0 speed=0.877"}
+{"type":"progress","percent":0.25925925925925924,"log":"frame= 206 fps=26 size=6400 time=00:00:06.86 bitrate=7632.4 drop=0 speed=0.88"}
+{"type":"progress","percent":0.2796674225245654,"log":"frame= 222 fps=27 size=6912 time=00:00:07.40 bitrate=7649.1 drop=0 speed=0.887"}
+{"type":"progress","percent":0.29743008314436886,"log":"frame= 236 fps=27 size=7424 time=00:00:07.87 bitrate=7725.8 drop=0 speed=0.887"}
+{"type":"progress","percent":0.31519274376417233,"log":"frame= 250 fps=27 size=7936 time=00:00:08.34 bitrate=7794 drop=0 speed=0.889"}
+{"type":"progress","percent":0.3329554043839758,"log":"frame= 264 fps=27 size=8704 time=00:00:08.81 bitrate=8092.9 drop=0 speed=0.89"}
+{"type":"progress","percent":0.35147392290249435,"log":"frame= 279 fps=27 size=8960 time=00:00:09.30 bitrate=7891.4 drop=0 speed=0.893"}
+{"type":"progress","percent":0.36923658352229777,"log":"frame= 293 fps=27 size=9472 time=00:00:09.77 bitrate=7941.6 drop=0 speed=0.893"}
+{"type":"progress","percent":0.3843537414965986,"log":"frame= 305 fps=27 size=9728 time=00:00:10.17 bitrate=7831.4 drop=0 speed=0.889"}
+{"type":"progress","percent":0.40211640211640215,"log":"frame= 319 fps=27 size=10240 time=00:00:10.64 bitrate=7880.1 drop=0 speed=0.89"}
+{"type":"progress","percent":0.41987906273620557,"log":"frame= 333 fps=27 size=10496 time=00:00:11.11 bitrate=7736 drop=0 speed=0.89"}
+{"type":"progress","percent":0.436885865457294,"log":"frame= 347 fps=27 size=11008 time=00:00:11.56 bitrate=7799.1 drop=0 speed=0.89"}
+{"type":"progress","percent":0.4546485260770975,"log":"frame= 361 fps=27 size=11264 time=00:00:12.03 bitrate=7669.1 drop=0 speed=0.891"}
+{"type":"progress","percent":0.473167044595616,"log":"frame= 376 fps=27 size=11776 time=00:00:12.52 bitrate=7703.6 drop=0 speed=0.894"}
+{"type":"progress","percent":0.48904006046863185,"log":"frame= 388 fps=27 size=12032 time=00:00:12.94 bitrate=7611.7 drop=0 speed=0.891"}
+{"type":"progress","percent":0.5030234315948602,"log":"frame= 399 fps=27 size=12288 time=00:00:13.31 bitrate=7561.9 drop=0 speed=0.885"}
+{"type":"progress","percent":0.5207860922146637,"log":"frame= 413 fps=27 size=12544 time=00:00:13.78 bitrate=7456.5 drop=0 speed=0.886"}
+{"type":"progress","percent":0.5374149659863946,"log":"frame= 427 fps=27 size=13312 time=00:00:14.22 bitrate=7663.9 drop=0 speed=0.886"}
+{"type":"progress","percent":0.5544217687074829,"log":"frame= 440 fps=27 size=13824 time=00:00:14.67 bitrate=7715.7 drop=0 speed=0.885"}
+{"type":"progress","percent":0.5706727135298564,"log":"frame= 453 fps=26 size=14592 time=00:00:15.10 bitrate=7914.3 drop=0 speed=0.883"}
+{"type":"progress","percent":0.5884353741496599,"log":"frame= 467 fps=27 size=15104 time=00:00:15.57 bitrate=7945.1 drop=0 speed=0.884"}
+{"type":"progress","percent":0.6077097505668934,"log":"frame= 482 fps=27 size=15616 time=00:00:16.08 bitrate=7953 drop=0 speed=0.887"}
+{"type":"progress","percent":0.6254724111866969,"log":"frame= 496 fps=27 size=16128 time=00:00:16.55 bitrate=7980.9 drop=0 speed=0.888"}
+{"type":"progress","percent":0.6424792139077853,"log":"frame= 510 fps=27 size=16384 time=00:00:17.00 bitrate=7893.9 drop=0 speed=0.888"}
+{"type":"progress","percent":0.6602418745275888,"log":"frame= 524 fps=27 size=16896 time=00:00:17.47 bitrate=7922 drop=0 speed=0.888"}
+{"type":"progress","percent":0.6780045351473923,"log":"frame= 538 fps=27 size=17664 time=00:00:17.94 bitrate=8065.4 drop=0 speed=0.888"}
+{"type":"progress","percent":0.6946334089191232,"log":"frame= 551 fps=27 size=18176 time=00:00:18.38 bitrate=8097 drop=0 speed=0.888"}
+{"type":"progress","percent":0.7108843537414965,"log":"frame= 564 fps=27 size=18944 time=00:00:18.81 bitrate=8247.7 drop=0 speed=0.886"}
+{"type":"progress","percent":0.7286470143613001,"log":"frame= 578 fps=27 size=19456 time=00:00:19.28 bitrate=8264.5 drop=0 speed=0.887"}
+{"type":"progress","percent":0.7464096749811036,"log":"frame= 592 fps=27 size=19968 time=00:00:19.75 bitrate=8280.5 drop=0 speed=0.887"}
+{"type":"progress","percent":0.7649281934996219,"log":"frame= 607 fps=27 size=20480 time=00:00:20.24 bitrate=8287 drop=0 speed=0.887"}
+{"type":"progress","percent":0.7811791383219955,"log":"frame= 620 fps=27 size=20736 time=00:00:20.67 bitrate=8217.4 drop=0 speed=0.886"}
+{"type":"progress","percent":0.798941798941799,"log":"frame= 634 fps=27 size=21504 time=00:00:21.14 bitrate=8332.5 drop=0 speed=0.887"}
+{"type":"progress","percent":0.8167044595616024,"log":"frame= 648 fps=27 size=21760 time=00:00:21.61 bitrate=8248.6 drop=0 speed=0.886"}
+{"type":"progress","percent":0.8333333333333334,"log":"frame= 662 fps=27 size=22272 time=00:00:22.05 bitrate=8271.2 drop=0 speed=0.887"}
+{"type":"progress","percent":0.8473167044595616,"log":"frame= 672 fps=26 size=22784 time=00:00:22.42 bitrate=8324.5 drop=0 speed=0.883"}
+{"type":"progress","percent":0.8650793650793651,"log":"frame= 686 fps=26 size=23040 time=00:00:22.89 bitrate=8245.5 drop=0 speed=0.884"}
+{"type":"progress","percent":0.8794406651549508,"log":"frame= 698 fps=26 size=23552 time=00:00:23.27 bitrate=8289.6 drop=0 speed=0.88"}
+{"type":"progress","percent":0.8964474678760392,"log":"frame= 711 fps=26 size=24320 time=00:00:23.72 bitrate=8398.3 drop=0 speed=0.88"}
+{"type":"progress","percent":0.9123204837490552,"log":"frame= 724 fps=26 size=24832 time=00:00:24.14 bitrate=8423.6 drop=0 speed=0.879"}
+{"type":"progress","percent":0.9285714285714286,"log":"frame= 737 fps=26 size=25600 time=00:00:24.57 bitrate=8533.3 drop=0 speed=0.878"}
+{"type":"progress","percent":0.945578231292517,"log":"frame= 750 fps=26 size=26368 time=00:00:25.02 bitrate=8632 drop=0 speed=0.877"}
+{"type":"progress","percent":0.9606953892668179,"log":"frame= 762 fps=26 size=26880 time=00:00:25.42 bitrate=8659.3 drop=0 speed=0.875"}
+{"type":"progress","percent":0.9769463340891913,"log":"frame= 777 fps=26 size=27392 time=00:00:25.85 bitrate=8677.6 drop=0 speed=0.874"}
+{"type":"progress","percent":0.9947089947089947,"log":"frame= 791 fps=26 size=27392 time=00:00:26.32 bitrate=8523.6 drop=0 speed=0.875"}
+{"type":"progress","percent":0.9973544973544973,"log":"frame= 792 fps=26 size=28010 time=00:00:26.39 bitrate=8694 drop=0 speed=0.875"}
+{"status":200,"message":"ok"}
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: GetAsURLEncoded
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   476    0    29  100   447    232   3576 --:--:-- --:--:-- --:--:--  3808
+
+[0:v]trim=0.000:26.426,setpts=PTS-STARTPTS[v0];[0:a]atrim=0.000:26.426,asetpts=PTS-STARTPTS[a0];[v0]yadif=0[v0_deinterlaced];[v0_deinterlaced][a0]concat=n=1:v=1:a=1
+
+
+{"type":"progress","percent":0.015117157974300832,"log":"frame= 12 fps=0 size=0 time=00:00:00.40 bitrate=0.9 drop=0 speed=0.786"}
+{"type":"progress","percent":0.03212396069538927,"log":"frame= 26 fps=26 size=256 time=00:00:00.85 bitrate=2458.1 drop=0 speed=0.839"}
+{"type":"progress","percent":0.050642479213907785,"log":"frame= 40 fps=26 size=768 time=00:00:01.34 bitrate=4681.4 drop=0 speed=0.886"}
+{"type":"progress","percent":0.0691609977324263,"log":"frame= 55 fps=27 size=1280 time=00:00:01.83 bitrate=5715.6 drop=0 speed=0.903"}
+{"type":"progress","percent":0.08692365835222977,"log":"frame= 69 fps=27 size=1792 time=00:00:02.30 bitrate=6371.7 drop=0 speed=0.901"}
+{"type":"progress","percent":0.10544217687074829,"log":"frame= 84 fps=27 size=2560 time=00:00:02.79 bitrate=7504.3 drop=0 speed=0.907"}
+{"type":"progress","percent":0.12471655328798185,"log":"frame= 99 fps=27 size=2816 time=00:00:03.30 bitrate=6976.5 drop=0 speed=0.916"}
+{"type":"progress","percent":0.1417233560090703,"log":"frame= 113 fps=27 size=3328 time=00:00:03.75 bitrate=7261.2 drop=0 speed=0.913"}
+{"type":"progress","percent":0.1602418745275888,"log":"frame= 127 fps=28 size=4096 time=00:00:04.24 bitrate=7903.9 drop=0 speed=0.92"}
+{"type":"progress","percent":0.17876039304610733,"log":"frame= 142 fps=28 size=4608 time=00:00:04.73 bitrate=7970.7 drop=0 speed=0.923"}
+{"type":"progress","percent":0.1965230536659108,"log":"frame= 156 fps=28 size=4864 time=00:00:05.20 bitrate=7654.9 drop=0 speed=0.923"}
+{"type":"progress","percent":0.2165532879818594,"log":"frame= 172 fps=28 size=5376 time=00:00:05.73 bitrate=7674.4 drop=0 speed=0.931"}
+{"type":"progress","percent":0.23771730914588057,"log":"frame= 189 fps=28 size=5888 time=00:00:06.29 bitrate=7664.4 drop=0 speed=0.944"}
+{"type":"progress","percent":0.25699168556311414,"log":"frame= 204 fps=28 size=6400 time=00:00:06.80 bitrate=7704.1 drop=0 speed=0.948"}
+{"type":"progress","percent":0.2781557067271353,"log":"frame= 221 fps=29 size=6656 time=00:00:07.36 bitrate=7408.5 drop=0 speed=0.955"}
+{"type":"progress","percent":0.29554043839758126,"log":"frame= 235 fps=29 size=7424 time=00:00:07.82 bitrate=7767.9 drop=0 speed=0.954"}
+{"type":"progress","percent":0.31594860166288735,"log":"frame= 251 fps=29 size=7936 time=00:00:08.36 bitrate=7774.1 drop=0 speed=0.958"}
+{"type":"progress","percent":0.3337112622826908,"log":"frame= 265 fps=29 size=8704 time=00:00:08.83 bitrate=8073.3 drop=0 speed=0.954"}
+{"type":"progress","percent":0.3537414965986394,"log":"frame= 281 fps=29 size=9216 time=00:00:09.36 bitrate=8061.4 drop=0 speed=0.957"}
+{"type":"progress","percent":0.37150415721844293,"log":"frame= 295 fps=29 size=9472 time=00:00:09.83 bitrate=7889.9 drop=0 speed=0.956"}
+{"type":"progress","percent":0.3907785336356765,"log":"frame= 310 fps=29 size=9984 time=00:00:10.34 bitrate=7904.9 drop=0 speed=0.958"}
+{"type":"progress","percent":0.409297052154195,"log":"frame= 325 fps=29 size=10496 time=00:00:10.83 bitrate=7934 drop=0 speed=0.958"}
+{"type":"progress","percent":0.42857142857142855,"log":"frame= 340 fps=29 size=10752 time=00:00:11.34 bitrate=7760.9 drop=0 speed=0.959"}
+{"type":"progress","percent":0.4489795918367347,"log":"frame= 356 fps=29 size=11264 time=00:00:11.88 bitrate=7765.5 drop=0 speed=0.962"}
+{"type":"progress","percent":0.46485260770975056,"log":"frame= 369 fps=29 size=11520 time=00:00:12.30 bitrate=7666.7 drop=0 speed=0.957"}
+{"type":"progress","percent":0.48526077097505665,"log":"frame= 385 fps=29 size=12032 time=00:00:12.84 bitrate=7674.9 drop=0 speed=0.959"}
+{"type":"progress","percent":0.5037792894935752,"log":"frame= 400 fps=29 size=12288 time=00:00:13.33 bitrate=7549.8 drop=0 speed=0.96"}
+{"type":"progress","percent":0.5253212396069539,"log":"frame= 417 fps=29 size=12800 time=00:00:13.90 bitrate=7538.7 drop=0 speed=0.966"}
+{"type":"progress","percent":0.5430839002267573,"log":"frame= 431 fps=29 size=13312 time=00:00:14.37 bitrate=7584.3 drop=0 speed=0.963"}
+{"type":"progress","percent":0.5608465608465608,"log":"frame= 445 fps=29 size=14080 time=00:00:14.84 bitrate=7768.3 drop=0 speed=0.961"}
+{"type":"progress","percent":0.5770975056689343,"log":"frame= 458 fps=29 size=14848 time=00:00:15.27 bitrate=7963.2 drop=0 speed=0.957"}
+{"type":"progress","percent":0.5948601662887377,"log":"frame= 472 fps=29 size=15360 time=00:00:15.74 bitrate=7992.2 drop=0 speed=0.956"}
+{"type":"progress","percent":0.6126228269085412,"log":"frame= 486 fps=29 size=15872 time=00:00:16.21 bitrate=8019.6 drop=0 speed=0.955"}
+{"type":"progress","percent":0.6303854875283447,"log":"frame= 500 fps=29 size=16128 time=00:00:16.68 bitrate=7919.7 drop=0 speed=0.954"}
+{"type":"progress","percent":0.648148148148148,"log":"frame= 514 fps=29 size=16640 time=00:00:17.15 bitrate=7947.5 drop=0 speed=0.953"}
+{"type":"progress","percent":0.6681783824640967,"log":"frame= 530 fps=29 size=17152 time=00:00:17.68 bitrate=7945 drop=0 speed=0.955"}
+{"type":"progress","percent":0.6859410430839001,"log":"frame= 544 fps=29 size=17920 time=00:00:18.15 bitrate=8086.1 drop=0 speed=0.954"}
+{"type":"progress","percent":0.7037037037037037,"log":"frame= 558 fps=29 size=18432 time=00:00:18.62 bitrate=8107.6 drop=0 speed=0.953"}
+{"type":"progress","percent":0.7207105064247922,"log":"frame= 572 fps=29 size=19200 time=00:00:19.07 bitrate=8247 drop=0 speed=0.951"}
+{"type":"progress","percent":0.7384731670445955,"log":"frame= 586 fps=29 size=19712 time=00:00:19.54 bitrate=8263.6 drop=0 speed=0.951"}
+{"type":"progress","percent":0.7577475434618292,"log":"frame= 601 fps=29 size=20224 time=00:00:20.05 bitrate=8261.7 drop=0 speed=0.952"}
+{"type":"progress","percent":0.7755102040816326,"log":"frame= 615 fps=28 size=20736 time=00:00:20.52 bitrate=8277.2 drop=0 speed=0.951"}
+{"type":"progress","percent":0.7932728647014361,"log":"frame= 629 fps=28 size=21248 time=00:00:20.99 bitrate=8291.9 drop=0 speed=0.95"}
+{"type":"progress","percent":0.8125472411186697,"log":"frame= 644 fps=28 size=21760 time=00:00:21.50 bitrate=8289.5 drop=0 speed=0.951"}
+{"type":"progress","percent":0.8303099017384731,"log":"frame= 659 fps=28 size=22272 time=00:00:21.97 bitrate=8303.4 drop=0 speed=0.95"}
+{"type":"progress","percent":0.8480725623582767,"log":"frame= 673 fps=28 size=22784 time=00:00:22.44 bitrate=8316.6 drop=0 speed=0.949"}
+{"type":"progress","percent":0.8673469387755102,"log":"frame= 688 fps=28 size=23296 time=00:00:22.95 bitrate=8313.8 drop=0 speed=0.95"}
+{"type":"progress","percent":0.8851095993953138,"log":"frame= 702 fps=28 size=23808 time=00:00:23.42 bitrate=8326.3 drop=0 speed=0.95"}
+{"type":"progress","percent":0.9036281179138321,"log":"frame= 717 fps=28 size=24576 time=00:00:23.91 bitrate=8418.6 drop=0 speed=0.949"}
+{"type":"progress","percent":0.9213907785336356,"log":"frame= 731 fps=28 size=25344 time=00:00:24.38 bitrate=8514.5 drop=0 speed=0.949"}
+{"type":"progress","percent":0.9391534391534392,"log":"frame= 745 fps=28 size=25856 time=00:00:24.85 bitrate=8522.5 drop=0 speed=0.948"}
+{"type":"progress","percent":0.9569160997732427,"log":"frame= 759 fps=28 size=26624 time=00:00:25.32 bitrate=8613 drop=0 speed=0.947"}
+{"type":"progress","percent":0.975434618291761,"log":"frame= 774 fps=28 size=27136 time=00:00:25.81 bitrate=8611.8 drop=0 speed=0.948"}
+{"type":"progress","percent":0.9935752078609221,"log":"frame= 790 fps=28 size=27392 time=00:00:26.29 bitrate=8534.4 drop=0 speed=0.947"}
+{"type":"progress","percent":0.9973544973544973,"log":"frame= 792 fps=28 size=28010 time=00:00:26.39 bitrate=8694 drop=0 speed=0.946"}
+{"status":200,"message":"ok"}
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (6) Could not resolve host: GetAsURLEncoded
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0100   477    0    29  100   448      5     87  0:00:05  0:00:05 --:--:--   112
+
+[0:v]trim=0.000:26.426,setpts=PTS-STARTPTS[v0];[0:a]atrim=0.000:26.426,asetpts=PTS-STARTPTS[a0];[v0]yadif=0[v0_deinterlaced];[v0_deinterlaced][a0]concat=n=1:v=1:a=1
+
+
+{"type":"progress","percent":0.012093726379440665,"log":"frame= 10 fps=0 size=0 time=00:00:00.32 bitrate=1.2 drop=0 speed=0.638"}
+{"type":"progress","percent":0.02872260015117158,"log":"frame= 23 fps=21 size=256 time=00:00:00.76 bitrate=2731.2 drop=0 speed=0.705"}
+{"type":"progress","percent":0.04497354497354497,"log":"frame= 36 fps=23 size=512 time=00:00:01.19 bitrate=3511.2 drop=0 speed=0.75"}
+{"type":"progress","percent":0.06122448979591837,"log":"frame= 49 fps=23 size=1024 time=00:00:01.62 bitrate=5174.1 drop=0 speed=0.764"}
+{"type":"progress","percent":0.07634164777021919,"log":"frame= 61 fps=23 size=1536 time=00:00:02.02 bitrate=6208.9 drop=0 speed=0.764"}
+{"type":"progress","percent":0.09183673469387756,"log":"frame= 73 fps=23 size=2048 time=00:00:02.43 bitrate=6898.7 drop=0 speed=0.765"}
+{"type":"progress","percent":0.10770975056689343,"log":"frame= 86 fps=23 size=2560 time=00:00:02.85 bitrate=7336.3 drop=0 speed=0.769"}
+{"type":"progress","percent":0.12320483749055176,"log":"frame= 98 fps=23 size=2816 time=00:00:03.26 bitrate=7067.7 drop=0 speed=0.773"}
+{"type":"progress","percent":0.1383219954648526,"log":"frame= 110 fps=23 size=3328 time=00:00:03.66 bitrate=7430.1 drop=0 speed=0.771"}
+{"type":"progress","percent":0.15230536659108088,"log":"frame= 121 fps=23 size=3840 time=00:00:04.03 bitrate=7802 drop=0 speed=0.766"}
+{"type":"progress","percent":0.1659108087679516,"log":"frame= 132 fps=23 size=4096 time=00:00:04.39 bitrate=7635.3 drop=0 speed=0.759"}
+{"type":"progress","percent":0.17951625094482238,"log":"frame= 143 fps=23 size=4608 time=00:00:04.75 bitrate=7934.9 drop=0 speed=0.752"}
+{"type":"progress","percent":0.19576719576719576,"log":"frame= 156 fps=23 size=4864 time=00:00:05.18 bitrate=7686.4 drop=0 speed=0.759"}
+{"type":"progress","percent":0.20861678004535145,"log":"frame= 166 fps=23 size=5120 time=00:00:05.52 bitrate=7591.1 drop=0 speed=0.75"}
+{"type":"progress","percent":0.2199546485260771,"log":"frame= 175 fps=22 size=5632 time=00:00:05.82 bitrate=7922 drop=0 speed=0.739"}
+{"type":"progress","percent":0.2328042328042328,"log":"frame= 185 fps=22 size=5888 time=00:00:06.16 bitrate=7823.6 drop=0 speed=0.732"}
+{"type":"progress","percent":0.2456538170823885,"log":"frame= 195 fps=22 size=6144 time=00:00:06.50 bitrate=7735.5 drop=0 speed=0.726"}
+{"type":"progress","percent":0.25699168556311414,"log":"frame= 204 fps=22 size=6400 time=00:00:06.80 bitrate=7704.1 drop=0 speed=0.719"}
+{"type":"progress","percent":0.2732426303854875,"log":"frame= 217 fps=22 size=6656 time=00:00:07.23 bitrate=7539.6 drop=0 speed=0.723"}
+{"type":"progress","percent":0.28835978835978837,"log":"frame= 229 fps=22 size=7168 time=00:00:07.63 bitrate=7688.6 drop=0 speed=0.725"}
+{"type":"progress","percent":0.30234315948601664,"log":"frame= 240 fps=22 size=7680 time=00:00:08.00 bitrate=7864.4 drop=0 speed=0.723"}
+{"type":"progress","percent":0.3182161753590325,"log":"frame= 253 fps=22 size=8192 time=00:00:08.42 bitrate=7963.9 drop=0 speed=0.727"}
+{"type":"progress","percent":0.3337112622826908,"log":"frame= 265 fps=22 size=8704 time=00:00:08.83 bitrate=8073.3 drop=0 speed=0.729"}
+{"type":"progress","percent":0.3488284202569917,"log":"frame= 277 fps=22 size=8960 time=00:00:09.23 bitrate=7946.1 drop=0 speed=0.732"}
+{"type":"progress","percent":0.36432350718065004,"log":"frame= 289 fps=22 size=9216 time=00:00:09.64 bitrate=7829.6 drop=0 speed=0.733"}
+{"type":"progress","percent":0.3764172335600907,"log":"frame= 299 fps=22 size=9728 time=00:00:09.96 bitrate=7999.1 drop=0 speed=0.729"}
+{"type":"progress","percent":0.3877551020408163,"log":"frame= 308 fps=22 size=9984 time=00:00:10.26 bitrate=7970.6 drop=0 speed=0.723"}
+{"type":"progress","percent":0.39795918367346933,"log":"frame= 316 fps=21 size=10240 time=00:00:10.53 bitrate=7959.9 drop=0 speed=0.712"}
+{"type":"progress","percent":0.41118669690098264,"log":"frame= 326 fps=21 size=10496 time=00:00:10.88 bitrate=7902.9 drop=0 speed=0.71"}
+{"type":"progress","percent":0.4221466364323507,"log":"frame= 335 fps=21 size=10752 time=00:00:11.17 bitrate=7879.4 drop=0 speed=0.706"}
+{"type":"progress","percent":0.43613000755857895,"log":"frame= 346 fps=21 size=11008 time=00:00:11.54 bitrate=7813.5 drop=0 speed=0.706"}
+{"type":"progress","percent":0.4497354497354497,"log":"frame= 357 fps=21 size=11264 time=00:00:11.90 bitrate=7751.6 drop=0 speed=0.704"}
+{"type":"progress","percent":0.46258503401360546,"log":"frame= 367 fps=21 size=11520 time=00:00:12.24 bitrate=7706.8 drop=0 speed=0.702"}
+{"type":"progress","percent":0.47467876039304613,"log":"frame= 377 fps=21 size=11776 time=00:00:12.56 bitrate=7677.4 drop=0 speed=0.699"}
+{"type":"progress","percent":0.48601662887377167,"log":"frame= 386 fps=21 size=12032 time=00:00:12.86 bitrate=7662.2 drop=0 speed=0.697"}
+{"type":"progress","percent":0.5011337868480725,"log":"frame= 398 fps=21 size=12288 time=00:00:13.26 bitrate=7586.2 drop=0 speed=0.699"}
+{"type":"progress","percent":0.5143613000755858,"log":"frame= 408 fps=21 size=12544 time=00:00:13.61 bitrate=7550 drop=0 speed=0.698"}
+{"type":"progress","percent":0.5294784580498866,"log":"frame= 420 fps=21 size=12800 time=00:00:14.01 bitrate=7481.3 drop=0 speed=0.699"}
+{"type":"progress","percent":0.5408163265306123,"log":"frame= 429 fps=21 size=13312 time=00:00:14.31 bitrate=7618.2 drop=0 speed=0.696"}
+{"type":"progress","percent":0.5521541950113378,"log":"frame= 438 fps=21 size=13824 time=00:00:14.61 bitrate=7749.5 drop=0 speed=0.692"}
+{"type":"progress","percent":0.5634920634920635,"log":"frame= 447 fps=21 size=14336 time=00:00:14.91 bitrate=7875.6 drop=0 speed=0.688"}
+{"type":"progress","percent":0.5763416477702192,"log":"frame= 457 fps=21 size=14592 time=00:00:15.25 bitrate=7836.8 drop=0 speed=0.686"}
+{"type":"progress","percent":0.5884353741496599,"log":"frame= 467 fps=20 size=15104 time=00:00:15.57 bitrate=7945.1 drop=0 speed=0.684"}
+{"type":"progress","percent":0.5990173847316704,"log":"frame= 475 fps=20 size=15360 time=00:00:15.85 bitrate=7938.4 drop=0 speed=0.68"}
+{"type":"progress","percent":0.6126228269085412,"log":"frame= 486 fps=20 size=15872 time=00:00:16.21 bitrate=8019.6 drop=0 speed=0.681"}
+{"type":"progress","percent":0.6239606953892669,"log":"frame= 495 fps=20 size=16128 time=00:00:16.51 bitrate=8001.5 drop=0 speed=0.678"}
+{"type":"progress","percent":0.6368102796674225,"log":"frame= 505 fps=20 size=16384 time=00:00:16.85 bitrate=7963.9 drop=0 speed=0.678"}
+{"type":"progress","percent":0.6489040060468633,"log":"frame= 515 fps=20 size=16640 time=00:00:17.17 bitrate=7937.6 drop=0 speed=0.677"}
+{"type":"progress","percent":0.6602418745275888,"log":"frame= 524 fps=20 size=16896 time=00:00:17.47 bitrate=7922 drop=0 speed=0.675"}
+{"type":"progress","percent":0.6730914588057445,"log":"frame= 534 fps=20 size=17408 time=00:00:17.81 bitrate=8005.6 drop=0 speed=0.675"}
+{"type":"progress","percent":0.6836734693877551,"log":"frame= 543 fps=20 size=17920 time=00:00:18.09 bitrate=8114.7 drop=0 speed=0.673"}
+{"type":"progress","percent":0.6957671957671957,"log":"frame= 552 fps=20 size=18176 time=00:00:18.41 bitrate=8087.6 drop=0 speed=0.672"}
+{"type":"progress","percent":0.7044595616024187,"log":"frame= 559 fps=20 size=18688 time=00:00:18.64 bitrate=8210.8 drop=0 speed=0.668"}
+{"type":"progress","percent":0.7173091458805745,"log":"frame= 569 fps=20 size=19200 time=00:00:18.98 bitrate=8284.1 drop=0 speed=0.668"}
+{"type":"progress","percent":0.7294028722600151,"log":"frame= 579 fps=20 size=19456 time=00:00:19.30 bitrate=8255.4 drop=0 speed=0.666"}
+{"type":"progress","percent":0.7407407407407408,"log":"frame= 588 fps=20 size=19712 time=00:00:19.60 bitrate=8236.6 drop=0 speed=0.665"}
+{"type":"progress","percent":0.7543461829176115,"log":"frame= 599 fps=20 size=19968 time=00:00:19.96 bitrate=8192 drop=0 speed=0.666"}
+{"type":"progress","percent":0.7641723356009069,"log":"frame= 606 fps=20 size=20224 time=00:00:20.22 bitrate=8192 drop=0 speed=0.662"}
+{"type":"progress","percent":0.7804232804232804,"log":"frame= 619 fps=20 size=20736 time=00:00:20.65 bitrate=8225.9 drop=0 speed=0.664"}
+{"type":"progress","percent":0.7955404383975813,"log":"frame= 631 fps=20 size=21248 time=00:00:21.05 bitrate=8266.7 drop=0 speed=0.666"}
+{"type":"progress","percent":0.8102796674225246,"log":"frame= 643 fps=20 size=21760 time=00:00:21.44 bitrate=8314.3 drop=0 speed=0.667"}
+{"type":"progress","percent":0.8253968253968254,"log":"frame= 655 fps=20 size=22016 time=00:00:21.84 bitrate=8256 drop=0 speed=0.669"}
+{"type":"progress","percent":0.8390022675736961,"log":"frame= 666 fps=20 size=22528 time=00:00:22.20 bitrate=8310.1 drop=0 speed=0.67"}
+{"type":"progress","percent":0.8560090702947845,"log":"frame= 679 fps=20 size=22784 time=00:00:22.65 bitrate=8238.3 drop=0 speed=0.673"}
+{"type":"progress","percent":0.8715041572184429,"log":"frame= 691 fps=20 size=23296 time=00:00:23.06 bitrate=8275.4 drop=0 speed=0.675"}
+{"type":"progress","percent":0.8851095993953138,"log":"frame= 702 fps=20 size=23808 time=00:00:23.42 bitrate=8326.3 drop=0 speed=0.675"}
+{"type":"progress","percent":0.8987150415721844,"log":"frame= 713 fps=20 size=24320 time=00:00:23.78 bitrate=8375.7 drop=0 speed=0.676"}
+{"type":"progress","percent":0.9142101284958428,"log":"frame= 725 fps=20 size=24832 time=00:00:24.19 bitrate=8408.7 drop=0 speed=0.678"}
+{"type":"progress","percent":0.9278155706727135,"log":"frame= 736 fps=20 size=25600 time=00:00:24.55 bitrate=8540.8 drop=0 speed=0.677"}
+{"type":"progress","percent":0.9414210128495842,"log":"frame= 747 fps=20 size=26112 time=00:00:24.91 bitrate=8584.8 drop=0 speed=0.678"}
+{"type":"progress","percent":0.9569160997732427,"log":"frame= 759 fps=20 size=26624 time=00:00:25.32 bitrate=8613 drop=0 speed=0.679"}
+{"type":"progress","percent":0.9697656840513983,"log":"frame= 770 fps=20 size=27136 time=00:00:25.66 bitrate=8661.9 drop=0 speed=0.679"}
+{"type":"progress","percent":0.9845049130763417,"log":"frame= 783 fps=20 size=27392 time=00:00:26.05 bitrate=8610.9 drop=0 speed=0.68"}
+{"type":"progress","percent":0.9973544973544973,"log":"frame= 792 fps=20 size=28010 time=00:00:26.39 bitrate=8694 drop=0 speed=0.68"}
+{"status":200,"message":"ok"}
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: GetAsURLEncoded
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:05 --:--:--     0100   477    0    29  100   448      5     87  0:00:05  0:00:05 --:--:--   112
+
+[0:v]trim=0.000:26.426,setpts=PTS-STARTPTS[v0];[0:a]atrim=0.000:26.426,asetpts=PTS-STARTPTS[a0];[v0]yadif=0[v0_deinterlaced];[v0_deinterlaced][a0]concat=n=1:v=1:a=1
+
+
+{"type":"progress","percent":0.008692365835222978,"log":"frame= 7 fps=0 size=0 time=00:00:00.23 bitrate=1.6 drop=0 speed=0.426"}
+{"type":"progress","percent":0.0200302343159486,"log":"frame= 16 fps=15 size=0 time=00:00:00.53 bitrate=0.7 drop=0 speed=0.499"}
+{"type":"progress","percent":0.03136810279667422,"log":"frame= 25 fps=16 size=256 time=00:00:00.83 bitrate=2521.1 drop=0 speed=0.528"}
+{"type":"progress","percent":0.04497354497354497,"log":"frame= 36 fps=17 size=512 time=00:00:01.19 bitrate=3511.2 drop=0 speed=0.573"}
+{"type":"progress","percent":0.05782312925170068,"log":"frame= 46 fps=17 size=1024 time=00:00:01.53 bitrate=5461.6 drop=0 speed=0.584"}
+{"type":"progress","percent":0.06764928193499622,"log":"frame= 54 fps=17 size=1280 time=00:00:01.79 bitrate=5851.6 drop=0 speed=0.569"}
+{"type":"progress","percent":0.08125472411186696,"log":"frame= 65 fps=18 size=1792 time=00:00:02.15 bitrate=6813.3 drop=0 speed=0.587"}
+{"type":"progress","percent":0.09561602418745274,"log":"frame= 76 fps=18 size=2304 time=00:00:02.53 bitrate=7434.9 drop=0 speed=0.605"}
+{"type":"progress","percent":0.10959939531368103,"log":"frame= 87 fps=18 size=2560 time=00:00:02.90 bitrate=7228.4 drop=0 speed=0.616"}
+{"type":"progress","percent":0.12471655328798185,"log":"frame= 99 fps=19 size=2816 time=00:00:03.30 bitrate=6976.5 drop=0 speed=0.635"}
+{"type":"progress","percent":0.13945578231292516,"log":"frame= 111 fps=19 size=3328 time=00:00:03.69 bitrate=7387.1 drop=0 speed=0.642"}
+{"type":"progress","percent":0.15381708238851097,"log":"frame= 123 fps=20 size=3840 time=00:00:04.07 bitrate=7720.3 drop=0 speed=0.652"}
+{"type":"progress","percent":0.16817838246409675,"log":"frame= 134 fps=20 size=4352 time=00:00:04.45 bitrate=7996.1 drop=0 speed=0.658"}
+{"type":"progress","percent":0.18291761148904004,"log":"frame= 145 fps=20 size=4864 time=00:00:04.84 bitrate=8228.2 drop=0 speed=0.664"}
+{"type":"progress","percent":0.1950113378684807,"log":"frame= 155 fps=20 size=4864 time=00:00:05.16 bitrate=7718.2 drop=0 speed=0.661"}
+{"type":"progress","percent":0.21012849584278154,"log":"frame= 167 fps=20 size=5376 time=00:00:05.56 bitrate=7909.6 drop=0 speed=0.667"}
+{"type":"progress","percent":0.22637944066515495,"log":"frame= 180 fps=20 size=5632 time=00:00:05.99 bitrate=7696.5 drop=0 speed=0.677"}
+{"type":"progress","percent":0.23998488284202568,"log":"frame= 191 fps=20 size=5888 time=00:00:06.35 bitrate=7587.3 drop=0 speed=0.678"}
+{"type":"progress","percent":0.25547996976568405,"log":"frame= 203 fps=21 size=6400 time=00:00:06.76 bitrate=7752.7 drop=0 speed=0.684"}
+{"type":"progress","percent":0.2724867724867725,"log":"frame= 216 fps=21 size=6656 time=00:00:07.21 bitrate=7561.9 drop=0 speed=0.692"}
+{"type":"progress","percent":0.28609221466364326,"log":"frame= 227 fps=21 size=7168 time=00:00:07.57 bitrate=7753.6 drop=0 speed=0.692"}
+{"type":"progress","percent":0.30120937263794406,"log":"frame= 239 fps=21 size=7680 time=00:00:07.97 bitrate=7885.4 drop=0 speed=0.697"}
+{"type":"progress","percent":0.31746031746031744,"log":"frame= 252 fps=21 size=8192 time=00:00:08.40 bitrate=7984.1 drop=0 speed=0.701"}
+{"type":"progress","percent":0.3303099017384732,"log":"frame= 262 fps=21 size=8448 time=00:00:08.74 bitrate=7912.3 drop=0 speed=0.7"}
+{"type":"progress","percent":0.3450491307634165,"log":"frame= 274 fps=21 size=8960 time=00:00:09.13 bitrate=8038.9 drop=0 speed=0.701"}
+{"type":"progress","percent":0.3601662887377173,"log":"frame= 286 fps=21 size=9216 time=00:00:09.53 bitrate=7917.1 drop=0 speed=0.705"}
+{"type":"progress","percent":0.37566137566137564,"log":"frame= 298 fps=21 size=9472 time=00:00:09.94 bitrate=7805.3 drop=0 speed=0.706"}
+{"type":"progress","percent":0.3892668178382464,"log":"frame= 309 fps=21 size=9984 time=00:00:10.30 bitrate=7937.6 drop=0 speed=0.707"}
+{"type":"progress","percent":0.4055177626606198,"log":"frame= 322 fps=21 size=10240 time=00:00:10.73 bitrate=7817.5 drop=0 speed=0.71"}
+{"type":"progress","percent":0.41987906273620557,"log":"frame= 333 fps=21 size=10496 time=00:00:11.11 bitrate=7736 drop=0 speed=0.711"}
+{"type":"progress","percent":0.43348450491307633,"log":"frame= 344 fps=21 size=10752 time=00:00:11.47 bitrate=7674.3 drop=0 speed=0.709"}
+{"type":"progress","percent":0.4474678760393046,"log":"frame= 355 fps=21 size=11264 time=00:00:11.84 bitrate=7793.5 drop=0 speed=0.709"}
+{"type":"progress","percent":0.46485260770975056,"log":"frame= 369 fps=21 size=11520 time=00:00:12.30 bitrate=7666.7 drop=0 speed=0.715"}
+{"type":"progress","percent":0.48034769463340893,"log":"frame= 381 fps=21 size=12032 time=00:00:12.71 bitrate=7752.2 drop=0 speed=0.717"}
+{"type":"progress","percent":0.4965986394557823,"log":"frame= 394 fps=22 size=12288 time=00:00:13.14 bitrate=7660.1 drop=0 speed=0.72"}
+{"type":"progress","percent":0.5124716553287982,"log":"frame= 407 fps=22 size=12544 time=00:00:13.56 bitrate=7573.8 drop=0 speed=0.722"}
+{"type":"progress","percent":0.5272108843537414,"log":"frame= 418 fps=22 size=12800 time=00:00:13.95 bitrate=7515.6 drop=0 speed=0.721"}
+{"type":"progress","percent":0.5415721844293273,"log":"frame= 430 fps=22 size=13312 time=00:00:14.33 bitrate=7606.9 drop=0 speed=0.72"}
+{"type":"progress","percent":0.555177626606198,"log":"frame= 441 fps=22 size=13824 time=00:00:14.69 bitrate=7704.5 drop=0 speed=0.721"}
+{"type":"progress","percent":0.5657596371882087,"log":"frame= 449 fps=21 size=14336 time=00:00:14.97 bitrate=7841.9 drop=0 speed=0.716"}
+{"type":"progress","percent":0.5793650793650793,"log":"frame= 460 fps=21 size=14848 time=00:00:15.33 bitrate=7930 drop=0 speed=0.716"}
+{"type":"progress","percent":0.5948601662887377,"log":"frame= 472 fps=21 size=15360 time=00:00:15.74 bitrate=7992.2 drop=0 speed=0.717"}
+{"type":"progress","percent":0.6111111111111112,"log":"frame= 485 fps=22 size=15872 time=00:00:16.17 bitrate=8040.7 drop=0 speed=0.719"}
+{"type":"progress","percent":0.627739984882842,"log":"frame= 498 fps=22 size=16128 time=00:00:16.61 bitrate=7950.2 drop=0 speed=0.723"}
+{"type":"progress","percent":0.6417233560090703,"log":"frame= 509 fps=22 size=16384 time=00:00:16.98 bitrate=7903.9 drop=0 speed=0.721"}
+{"type":"progress","percent":0.655328798185941,"log":"frame= 520 fps=22 size=16896 time=00:00:17.34 bitrate=7980.4 drop=0 speed=0.721"}
+{"type":"progress","percent":0.6715797430083144,"log":"frame= 533 fps=22 size=17408 time=00:00:17.77 bitrate=8024.8 drop=0 speed=0.723"}
+{"type":"progress","percent":0.6844293272864701,"log":"frame= 543 fps=22 size=17920 time=00:00:18.11 bitrate=8105.2 drop=0 speed=0.722"}
+{"type":"progress","percent":0.6957671957671957,"log":"frame= 552 fps=22 size=18176 time=00:00:18.41 bitrate=8087.6 drop=0 speed=0.718"}
+{"type":"progress","percent":0.7086167800453514,"log":"frame= 562 fps=21 size=18688 time=00:00:18.75 bitrate=8164.1 drop=0 speed=0.716"}
+{"type":"progress","percent":0.7237339380196522,"log":"frame= 574 fps=22 size=19456 time=00:00:19.15 bitrate=8319.7 drop=0 speed=0.718"}
+{"type":"progress","percent":0.7377173091458805,"log":"frame= 585 fps=22 size=19712 time=00:00:19.52 bitrate=8272.6 drop=0 speed=0.718"}
+{"type":"progress","percent":0.7513227513227513,"log":"frame= 596 fps=22 size=19968 time=00:00:19.88 bitrate=8227.2 drop=0 speed=0.718"}
+{"type":"progress","percent":0.7641723356009069,"log":"frame= 606 fps=21 size=20224 time=00:00:20.22 bitrate=8192 drop=0 speed=0.717"}
+{"type":"progress","percent":0.7777777777777777,"log":"frame= 617 fps=21 size=20736 time=00:00:20.58 bitrate=8251.4 drop=0 speed=0.717"}
+{"type":"progress","percent":0.7913832199546486,"log":"frame= 628 fps=21 size=21248 time=00:00:20.94 bitrate=8308.8 drop=0 speed=0.717"}
+{"type":"progress","percent":0.8053665910808767,"log":"frame= 639 fps=21 size=21504 time=00:00:21.31 bitrate=8265.8 drop=0 speed=0.717"}
+{"type":"progress","percent":0.8167044595616024,"log":"frame= 648 fps=21 size=21760 time=00:00:21.61 bitrate=8248.6 drop=0 speed=0.714"}
+{"type":"progress","percent":0.8303099017384731,"log":"frame= 659 fps=21 size=22272 time=00:00:21.97 bitrate=8303.4 drop=0 speed=0.714"}
+{"type":"progress","percent":0.845427059712774,"log":"frame= 671 fps=21 size=22528 time=00:00:22.37 bitrate=8246.7 drop=0 speed=0.715"}
+{"type":"progress","percent":0.8624338624338624,"log":"frame= 684 fps=21 size=23040 time=00:00:22.82 bitrate=8268.6 drop=0 speed=0.717"}
+{"type":"progress","percent":0.8760393046107331,"log":"frame= 695 fps=22 size=23552 time=00:00:23.18 bitrate=8320.1 drop=0 speed=0.717"}
+{"type":"progress","percent":0.8900226757369615,"log":"frame= 706 fps=21 size=24064 time=00:00:23.55 bitrate=8370.1 drop=0 speed=0.717"}
+{"type":"progress","percent":0.9036281179138321,"log":"frame= 717 fps=21 size=24576 time=00:00:23.91 bitrate=8418.6 drop=0 speed=0.717"}
+{"type":"progress","percent":0.9191232048374905,"log":"frame= 729 fps=22 size=25088 time=00:00:24.32 bitrate=8450.7 drop=0 speed=0.718"}
+{"type":"progress","percent":0.9319727891156462,"log":"frame= 739 fps=21 size=25600 time=00:00:24.66 bitrate=8503.8 drop=0 speed=0.717"}
+{"type":"progress","percent":0.9440665154950869,"log":"frame= 749 fps=21 size=26112 time=00:00:24.98 bitrate=8562.8 drop=0 speed=0.715"}
+{"type":"progress","percent":0.9576719576719577,"log":"frame= 760 fps=21 size=26624 time=00:00:25.34 bitrate=8605.8 drop=0 speed=0.714"}
+{"type":"progress","percent":0.9727891156462584,"log":"frame= 772 fps=21 size=27136 time=00:00:25.74 bitrate=8633.2 drop=0 speed=0.715"}
+{"type":"progress","percent":0.9871504157218443,"log":"frame= 785 fps=21 size=27392 time=00:00:26.12 bitrate=8588.9 drop=0 speed=0.715"}
+{"type":"progress","percent":0.9973544973544973,"log":"frame= 792 fps=21 size=28010 time=00:00:26.39 bitrate=8694 drop=0 speed=0.715"}
+{"status":200,"message":"ok"}
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: GetAsURLEncoded
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   479    0    29  100   450    195   3040 --:--:-- --:--:-- --:--:--  3236
+
+[0:v]trim=0.000:26.426,setpts=PTS-STARTPTS[v0];[0:a]atrim=0.000:26.426,asetpts=PTS-STARTPTS[a0];[v0]yadif=0[v0_deinterlaced];[v0_deinterlaced][a0]concat=n=1:v=1:a=1
+
+
+/srv/dev-disk-by-uuid-D454C24354C22856/NAS_4_1/Recorded/2024-4cours/encode_faild/Ｖｅｎｕｅ１０１　Ｐｒｅｓｅｎｔｓ　Ｃｒｅｅｐｙ　Ｎｕｔｓ　ＴＨＥ　ＬＩＶＥ[字]-2024年10月05日23時.mp4の削除中にエラーが発生しました: TypeError [ERR_INVALID_CALLBACK]: Callback must be a function. Received undefined
+Ｖｅｎｕｅ１０１　Ｐｒｅｓｅｎｔｓ　Ｃｒｅｅｐｙ　Ｎｕｔｓ　ＴＨＥ　ＬＩＶＥ[字]-2024年10月05日23時.lwiの削除中にエラーが発生しました: TypeError [ERR_INVALID_CALLBACK]: Callback must be a function. Received undefined
+{"type":"progress","percent":0.010959939531368102,"log":"frame= 10 fps=0 size=0 time=00:00:00.29 bitrate=1.3 drop=0 speed=0.596"}
+{"type":"progress","percent":0.024943310657596373,"log":"frame= 20 fps=19 size=0 time=00:00:00.66 bitrate=0.6 drop=0 speed=0.624"}
+{"type":"progress","percent":0.03854875283446712,"log":"frame= 31 fps=20 size=512 time=00:00:01.02 bitrate=4096.4 drop=0 speed=0.65"}
+{"type":"progress","percent":0.053665910808767946,"log":"frame= 43 fps=20 size=768 time=00:00:01.42 bitrate=4401.9 drop=0 speed=0.678"}
+{"type":"progress","percent":0.06500377928949357,"log":"frame= 52 fps=20 size=1280 time=00:00:01.72 bitrate=6068.4 drop=0 speed=0.658"}
+{"type":"progress","percent":0.07634164777021919,"log":"frame= 61 fps=19 size=1536 time=00:00:02.02 bitrate=6208.9 drop=0 speed=0.647"}
+{"type":"progress","percent":0.0891912320483749,"log":"frame= 71 fps=20 size=2048 time=00:00:02.36 bitrate=7085.1 drop=0 speed=0.652"}
+{"type":"progress","percent":0.10468631897203326,"log":"frame= 83 fps=20 size=2304 time=00:00:02.77 bitrate=6805.8 drop=0 speed=0.668"}
+{"type":"progress","percent":0.16439909297052152,"log":"frame= 131 fps=21 size=4096 time=00:00:04.35 bitrate=7710.2 drop=0 speed=0.701"}
+{"type":"progress","percent":0.17876039304610733,"log":"frame= 143 fps=21 size=4608 time=00:00:04.73 bitrate=7970.7 drop=0 speed=0.705"}
+{"type":"progress","percent":0.19236583522297807,"log":"frame= 153 fps=21 size=4864 time=00:00:05.09 bitrate=7815 drop=0 speed=0.703"}
+{"type":"progress","percent":0.20861678004535145,"log":"frame= 166 fps=21 size=5120 time=00:00:05.52 bitrate=7591.1 drop=0 speed=0.711"}
+{"type":"progress","percent":0.2241118669690098,"log":"frame= 178 fps=21 size=5632 time=00:00:05.93 bitrate=7779.5 drop=0 speed=0.714"}
+{"type":"progress","percent":0.2418745275888133,"log":"frame= 192 fps=22 size=6144 time=00:00:06.40 bitrate=7864.4 drop=0 speed=0.723"}
+{"type":"progress","percent":0.25699168556311414,"log":"frame= 204 fps=22 size=6400 time=00:00:06.80 bitrate=7704.1 drop=0 speed=0.726"}
+{"type":"progress","percent":0.2747543461829176,"log":"frame= 218 fps=22 size=6656 time=00:00:07.27 bitrate=7495.4 drop=0 speed=0.735"}
+{"type":"progress","percent":0.2891156462585034,"log":"frame= 230 fps=22 size=7168 time=00:00:07.65 bitrate=7667.2 drop=0 speed=0.735"}
+{"type":"progress","percent":0.30461073318216175,"log":"frame= 242 fps=22 size=7680 time=00:00:08.06 bitrate=7802 drop=0 speed=0.738"}
+{"type":"progress","percent":0.3182161753590325,"log":"frame= 253 fps=22 size=8192 time=00:00:08.42 bitrate=7963.9 drop=0 speed=0.735"}
+{"type":"progress","percent":0.3337112622826908,"log":"frame= 265 fps=22 size=8704 time=00:00:08.83 bitrate=8073.3 drop=0 speed=0.736"}
+{"type":"progress","percent":0.3488284202569917,"log":"frame= 277 fps=22 size=8960 time=00:00:09.23 bitrate=7946.1 drop=0 speed=0.737"}
+{"type":"progress","percent":0.36432350718065004,"log":"frame= 289 fps=22 size=9216 time=00:00:09.64 bitrate=7829.6 drop=0 speed=0.738"}
+{"type":"progress","percent":0.37944066515495084,"log":"frame= 301 fps=22 size=9728 time=00:00:10.04 bitrate=7931.1 drop=0 speed=0.74"}
+{"type":"progress","percent":0.3934240362811791,"log":"frame= 312 fps=22 size=9984 time=00:00:10.41 bitrate=7856.3 drop=0 speed=0.739"}
+{"type":"progress","percent":0.40854119425547997,"log":"frame= 324 fps=22 size=10240 time=00:00:10.81 bitrate=7755.8 drop=0 speed=0.741"}
+{"type":"progress","percent":0.42328042328042326,"log":"frame= 336 fps=22 size=10752 time=00:00:11.20 bitrate=7864.4 drop=0 speed=0.741"}
+{"type":"progress","percent":0.43613000755857895,"log":"frame= 346 fps=22 size=11008 time=00:00:11.54 bitrate=7813.5 drop=0 speed=0.738"}
+{"type":"progress","percent":0.4497354497354497,"log":"frame= 357 fps=22 size=11264 time=00:00:11.90 bitrate=7751.6 drop=0 speed=0.737"}
+{"type":"progress","percent":0.4633408919123205,"log":"frame= 368 fps=22 size=11520 time=00:00:12.26 bitrate=7693.4 drop=0 speed=0.735"}
+{"type":"progress","percent":0.48034769463340893,"log":"frame= 381 fps=22 size=12032 time=00:00:12.71 bitrate=7752.2 drop=0 speed=0.739"}
+{"type":"progress","percent":0.4947089947089947,"log":"frame= 393 fps=22 size=12288 time=00:00:13.09 bitrate=7685 drop=0 speed=0.739"}
+{"type":"progress","percent":0.5124716553287982,"log":"frame= 407 fps=22 size=12544 time=00:00:13.56 bitrate=7573.8 drop=0 speed=0.743"}
+{"type":"progress","percent":0.5294784580498866,"log":"frame= 420 fps=22 size=12800 time=00:00:14.01 bitrate=7481.3 drop=0 speed=0.747"}
+{"type":"progress","percent":0.54572940287226,"log":"frame= 433 fps=22 size=13568 time=00:00:14.44 bitrate=7695.9 drop=0 speed=0.748"}
+{"type":"progress","percent":0.5608465608465608,"log":"frame= 445 fps=22 size=14080 time=00:00:14.84 bitrate=7768.3 drop=0 speed=0.749"}
+{"type":"progress","percent":0.5729402872260015,"log":"frame= 455 fps=22 size=14592 time=00:00:15.16 bitrate=7880.9 drop=0 speed=0.745"}
+{"type":"progress","percent":0.5884353741496599,"log":"frame= 467 fps=22 size=15104 time=00:00:15.57 bitrate=7945.1 drop=0 speed=0.746"}
+{"type":"progress","percent":0.6012849584278156,"log":"frame= 477 fps=22 size=15616 time=00:00:15.91 bitrate=8038.3 drop=0 speed=0.743"}
+{"type":"progress","percent":0.6148904006046862,"log":"frame= 488 fps=22 size=15872 time=00:00:16.27 bitrate=7988 drop=0 speed=0.742"}
+{"type":"progress","percent":0.6288737717309146,"log":"frame= 499 fps=22 size=16128 time=00:00:16.64 bitrate=7940 drop=0 speed=0.741"}
+{"type":"progress","percent":0.6455026455026455,"log":"frame= 512 fps=22 size=16384 time=00:00:17.08 bitrate=7854.5 drop=0 speed=0.743"}
+{"type":"progress","percent":0.6594860166288737,"log":"frame= 523 fps=22 size=16896 time=00:00:17.45 bitrate=7931.6 drop=0 speed=0.741"}
+{"type":"progress","percent":0.6730914588057445,"log":"frame= 534 fps=22 size=17408 time=00:00:17.81 bitrate=8005.6 drop=0 speed=0.74"}
+{"type":"progress","percent":0.6866969009826153,"log":"frame= 545 fps=22 size=17920 time=00:00:18.17 bitrate=8076.6 drop=0 speed=0.739"}
+{"type":"progress","percent":0.699546485260771,"log":"frame= 555 fps=22 size=18432 time=00:00:18.51 bitrate=8154.3 drop=0 speed=0.738"}
+{"type":"progress","percent":0.7135298563869992,"log":"frame= 566 fps=22 size=18944 time=00:00:18.88 bitrate=8219.8 drop=0 speed=0.737"}
+{"type":"progress","percent":0.7271352985638699,"log":"frame= 577 fps=22 size=19456 time=00:00:19.24 bitrate=8282.8 drop=0 speed=0.736"}
+{"type":"progress","percent":0.7422524565381708,"log":"frame= 589 fps=22 size=19712 time=00:00:19.64 bitrate=8218.7 drop=0 speed=0.737"}
+{"type":"progress","percent":0.7562358276643991,"log":"frame= 600 fps=22 size=19968 time=00:00:20.01 bitrate=8174.6 drop=0 speed=0.736"}
+{"type":"progress","percent":0.7671957671957672,"log":"frame= 609 fps=22 size=20480 time=00:00:20.30 bitrate=8260.9 drop=0 speed=0.733"}
+{"type":"progress","percent":0.7826908541194255,"log":"frame= 621 fps=22 size=20992 time=00:00:20.71 bitrate=8301.7 drop=0 speed=0.734"}
+{"type":"progress","percent":0.7981859410430839,"log":"frame= 633 fps=22 size=21248 time=00:00:21.12 bitrate=8241.7 drop=0 speed=0.735"}
+{"type":"progress","percent":0.8140589569160998,"log":"frame= 646 fps=22 size=21760 time=00:00:21.54 bitrate=8273.1 drop=0 speed=0.737"}
+{"type":"progress","percent":0.8295540438397581,"log":"frame= 658 fps=22 size=22272 time=00:00:21.95 bitrate=8311.4 drop=0 speed=0.737"}
+{"type":"progress","percent":0.845427059712774,"log":"frame= 671 fps=22 size=22528 time=00:00:22.37 bitrate=8246.7 drop=0 speed=0.739"}
+{"type":"progress","percent":0.8609221466364324,"log":"frame= 683 fps=22 size=23040 time=00:00:22.78 bitrate=8284.1 drop=0 speed=0.739"}
+{"type":"progress","percent":0.8760393046107331,"log":"frame= 695 fps=22 size=23552 time=00:00:23.18 bitrate=8320.1 drop=0 speed=0.74"}
+{"type":"progress","percent":0.8915343915343915,"log":"frame= 707 fps=22 size=24064 time=00:00:23.59 bitrate=8355 drop=0 speed=0.74"}
+{"type":"progress","percent":0.9058956916099773,"log":"frame= 719 fps=22 size=24576 time=00:00:23.97 bitrate=8396.1 drop=0 speed=0.74"}
+{"type":"progress","percent":0.9206349206349206,"log":"frame= 730 fps=22 size=25088 time=00:00:24.36 bitrate=8435.9 drop=0 speed=0.74"}
+{"type":"progress","percent":0.9342403628117913,"log":"frame= 741 fps=22 size=25856 time=00:00:24.72 bitrate=8566.6 drop=0 speed=0.739"}
+{"type":"progress","percent":0.947845804988662,"log":"frame= 752 fps=22 size=26368 time=00:00:25.08 bitrate=8610 drop=0 speed=0.739"}
+{"type":"progress","percent":0.9633408919123204,"log":"frame= 764 fps=22 size=26880 time=00:00:25.49 bitrate=8637.6 drop=0 speed=0.74"}
+{"type":"progress","percent":0.9769463340891913,"log":"frame= 777 fps=22 size=27392 time=00:00:25.85 bitrate=8677.6 drop=0 speed=0.739"}
+{"type":"progress","percent":0.9935752078609221,"log":"frame= 790 fps=22 size=27392 time=00:00:26.29 bitrate=8534.4 drop=0 speed=0.74"}
+{"type":"progress","percent":0.9973544973544973,"log":"frame= 792 fps=22 size=28010 time=00:00:26.39 bitrate=8694 drop=0 speed=0.74"}
+{"status":200,"message":"ok"}
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (6) Could not resolve host: GetAsURLEncoded
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   479    0    29  100   450    213   3308 --:--:-- --:--:-- --:--:--  3548
+
+[0:v]trim=0.000:26.426,setpts=PTS-STARTPTS[v0];[0:a]atrim=0.000:26.426,asetpts=PTS-STARTPTS[a0];[v0]yadif=0[v0_deinterlaced];[v0_deinterlaced][a0]concat=n=1:v=1:a=1
+
+
+/srv/dev-disk-by-uuid-D454C24354C22856/NAS_4_1/Recorded/2024-4cours/encode_faild/Ｖｅｎｕｅ１０１　Ｐｒｅｓｅｎｔｓ　Ｃｒｅｅｐｙ　Ｎｕｔｓ　ＴＨＥ　ＬＩＶＥ[字]-2024年10月05日23時.mp4の削除中にエラーが発生しました: TypeError [ERR_INVALID_CALLBACK]: Callback must be a function. Received undefined
+/srv/dev-disk-by-uuid-D454C24354C22856/NAS_4_1/Recorded/2024-4cours/encode_faild/Ｖｅｎｕｅ１０１　Ｐｒｅｓｅｎｔｓ　Ｃｒｅｅｐｙ　Ｎｕｔｓ　ＴＨＥ　ＬＩＶＥ[字]-2024年10月05日23時.lwiの削除中にエラーが発生しました: TypeError [ERR_INVALID_CALLBACK]: Callback must be a function. Received undefined
+{"type":"progress","percent":0.010959939531368102,"log":"frame= 9 fps=0 size=0 time=00:00:00.29 bitrate=1.3 drop=0 speed=0.592"}
+{"type":"progress","percent":0.027210884353741496,"log":"frame= 22 fps=21 size=0 time=00:00:00.72 bitrate=0.5 drop=0 speed=0.704"}
+{"type":"progress","percent":0.04497354497354497,"log":"frame= 36 fps=23 size=512 time=00:00:01.19 bitrate=3511.2 drop=0 speed=0.764"}
+{"type":"progress","percent":0.06046863189720333,"log":"frame= 48 fps=23 size=1024 time=00:00:01.60 bitrate=5243.1 drop=0 speed=0.76"}
+{"type":"progress","percent":0.07407407407407407,"log":"frame= 59 fps=22 size=1536 time=00:00:01.96 bitrate=6411.3 drop=0 speed=0.743"}
+{"type":"progress","percent":0.08767951625094482,"log":"frame= 70 fps=22 size=2048 time=00:00:02.32 bitrate=7215.1 drop=0 speed=0.737"}
+{"type":"progress","percent":0.10468631897203326,"log":"frame= 83 fps=22 size=2304 time=00:00:02.77 bitrate=6805.8 drop=0 speed=0.752"}
+{"type":"progress","percent":0.118291761148904,"log":"frame= 94 fps=22 size=2816 time=00:00:03.13 bitrate=7356.2 drop=0 speed=0.747"}
+{"type":"progress","percent":0.13378684807256236,"log":"frame= 106 fps=22 size=3072 time=00:00:03.54 bitrate=7106.4 drop=0 speed=0.75"}
+{"type":"progress","percent":0.1473922902494331,"log":"frame= 117 fps=22 size=3584 time=00:00:03.90 bitrate=7520.6 drop=0 speed=0.747"}
+{"type":"progress","percent":0.1617535903250189,"log":"frame= 129 fps=23 size=4096 time=00:00:04.28 bitrate=7825.3 drop=0 speed=0.749"}
+{"type":"progress","percent":0.1746031746031746,"log":"frame= 139 fps=22 size=4608 time=00:00:04.62 bitrate=8154.3 drop=0 speed=0.738"}
+{"type":"progress","percent":0.19085411942554797,"log":"frame= 152 fps=22 size=4864 time=00:00:05.05 bitrate=7881 drop=0 speed=0.745"}
+{"type":"progress","percent":0.20634920634920634,"log":"frame= 164 fps=22 size=5120 time=00:00:05.46 bitrate=7680.1 drop=0 speed=0.746"}
+{"type":"progress","percent":0.21919879062736206,"log":"frame= 174 fps=22 size=5376 time=00:00:05.80 bitrate=7589.7 drop=0 speed=0.742"}
+{"type":"progress","percent":0.23771730914588057,"log":"frame= 189 fps=23 size=5888 time=00:00:06.29 bitrate=7664.4 drop=0 speed=0.754"}
+{"type":"progress","percent":0.254724111866969,"log":"frame= 202 fps=23 size=6400 time=00:00:06.74 bitrate=7777.3 drop=0 speed=0.76"}
+{"type":"progress","percent":0.2713529856386999,"log":"frame= 216 fps=23 size=6656 time=00:00:07.18 bitrate=7584.3 drop=0 speed=0.767"}
+{"type":"progress","percent":0.28458049886621317,"log":"frame= 226 fps=23 size=7168 time=00:00:07.53 bitrate=7797.5 drop=0 speed=0.76"}
+{"type":"progress","percent":0.30120937263794406,"log":"frame= 239 fps=23 size=7680 time=00:00:07.97 bitrate=7885.4 drop=0 speed=0.764"}
+{"type":"progress","percent":0.31594860166288735,"log":"frame= 251 fps=23 size=7936 time=00:00:08.36 bitrate=7774.1 drop=0 speed=0.764"}
+{"type":"progress","percent":0.3310657596371882,"log":"frame= 263 fps=23 size=8704 time=00:00:08.76 bitrate=8132.2 drop=0 speed=0.764"}
+{"type":"progress","percent":0.34656084656084657,"log":"frame= 275 fps=23 size=8960 time=00:00:09.17 bitrate=8001.5 drop=0 speed=0.764"}
+{"type":"progress","percent":0.36167800453514737,"log":"frame= 287 fps=23 size=9216 time=00:00:09.57 bitrate=7881.9 drop=0 speed=0.764"}
+{"type":"progress","percent":0.37792894935752075,"log":"frame= 300 fps=23 size=9728 time=00:00:10.00 bitrate=7965 drop=0 speed=0.767"}
+{"type":"progress","percent":0.3915343915343915,"log":"frame= 311 fps=23 size=9984 time=00:00:10.36 bitrate=7888.6 drop=0 speed=0.764"}
+{"type":"progress","percent":0.4070294784580499,"log":"frame= 323 fps=23 size=10240 time=00:00:10.77 bitrate=7786.5 drop=0 speed=0.765"}
+{"type":"progress","percent":0.42063492063492064,"log":"frame= 334 fps=23 size=10496 time=00:00:11.13 bitrate=7721.2 drop=0 speed=0.763"}
+{"type":"progress","percent":0.43613000755857895,"log":"frame= 346 fps=23 size=11008 time=00:00:11.54 bitrate=7813.5 drop=0 speed=0.764"}
+{"type":"progress","percent":0.4512471655328798,"log":"frame= 358 fps=23 size=11264 time=00:00:11.94 bitrate=7723.9 drop=0 speed=0.764"}
+{"type":"progress","percent":0.46674225245653816,"log":"frame= 371 fps=23 size=11776 time=00:00:12.35 bitrate=7810 drop=0 speed=0.765"}
+{"type":"progress","percent":0.48261526832955404,"log":"frame= 383 fps=23 size=12032 time=00:00:12.77 bitrate=7713.4 drop=0 speed=0.766"}
+{"type":"progress","percent":0.49811035525321234,"log":"frame= 395 fps=23 size=12288 time=00:00:13.18 bitrate=7635.3 drop=0 speed=0.766"}
+{"type":"progress","percent":0.5143613000755858,"log":"frame= 408 fps=23 size=12544 time=00:00:13.61 bitrate=7550 drop=0 speed=0.767"}
+{"type":"progress","percent":0.5279667422524565,"log":"frame= 419 fps=23 size=12800 time=00:00:13.97 bitrate=7504.1 drop=0 speed=0.766"}
+{"type":"progress","percent":0.5430839002267573,"log":"frame= 431 fps=23 size=13312 time=00:00:14.37 bitrate=7584.3 drop=0 speed=0.766"}
+{"type":"progress","percent":0.5570672713529856,"log":"frame= 442 fps=23 size=14080 time=00:00:14.74 bitrate=7824.5 drop=0 speed=0.764"}
+{"type":"progress","percent":0.5721844293272865,"log":"frame= 454 fps=23 size=14592 time=00:00:15.14 bitrate=7892 drop=0 speed=0.763"}
+{"type":"progress","percent":0.5857898715041572,"log":"frame= 465 fps=23 size=15104 time=00:00:15.50 bitrate=7977.9 drop=0 speed=0.762"}
+{"type":"progress","percent":0.6020408163265306,"log":"frame= 478 fps=23 size=15616 time=00:00:15.93 bitrate=8027.5 drop=0 speed=0.763"}
+{"type":"progress","percent":0.6175359032501889,"log":"frame= 490 fps=23 size=15872 time=00:00:16.34 bitrate=7956.7 drop=0 speed=0.764"}
+{"type":"progress","percent":0.6334089191232048,"log":"frame= 503 fps=23 size=16128 time=00:00:16.76 bitrate=7879.4 drop=0 speed=0.765"}
+{"type":"progress","percent":0.6504157218442933,"log":"frame= 516 fps=23 size=16640 time=00:00:17.21 bitrate=7917.9 drop=0 speed=0.768"}
+{"type":"progress","percent":0.664021164021164,"log":"frame= 527 fps=23 size=17152 time=00:00:17.57 bitrate=7993.2 drop=0 speed=0.767"}
+{"type":"progress","percent":0.6795162509448224,"log":"frame= 539 fps=23 size=17664 time=00:00:17.98 bitrate=8046.3 drop=0 speed=0.766"}
+{"type":"progress","percent":0.6931216931216931,"log":"frame= 550 fps=23 size=18176 time=00:00:18.34 bitrate=8115.8 drop=0 speed=0.765"}
+{"type":"progress","percent":0.7086167800453514,"log":"frame= 562 fps=23 size=18688 time=00:00:18.75 bitrate=8164.1 drop=0 speed=0.765"}
+{"type":"progress","percent":0.7222222222222222,"log":"frame= 573 fps=23 size=19200 time=00:00:19.11 bitrate=8228.6 drop=0 speed=0.764"}
+{"type":"progress","percent":0.7384731670445955,"log":"frame= 586 fps=23 size=19712 time=00:00:19.54 bitrate=8263.6 drop=0 speed=0.766"}
+{"type":"progress","percent":0.7535903250188964,"log":"frame= 598 fps=23 size=19968 time=00:00:19.94 bitrate=8200.8 drop=0 speed=0.766"}
+{"type":"progress","percent":0.7698412698412699,"log":"frame= 611 fps=23 size=20480 time=00:00:20.37 bitrate=8234.9 drop=0 speed=0.767"}
+{"type":"progress","percent":0.7868480725623582,"log":"frame= 624 fps=23 size=20992 time=00:00:20.82 bitrate=8259.2 drop=0 speed=0.769"}
+{"type":"progress","percent":0.801965230536659,"log":"frame= 636 fps=23 size=21504 time=00:00:21.22 bitrate=8299 drop=0 speed=0.769"}
+{"type":"progress","percent":0.8182161753590325,"log":"frame= 649 fps=23 size=22016 time=00:00:21.65 bitrate=8329.2 drop=0 speed=0.77"}
+{"type":"progress","percent":0.8333333333333334,"log":"frame= 661 fps=23 size=22272 time=00:00:22.05 bitrate=8271.2 drop=0 speed=0.77"}
+{"type":"progress","percent":0.8480725623582767,"log":"frame= 673 fps=23 size=22784 time=00:00:22.44 bitrate=8316.6 drop=0 speed=0.77"}
+{"type":"progress","percent":0.8624338624338624,"log":"frame= 684 fps=23 size=23040 time=00:00:22.82 bitrate=8268.6 drop=0 speed=0.77"}
+{"type":"progress","percent":0.8771730914588057,"log":"frame= 696 fps=23 size=23552 time=00:00:23.21 bitrate=8312.5 drop=0 speed=0.769"}
+{"type":"progress","percent":0.8915343915343915,"log":"frame= 707 fps=23 size=24064 time=00:00:23.59 bitrate=8355 drop=0 speed=0.768"}
+{"type":"progress","percent":0.9058956916099773,"log":"frame= 719 fps=23 size=24576 time=00:00:23.97 bitrate=8396.1 drop=0 speed=0.767"}
+{"type":"progress","percent":0.9213907785336356,"log":"frame= 731 fps=23 size=25344 time=00:00:24.38 bitrate=8514.5 drop=0 speed=0.767"}
+{"type":"progress","percent":0.9349962207105064,"log":"frame= 742 fps=23 size=25856 time=00:00:24.74 bitrate=8559.2 drop=0 speed=0.766"}
+{"type":"progress","percent":0.9486016628873772,"log":"frame= 753 fps=23 size=26368 time=00:00:25.10 bitrate=8602.7 drop=0 speed=0.765"}
+{"type":"progress","percent":0.9640967498110355,"log":"frame= 765 fps=23 size=26880 time=00:00:25.51 bitrate=8630.4 drop=0 speed=0.765"}
+{"type":"progress","percent":0.9777021919879063,"log":"frame= 777 fps=23 size=27392 time=00:00:25.87 bitrate=8671.5 drop=0 speed=0.765"}
+{"type":"progress","percent":0.9935752078609221,"log":"frame= 790 fps=23 size=27392 time=00:00:26.29 bitrate=8534.4 drop=0 speed=0.765"}
+{"type":"progress","percent":0.9973544973544973,"log":"frame= 792 fps=23 size=28010 time=00:00:26.39 bitrate=8694 drop=0 speed=0.765"}
+{"status":200,"message":"ok"}
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (6) Could not resolve host: GetAsURLEncoded
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   479    0    29  100   450    218   3383 --:--:-- --:--:-- --:--:--  3628
+
+[0:v]trim=0.000:26.426,setpts=PTS-STARTPTS[v0];[0:a]atrim=0.000:26.426,asetpts=PTS-STARTPTS[a0];[v0]yadif=0[v0_deinterlaced];[v0_deinterlaced][a0]concat=n=1:v=1:a=1
+
+
+/srv/dev-disk-by-uuid-D454C24354C22856/NAS_4_1/Recorded/2024-4cours/encode_faild/Ｖｅｎｕｅ１０１　Ｐｒｅｓｅｎｔｓ　Ｃｒｅｅｐｙ　Ｎｕｔｓ　ＴＨＥ　ＬＩＶＥ[字]-2024年10月05日23時.mp4の削除中にエラーが発生しました: TypeError [ERR_INVALID_CALLBACK]: Callback must be a function. Received undefined
+/srv/dev-disk-by-uuid-D454C24354C22856/NAS_4_1/Recorded/2024-4cours/encode_faild/Ｖｅｎｕｅ１０１　Ｐｒｅｓｅｎｔｓ　Ｃｒｅｅｐｙ　Ｎｕｔｓ　ＴＨＥ　ＬＩＶＥ[字]-2024年10月05日23時.mp4.lwiの削除中にエラーが発生しました: TypeError [ERR_INVALID_CALLBACK]: Callback must be a function. Received undefined
+{"type":"progress","percent":0.010959939531368102,"log":"frame= 9 fps=0 size=0 time=00:00:00.29 bitrate=1.3 drop=0 speed=0.581"}
+{"type":"progress","percent":0.024943310657596373,"log":"frame= 20 fps=20 size=0 time=00:00:00.66 bitrate=0.6 drop=0 speed=0.651"}
+{"type":"progress","percent":0.03363567649281935,"log":"frame= 27 fps=18 size=256 time=00:00:00.89 bitrate=2341 drop=0 speed=0.582"}
+{"type":"progress","percent":0.04497354497354497,"log":"frame= 36 fps=17 size=512 time=00:00:01.19 bitrate=3511.2 drop=0 speed=0.571"}
+{"type":"progress","percent":0.05782312925170068,"log":"frame= 46 fps=17 size=1024 time=00:00:01.53 bitrate=5461.6 drop=0 speed=0.578"}
+{"type":"progress","percent":0.06764928193499622,"log":"frame= 54 fps=17 size=1280 time=00:00:01.79 bitrate=5851.6 drop=0 speed=0.567"}
+{"type":"progress","percent":0.08049886621315192,"log":"frame= 64 fps=17 size=1792 time=00:00:02.13 bitrate=6881.5 drop=0 speed=0.581"}
+{"type":"progress","percent":0.09183673469387756,"log":"frame= 73 fps=17 size=2048 time=00:00:02.43 bitrate=6898.7 drop=0 speed=0.579"}
+{"type":"progress","percent":0.10468631897203326,"log":"frame= 83 fps=18 size=2304 time=00:00:02.77 bitrate=6805.8 drop=0 speed=0.59"}
+{"type":"progress","percent":0.11678004535147392,"log":"frame= 93 fps=18 size=2816 time=00:00:03.09 bitrate=7457.7 drop=0 speed=0.588"}
+{"type":"progress","percent":0.1273620559334845,"log":"frame= 101 fps=17 size=3072 time=00:00:03.37 bitrate=7466.2 drop=0 speed=0.584"}
+{"type":"progress","percent":0.14323507180650039,"log":"frame= 114 fps=18 size=3584 time=00:00:03.79 bitrate=7731.9 drop=0 speed=0.601"}
+{"type":"progress","percent":0.15608465608465608,"log":"frame= 124 fps=18 size=3840 time=00:00:04.13 bitrate=7600.9 drop=0 speed=0.606"}
+{"type":"progress","percent":0.16666666666666666,"log":"frame= 132 fps=18 size=4096 time=00:00:04.41 bitrate=7598.5 drop=0 speed=0.602"}
+{"type":"progress","percent":0.17724867724867727,"log":"frame= 141 fps=18 size=4608 time=00:00:04.69 bitrate=8043.1 drop=0 speed=0.597"}
+{"type":"progress","percent":0.19236583522297807,"log":"frame= 153 fps=18 size=4864 time=00:00:05.09 bitrate=7815 drop=0 speed=0.61"}
+{"type":"progress","percent":0.20559334845049132,"log":"frame= 163 fps=18 size=5120 time=00:00:05.44 bitrate=7710.2 drop=0 speed=0.613"}
+{"type":"progress","percent":0.21768707482993196,"log":"frame= 173 fps=18 size=5376 time=00:00:05.76 bitrate=7645.9 drop=0 speed=0.612"}
+{"type":"progress","percent":0.2328042328042328,"log":"frame= 185 fps=19 size=5888 time=00:00:06.16 bitrate=7823.6 drop=0 speed=0.619"}
+{"type":"progress","percent":0.2456538170823885,"log":"frame= 195 fps=19 size=6144 time=00:00:06.50 bitrate=7735.5 drop=0 speed=0.62"}
+{"type":"progress","percent":0.25699168556311414,"log":"frame= 204 fps=19 size=6400 time=00:00:06.80 bitrate=7704.1 drop=0 speed=0.618"}
+{"type":"progress","percent":0.2690854119425548,"log":"frame= 214 fps=19 size=6656 time=00:00:07.12 bitrate=7652.5 drop=0 speed=0.619"}
+{"type":"progress","percent":0.28458049886621317,"log":"frame= 226 fps=19 size=7168 time=00:00:07.53 bitrate=7797.5 drop=0 speed=0.626"}
+{"type":"progress","percent":0.29969765684051397,"log":"frame= 238 fps=19 size=7424 time=00:00:07.93 bitrate=7663.5 drop=0 speed=0.631"}
+{"type":"progress","percent":0.3102796674225246,"log":"frame= 246 fps=19 size=7936 time=00:00:08.21 bitrate=7915.4 drop=0 speed=0.627"}
+{"type":"progress","percent":0.32161753590325015,"log":"frame= 255 fps=19 size=8192 time=00:00:08.51 bitrate=7884.1 drop=0 speed=0.625"}
+{"type":"progress","percent":0.3310657596371882,"log":"frame= 263 fps=19 size=8704 time=00:00:08.76 bitrate=8132.2 drop=0 speed=0.621"}
+{"type":"progress","percent":0.3450491307634165,"log":"frame= 274 fps=19 size=8960 time=00:00:09.13 bitrate=8038.9 drop=0 speed=0.624"}
+{"type":"progress","percent":0.3578987150415722,"log":"frame= 284 fps=19 size=9216 time=00:00:09.47 bitrate=7970.6 drop=0 speed=0.625"}
+{"type":"progress","percent":0.37301587301587297,"log":"frame= 296 fps=19 size=9472 time=00:00:09.87 bitrate=7855.9 drop=0 speed=0.629"}
+{"type":"progress","percent":0.3869992441421013,"log":"frame= 307 fps=19 size=9728 time=00:00:10.24 bitrate=7782.4 drop=0 speed=0.631"}
+{"type":"progress","percent":0.399848828420257,"log":"frame= 317 fps=19 size=10240 time=00:00:10.58 bitrate=7927.8 drop=0 speed=0.632"}
+{"type":"progress","percent":0.4142101284958428,"log":"frame= 329 fps=19 size=10496 time=00:00:10.96 bitrate=7841.4 drop=0 speed=0.632"}
+{"type":"progress","percent":0.4270597127739985,"log":"frame= 339 fps=19 size=10752 time=00:00:11.30 bitrate=7790.2 drop=0 speed=0.632"}
+{"type":"progress","percent":0.4406651549508692,"log":"frame= 350 fps=19 size=11008 time=00:00:11.66 bitrate=7727.8 drop=0 speed=0.633"}
+{"type":"progress","percent":0.4538926681783824,"log":"frame= 360 fps=19 size=11264 time=00:00:12.01 bitrate=7682.8 drop=0 speed=0.633"}
+{"type":"progress","percent":0.4659863945578231,"log":"frame= 370 fps=19 size=11776 time=00:00:12.33 bitrate=7823.5 drop=0 speed=0.632"}
+{"type":"progress","percent":0.47883597883597884,"log":"frame= 380 fps=19 size=11776 time=00:00:12.67 bitrate=7612.8 drop=0 speed=0.633"}
+{"type":"progress","percent":0.49395313681027964,"log":"frame= 392 fps=19 size=12288 time=00:00:13.07 bitrate=7697.6 drop=0 speed=0.636"}
+{"type":"progress","percent":0.5068027210884354,"log":"frame= 402 fps=19 size=12288 time=00:00:13.41 bitrate=7501.8 drop=0 speed=0.637"}
+{"type":"progress","percent":0.5207860922146637,"log":"frame= 413 fps=19 size=12544 time=00:00:13.78 bitrate=7456.5 drop=0 speed=0.638"}
+{"type":"progress","percent":0.5343915343915344,"log":"frame= 424 fps=19 size=13056 time=00:00:14.14 bitrate=7561.9 drop=0 speed=0.64"}
+{"type":"progress","percent":0.54572940287226,"log":"frame= 433 fps=19 size=13568 time=00:00:14.44 bitrate=7695.9 drop=0 speed=0.638"}
+{"type":"progress","percent":0.5585789871504157,"log":"frame= 443 fps=19 size=14080 time=00:00:14.78 bitrate=7801.9 drop=0 speed=0.638"}
+{"type":"progress","percent":0.5729402872260015,"log":"frame= 455 fps=19 size=14592 time=00:00:15.16 bitrate=7880.9 drop=0 speed=0.64"}
+{"type":"progress","percent":0.5899470899470899,"log":"frame= 468 fps=19 size=15104 time=00:00:15.61 bitrate=7923.4 drop=0 speed=0.645"}
+{"type":"progress","percent":0.6012849584278156,"log":"frame= 477 fps=19 size=15616 time=00:00:15.91 bitrate=8038.3 drop=0 speed=0.643"}
+{"type":"progress","percent":0.6099773242630385,"log":"frame= 485 fps=19 size=15872 time=00:00:16.14 bitrate=8051.3 drop=0 speed=0.639"}
+{"type":"progress","percent":0.6220710506424793,"log":"frame= 494 fps=19 size=15872 time=00:00:16.46 bitrate=7894.9 drop=0 speed=0.639"}
+{"type":"progress","percent":0.6326530612244897,"log":"frame= 502 fps=19 size=16128 time=00:00:16.74 bitrate=7889.4 drop=0 speed=0.637"}
+{"type":"progress","percent":0.6455026455026455,"log":"frame= 512 fps=19 size=16384 time=00:00:17.08 bitrate=7854.5 drop=0 speed=0.638"}
+{"type":"progress","percent":0.655328798185941,"log":"frame= 520 fps=19 size=16896 time=00:00:17.34 bitrate=7980.4 drop=0 speed=0.635"}
+{"type":"progress","percent":0.6681783824640967,"log":"frame= 530 fps=19 size=17152 time=00:00:17.68 bitrate=7945 drop=0 speed=0.635"}
+{"type":"progress","percent":0.6802721088435374,"log":"frame= 540 fps=19 size=17664 time=00:00:18.00 bitrate=8036.7 drop=0 speed=0.634"}
+{"type":"progress","percent":0.691609977324263,"log":"frame= 549 fps=19 size=18176 time=00:00:18.30 bitrate=8134.7 drop=0 speed=0.633"}
+{"type":"progress","percent":0.7044595616024187,"log":"frame= 559 fps=19 size=18688 time=00:00:18.64 bitrate=8210.8 drop=0 speed=0.634"}
+{"type":"progress","percent":0.7180650037792895,"log":"frame= 570 fps=19 size=19200 time=00:00:19.00 bitrate=8274.8 drop=0 speed=0.635"}
+{"type":"progress","percent":0.7335600907029478,"log":"frame= 582 fps=19 size=19456 time=00:00:19.41 bitrate=8210 drop=0 speed=0.638"}
+{"type":"progress","percent":0.7464096749811036,"log":"frame= 592 fps=19 size=19968 time=00:00:19.75 bitrate=8280.5 drop=0 speed=0.638"}
+{"type":"progress","percent":0.7607709750566892,"log":"frame= 604 fps=19 size=20224 time=00:00:20.13 bitrate=8226.7 drop=0 speed=0.64"}
+{"type":"progress","percent":0.7755102040816326,"log":"frame= 615 fps=19 size=20736 time=00:00:20.52 bitrate=8277.2 drop=0 speed=0.642"}
+{"type":"progress","percent":0.7891156462585034,"log":"frame= 626 fps=19 size=20992 time=00:00:20.88 bitrate=8233.9 drop=0 speed=0.643"}
+{"type":"progress","percent":0.802721088435374,"log":"frame= 637 fps=19 size=21504 time=00:00:21.24 bitrate=8290.7 drop=0 speed=0.644"}
+{"type":"progress","percent":0.8182161753590325,"log":"frame= 649 fps=19 size=22016 time=00:00:21.65 bitrate=8329.2 drop=0 speed=0.646"}
+{"type":"progress","percent":0.8333333333333334,"log":"frame= 661 fps=19 size=22272 time=00:00:22.05 bitrate=8271.2 drop=0 speed=0.648"}
+{"type":"progress","percent":0.8480725623582767,"log":"frame= 673 fps=19 size=22784 time=00:00:22.44 bitrate=8316.6 drop=0 speed=0.65"}
+{"type":"progress","percent":0.8650793650793651,"log":"frame= 686 fps=20 size=23040 time=00:00:22.89 bitrate=8245.5 drop=0 speed=0.653"}
+{"type":"progress","percent":0.8786848072562358,"log":"frame= 697 fps=20 size=23552 time=00:00:23.25 bitrate=8297.2 drop=0 speed=0.654"}
+{"type":"progress","percent":0.8930461073318215,"log":"frame= 708 fps=20 size=24064 time=00:00:23.63 bitrate=8339.9 drop=0 speed=0.655"}
+{"type":"progress","percent":0.9051398337112623,"log":"frame= 718 fps=20 size=24576 time=00:00:23.95 bitrate=8403.6 drop=0 speed=0.655"}
+{"type":"progress","percent":0.9191232048374905,"log":"frame= 729 fps=20 size=25088 time=00:00:24.32 bitrate=8450.7 drop=0 speed=0.656"}
+{"type":"progress","percent":0.9327286470143613,"log":"frame= 740 fps=20 size=25600 time=00:00:24.68 bitrate=8496.5 drop=0 speed=0.656"}
+{"type":"progress","percent":0.945578231292517,"log":"frame= 750 fps=20 size=26368 time=00:00:25.02 bitrate=8632 drop=0 speed=0.657"}
+{"type":"progress","percent":0.9606953892668179,"log":"frame= 762 fps=20 size=26880 time=00:00:25.42 bitrate=8659.3 drop=0 speed=0.658"}
+{"type":"progress","percent":0.974678760393046,"log":"frame= 773 fps=20 size=27136 time=00:00:25.79 bitrate=8618.9 drop=0 speed=0.659"}
+{"type":"progress","percent":0.9897959183673469,"log":"frame= 787 fps=20 size=27392 time=00:00:26.19 bitrate=8567 drop=0 speed=0.66"}
+{"type":"progress","percent":0.9973544973544973,"log":"frame= 792 fps=20 size=28010 time=00:00:26.39 bitrate=8694 drop=0 speed=0.661"}
+ファイルの読み込みエラー: Error: Command failed: chapter_exe -v "/home/pi/CmcutScp/result/Ｖｅｎｕｅ１０１　Ｐｒｅｓｅｎｔｓ　Ｃｒｅｅｐｙ　Ｎｕｔｓ　ＴＨＥ　ＬＩＶＥ[字]-2024年10月05日23時/join_tsfile.avs" -lwi /home/pi/CmcutScp/result/"Ｖｅｎｕｅ１０１　Ｐｒｅｓｅｎｔｓ　Ｃｒｅｅｐｙ　Ｎｕｔｓ　ＴＨＥ　ＬＩＶＥ[字]-2024年10月05日23時"/chapter_inscp.lwi -oa /home/pi/CmcutScp/result/"Ｖｅｎｕｅ１０１　Ｐｒｅｓｅｎｔｓ　Ｃｒｅｅｐｙ　Ｎｕｔｓ　ＴＨＥ　ＬＩＶＥ[字]-2024年10月05日23時"/chapter_inscp.txt
+
+    at ChildProcess.exithandler (node:child_process:402:12)
+    at ChildProcess.emit (node:events:513:28)
+    at maybeClose (node:internal/child_process:1100:16)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:304:5) {
+  code: null,
+  killed: false,
+  signal: 'SIGSEGV',
+  cmd: 'chapter_exe -v "/home/pi/CmcutScp/result/Ｖｅｎｕｅ１０１　Ｐｒｅｓｅｎｔｓ　Ｃｒｅｅｐｙ　Ｎｕｔｓ　ＴＨＥ　ＬＩＶＥ[字]-2024年10月05日23時/join_tsfile.avs" -lwi /home/pi/CmcutScp/result/"Ｖｅｎｕｅ１０１　Ｐｒｅｓｅｎｔｓ　Ｃｒｅｅｐｙ　Ｎｕｔｓ　ＴＨＥ　ＬＩＶＥ[字]-2024年10月05日23時"/chapter_inscp.lwi -oa /home/pi/CmcutScp/result/"Ｖｅｎｕｅ１０１　Ｐｒｅｓｅｎｔｓ　Ｃｒｅｅｐｙ　Ｎｕｔｓ　ＴＨＥ　ＬＩＶＥ[字]-2024年10月05日23時"/chapter_inscp.txt',
+  stdout: '',
+  stderr: ''
+}
+/home/pi/EPGStation/config/enc-cm-enh-0000.js:475
+        reject(err);
+        ^
+
+ReferenceError: reject is not defined
+    at runCommands (/home/pi/EPGStation/config/enc-cm-enh-0000.js:475:9)
+{"status":200,"message":"ok"}
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: GetAsURLEncoded
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   479    0    29  100   450    245   3813 --:--:-- --:--:-- --:--:--  4094
+
+[0:v]trim=0.000:26.426,setpts=PTS-STARTPTS[v0];[0:a]atrim=0.000:26.426,asetpts=PTS-STARTPTS[a0];[v0]yadif=0[v0_deinterlaced];[v0_deinterlaced][a0]concat=n=1:v=1:a=1
+
+
+/srv/dev-disk-by-uuid-D454C24354C22856/NAS_4_1/Recorded/2024-4cours/encode_faild/Ｖｅｎｕｅ１０１　Ｐｒｅｓｅｎｔｓ　Ｃｒｅｅｐｙ　Ｎｕｔｓ　ＴＨＥ　ＬＩＶＥ[字]-2024年10月05日23時.mp4の削除中にエラーが発生しました: Callback must be a function. Received undefined
+/srv/dev-disk-by-uuid-D454C24354C22856/NAS_4_1/Recorded/2024-4cours/encode_faild/Ｖｅｎｕｅ１０１　Ｐｒｅｓｅｎｔｓ　Ｃｒｅｅｐｙ　Ｎｕｔｓ　ＴＨＥ　ＬＩＶＥ[字]-2024年10月05日23時.mp4.lwiの削除中にエラーが発生しました: Callback must be a function. Received undefined
+{"type":"progress","percent":0.013605442176870748,"log":"frame= 11 fps=0 size=0 time=00:00:00.36 bitrate=1.1 drop=0 speed=0.687"}
+{"type":"progress","percent":0.02947845804988662,"log":"frame= 24 fps=23 size=256 time=00:00:00.78 bitrate=2657.4 drop=0 speed=0.75"}
+{"type":"progress","percent":0.04497354497354497,"log":"frame= 36 fps=23 size=512 time=00:00:01.19 bitrate=3511.2 drop=0 speed=0.765"}
+{"type":"progress","percent":0.05857898715041572,"log":"frame= 47 fps=23 size=1024 time=00:00:01.55 bitrate=5386.8 drop=0 speed=0.754"}
+{"type":"progress","percent":0.07407407407407407,"log":"frame= 59 fps=23 size=1536 time=00:00:01.96 bitrate=6411.3 drop=0 speed=0.75"}
+{"type":"progress","percent":0.0891912320483749,"log":"frame= 71 fps=23 size=2048 time=00:00:02.36 bitrate=7085.1 drop=0 speed=0.759"}
+{"type":"progress","percent":0.10695389266817838,"log":"frame= 85 fps=23 size=2560 time=00:00:02.83 bitrate=7391.4 drop=0 speed=0.778"}
+{"type":"progress","percent":0.12320483749055176,"log":"frame= 98 fps=23 size=2816 time=00:00:03.26 bitrate=7067.7 drop=0 speed=0.782"}
+{"type":"progress","percent":0.1383219954648526,"log":"frame= 110 fps=23 size=3328 time=00:00:03.66 bitrate=7430.1 drop=0 speed=0.782"}
+{"type":"progress","percent":0.15230536659108088,"log":"frame= 121 fps=23 size=3840 time=00:00:04.03 bitrate=7802 drop=0 speed=0.774"}
+{"type":"progress","percent":0.17006802721088435,"log":"frame= 135 fps=24 size=4352 time=00:00:04.50 bitrate=7920.3 drop=0 speed=0.784"}
+{"type":"progress","percent":0.1851851851851852,"log":"frame= 147 fps=24 size=4864 time=00:00:04.90 bitrate=8120.8 drop=0 speed=0.785"}
+{"type":"progress","percent":0.20143613000755858,"log":"frame= 160 fps=24 size=5120 time=00:00:05.33 bitrate=7864.4 drop=0 speed=0.786"}
+{"type":"progress","percent":0.2165532879818594,"log":"frame= 172 fps=24 size=5376 time=00:00:05.73 bitrate=7674.4 drop=0 speed=0.785"}
+{"type":"progress","percent":0.23204837490551775,"log":"frame= 184 fps=24 size=5888 time=00:00:06.14 bitrate=7850.7 drop=0 speed=0.785"}
+{"type":"progress","percent":0.24829931972789115,"log":"frame= 197 fps=24 size=6144 time=00:00:06.57 bitrate=7660.1 drop=0 speed=0.786"}
+{"type":"progress","percent":0.26341647770219195,"log":"frame= 209 fps=24 size=6400 time=00:00:06.97 bitrate=7515.7 drop=0 speed=0.785"}
+{"type":"progress","percent":0.2781557067271353,"log":"frame= 221 fps=23 size=6656 time=00:00:07.36 bitrate=7408.5 drop=0 speed=0.782"}
+{"type":"progress","percent":0.291005291005291,"log":"frame= 231 fps=23 size=7168 time=00:00:07.70 bitrate=7624.7 drop=0 speed=0.776"}
+{"type":"progress","percent":0.3061224489795918,"log":"frame= 243 fps=23 size=7680 time=00:00:08.10 bitrate=7760.9 drop=0 speed=0.776"}
+{"type":"progress","percent":0.3197278911564626,"log":"frame= 254 fps=23 size=8192 time=00:00:08.46 bitrate=7923.8 drop=0 speed=0.773"}
+{"type":"progress","percent":0.3352229780801209,"log":"frame= 266 fps=23 size=8704 time=00:00:08.87 bitrate=8034.5 drop=0 speed=0.775"}
+{"type":"progress","percent":0.3507180650037793,"log":"frame= 278 fps=23 size=8960 time=00:00:09.28 bitrate=7909.6 drop=0 speed=0.776"}
+{"type":"progress","percent":0.36659108087679515,"log":"frame= 291 fps=23 size=9472 time=00:00:09.70 bitrate=7994 drop=0 speed=0.778"}
+{"type":"progress","percent":0.3843537414965986,"log":"frame= 305 fps=23 size=9728 time=00:00:10.17 bitrate=7831.4 drop=0 speed=0.783"}
+{"type":"progress","percent":0.399848828420257,"log":"frame= 317 fps=23 size=10240 time=00:00:10.58 bitrate=7927.8 drop=0 speed=0.783"}
+{"type":"progress","percent":0.4164777021919879,"log":"frame= 331 fps=24 size=10496 time=00:00:11.02 bitrate=7795.9 drop=0 speed=0.787"}
+{"type":"progress","percent":0.43197278911564624,"log":"frame= 343 fps=24 size=10752 time=00:00:11.43 bitrate=7703 drop=0 speed=0.787"}
+{"type":"progress","percent":0.4512471655328798,"log":"frame= 358 fps=24 size=11264 time=00:00:11.94 bitrate=7723.9 drop=0 speed=0.793"}
+{"type":"progress","percent":0.4674981103552532,"log":"frame= 371 fps=24 size=11776 time=00:00:12.37 bitrate=7796.6 drop=0 speed=0.793"}
+{"type":"progress","percent":0.48450491307634164,"log":"frame= 385 fps=24 size=12032 time=00:00:12.82 bitrate=7687.7 drop=0 speed=0.797"}
+{"type":"progress","percent":0.4988662131519274,"log":"frame= 396 fps=24 size=12288 time=00:00:13.20 bitrate=7623 drop=0 speed=0.795"}
+{"type":"progress","percent":0.5143613000755858,"log":"frame= 408 fps=24 size=12544 time=00:00:13.61 bitrate=7550 drop=0 speed=0.795"}
+{"type":"progress","percent":0.5302343159486016,"log":"frame= 421 fps=24 size=13056 time=00:00:14.03 bitrate=7619.3 drop=0 speed=0.795"}
+{"type":"progress","percent":0.54421768707483,"log":"frame= 432 fps=24 size=13312 time=00:00:14.40 bitrate=7573.1 drop=0 speed=0.793"}
+{"type":"progress","percent":0.5593348450491308,"log":"frame= 444 fps=24 size=14080 time=00:00:14.80 bitrate=7790.7 drop=0 speed=0.792"}
+{"type":"progress","percent":0.5729402872260015,"log":"frame= 455 fps=24 size=14592 time=00:00:15.16 bitrate=7880.9 drop=0 speed=0.789"}
+{"type":"progress","percent":0.5899470899470899,"log":"frame= 468 fps=24 size=15104 time=00:00:15.61 bitrate=7923.4 drop=0 speed=0.792"}
+{"type":"progress","percent":0.6054421768707483,"log":"frame= 480 fps=24 size=15616 time=00:00:16.02 bitrate=7984.8 drop=0 speed=0.792"}
+{"type":"progress","percent":0.6213151927437642,"log":"frame= 493 fps=24 size=15872 time=00:00:16.44 bitrate=7905.1 drop=0 speed=0.791"}
+{"type":"progress","percent":0.6352985638699924,"log":"frame= 504 fps=24 size=16128 time=00:00:16.81 bitrate=7859.4 drop=0 speed=0.788"}
+{"type":"progress","percent":0.6504157218442933,"log":"frame= 516 fps=24 size=16640 time=00:00:17.21 bitrate=7917.9 drop=0 speed=0.788"}
+{"type":"progress","percent":0.6666666666666666,"log":"frame= 529 fps=24 size=17152 time=00:00:17.64 bitrate=7964.2 drop=0 speed=0.789"}
+{"type":"progress","percent":0.6817838246409674,"log":"frame= 541 fps=24 size=17664 time=00:00:18.04 bitrate=8017.7 drop=0 speed=0.789"}
+{"type":"progress","percent":0.6972789115646258,"log":"frame= 553 fps=24 size=18432 time=00:00:18.45 bitrate=8182.6 drop=0 speed=0.789"}
+{"type":"progress","percent":0.7108843537414965,"log":"frame= 564 fps=24 size=18944 time=00:00:18.81 bitrate=8247.7 drop=0 speed=0.787"}
+{"type":"progress","percent":0.7263794406651549,"log":"frame= 576 fps=24 size=19456 time=00:00:19.22 bitrate=8292 drop=0 speed=0.786"}
+{"type":"progress","percent":0.7399848828420256,"log":"frame= 587 fps=24 size=19712 time=00:00:19.58 bitrate=8245.6 drop=0 speed=0.785"}
+{"type":"progress","percent":0.7551020408163265,"log":"frame= 600 fps=24 size=19968 time=00:00:19.98 bitrate=8183.3 drop=0 speed=0.785"}
+{"type":"progress","percent":0.7698412698412699,"log":"frame= 611 fps=24 size=20480 time=00:00:20.37 bitrate=8234.9 drop=0 speed=0.784"}
+{"type":"progress","percent":0.7868480725623582,"log":"frame= 624 fps=24 size=20992 time=00:00:20.82 bitrate=8259.2 drop=0 speed=0.786"}
+{"type":"progress","percent":0.802721088435374,"log":"frame= 637 fps=24 size=21504 time=00:00:21.24 bitrate=8290.7 drop=0 speed=0.787"}
+{"type":"progress","percent":0.8182161753590325,"log":"frame= 649 fps=24 size=22016 time=00:00:21.65 bitrate=8329.2 drop=0 speed=0.787"}
+{"type":"progress","percent":0.8344671201814058,"log":"frame= 662 fps=24 size=22272 time=00:00:22.08 bitrate=8263.3 drop=0 speed=0.787"}
+{"type":"progress","percent":0.8495842781557067,"log":"frame= 674 fps=24 size=22784 time=00:00:22.48 bitrate=8300.8 drop=0 speed=0.787"}
+{"type":"progress","percent":0.8650793650793651,"log":"frame= 686 fps=24 size=23040 time=00:00:22.89 bitrate=8245.5 drop=0 speed=0.787"}
+{"type":"progress","percent":0.8794406651549508,"log":"frame= 698 fps=24 size=23552 time=00:00:23.27 bitrate=8289.6 drop=0 speed=0.785"}
+{"type":"progress","percent":0.8949357520786092,"log":"frame= 710 fps=24 size=24320 time=00:00:23.68 bitrate=8413.4 drop=0 speed=0.785"}
+{"type":"progress","percent":0.9085411942554799,"log":"frame= 721 fps=24 size=24832 time=00:00:24.04 bitrate=8461 drop=0 speed=0.784"}
+{"type":"progress","percent":0.9236583522297808,"log":"frame= 733 fps=23 size=25344 time=00:00:24.44 bitrate=8492.2 drop=0 speed=0.784"}
+{"type":"progress","percent":0.9406651549508692,"log":"frame= 746 fps=24 size=26112 time=00:00:24.89 bitrate=8592.1 drop=0 speed=0.785"}
+{"type":"progress","percent":0.9569160997732427,"log":"frame= 759 fps=24 size=26624 time=00:00:25.32 bitrate=8613 drop=0 speed=0.785"}
+{"type":"progress","percent":0.974678760393046,"log":"frame= 773 fps=24 size=27136 time=00:00:25.79 bitrate=8618.9 drop=0 speed=0.787"}
+{"type":"progress","percent":0.9897959183673469,"log":"frame= 787 fps=24 size=27392 time=00:00:26.19 bitrate=8567 drop=0 speed=0.787"}
+{"type":"progress","percent":0.9973544973544973,"log":"frame= 792 fps=24 size=28010 time=00:00:26.39 bitrate=8694 drop=0 speed=0.788"}
+{"status":200,"message":"ok"}
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:05 --:--:--     0curl: (6) Could not resolve host: GetAsURLEncoded
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:05 --:--:--     0100   479    0    29  100   450      5     87  0:00:05  0:00:05 --:--:--   116
+
+[0:v]trim=0.000:26.426,setpts=PTS-STARTPTS[v0];[0:a]atrim=0.000:26.426,asetpts=PTS-STARTPTS[a0];[v0]yadif=0[v0_deinterlaced];[v0_deinterlaced][a0]concat=n=1:v=1:a=1
+
+
+/srv/dev-disk-by-uuid-D454C24354C22856/NAS_4_1/Recorded/2024-4cours/encode_faild/Ｖｅｎｕｅ１０１　Ｐｒｅｓｅｎｔｓ　Ｃｒｅｅｐｙ　Ｎｕｔｓ　ＴＨＥ　ＬＩＶＥ[字]-2024年10月05日23時.mp4の削除中にエラーが発生しました: Callback must be a function. Received undefined
+/srv/dev-disk-by-uuid-D454C24354C22856/NAS_4_1/Recorded/2024-4cours/encode_faild/Ｖｅｎｕｅ１０１　Ｐｒｅｓｅｎｔｓ　Ｃｒｅｅｐｙ　Ｎｕｔｓ　ＴＨＥ　ＬＩＶＥ[字]-2024年10月05日23時.mp4.lwiの削除中にエラーが発生しました: Callback must be a function. Received undefined
+{"type":"progress","percent":0.013605442176870748,"log":"frame= 11 fps=0 size=0 time=00:00:00.36 bitrate=1.1 drop=0 speed=0.718"}
+{"type":"progress","percent":0.03136810279667422,"log":"frame= 26 fps=26 size=256 time=00:00:00.83 bitrate=2521.1 drop=0 speed=0.827"}
+{"type":"progress","percent":0.0491307634164777,"log":"frame= 39 fps=26 size=768 time=00:00:01.30 bitrate=4834.9 drop=0 speed=0.857"}
+{"type":"progress","percent":0.06764928193499622,"log":"frame= 54 fps=26 size=1280 time=00:00:01.79 bitrate=5851.6 drop=0 speed=0.872"}
+{"type":"progress","percent":0.08465608465608467,"log":"frame= 68 fps=27 size=1792 time=00:00:02.24 bitrate=6553.8 drop=0 speed=0.876"}
+{"type":"progress","percent":0.10317460317460317,"log":"frame= 82 fps=27 size=2304 time=00:00:02.73 bitrate=6912.1 drop=0 speed=0.887"}
+{"type":"progress","percent":0.1216931216931217,"log":"frame= 97 fps=27 size=2816 time=00:00:03.22 bitrate=7161.3 drop=0 speed=0.897"}
+{"type":"progress","percent":0.14096749811035525,"log":"frame= 112 fps=27 size=3328 time=00:00:03.73 bitrate=7302.7 drop=0 speed=0.912"}
+{"type":"progress","percent":0.15873015873015872,"log":"frame= 126 fps=27 size=3840 time=00:00:04.20 bitrate=7485.2 drop=0 speed=0.914"}
+{"type":"progress","percent":0.1764928193499622,"log":"frame= 140 fps=27 size=4608 time=00:00:04.67 bitrate=8079.9 drop=0 speed=0.914"}
+{"type":"progress","percent":0.1950113378684807,"log":"frame= 155 fps=28 size=4864 time=00:00:05.16 bitrate=7718.2 drop=0 speed=0.92"}
+{"type":"progress","percent":0.21201814058956917,"log":"frame= 168 fps=27 size=5376 time=00:00:05.61 bitrate=7849.4 drop=0 speed=0.915"}
+{"type":"progress","percent":0.22864701436130005,"log":"frame= 182 fps=27 size=5888 time=00:00:06.05 bitrate=7961.3 drop=0 speed=0.913"}
+{"type":"progress","percent":0.2433862433862434,"log":"frame= 193 fps=27 size=6144 time=00:00:06.44 bitrate=7812.3 drop=0 speed=0.9"}
+{"type":"progress","percent":0.25774754346182915,"log":"frame= 205 fps=27 size=6400 time=00:00:06.82 bitrate=7680.1 drop=0 speed=0.89"}
+{"type":"progress","percent":0.2747543461829176,"log":"frame= 218 fps=27 size=6656 time=00:00:07.27 bitrate=7495.4 drop=0 speed=0.889"}
+{"type":"progress","percent":0.2868480725623583,"log":"frame= 228 fps=26 size=7168 time=00:00:07.59 bitrate=7731.8 drop=0 speed=0.874"}
+{"type":"progress","percent":0.3038548752834467,"log":"frame= 241 fps=26 size=7680 time=00:00:08.04 bitrate=7822.6 drop=0 speed=0.874"}
+{"type":"progress","percent":0.3197278911564626,"log":"frame= 254 fps=26 size=8192 time=00:00:08.46 bitrate=7923.8 drop=0 speed=0.871"}
+{"type":"progress","percent":0.337490551776266,"log":"frame= 268 fps=26 size=8704 time=00:00:08.93 bitrate=7977 drop=0 speed=0.873"}
+{"type":"progress","percent":0.3537414965986394,"log":"frame= 281 fps=26 size=9216 time=00:00:09.36 bitrate=8061.4 drop=0 speed=0.87"}
+{"type":"progress","percent":0.37301587301587297,"log":"frame= 296 fps=26 size=9472 time=00:00:09.87 bitrate=7855.9 drop=0 speed=0.875"}
+{"type":"progress","percent":0.3877551020408163,"log":"frame= 308 fps=26 size=9984 time=00:00:10.26 bitrate=7970.6 drop=0 speed=0.87"}
+{"type":"progress","percent":0.4055177626606198,"log":"frame= 322 fps=26 size=10240 time=00:00:10.73 bitrate=7817.5 drop=0 speed=0.87"}
+{"type":"progress","percent":0.42328042328042326,"log":"frame= 336 fps=26 size=10752 time=00:00:11.20 bitrate=7864.4 drop=0 speed=0.87"}
+{"type":"progress","percent":0.4383975812547241,"log":"frame= 348 fps=26 size=11008 time=00:00:11.60 bitrate=7770.4 drop=0 speed=0.867"}
+{"type":"progress","percent":0.4561602418745276,"log":"frame= 362 fps=26 size=11520 time=00:00:12.07 bitrate=7815.7 drop=0 speed=0.869"}
+{"type":"progress","percent":0.473922902494331,"log":"frame= 376 fps=26 size=11776 time=00:00:12.54 bitrate=7690.5 drop=0 speed=0.87"}
+{"type":"progress","percent":0.4916855631141345,"log":"frame= 390 fps=26 size=12032 time=00:00:13.01 bitrate=7574.3 drop=0 speed=0.871"}
+{"type":"progress","percent":0.5079365079365079,"log":"frame= 403 fps=26 size=12288 time=00:00:13.44 bitrate=7489.9 drop=0 speed=0.871"}
+{"type":"progress","percent":0.5272108843537414,"log":"frame= 418 fps=26 size=12800 time=00:00:13.95 bitrate=7515.6 drop=0 speed=0.875"}
+{"type":"progress","percent":0.5430839002267573,"log":"frame= 431 fps=26 size=13312 time=00:00:14.37 bitrate=7584.3 drop=0 speed=0.873"}
+{"type":"progress","percent":0.5593348450491308,"log":"frame= 444 fps=26 size=14080 time=00:00:14.80 bitrate=7790.7 drop=0 speed=0.872"}
+{"type":"progress","percent":0.5763416477702192,"log":"frame= 457 fps=26 size=14592 time=00:00:15.25 bitrate=7836.8 drop=0 speed=0.873"}
+{"type":"progress","percent":0.5941043083900227,"log":"frame= 472 fps=26 size=15360 time=00:00:15.72 bitrate=8003.1 drop=0 speed=0.874"}
+{"type":"progress","percent":0.6111111111111112,"log":"frame= 485 fps=26 size=15872 time=00:00:16.17 bitrate=8040.7 drop=0 speed=0.874"}
+{"type":"progress","percent":0.6288737717309146,"log":"frame= 499 fps=26 size=16128 time=00:00:16.64 bitrate=7940 drop=0 speed=0.876"}
+{"type":"progress","percent":0.648148148148148,"log":"frame= 514 fps=26 size=16640 time=00:00:17.15 bitrate=7947.5 drop=0 speed=0.879"}
+{"type":"progress","percent":0.6659108087679516,"log":"frame= 528 fps=26 size=17152 time=00:00:17.62 bitrate=7973.8 drop=0 speed=0.88"}
+{"type":"progress","percent":0.6836734693877551,"log":"frame= 543 fps=26 size=17920 time=00:00:18.09 bitrate=8114.7 drop=0 speed=0.881"}
+{"type":"progress","percent":0.699546485260771,"log":"frame= 555 fps=26 size=18432 time=00:00:18.51 bitrate=8154.3 drop=0 speed=0.88"}
+{"type":"progress","percent":0.7173091458805745,"log":"frame= 569 fps=26 size=19200 time=00:00:18.98 bitrate=8284.1 drop=0 speed=0.88"}
+{"type":"progress","percent":0.7350718065003778,"log":"frame= 583 fps=26 size=19712 time=00:00:19.45 bitrate=8299.8 drop=0 speed=0.88"}
+{"type":"progress","percent":0.7535903250188964,"log":"frame= 598 fps=26 size=19968 time=00:00:19.94 bitrate=8200.8 drop=0 speed=0.882"}
+{"type":"progress","percent":0.7713529856386999,"log":"frame= 612 fps=26 size=20480 time=00:00:20.41 bitrate=8217.7 drop=0 speed=0.882"}
+{"type":"progress","percent":0.7898715041572184,"log":"frame= 627 fps=27 size=21248 time=00:00:20.90 bitrate=8325.8 drop=0 speed=0.884"}
+{"type":"progress","percent":0.809145880574452,"log":"frame= 642 fps=27 size=21760 time=00:00:21.41 bitrate=8322.6 drop=0 speed=0.886"}
+{"type":"progress","percent":0.8269085411942554,"log":"frame= 656 fps=27 size=22272 time=00:00:21.88 bitrate=8335.7 drop=0 speed=0.887"}
+{"type":"progress","percent":0.845427059712774,"log":"frame= 671 fps=27 size=22528 time=00:00:22.37 bitrate=8246.7 drop=0 speed=0.888"}
+{"type":"progress","percent":0.8631897203325775,"log":"frame= 685 fps=27 size=23040 time=00:00:22.84 bitrate=8260.9 drop=0 speed=0.888"}
+{"type":"progress","percent":0.8809523809523808,"log":"frame= 699 fps=27 size=23552 time=00:00:23.31 bitrate=8274.5 drop=0 speed=0.889"}
+{"type":"progress","percent":0.8987150415721844,"log":"frame= 713 fps=27 size=24320 time=00:00:23.78 bitrate=8375.7 drop=0 speed=0.889"}
+{"type":"progress","percent":0.9164777021919879,"log":"frame= 727 fps=27 size=25088 time=00:00:24.25 bitrate=8473 drop=0 speed=0.889"}
+{"type":"progress","percent":0.9342403628117913,"log":"frame= 741 fps=27 size=25856 time=00:00:24.72 bitrate=8566.6 drop=0 speed=0.889"}
+{"type":"progress","percent":0.9520030234315949,"log":"frame= 755 fps=27 size=26368 time=00:00:25.19 bitrate=8573.5 drop=0 speed=0.889"}
+{"type":"progress","percent":0.9697656840513983,"log":"frame= 769 fps=27 size=27136 time=00:00:25.66 bitrate=8661.9 drop=0 speed=0.889"}
+{"type":"progress","percent":0.9871504157218443,"log":"frame= 785 fps=27 size=27392 time=00:00:26.12 bitrate=8588.9 drop=0 speed=0.889"}
+{"type":"progress","percent":0.9973544973544973,"log":"frame= 792 fps=27 size=28010 time=00:00:26.39 bitrate=8694 drop=0 speed=0.89"}
+{"status":200,"message":"ok"}
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0curl: (6) Could not resolve host: GetAsURLEncoded
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   479    0    29  100   450    261   4054 --:--:-- --:--:-- --:--:--  4276
+
+[0:v]trim=0.000:26.426,setpts=PTS-STARTPTS[v0];[0:a]atrim=0.000:26.426,asetpts=PTS-STARTPTS[a0];[v0]yadif=0[v0_deinterlaced];[v0_deinterlaced][a0]concat=n=1:v=1:a=1
+
+
+削除しました。
+node:internal/errors:857
+  const err = new Error(message);
+              ^
+
+Error: Command failed: /usr/bin/ffprobe -v 0 -show_format -of json /srv/dev-disk-by-uuid-D454C24354C22856/NAS_4_1/Recorded/2024-4cours/encode_faild/Ｖｅｎｕｅ１０１　Ｐｒｅｓｅｎｔｓ　Ｃｒｅｅｐｙ　Ｎｕｔｓ　ＴＨＥ　ＬＩＶＥ[字]-2024年10月05日23時.mp4
+
+    at ChildProcess.exithandler (node:child_process:402:12)
+    at ChildProcess.emit (node:events:513:28)
+    at maybeClose (node:internal/child_process:1100:16)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:304:5) {
+  code: 1,
+  killed: false,
+  signal: null,
+  cmd: '/usr/bin/ffprobe -v 0 -show_format -of json /srv/dev-disk-by-uuid-D454C24354C22856/NAS_4_1/Recorded/2024-4cours/encode_faild/Ｖｅｎｕｅ１０１　Ｐｒｅｓｅｎｔｓ　Ｃｒｅｅｐｙ　Ｎｕｔｓ　ＴＨＥ　ＬＩＶＥ[字]-2024年10月05日23時.mp4'
+}
+/home/pi/EPGStation/config/enc-cm-enh-0000.js:462
+await writeToDebugLog(debug_file, `処理後にファイルを削除を実行: ${mp4FilePath}\n`);
+^^^^^
+
+SyntaxError: await is only valid in async functions and the top level bodies of modules
+    at Object.compileFunction (node:vm:360:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1126:15)
+    at Module._compile (node:internal/modules/cjs/loader:1162:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+    at Module.load (node:internal/modules/cjs/loader:1076:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:911:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:22:47

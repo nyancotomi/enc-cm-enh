@@ -1,0 +1,61 @@
+#EXTM3U
+#EXTINF: 0,ＮＨＫ総合１・前橋
+http://192.168.1.83:8888/api/streams/live/3235225600/m2ts?mode=2
+#EXTINF: 0,ＮＨＫ総合２・前橋
+http://192.168.1.83:8888/api/streams/live/3235225601/m2ts?mode=2
+#EXTINF: 0,ＮＨＫ携帯Ｇ・前橋
+http://192.168.1.83:8888/api/streams/live/3235225984/m2ts?mode=2
+#EXTINF: 0,ＮＨＫＥテレ１東京
+http://192.168.1.83:8888/api/streams/live/3273701032/m2ts?mode=2
+#EXTINF: 0,ＮＨＫＥテレ２東京
+http://192.168.1.83:8888/api/streams/live/3273701033/m2ts?mode=2
+#EXTINF: 0,ＮＨＫＥテレ３東京
+http://192.168.1.83:8888/api/streams/live/3273701034/m2ts?mode=2
+#EXTINF: 0,ＮＨＫ携帯２
+http://192.168.1.83:8888/api/streams/live/3273701416/m2ts?mode=2
+#EXTINF: 0,群馬テレビ
+http://192.168.1.83:8888/api/streams/live/3235925656/m2ts?mode=2
+#EXTINF: 0,ＧＴＶ２
+http://192.168.1.83:8888/api/streams/live/3235925657/m2ts?mode=2
+#EXTINF: 0,群馬テレビ
+http://192.168.1.83:8888/api/streams/live/3235925658/m2ts?mode=2
+#EXTINF: 0,群馬テレビ携帯
+http://192.168.1.83:8888/api/streams/live/3235926040/m2ts?mode=2
+#EXTINF: 0,日テレ１
+http://192.168.1.83:8888/api/streams/live/3273801040/m2ts?mode=2
+#EXTINF: 0,日テレ２
+http://192.168.1.83:8888/api/streams/live/3273801041/m2ts?mode=2
+#EXTINF: 0,日本テレビ
+http://192.168.1.83:8888/api/streams/live/3273801424/m2ts?mode=2
+#EXTINF: 0,テレビ朝日
+http://192.168.1.83:8888/api/streams/live/3274101064/m2ts?mode=2
+#EXTINF: 0,テレビ朝日
+http://192.168.1.83:8888/api/streams/live/3274101065/m2ts?mode=2
+#EXTINF: 0,テレビ朝日
+http://192.168.1.83:8888/api/streams/live/3274101066/m2ts?mode=2
+#EXTINF: 0,テレビ朝日
+http://192.168.1.83:8888/api/streams/live/3274101448/m2ts?mode=2
+#EXTINF: 0,ＴＢＳ１
+http://192.168.1.83:8888/api/streams/live/3273901048/m2ts?mode=2
+#EXTINF: 0,ＴＢＳ２
+http://192.168.1.83:8888/api/streams/live/3273901049/m2ts?mode=2
+#EXTINF: 0,Ｇガイド
+http://192.168.1.83:8888/api/streams/live/3273901183/m2ts?mode=2
+#EXTINF: 0,ＴＢＳ
+http://192.168.1.83:8888/api/streams/live/3273901432/m2ts?mode=2
+#EXTINF: 0,テレ東
+http://192.168.1.83:8888/api/streams/live/3274201072/m2ts?mode=2
+#EXTINF: 0,テレ東２
+http://192.168.1.83:8888/api/streams/live/3274201073/m2ts?mode=2
+#EXTINF: 0,テレ東３
+http://192.168.1.83:8888/api/streams/live/3274201074/m2ts?mode=2
+#EXTINF: 0,テレ東携帯
+http://192.168.1.83:8888/api/streams/live/3274201456/m2ts?mode=2
+#EXTINF: 0,フジテレビ
+http://192.168.1.83:8888/api/streams/live/3274001056/m2ts?mode=2
+#EXTINF: 0,フジテレビ
+http://192.168.1.83:8888/api/streams/live/3274001057/m2ts?mode=2
+#EXTINF: 0,フジテレビ
+http://192.168.1.83:8888/api/streams/live/3274001058/m2ts?mode=2
+#EXTINF: 0,フジテレビ
+http://192.168.1.83:8888/api/streams/live/3274001440/m2ts?mode=2

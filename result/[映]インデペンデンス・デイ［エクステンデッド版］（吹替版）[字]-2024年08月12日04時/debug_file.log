@@ -1,0 +1,7 @@
+subtitle_file:/srv/dev-disk-by-uuid-A6DA96A3DA966F75/NAS/Recorded/subtitle/[映]インデペンデンス・デイ［エクステンデッド版］（吹替版）[字]-2024年08月12日04時.jpn.srt, 
+ ts_file_name:[映]インデペンデンス・デイ［エクステンデッド版］（吹替版）[字]-2024年08月12日04時.ts, 
+ ts_file_input:/srv/dev-disk-by-uuid-D454C24354C22856/NAS_4_1/Recorded/2024-1cours/[映]インデペンデンス・デイ［エクステンデッド版］（吹替版）[字]-2024年08月12日04時.ts, 
+file_inpu:[映]インデペンデンス・デイ［エクステンデッド版］（吹替版）[字]-2024年08月12日04時, 
+output_file:/srv/dev-disk-by-uuid-A6DA96A3DA966F75/NAS/Recorded/Movie/[映]インデペンデンス・デイ［エクステンデッド版］（吹替版）[字]-2024年08月12日04時_cmcut.jpn.srt, 
+ input_file:/home/pi/CmcutScp/result/[映]インデペンデンス・デイ［エクステンデッド版］（吹替版）[字]-2024年08月12日04時/join_logo_scp.csv, 
+/home/pi/CmcutScp/result/[映]インデペンデンス・デイ［エクステンデッド版］（吹替版）[字]-2024年08月12日04時/cm_subtitle_jls.csv 

@@ -1,0 +1,13 @@
+--------
+曜日 月  日  年  時:分:秒 
+Wed Oct 09 2024 07:37:13 GMT+0900 (Japan Standard Time)
+----------
+
+AVSスクリプトファイルを生成完了
+
+channelName:
+--------
+フジテレビ
+----------
+
+chapter_exe -v "/home/pi/CmcutScp/result/時光代理人Ⅱ＜Ｂ８ｓｔａｔｉｏｎ＞　＃０８-2024年05月30日01時/join_tsfile.avs" -lwi /home/pi/CmcutScp/result/"時光代理人Ⅱ＜Ｂ８ｓｔａｔｉｏｎ＞　＃０８-2024年05月30日01時"/chapter_inscp.lwi -oa /home/pi/CmcutScp/result/"時光代理人Ⅱ＜Ｂ８ｓｔａｔｉｏｎ＞　＃０８-2024年05月30日01時"/chapter_inscp.txt

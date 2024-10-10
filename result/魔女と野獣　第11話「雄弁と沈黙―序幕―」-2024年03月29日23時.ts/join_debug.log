@@ -1,0 +1,7 @@
+AVSスクリプトファイルを生成完了
+
+channelName:--------
+BS11イレブン
+----------
+
+chapter_exe -v "/home/pi/CmcutScp/result/魔女と野獣　第11話「雄弁と沈黙―序幕―」-2024年03月29日23時.ts/join_tsfile.avs" -lwi /home/pi/CmcutScp/result/"魔女と野獣　第11話「雄弁と沈黙―序幕―」-2024年03月29日23時.ts"/chapter_inscp.lwi -oa /home/pi/CmcutScp/result/"魔女と野獣　第11話「雄弁と沈黙―序幕―」-2024年03月29日23時.ts"/chapter_inscp.txt

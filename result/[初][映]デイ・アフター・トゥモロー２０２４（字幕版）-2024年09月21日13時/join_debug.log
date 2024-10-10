@@ -1,0 +1,38 @@
+--------
+曜日 月  日  年  時:分:秒 
+Tue Oct 08 2024 20:34:47 GMT+0900 (Japan Standard Time)
+----------
+
+AVSスクリプトファイルを生成完了
+
+channelName:
+--------
+WOWOWシネマ
+----------
+
+chapter_exe -v "/home/pi/CmcutScp/result/[初][映]デイ・アフター・トゥモロー２０２４（字幕版）-2024年09月21日13時/join_tsfile.avs" -lwi /home/pi/CmcutScp/result/"[初][映]デイ・アフター・トゥモロー２０２４（字幕版）-2024年09月21日13時"/chapter_inscp.lwi -oa /home/pi/CmcutScp/result/"[初][映]デイ・アフター・トゥモロー２０２４（字幕版）-2024年09月21日13時"/chapter_inscp.txt
+該当する .lgd ファイル (WOWOWシネマ.lgd) が見つかりました。
+
+cmd : logoframe "/home/pi/CmcutScp/result/[初][映]デイ・アフター・トゥモロー２０２４（字幕版）-2024年09月21日13時/join_tsfile.avs" -logo "/home/pi/CmcutScp/join_logo_scp_trial/logo/WOWOWシネマ.lgd" -oa "/home/pi/CmcutScp/result/[初][映]デイ・アフター・トゥモロー２０２４（字幕版）-2024年09月21日13時/logoframe_inlogo.txt"
+
+cmd : join_logo_scp -inlogo "/home/pi/CmcutScp/result/[初][映]デイ・アフター・トゥモロー２０２４（字幕版）-2024年09月21日13時/logoframe_inlogo.txt" -inscp "/home/pi/CmcutScp/result/[初][映]デイ・アフター・トゥモロー２０２４（字幕版）-2024年09月21日13時/chapter_inscp.txt" -incmd "/home/pi/CmcutScp/join_logo_scp_trial/JL/JL_標準.txt" -o "/home/pi/CmcutScp/result/[初][映]デイ・アフター・トゥモロー２０２４（字幕版）-2024年09月21日13時/join_logo_scp.txt"
+
+ フレーム情報ファイルのパス(joinOutputFile) 
+ /home/pi/CmcutScp/result/[初][映]デイ・アフター・トゥモロー２０２４（字幕版）-2024年09月21日13時/join_logo_scp.csv 
+
+ フィルターコンプレックスの初期値を設定(data) 
+ 1171,139734
+ 
+
+subtitle を実行
+
+cm-subtitle-12.sh を実行INPUT="/srv/dev-disk-by-uuid-D454C24354C22856/NAS_4_1/Recorded/2024-1cours/[初][映]デイ・アフター・トゥモロー２０２４（字幕版）-2024年09月21日13時.ts" OUTPUT="/srv/dev-disk-by-uuid-A6DA96A3DA966F75/NAS/Recorded/Movie/[初][映]デイ・アフター・トゥモロー２０２４（字幕版）-2024年09月21日13時_cmcut.jpn.srt" /bin/bash /home/pi/EPGStation/config/cm-subtitle-12.sh
+
+joinOutputFile()
+: "/home/pi/CmcutScp/result/[初][映]デイ・アフター・トゥモロー２０２４（字幕版）-2024年09月21日13時/join_logo_scp.csv"
+
+generateFilterComplex()
+: "[0:v]trim=39.072:4662.462,setpts=PTS-STARTPTS[v0];[0:a]atrim=39.072:4662.462,asetpts=PTS-STARTPTS[a0];[v0]yadif=0[v0_deinterlaced];[v0_deinterlaced][a0]concat=n=1:v=1:a=1"
+
+/usr/bin/ffmpeg:: -y,-analyzeduration,10M,-probesize,32M,-i,/srv/dev-disk-by-uuid-D454C24354C22856/NAS_4_1/Recorded/2024-1cours/[初][映]デイ・アフター・トゥモロー２０２４（字幕版）-2024年09月21日13時.ts,-c:a,aac,-ignore_unknown,-filter_complex,[0:v]trim=39.072:4662.462,setpts=PTS-STARTPTS[v0];[0:a]atrim=39.072:4662.462,asetpts=PTS-STARTPTS[a0];[v0]yadif=0[v0_deinterlaced];[v0_deinterlaced][a0]concat=n=1:v=1:a=1,-b:v,10M,-c:v,h264_v4l2m2m,-aspect,16:9,-f,mp4,-r,29.97,-crf,20,/srv/dev-disk-by-uuid-A6DA96A3DA966F75/NAS/Recorded/Movie/[初][映]デイ・アフター・トゥモロー２０２４（字幕版）-2024年09月21日13時.mp4
+

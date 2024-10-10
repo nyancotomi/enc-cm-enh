@@ -1,0 +1,16 @@
+AVSスクリプトファイルを生成完了
+
+channelName:--------
+群馬テレビ
+----------
+
+chapter_exe -v "/home/pi/CmcutScp/result/逃げ上手の若君　「やさしいおじさん」-2024年07月13日23時/join_tsfile.avs" -lwi /home/pi/CmcutScp/result/"逃げ上手の若君　「やさしいおじさん」-2024年07月13日23時"/chapter_inscp.lwi -oa /home/pi/CmcutScp/result/"逃げ上手の若君　「やさしいおじさん」-2024年07月13日23時"/chapter_inscp.txt
+該当する .lgd ファイルが見つかりません
+
+joinOutputFile()
+: "/home/pi/CmcutScp/result/逃げ上手の若君　「やさしいおじさん」-2024年07月13日23時/join_logo_scp.csv"
+
+ フレーム情報ファイルのパス(joinOutputFile) 
+ /home/pi/CmcutScp/result/逃げ上手の若君　「やさしいおじさん」-2024年07月13日23時/join_logo_scp.csv 
+
+Error: ENOENT: no such file or directory, open '/home/pi/CmcutScp/result/逃げ上手の若君　「やさしいおじさん」-2024年07月13日23時/join_logo_scp.csv'

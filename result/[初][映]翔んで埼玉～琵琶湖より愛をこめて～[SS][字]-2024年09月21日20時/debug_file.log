@@ -1,0 +1,7 @@
+subtitle_file:/srv/dev-disk-by-uuid-A6DA96A3DA966F75/NAS/Recorded/subtitle/[初][映]翔んで埼玉～琵琶湖より愛をこめて～[SS][字]-2024年09月21日20時.jpn.srt, 
+ ts_file_name:[初][映]翔んで埼玉～琵琶湖より愛をこめて～[SS][字]-2024年09月21日20時.ts, 
+ ts_file_input:/srv/dev-disk-by-uuid-D454C24354C22856/NAS_4_1/Recorded/2024-3cours/[初][映]翔んで埼玉～琵琶湖より愛をこめて～[SS][字]-2024年09月21日20時.ts, 
+file_inpu:[初][映]翔んで埼玉～琵琶湖より愛をこめて～[SS][字]-2024年09月21日20時, 
+output_file:/srv/dev-disk-by-uuid-A6DA96A3DA966F75/NAS/Recorded/Movie/[初][映]翔んで埼玉～琵琶湖より愛をこめて～[SS][字]-2024年09月21日20時_cmcut.jpn.srt, 
+ input_file:/home/pi/CmcutScp/result/[初][映]翔んで埼玉～琵琶湖より愛をこめて～[SS][字]-2024年09月21日20時/join_logo_scp.csv, 
+/home/pi/CmcutScp/result/[初][映]翔んで埼玉～琵琶湖より愛をこめて～[SS][字]-2024年09月21日20時/cm_subtitle_jls.csv 

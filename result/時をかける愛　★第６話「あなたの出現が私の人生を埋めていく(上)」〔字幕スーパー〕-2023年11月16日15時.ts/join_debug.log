@@ -1,0 +1,31 @@
+AVSスクリプトファイルを生成完了
+
+channelName:--------
+TOKYO MX1
+----------
+
+chapter_exe -v "/home/pi/CmcutScp/result/時をかける愛　★第６話「あなたの出現が私の人生を埋めていく(上)」〔字幕スーパー〕-2023年11月16日15時.ts/join_tsfile.avs" -lwi /home/pi/CmcutScp/result/"時をかける愛　★第６話「あなたの出現が私の人生を埋めていく(上)」〔字幕スーパー〕-2023年11月16日15時.ts"/chapter_inscp.lwi -oa /home/pi/CmcutScp/result/"時をかける愛　★第６話「あなたの出現が私の人生を埋めていく(上)」〔字幕スーパー〕-2023年11月16日15時.ts"/chapter_inscp.txt
+該当する .lgd ファイル (TOKYO MX1.lgd) が見つかりました。
+
+cmd : logoframe "/home/pi/CmcutScp/result/時をかける愛　★第６話「あなたの出現が私の人生を埋めていく(上)」〔字幕スーパー〕-2023年11月16日15時.ts/join_tsfile.avs" -logo "/home/pi/CmcutScp/join_logo_scp_trial/logo/TOKYO MX1.lgd" -oa "/home/pi/CmcutScp/result/時をかける愛　★第６話「あなたの出現が私の人生を埋めていく(上)」〔字幕スーパー〕-2023年11月16日15時.ts/logoframe_inlogo.txt"
+
+cmd : join_logo_scp -inlogo "/home/pi/CmcutScp/result/時をかける愛　★第６話「あなたの出現が私の人生を埋めていく(上)」〔字幕スーパー〕-2023年11月16日15時.ts/logoframe_inlogo.txt.txt" -inscp "/home/pi/CmcutScp/result/時をかける愛　★第６話「あなたの出現が私の人生を埋めていく(上)」〔字幕スーパー〕-2023年11月16日15時.ts/chapter_inscp.txt" -incmd "/home/pi/CmcutScp/join_logo_scp_trial/JL/JL_標準.txt" -o "/home/pi/CmcutScp/result/時をかける愛　★第６話「あなたの出現が私の人生を埋めていく(上)」〔字幕スーパー〕-2023年11月16日15時.ts/join_logo_scp.txt"
+
+joinOutputFile()
+: "/home/pi/CmcutScp/result/時をかける愛　★第６話「あなたの出現が私の人生を埋めていく(上)」〔字幕スーパー〕-2023年11月16日15時.ts/join_logo_scp.csv"
+
+ フレーム情報ファイルのパス(joinOutputFile) 
+ /home/pi/CmcutScp/result/時をかける愛　★第６話「あなたの出現が私の人生を埋めていく(上)」〔字幕スーパー〕-2023年11月16日15時.ts/join_logo_scp.csv 
+
+ フィルターコンプレックスの初期値を設定(data) 
+ 216,15799
+19397,27278
+32674,41813
+47209,54164
+ 
+
+generateFilterComplex()
+: "[0:v]trim=7.207:527.160,setpts=PTS-STARTPTS[v0];[0:a]atrim=7.207:527.160,asetpts=PTS-STARTPTS[a0];[v0]yadif=0[v0_deinterlaced];[0:v]trim=647.214:910.177,setpts=PTS-STARTPTS[v1];[0:a]atrim=647.214:910.177,asetpts=PTS-STARTPTS[a1];[v1]yadif=0[v1_deinterlaced];[0:v]trim=1090.224:1395.162,setpts=PTS-STARTPTS[v2];[0:a]atrim=1090.224:1395.162,asetpts=PTS-STARTPTS[a2];[v2]yadif=0[v2_deinterlaced];[0:v]trim=1575.209:1807.274,setpts=PTS-STARTPTS[v3];[0:a]atrim=1575.209:1807.274,asetpts=PTS-STARTPTS[a3];[v3]yadif=0[v3_deinterlaced];[v0_deinterlaced][a0][v1_deinterlaced][a1][v2_deinterlaced][a2][v3_deinterlaced][a3]concat=n=4:v=1:a=1"
+
+/usr/bin/ffmpeg:: -y,-analyzeduration,10M,-probesize,32M,-i,/srv/dev-disk-by-uuid-A6DA96A3DA966F75/NAS/Recorded/時をかける愛　★第６話「あなたの出現が私の人生を埋めていく(上)」〔字幕スーパー〕-2023年11月16日15時.ts,-c:a,aac,-ignore_unknown,-filter_complex,[0:v]trim=7.207:527.160,setpts=PTS-STARTPTS[v0];[0:a]atrim=7.207:527.160,asetpts=PTS-STARTPTS[a0];[v0]yadif=0[v0_deinterlaced];[0:v]trim=647.214:910.177,setpts=PTS-STARTPTS[v1];[0:a]atrim=647.214:910.177,asetpts=PTS-STARTPTS[a1];[v1]yadif=0[v1_deinterlaced];[0:v]trim=1090.224:1395.162,setpts=PTS-STARTPTS[v2];[0:a]atrim=1090.224:1395.162,asetpts=PTS-STARTPTS[a2];[v2]yadif=0[v2_deinterlaced];[0:v]trim=1575.209:1807.274,setpts=PTS-STARTPTS[v3];[0:a]atrim=1575.209:1807.274,asetpts=PTS-STARTPTS[a3];[v3]yadif=0[v3_deinterlaced];[v0_deinterlaced][a0][v1_deinterlaced][a1][v2_deinterlaced][a2][v3_deinterlaced][a3]concat=n=4:v=1:a=1,-b:v,10M,-c:v,h264_v4l2m2m,-aspect,16:9,-f,mp4,-r,29.97,-crf,20,/srv/dev-disk-by-uuid-A6DA96A3DA966F75/NAS/Recorded/TV_Program/時をかける愛/時をかける愛　★第６話「あなたの出現が私の人生を埋めていく(上)」〔字幕スーパー〕-2023年11月16日15時.mp4
+

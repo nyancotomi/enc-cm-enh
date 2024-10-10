@@ -1,0 +1,16 @@
+AVSスクリプトファイルを生成完了
+
+channelName:--------
+スターチャンネル3
+----------
+
+chapter_exe -v "/home/pi/CmcutScp/result/[映][SS]フリー・ガイ[吹]-2023年11月28日14時.ts/join_tsfile.avs" -lwi /home/pi/CmcutScp/result/"[映][SS]フリー・ガイ[吹]-2023年11月28日14時.ts"/chapter_inscp.lwi -oa /home/pi/CmcutScp/result/"[映][SS]フリー・ガイ[吹]-2023年11月28日14時.ts"/chapter_inscp.txt
+該当する .lgd ファイルが見つかりません
+
+joinOutputFile()
+: "/home/pi/CmcutScp/result/[映][SS]フリー・ガイ[吹]-2023年11月28日14時.ts/join_logo_scp.csv"
+
+ フレーム情報ファイルのパス(joinOutputFile) 
+ /home/pi/CmcutScp/result/[映][SS]フリー・ガイ[吹]-2023年11月28日14時.ts/join_logo_scp.csv 
+
+Error: ENOENT: no such file or directory, open '/home/pi/CmcutScp/result/[映][SS]フリー・ガイ[吹]-2023年11月28日14時.ts/join_logo_scp.csv'

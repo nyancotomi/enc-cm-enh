@@ -1,0 +1,53 @@
+--------
+曜日 月  日  年  時:分:秒 
+Wed Oct 09 2024 21:24:02 GMT+0900 (Japan Standard Time)
+----------
+
+↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+
+/home/pi/EPGStation/config/enc-cm-enh-0000.jsで追記
+AVSスクリプトファイルを生成完了
+
+channelName:
+--------
+NHK総合1・前橋
+----------
+
+chapter_exe -v "/home/pi/CmcutScp/result/Ｖｅｎｕｅ１０１　Ｐｒｅｓｅｎｔｓ　Ｃｒｅｅｐｙ　Ｎｕｔｓ　ＴＨＥ　ＬＩＶＥ[字]-2024年10月05日23時/join_tsfile.avs" -lwi /home/pi/CmcutScp/result/"Ｖｅｎｕｅ１０１　Ｐｒｅｓｅｎｔｓ　Ｃｒｅｅｐｙ　Ｎｕｔｓ　ＴＨＥ　ＬＩＶＥ[字]-2024年10月05日23時"/chapter_inscp.lwi -oa /home/pi/CmcutScp/result/"Ｖｅｎｕｅ１０１　Ｐｒｅｓｅｎｔｓ　Ｃｒｅｅｐｙ　Ｎｕｔｓ　ＴＨＥ　ＬＩＶＥ[字]-2024年10月05日23時"/chapter_inscp.txt
+該当する .lgd ファイル (NHK総合1・前橋.lgd) が見つかりました。
+
+cmd : logoframe "/home/pi/CmcutScp/result/Ｖｅｎｕｅ１０１　Ｐｒｅｓｅｎｔｓ　Ｃｒｅｅｐｙ　Ｎｕｔｓ　ＴＨＥ　ＬＩＶＥ[字]-2024年10月05日23時/join_tsfile.avs" -logo "/home/pi/CmcutScp/join_logo_scp_trial/logo/NHK総合1・前橋.lgd" -oa "/home/pi/CmcutScp/result/Ｖｅｎｕｅ１０１　Ｐｒｅｓｅｎｔｓ　Ｃｒｅｅｐｙ　Ｎｕｔｓ　ＴＨＥ　ＬＩＶＥ[字]-2024年10月05日23時/logoframe_inlogo.txt"
+
+cmd : join_logo_scp -inlogo "/home/pi/CmcutScp/result/Ｖｅｎｕｅ１０１　Ｐｒｅｓｅｎｔｓ　Ｃｒｅｅｐｙ　Ｎｕｔｓ　ＴＨＥ　ＬＩＶＥ[字]-2024年10月05日23時/logoframe_inlogo.txt" -inscp "/home/pi/CmcutScp/result/Ｖｅｎｕｅ１０１　Ｐｒｅｓｅｎｔｓ　Ｃｒｅｅｐｙ　Ｎｕｔｓ　ＴＨＥ　ＬＩＶＥ[字]-2024年10月05日23時/chapter_inscp.txt" -incmd "/home/pi/CmcutScp/join_logo_scp_trial/JL/JL_標準.txt" -o "/home/pi/CmcutScp/result/Ｖｅｎｕｅ１０１　Ｐｒｅｓｅｎｔｓ　Ｃｒｅｅｐｙ　Ｎｕｔｓ　ＴＨＥ　ＬＩＶＥ[字]-2024年10月05日23時/join_logo_scp.txt"
+
+joinOutputFile()
+: "/home/pi/CmcutScp/result/Ｖｅｎｕｅ１０１　Ｐｒｅｓｅｎｔｓ　Ｃｒｅｅｐｙ　Ｎｕｔｓ　ＴＨＥ　ＬＩＶＥ[字]-2024年10月05日23時/join_logo_scp.csv"
+
+ フレーム情報ファイルのパス(joinOutputFile) 
+ /home/pi/CmcutScp/result/Ｖｅｎｕｅ１０１　Ｐｒｅｓｅｎｔｓ　Ｃｒｅｅｐｙ　Ｎｕｔｓ　ＴＨＥ　ＬＩＶＥ[字]-2024年10月05日23時/join_logo_scp.csv 
+
+1列目の1行目の値が0のため、外部コマンドを実行します: /home/pi/EPGStation/config/run_encode_error.sh encod_error "0,792
+ 
+//////////////
+再エンコード失敗
+//////////////
+
+ 再エンコードの詳細ログ:
+ http://192.168.1.83:3030 
+
+ CMカット失敗一覧:
+http://192.168.1.83:3040"
+
+ フィルターコンプレックスの初期値を設定(data) 
+ 0,792
+ 
+
+generateFilterComplex()
+: "[0:v]trim=0.000:26.426,setpts=PTS-STARTPTS[v0];[0:a]atrim=0.000:26.426,asetpts=PTS-STARTPTS[a0];[v0]yadif=0[v0_deinterlaced];[v0_deinterlaced][a0]concat=n=1:v=1:a=1"
+
+/usr/bin/ffmpeg:: -y,-analyzeduration,10M,-probesize,32M,-i,/srv/dev-disk-by-uuid-D454C24354C22856/NAS_4_1/Recorded/2024-4cours/encode_faild/Ｖｅｎｕｅ１０１　Ｐｒｅｓｅｎｔｓ　Ｃｒｅｅｐｙ　Ｎｕｔｓ　ＴＨＥ　ＬＩＶＥ[字]-2024年10月05日23時.mp4,-c:a,aac,-ignore_unknown,-filter_complex,[0:v]trim=0.000:26.426,setpts=PTS-STARTPTS[v0];[0:a]atrim=0.000:26.426,asetpts=PTS-STARTPTS[a0];[v0]yadif=0[v0_deinterlaced];[v0_deinterlaced][a0]concat=n=1:v=1:a=1,-b:v,10M,-c:v,h264_v4l2m2m,-aspect,16:9,-f,mp4,-r,29.97,-crf,20,/srv/dev-disk-by-uuid-D454C24354C22856/NAS_4_1/Recorded/2024-4cours/Ｖｅｎｕｅ１０１　Ｐｒｅｓｅｎｔｓ　Ｃｒｅｅｐｙ　Ｎｕｔｓ　ＴＨＥ　ＬＩＶＥ[字]-2024年10月05日23時(2).mp4
+
+ecm-subtitle-12.s を実行: INPUT="/srv/dev-disk-by-uuid-D454C24354C22856/NAS_4_1/Recorded/2024-1cours/Ｖｅｎｕｅ１０１　Ｐｒｅｓｅｎｔｓ　Ｃｒｅｅｐｙ　Ｎｕｔｓ　ＴＨＥ　ＬＩＶＥ[字]-2024年10月05日23時.ts" OUTPUT="/srv/dev-disk-by-uuid-D454C24354C22856/NAS_4_1/Recorded/2024-4cours/Ｖｅｎｕｅ１０１　Ｐｒｅｓｅｎｔｓ　Ｃｒｅｅｐｙ　Ｎｕｔｓ　ＴＨＥ　ＬＩＶＥ[字]-2024年10月05日23時(2)_cmcut.jpn.srt" /bin/bash /home/pi/EPGStation/config/cm-subtitle-12.sh
+
+処理後にファイルを削除を実行: /srv/dev-disk-by-uuid-D454C24354C22856/NAS_4_1/Recorded/2024-4cours/encode_faild/Ｖｅｎｕｅ１０１　Ｐｒｅｓｅｎｔｓ　Ｃｒｅｅｐｙ　Ｎｕｔｓ　ＴＨＥ　ＬＩＶＥ[字]-2024年10月05日23時.mp4
+

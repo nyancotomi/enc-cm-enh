@@ -1,0 +1,37 @@
+AVSスクリプトファイルを生成完了
+
+channelName:--------
+日テレ1
+----------
+
+chapter_exe -v "/home/pi/CmcutScp/result/金曜ロードショー「ミッション・インポッシブル３」★トム・クルーズ主演★[二][字][デ]-2024年06月21日21時/join_tsfile.avs" -lwi /home/pi/CmcutScp/result/"金曜ロードショー「ミッション・インポッシブル３」★トム・クルーズ主演★[二][字][デ]-2024年06月21日21時"/chapter_inscp.lwi -oa /home/pi/CmcutScp/result/"金曜ロードショー「ミッション・インポッシブル３」★トム・クルーズ主演★[二][字][デ]-2024年06月21日21時"/chapter_inscp.txt
+該当する .lgd ファイル (日テレ1.lgd) が見つかりました。
+
+cmd : logoframe "/home/pi/CmcutScp/result/金曜ロードショー「ミッション・インポッシブル３」★トム・クルーズ主演★[二][字][デ]-2024年06月21日21時/join_tsfile.avs" -logo "/home/pi/CmcutScp/join_logo_scp_trial/logo/日テレ1.lgd" -oa "/home/pi/CmcutScp/result/金曜ロードショー「ミッション・インポッシブル３」★トム・クルーズ主演★[二][字][デ]-2024年06月21日21時/logoframe_inlogo.txt"
+
+cmd : join_logo_scp -inlogo "/home/pi/CmcutScp/result/金曜ロードショー「ミッション・インポッシブル３」★トム・クルーズ主演★[二][字][デ]-2024年06月21日21時/logoframe_inlogo.txt" -inscp "/home/pi/CmcutScp/result/金曜ロードショー「ミッション・インポッシブル３」★トム・クルーズ主演★[二][字][デ]-2024年06月21日21時/chapter_inscp.txt" -incmd "/home/pi/CmcutScp/join_logo_scp_trial/JL/JL_標準.txt" -o "/home/pi/CmcutScp/result/金曜ロードショー「ミッション・インポッシブル３」★トム・クルーズ主演★[二][字][デ]-2024年06月21日21時/join_logo_scp.txt"
+
+joinOutputFile()
+: "/home/pi/CmcutScp/result/金曜ロードショー「ミッション・インポッシブル３」★トム・クルーズ主演★[二][字][デ]-2024年06月21日21時/join_logo_scp.csv"
+
+ フレーム情報ファイルのパス(joinOutputFile) 
+ /home/pi/CmcutScp/result/金曜ロードショー「ミッション・インポッシブル３」★トム・クルーズ主演★[二][字][デ]-2024年06月21日21時/join_logo_scp.csv 
+
+ フィルターコンプレックスの初期値を設定(data) 
+ 170,45004
+49501,66582
+71978,86212
+91609,124124
+129521,146512
+151459,172136
+176633,193175
+197672,229439
+234386,246732
+251678,266752
+ 
+
+generateFilterComplex()
+: "[0:v]trim=5.672:1501.635,setpts=PTS-STARTPTS[v0];[0:a]atrim=5.672:1501.635,asetpts=PTS-STARTPTS[a0];[v0]yadif=0[v0_deinterlaced];[0:v]trim=1651.685:2221.622,setpts=PTS-STARTPTS[v1];[0:a]atrim=1651.685:2221.622,asetpts=PTS-STARTPTS[a1];[v1]yadif=0[v1_deinterlaced];[0:v]trim=2401.668:2876.610,setpts=PTS-STARTPTS[v2];[0:a]atrim=2401.668:2876.610,asetpts=PTS-STARTPTS[a2];[v2]yadif=0[v2_deinterlaced];[0:v]trim=3056.690:4141.608,setpts=PTS-STARTPTS[v3];[0:a]atrim=3056.690:4141.608,asetpts=PTS-STARTPTS[a3];[v3]yadif=0[v3_deinterlaced];[0:v]trim=4321.688:4888.622,setpts=PTS-STARTPTS[v4];[0:a]atrim=4321.688:4888.622,asetpts=PTS-STARTPTS[a4];[v4]yadif=0[v4_deinterlaced];[0:v]trim=5053.687:5743.610,setpts=PTS-STARTPTS[v5];[0:a]atrim=5053.687:5743.610,asetpts=PTS-STARTPTS[a5];[v5]yadif=0[v5_deinterlaced];[0:v]trim=5893.660:6445.612,setpts=PTS-STARTPTS[v6];[0:a]atrim=5893.660:6445.612,asetpts=PTS-STARTPTS[a6];[v6]yadif=0[v6_deinterlaced];[0:v]trim=6595.662:7655.622,setpts=PTS-STARTPTS[v7];[0:a]atrim=6595.662:7655.622,asetpts=PTS-STARTPTS[a7];[v7]yadif=0[v7_deinterlaced];[0:v]trim=7820.687:8232.633,setpts=PTS-STARTPTS[v8];[0:a]atrim=7820.687:8232.633,asetpts=PTS-STARTPTS[a8];[v8]yadif=0[v8_deinterlaced];[0:v]trim=8397.664:8900.634,setpts=PTS-STARTPTS[v9];[0:a]atrim=8397.664:8900.634,asetpts=PTS-STARTPTS[a9];[v9]yadif=0[v9_deinterlaced];[v0_deinterlaced][a0][v1_deinterlaced][a1][v2_deinterlaced][a2][v3_deinterlaced][a3][v4_deinterlaced][a4][v5_deinterlaced][a5][v6_deinterlaced][a6][v7_deinterlaced][a7][v8_deinterlaced][a8][v9_deinterlaced][a9]concat=n=10:v=1:a=1"
+
+/usr/bin/ffmpeg:: -y,-analyzeduration,10M,-probesize,32M,-i,/srv/dev-disk-by-uuid-D454C24354C22856/NAS_4_1/Recorded/2024-2cours/金曜ロードショー「ミッション・インポッシブル３」★トム・クルーズ主演★[二][字][デ]-2024年06月21日21時.ts,-c:a,aac,-ignore_unknown,-filter_complex,[0:v]trim=5.672:1501.635,setpts=PTS-STARTPTS[v0];[0:a]atrim=5.672:1501.635,asetpts=PTS-STARTPTS[a0];[v0]yadif=0[v0_deinterlaced];[0:v]trim=1651.685:2221.622,setpts=PTS-STARTPTS[v1];[0:a]atrim=1651.685:2221.622,asetpts=PTS-STARTPTS[a1];[v1]yadif=0[v1_deinterlaced];[0:v]trim=2401.668:2876.610,setpts=PTS-STARTPTS[v2];[0:a]atrim=2401.668:2876.610,asetpts=PTS-STARTPTS[a2];[v2]yadif=0[v2_deinterlaced];[0:v]trim=3056.690:4141.608,setpts=PTS-STARTPTS[v3];[0:a]atrim=3056.690:4141.608,asetpts=PTS-STARTPTS[a3];[v3]yadif=0[v3_deinterlaced];[0:v]trim=4321.688:4888.622,setpts=PTS-STARTPTS[v4];[0:a]atrim=4321.688:4888.622,asetpts=PTS-STARTPTS[a4];[v4]yadif=0[v4_deinterlaced];[0:v]trim=5053.687:5743.610,setpts=PTS-STARTPTS[v5];[0:a]atrim=5053.687:5743.610,asetpts=PTS-STARTPTS[a5];[v5]yadif=0[v5_deinterlaced];[0:v]trim=5893.660:6445.612,setpts=PTS-STARTPTS[v6];[0:a]atrim=5893.660:6445.612,asetpts=PTS-STARTPTS[a6];[v6]yadif=0[v6_deinterlaced];[0:v]trim=6595.662:7655.622,setpts=PTS-STARTPTS[v7];[0:a]atrim=6595.662:7655.622,asetpts=PTS-STARTPTS[a7];[v7]yadif=0[v7_deinterlaced];[0:v]trim=7820.687:8232.633,setpts=PTS-STARTPTS[v8];[0:a]atrim=7820.687:8232.633,asetpts=PTS-STARTPTS[a8];[v8]yadif=0[v8_deinterlaced];[0:v]trim=8397.664:8900.634,setpts=PTS-STARTPTS[v9];[0:a]atrim=8397.664:8900.634,asetpts=PTS-STARTPTS[a9];[v9]yadif=0[v9_deinterlaced];[v0_deinterlaced][a0][v1_deinterlaced][a1][v2_deinterlaced][a2][v3_deinterlaced][a3][v4_deinterlaced][a4][v5_deinterlaced][a5][v6_deinterlaced][a6][v7_deinterlaced][a7][v8_deinterlaced][a8][v9_deinterlaced][a9]concat=n=10:v=1:a=1,-b:v,10M,-c:v,h264_v4l2m2m,-aspect,16:9,-f,mp4,-r,29.97,-crf,20,/srv/dev-disk-by-uuid-A6DA96A3DA966F75/NAS/Recorded/Movie/金曜ロードショー「ミッション・インポッシブル３」★トム・クルーズ主演★[二][字][デ]-2024年06月21日21時.mp4
+

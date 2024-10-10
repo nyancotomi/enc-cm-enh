@@ -1,0 +1,7 @@
+subtitle_file:/srv/dev-disk-by-uuid-A6DA96A3DA966F75/NAS/Recorded/subtitle/先輩はおとこのこ＜ノイタミナ＞　＃１１[字]-2024年09月20日00時.jpn.srt, 
+ ts_file_name:先輩はおとこのこ＜ノイタミナ＞　＃１１[字]-2024年09月20日00時.ts, 
+ ts_file_input:/srv/dev-disk-by-uuid-D454C24354C22856/NAS_4_1/Recorded/2024-3cours/先輩はおとこのこ＜ノイタミナ＞　＃１１[字]-2024年09月20日00時.ts, 
+file_inpu:先輩はおとこのこ＜ノイタミナ＞　＃１１[字]-2024年09月20日00時, 
+output_file:/srv/dev-disk-by-uuid-A6DA96A3DA966F75/NAS/Recorded/TV_Program/先輩はおとこのこ/S1/先輩はおとこのこ＜ノイタミナ＞　＃１１[字]-2024年09月20日00時_cmcut.jpn.srt, 
+ input_file:/home/pi/CmcutScp/result/先輩はおとこのこ＜ノイタミナ＞　＃１１[字]-2024年09月20日00時/join_logo_scp.csv, 
+/home/pi/CmcutScp/result/先輩はおとこのこ＜ノイタミナ＞　＃１１[字]-2024年09月20日00時/cm_subtitle_jls.csv 

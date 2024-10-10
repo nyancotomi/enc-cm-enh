@@ -1,0 +1,7 @@
+AVSスクリプトファイルを生成完了
+
+channelName:--------
+WOWOWシネマ
+----------
+
+chapter_exe -v "/home/pi/CmcutScp/result/[映]パーフェクト・ドライバー／成功確率１００％の女（字幕版）[SS]-2023年11月27日16時.ts/join_tsfile.avs" -lwi /home/pi/CmcutScp/result/"[映]パーフェクト・ドライバー／成功確率１００％の女（字幕版）[SS]-2023年11月27日16時.ts"/chapter_inscp.lwi -oa /home/pi/CmcutScp/result/"[映]パーフェクト・ドライバー／成功確率１００％の女（字幕版）[SS]-2023年11月27日16時.ts"/chapter_inscp.txt

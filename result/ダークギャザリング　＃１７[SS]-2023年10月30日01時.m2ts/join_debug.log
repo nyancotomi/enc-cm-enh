@@ -1,0 +1,7 @@
+AVSスクリプトファイルを生成完了
+
+channelName:--------
+TOKYO MX1
+----------
+
+chapter_exe -v "/home/pi/CmcutScp/result/ダークギャザリング　＃１７[SS]-2023年10月30日01時.m2ts/join_tsfile.avs" -lwi /home/pi/CmcutScp/result/"ダークギャザリング　＃１７[SS]-2023年10月30日01時.m2ts"/chapter_inscp.lwi -oa /home/pi/CmcutScp/result/"ダークギャザリング　＃１７[SS]-2023年10月30日01時.m2ts"/chapter_inscp.txt

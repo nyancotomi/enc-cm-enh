@@ -1,0 +1,10 @@
+AVSスクリプトファイルを生成完了
+
+channelName:--------
+AT-X
+----------
+
+chapter_exe -v "/home/pi/CmcutScp/result/Unnamed Memory #07 [字]-2024年05月21日23時/join_tsfile.avs" -lwi /home/pi/CmcutScp/result/"Unnamed Memory #07 [字]-2024年05月21日23時"/chapter_inscp.lwi -oa /home/pi/CmcutScp/result/"Unnamed Memory #07 [字]-2024年05月21日23時"/chapter_inscp.txt
+Error: Command failed: chapter_exe -v "/home/pi/CmcutScp/result/Unnamed Memory #07 [字]-2024年05月21日23時/join_tsfile.avs" -lwi /home/pi/CmcutScp/result/"Unnamed Memory #07 [字]-2024年05月21日23時"/chapter_inscp.lwi -oa /home/pi/CmcutScp/result/"Unnamed Memory #07 [字]-2024年05月21日23時"/chapter_inscp.txt
+
+

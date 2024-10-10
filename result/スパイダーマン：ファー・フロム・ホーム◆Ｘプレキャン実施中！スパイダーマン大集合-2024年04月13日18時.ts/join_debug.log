@@ -1,0 +1,16 @@
+AVSスクリプトファイルを生成完了
+
+channelName:--------
+ムービープラス
+----------
+
+chapter_exe -v "/home/pi/CmcutScp/result/スパイダーマン：ファー・フロム・ホーム◆Ｘプレキャン実施中！スパイダーマン大集合-2024年04月13日18時.ts/join_tsfile.avs" -lwi /home/pi/CmcutScp/result/"スパイダーマン：ファー・フロム・ホーム◆Ｘプレキャン実施中！スパイダーマン大集合-2024年04月13日18時.ts"/chapter_inscp.lwi -oa /home/pi/CmcutScp/result/"スパイダーマン：ファー・フロム・ホーム◆Ｘプレキャン実施中！スパイダーマン大集合-2024年04月13日18時.ts"/chapter_inscp.txt
+該当する .lgd ファイルが見つかりません
+
+joinOutputFile()
+: "/home/pi/CmcutScp/result/スパイダーマン：ファー・フロム・ホーム◆Ｘプレキャン実施中！スパイダーマン大集合-2024年04月13日18時.ts/join_logo_scp.csv"
+
+ フレーム情報ファイルのパス(joinOutputFile) 
+ /home/pi/CmcutScp/result/スパイダーマン：ファー・フロム・ホーム◆Ｘプレキャン実施中！スパイダーマン大集合-2024年04月13日18時.ts/join_logo_scp.csv 
+
+Error: ENOENT: no such file or directory, open '/home/pi/CmcutScp/result/スパイダーマン：ファー・フロム・ホーム◆Ｘプレキャン実施中！スパイダーマン大集合-2024年04月13日18時.ts/join_logo_scp.csv'

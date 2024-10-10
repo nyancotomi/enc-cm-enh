@@ -1,0 +1,16 @@
+AVSスクリプトファイルを生成完了
+
+channelName:--------
+テレ東
+----------
+
+chapter_exe -v "/home/pi/CmcutScp/result/怪獣８号　第６話「夜明けの相模原討伐作戦」[字]-2024年05月18日23時/join_tsfile.avs" -lwi /home/pi/CmcutScp/result/"怪獣８号　第６話「夜明けの相模原討伐作戦」[字]-2024年05月18日23時"/chapter_inscp.lwi -oa /home/pi/CmcutScp/result/"怪獣８号　第６話「夜明けの相模原討伐作戦」[字]-2024年05月18日23時"/chapter_inscp.txt
+該当する .lgd ファイルが見つかりません
+
+joinOutputFile()
+: "/home/pi/CmcutScp/result/怪獣８号　第６話「夜明けの相模原討伐作戦」[字]-2024年05月18日23時/join_logo_scp.csv"
+
+ フレーム情報ファイルのパス(joinOutputFile) 
+ /home/pi/CmcutScp/result/怪獣８号　第６話「夜明けの相模原討伐作戦」[字]-2024年05月18日23時/join_logo_scp.csv 
+
+Error: ENOENT: no such file or directory, open '/home/pi/CmcutScp/result/怪獣８号　第６話「夜明けの相模原討伐作戦」[字]-2024年05月18日23時/join_logo_scp.csv'
