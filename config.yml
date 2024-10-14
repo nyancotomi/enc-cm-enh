@@ -47,6 +47,8 @@ recorded:
       path: '/srv/dev-disk-by-uuid-D454C24354C22856/NAS_4_1/Recorded/2024-4cours'
     - name: TV Program
       path: '/srv/dev-disk-by-uuid-A6DA96A3DA966F75/NAS/Recorded/TV_Program'
+    - name: 再エンコード
+      path: '/srv/dev-disk-by-uuid-A6DA96A3DA966F75/NAS/Recorded/TV_Program/2nd_encord'
     - name: movie
       path: '/srv/dev-disk-by-uuid-A6DA96A3DA966F75/NAS/Recorded/Movie'
     - name: 2023年春番組M2TS
@@ -72,12 +74,12 @@ ffprobe: /usr/bin/ffprobe
 encodeProcessNum: 4
 concurrentEncodeNum: 1
 encode:
-    - name: CMCUT-10M
-      cmd: '%NODE% %ROOT%/config/enc-cm-enh.js'
-      suffix: .mp4
-      rate: 4.0
+    #- name: CMCUT-10M
+    #  cmd: '%NODE% %ROOT%/config/enc-cm-enh.js'
+    #  suffix: .mp4
+    #  rate: 4.0
 
-    - name: CMCUT-10M-MAIN
+    - name: CMCUT-10M #-MAIN
       cmd: '%NODE% %ROOT%/config/enc-cm-enh-main.js'
       suffix: .mp4
       rate: 20.0
@@ -87,10 +89,10 @@ encode:
       suffix: .mp4
       rate: 4.0
     
-    - name: CMCUT-10M-ATX
-      cmd: '%NODE% %ROOT%/config/enc-cm-enh-ATX.js'
-      suffix: .mp4
-      rate: 4.0
+    #- name: CMCUT-10M-ATX
+    #  cmd: '%NODE% %ROOT%/config/enc-cm-enh-ATX.js'
+    #  suffix: .mp4
+   #  rate: 4.0
 
     - name: CMCUT-10M-ATX-ac6
       cmd: '%NODE% %ROOT%/config/enc-cm-enh-ATX-ac6.js'
@@ -107,25 +109,25 @@ encode:
     #  suffix: .mp4
     #  rate: 4.0
 
-    - name: H.264-ac6-10M
-      cmd: '%NODE% %ROOT%/config/enc-enhance-ac6-10M.js'
-      suffix: .mp4
-      rate: 4.0
+    #- name: H.264-ac6-10M
+    #  cmd: '%NODE% %ROOT%/config/enc-enhance-ac6-10M.js'
+    #  suffix: .mp4
+    #  rate: 4.0
 
-    - name: H.264-ac6-3M
-      cmd: '%NODE% %ROOT%/config/enc-enhance-ac6-3M.js'
-      suffix: .mp4
-      rate: 4.0
+    #- name: H.264-ac6-3M
+    #  cmd: '%NODE% %ROOT%/config/enc-enhance-ac6-3M.js'
+    #  suffix: .mp4
+    #  rate: 4.0
 
-    - name: H.264-10M
-      cmd: '%NODE% %ROOT%/config/enc-enhance.js'
-      suffix: .mp4
-      rate: 4.0
+    #- name: H.264-10M
+    #  cmd: '%NODE% %ROOT%/config/enc-enhance.js'
+    #  suffix: .mp4
+    #  rate: 4.0
 
-    - name: H.264-3M
-      cmd: '%NODE% %ROOT%/config/enc-enhance-low.js'
-      suffix: .mp4
-      rate: 4.0
+    #- name: H.264-3M
+    #  cmd: '%NODE% %ROOT%/config/enc-enhance-low.js'
+    #  suffix: .mp4
+    #  rate: 4.0
 
     - name: subtitle-SRT
       cmd: '%NODE% %ROOT%/config/subtitle.js'
@@ -137,10 +139,10 @@ encode:
       suffix: _cmcut.jpn.srt
       rate: 4.0
 
-    - name: CM-subtitle-SRT-MP4
-      cmd: '/bin/bash %ROOT%/config/cm-subtitle-mp4.sh'
-      suffix: _cmcut.jpn.srt
-      rate: 4.0
+    #- name: CM-subtitle-SRT-MP4
+    #  cmd: '/bin/bash %ROOT%/config/cm-subtitle-mp4.sh'
+    #  suffix: _cmcut.jpn.srt
+    #  rate: 4.0
     
     #- name: podcast
     #  cmd: '%NODE% %ROOT%/config/podcast.js'

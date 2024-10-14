@@ -112,7 +112,7 @@ async function generateFilterComplex(joinOutputFile) {
       try {
         const data = await util.promisify(fs.readFile)(joinOutputFile, 'utf8');
         await writeToDebugLog(debug_file, ` フィルターコンプレックスの初期値を設定(data) \n ${data} \n`);
-        const line_sta_exe = `/home/pi/EPGStation/config/run_encode.sh encod_sta "${data} \nエンコードの詳細ログ:\n http://192.168.1.83:3005/latest-log"`;
+        const line_sta_exe = `/home/pi/EPGStation/config/run_encode.sh encod_sta "${data} \nエンコードの詳細ログ:\n http://192.168.1.83:3030"`;
         const { stdout: line_sta_Stdout, stderr: line_sta_Stderr } = await execPromise(line_sta_exe);
   
         // CSVデータを行ごとに分割
@@ -267,7 +267,7 @@ async function runCommands() {
             
             Array.prototype.push.apply(args, ['-vf', 'yadif']);
 
-            const externalCommand = `/home/pi/EPGStation/config/run_encode_error.sh encod_error "ノーカットエンコード開始\n${modifiedData}\n\n 再エンコードの詳細ログ:\n http://192.168.1.83:3000/latest-log"`; // ここに外部コマンドを記述
+            const externalCommand = `/home/pi/EPGStation/config/run_encode_error.sh encod_error "ノーカットエンコード開始\n${modifiedData}\n\n 再エンコードの詳細ログ:\n http://192.168.1.83:3030"`; // ここに外部コマンドを記述
             //const externalCommand = `/home/pi/EPGStation/config/run_encode_error.sh encod_error "${data}_再エンコード開始"`; // ここに外部コマンドを記述
             try {
                 const { stdout, stderr } = await execPromise(externalCommand);
@@ -363,12 +363,11 @@ async function runCommands() {
                         throw new Error(err);
                     });
 
-                    // enc-cm-enh-0000.jsプロセスの終了を待ち、終了後に次の処理を実行
                     child.on('exit', async (code) => {
                         if (code === 0) {
                             console.log('エンコード完了。次の処理を開始します。');
                             await writeToDebugLog(debug_file, `enc-cm-enh-0000.jsプロセスの終了を待ち、終了後に次の処理を実行\n`);
-                            
+                    
                             // 次のエンコード処理を行うために、環境変数を設定して`enc-cm-enh-0000.js`を実行
                             const encEnv = {
                                 ...process.env,
@@ -377,36 +376,45 @@ async function runCommands() {
                                 OUTPUT: output,      // 新たな出力ファイルを指定
                             };
                     
-                            // enc-cm-enh-0000.js を実行 (timeout を 0 に設定)
-                            await execPromise(`node /home/pi/EPGStation/config/enc-cm-enh-0000.js`, { env: encEnv, timeout: 0 });
-                            console.log('次のエンコード処理が開始されました。');
+                            // ログファイルのパスを設定
+                            const logFilePath = `/home/pi/CmcutScp/result/${file_name}/enc-cm-enh-0000.log`;
+                            const logStream = fs.createWriteStream(logFilePath, { flags: 'a' });
+                    
+                            // enc-cm-enh-0000.js を実行し、標準出力とエラーをログファイルにリダイレクト
+                            await execPromise(`node /home/pi/EPGStation/config/enc-cm-enh-0000.js >> ${logFilePath} 2>&1`, { env: encEnv, timeout: 0 });
+                    
+                            console.log('次のエンコード処理が開始されました。ログは ' + logFilePath + ' に記録されています。');
                         } else {
                             console.error(`エンコード失敗。exit code: ${code}`);
                         }
                     });
 
-                    // subtitle.js を実行するプロセスの終了を待ち、終了後に次の処理を実行
-                    child.on('exit', async (code1) => {
-                        if (code1 === 0) {
-                            console.log('subtitleエンコード完了。次の処理を開始します。');
-                            await writeToDebugLog(debug_file, `subtitle.js を実行するプロセスの終了を待ち、終了後に次の処理を実行\n`);
-                            
-                            // 次のエンコード処理を行うために、環境変数を設定して`subtitle.js`を実行
-                            const subtitleEnv = {
-                                ...process.env,
-                                INPUT: file_path, 
-                                OUTPUT: `/srv/dev-disk-by-uuid-A6DA96A3DA966F75/NAS/Recorded/subtitle/${file_name}.jpn.srt`, 
-                            };
+                    // [字] が含まれる場合のみ処理を実行
+                    if (file_name.includes('[字]')) {
+                        // subtitle.js を実行するプロセスの終了を待ち、終了後に次の処理を実行
+                        child.on('exit', async (code1) => {
+                            if (code1 === 0) {
+                                console.log('subtitleエンコード完了。次の処理を開始します。');
+                                await writeToDebugLog(debug_file, `subtitle.js を実行するプロセスの終了を待ち、終了後に次の処理を実行\n`);
+                                
+                                // 次のエンコード処理を行うために、環境変数を設定して`subtitle.js`を実行
+                                const subtitleEnv = {
+                                    ...process.env,
+                                    INPUT: file_path, 
+                                    OUTPUT: `/srv/dev-disk-by-uuid-A6DA96A3DA966F75/NAS/Recorded/subtitle/${file_name}.jpn.srt`, 
+                                };
 
-                            // enc-cm-enh-0000.js を実行
-                            await execPromise(`node /home/pi/EPGStation/config/subtitle.js`, { env: subtitleEnv });
-                            console.log('次のエンコード処理が開始されました。');
-                        } else {
-                            console.error(`subtitleエンコード失敗。exit code: ${code1}`);
-                            await writeToDebugLog(debug_file, `error: ${error}\n`);
-                        }
-                    });                 
-                   
+                                // enc-cm-enh-0000.js を実行
+                                await execPromise(`node /home/pi/EPGStation/config/subtitle.js`, { env: subtitleEnv });
+                                console.log('次のエンコード処理が開始されました。');
+                            } else {
+                                console.error(`subtitleエンコード失敗。exit code: ${code1}`);
+                                await writeToDebugLog(debug_file, `error: ${error}\n`);
+                            }
+                        });                 
+                    } else {
+                        console.log(`${file_name}には[字]が含まれていないため、処理をスキップします。`);
+                    }
 
                     // シグナルでプロセスを終了させる処理
                     process.on('SIGINT', () => {
@@ -421,28 +429,33 @@ async function runCommands() {
 
         } else{
 
-            const subtitleEnv = {
-                ...process.env,
-                INPUT: file_path, 
-                OUTPUT: `/srv/dev-disk-by-uuid-A6DA96A3DA966F75/NAS/Recorded/subtitle/${file_name}.jpn.srt`, 
-            };
+            // [字] が含まれる場合のみ処理を実行
+            if (file_name.includes('[字]')) {
+                const subtitleEnv = {
+                    ...process.env,
+                    INPUT: file_path, 
+                    OUTPUT: `/srv/dev-disk-by-uuid-A6DA96A3DA966F75/NAS/Recorded/subtitle/${file_name}.jpn.srt`, 
+                };
 
-            // subtitle を実行
-            await execPromise(`node /home/pi/EPGStation/config/subtitle.js`, { env: subtitleEnv });
-            await writeToDebugLog(debug_file, `subtitle を実行\n`);
+                // subtitle を実行
+                await execPromise(`node /home/pi/EPGStation/config/subtitle.js`, { env: subtitleEnv });
+                await writeToDebugLog(debug_file, `subtitle を実行\n`);
 
-            // cm-subtitle-12.sh を実行するプロセスの終了を待ち、終了後に次の処理を実行
-            const fileNameWithoutExtension = output.replace(/\.mp4$/, '');
-            const cm_subtitleEnv = `INPUT="${file_path}" OUTPUT="${fileNameWithoutExtension}_cmcut.jpn.srt" /bin/bash /home/pi/EPGStation/config/cm-subtitle-12.sh`;
-            try {
-                const { stdout, stderr } = await execPromise(cm_subtitleEnv);
-                console.log(stdout);
-                console.error(stderr);
-            } catch (error) {
-                console.error(`外部コマンドの実行エラー: ${error}`);
-            }  
+                // cm-subtitle-12.sh を実行するプロセスの終了を待ち、終了後に次の処理を実行
+                const fileNameWithoutExtension = output.replace(/\.mp4$/, '');
+                const cm_subtitleEnv = `INPUT="${file_path}" OUTPUT="${fileNameWithoutExtension}_cmcut.jpn.srt" /bin/bash /home/pi/EPGStation/config/cm-subtitle-12.sh`;
+                try {
+                    const { stdout, stderr } = await execPromise(cm_subtitleEnv);
+                    console.log(stdout);
+                    console.error(stderr);
+                } catch (error) {
+                    console.error(`外部コマンドの実行エラー: ${error}`);
+                }  
 
-            await writeToDebugLog(debug_file, `cm-subtitle-12.sh を実行${cm_subtitleEnv}\n`);
+                await writeToDebugLog(debug_file, `cm-subtitle-12.sh を実行${cm_subtitleEnv}\n`);
+            } else {
+                console.log(`${file_name}には[字]が含まれていないため、処理をスキップします。`);
+            }
 
             // input 設定
             Array.prototype.push.apply(args, ['-i', file_path]);

@@ -103,7 +103,7 @@ async function generateFilterComplex(joinOutputFile) {
       try {
         const data = await util.promisify(fs.readFile)(joinOutputFile, 'utf8');
         await writeToDebugLog(debug_file, ` フィルターコンプレックスの初期値を設定(data) \n ${data} \n`);
-        const line_sta_exe = `/home/pi/EPGStation/config/run_encode.sh encod_sta "${data}"`;
+        const line_sta_exe = `/home/pi/EPGStation/config/run_encode.sh encod_sta "${data}\n\n 再エンコードの詳細ログ:\n http://192.168.1.83:3030"`;
         const { stdout: line_sta_Stdout, stderr: line_sta_Stderr } = await execPromise(line_sta_exe);
   
         // CSVデータを行ごとに分割
@@ -236,7 +236,7 @@ async function runCommands() {
             const firstColumnValue = firstLine.split(',')[0].trim();
 
             if (firstColumnValue === '0') {
-                const externalCommand = `/home/pi/EPGStation/config/run_encode_error.sh encod_error "${data} \n//////////////\n再エンコード失敗\n//////////////\n\n 再エンコードの詳細ログ:\n http://192.168.1.83:3000/latest-log"`; // ここに外部コマンドを記述
+                const externalCommand = `/home/pi/EPGStation/config/run_encode_error.sh encod_error "${data} \n//////////////\n再エンコード失敗\n//////////////\n\n 再エンコードの詳細ログ:\n http://192.168.1.83:3030 \n\n CMカット失敗一覧:\nhttp://192.168.1.83:3040"`; // ここに外部コマンドを記述
                 await writeToDebugLog(debug_file, `1列目の1行目の値が0のため、外部コマンドを実行します: ${externalCommand}\n`);
                 try {
                     const { stdout, stderr } = await execPromise(externalCommand);
@@ -405,12 +405,12 @@ async function runCommands() {
                     console.log(JSON.stringify({ type: 'progress', percent: percent, log: log }));
 
                     // ファイルに書き込み
-                    const logContent = `Progress: ${percent * 100}%\n${log}\n----------\n`;
-                    fs.appendFile(debug_file, logContent, err => {
-                        if (err) {
-                            console.error('Error writing to debug file:', err);
-                        }
-                    });
+                    //const logContent = `Progress: ${percent * 100}%\n${log}\n----------\n`;
+                    //fs.appendFile(debug_file, logContent, err => {
+                      //  if (err) {
+                        //    console.error('Error writing to debug file:', err);
+                        //}
+                    //});
                 }
             }
             
@@ -426,20 +426,27 @@ async function runCommands() {
         });
     })();
 
-    // 
-    const baseFileName = output.replace(/\.mp4$/, '');
-    const fileNameWithoutExtension = output.replace(/\.mp4$/, '');
-    const cm_subtitleEnv = `INPUT="${file_path_o}" OUTPUT="${fileNameWithoutExtension}_cmcut.jpn.srt" /bin/bash /home/pi/EPGStation/config/cm-subtitle-12.sh`;
-    try {
-        const { stdout, stderr } = await execPromise(cm_subtitleEnv);
-        console.log(stdout);
-        console.error(stderr);
-    } catch (error) {
-        console.error(`外部コマンドの実行エラー: ${error}`);
-    } 
+    // [字] が含まれる場合のみ処理を実行
+    if (file_name.includes('[字]')) {
+        const baseFileName = output.replace(/\.mp4$/, '');
+        const fileNameWithoutExtension = output.replace(/\.mp4$/, '');
+        const cm_subtitleEnv = `INPUT="${file_path_o}" OUTPUT="${fileNameWithoutExtension}_cmcut.jpn.srt" /bin/bash /home/pi/EPGStation/config/cm-subtitle-12.sh`;
+        try {
+            const { stdout, stderr } = await execPromise(cm_subtitleEnv);
+            console.log(stdout);
+            console.error(stderr);
+        } catch (error) {
+            console.error(`外部コマンドの実行エラー: ${error}`);
+        } 
 
-    await writeToDebugLog(debug_file, `ecm-subtitle-12.s を実行: ${cm_subtitleEnv}\n`);
- 
+        await writeToDebugLog(debug_file, `ecm-subtitle-12.s を実行: ${cm_subtitleEnv}\n`);
+
+    } else {
+        console.log(`${file_name}には[字]が含まれていないため、処理をスキップします。`);
+    }
+
+
+    
     } catch (err) {
         console.error('ファイルの読み込みエラー:', err);
         await writeToDebugLog(debug_file, err);
