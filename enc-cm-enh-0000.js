@@ -1,4 +1,4 @@
-const fs = require('fs');
+const fs = require('fs'); 
 const util = require('util');
 const { exec } = require('child_process');
 const path = require('path');
@@ -405,11 +405,19 @@ async function runCommands() {
                     console.log(JSON.stringify({ type: 'progress', percent: percent, log: log }));
 
                     // ファイルに書き込み
+<<<<<<< HEAD
                     //const logContent = `Progress: ${percent * 100}%\n${log}\n----------\n`;
                     //fs.appendFile(debug_file, logContent, err => {
                       //  if (err) {
                         //    console.error('Error writing to debug file:', err);
                         //}
+=======
+                    const logContent = `Progress: ${percent * 100}%\n${log}\n----------\n`;
+                    //fs.appendFile(debug_file, logContent, err => {
+                        //if (err) {
+                            //console.error('Error writing to debug file:', err);
+                     //   }
+>>>>>>> f71cccfb352bb9986fdfca3c6265da762d7f5c15
                     //});
                 }
             }
